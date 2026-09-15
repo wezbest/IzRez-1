@@ -20,6 +20,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { accentClass, accentFor } from './accents.mjs';
+import { requireCorpus } from './corpus.mjs';
 import { addSectionMap } from './section-map.mjs';
 import {
 	hostOf,
@@ -31,7 +32,9 @@ import {
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(HERE, '..');
-const REPORTS = path.resolve(SITE, '..', 'reports');
+/* stop here with a readable message when the corpus is not part of the build,
+   rather than throwing ENOENT out of the first readdir */
+const REPORTS = requireCorpus('build-docs.mjs');
 const DOCS = path.join(SITE, 'src', 'content', 'docs');
 const DATA = path.join(SITE, 'src', 'data');
 

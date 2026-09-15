@@ -22,11 +22,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { accentClass } from './accents.mjs';
+import { requireCorpus } from './corpus.mjs';
 import { addSectionMap } from './section-map.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(HERE, '..');
-const REPORTS = path.resolve(SITE, '..', 'reports');
+/* section 14 is measured from the corpus, so it cannot be regenerated without
+   one — leave the committed report in place instead of failing the build */
+const REPORTS = requireCorpus('build-report.mjs');
 const DOCS = path.join(SITE, 'src', 'content', 'docs');
 const DATA = path.join(SITE, 'src', 'data');
 

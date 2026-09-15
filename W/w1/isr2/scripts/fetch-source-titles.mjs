@@ -35,6 +35,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { requireCorpus } from './corpus.mjs';
 import {
 	hostOf,
 	isUsableTitle,
@@ -45,7 +46,9 @@ import {
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(HERE, '..');
-const REPORTS = path.resolve(SITE, '..', 'reports');
+/* there are no sources to look up without the corpus, but this script is run by
+   hand rather than by a deploy — make that explicit instead of diffing nothing */
+const REPORTS = requireCorpus('fetch-source-titles.mjs');
 const CACHE = path.join(SITE, 'src', 'data', 'source-titles.json');
 
 const args = process.argv.slice(2);

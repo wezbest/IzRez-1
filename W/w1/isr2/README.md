@@ -38,10 +38,12 @@ src/styles/theme.css         the "deep current" bluish-green reading theme
 src/components/Head.astro    social images, PWA tags, service worker registration
 src/integrations/pwa.mjs     emits sw-manifest.js after each build
 public/                      favicon, PWA icons, OG card, service worker, offline page
+vercel.json                  pinned install/build/output for the host
 scripts/build-docs.mjs       research corpus → numbered docs + the §13 reference ledger
 scripts/build-report.mjs     measures the repo and writes section 14
 scripts/section-map.mjs      the numbered contents panel under every page header
 scripts/accents.mjs          which accent hue each section kind gets
+scripts/corpus.mjs           where the corpus is, and what to do when it is absent
 scripts/source-key.mjs       the one URL normaliser the pipeline and title fetcher share
 scripts/fetch-source-titles.mjs  fetches source page titles into a committed cache
 scripts/build-assets.mjs     favicon, icons and OG image from the theme palette
@@ -248,9 +250,25 @@ named in the config. Astro emits redirects as a meta refresh rather than an HTTP
 
 ## Deploying
 
-There is no `vercel.json`; the host is expected to be configured. The site lives
-in the `isr2/` subdirectory and the build reads the research corpus from
-`../reports`, so **the repository root must be used as the project root**:
+`vercel.json` pins the install command, build command and output directory, so
+the host does not have to guess a framework preset or an output directory. The
+site lives in the `isr2/` subdirectory, and the build reads the research corpus
+from `../reports` — which is the one thing worth getting right.
+
+### Where the corpus is
+
+The generators search for the corpus in this order and use the first one that
+has both a `master/` and a `gap-blueprints/` directory:
+
+1. `REPORTS_DIR` — set it to point anywhere: `REPORTS_DIR=/opt/research bun run build`
+2. `../reports` — the sibling layout (local dev, and any host rooted at the repo)
+3. `./reports` — a corpus copied inside the project
+4. `../../reports` — this project nested one directory deeper
+
+### Two supported host layouts
+
+**Rooted at the repository root — recommended.** Everything regenerates on every
+deploy, so the corpus stays the single source of truth.
 
 | Setting | Value |
 |---|---|
@@ -259,8 +277,27 @@ in the `isr2/` subdirectory and the build reads the research corpus from
 | Build Command | `cd isr2 && bun run build` |
 | Output Directory | `isr2/dist` |
 
-Setting the Root Directory to `isr2` instead would exclude `../reports` from the
-build upload, and the content pipeline would find nothing to convert.
+**Rooted at `isr2/` — also works.** A host given `isr2/` as its root directory
+never receives `reports/` at all, so the generators skip themselves: they print
+exactly why, and the build proceeds from the generated pages and data already
+committed under `src/content/docs` and `src/data`. The deploy is correct; the
+only difference is that content changes when those files are committed rather
+than regenerated during the build.
+
+Either way the build no longer dies with a bare `ENOENT: … scandir
+'…/reports/gap-blueprints'`, which was the previous behaviour and said nothing
+about the cause.
+
+### Enforcing it
+
+`REQUIRE_CORPUS=1 bun run generate` turns the skip into a hard failure, with the
+same explanation. Use it locally and in any check pipeline, where a missing
+corpus is a setup error rather than a supported deployment shape:
+
+```
+✗ build-docs.mjs: no research corpus found.
+  Looked in: /app/reports, /app/isr2/reports
+```
 
 ## Theme
 
