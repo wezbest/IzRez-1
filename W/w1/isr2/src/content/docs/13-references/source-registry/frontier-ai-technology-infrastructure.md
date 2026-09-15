@@ -11,6 +11,8 @@ description: "Authoritative source registry, category 7 of 7 — 77 entries acro
 
 <a href="/13-references/source-registry/">← Back to the registry overview</a>
 
+<a id="s13-2-7-0" aria-hidden="true"></a>
+
 ## `13.2.7.0` Frontier AI & Technology Infrastructure (OpenAI, Anthropic, Google, DeepSeek, Alibaba, etc.)
 
 Entries are preserved in their original registry order and numbering. Registry numbers are stable and directly linkable, e.g. `#r1688`.

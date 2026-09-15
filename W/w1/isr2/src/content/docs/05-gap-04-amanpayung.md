@@ -10,6 +10,98 @@ description: "graph TD"
 <span class="chip">20 cited sources</span>
 </div>
 
+<details class="ga-map" open>
+	<summary class="ga-map-summary">
+		<span class="ga-map-kicker">Section map</span>
+		<span class="ga-map-meta">19 sections · 14 parts</span>
+	</summary>
+	<ol class="ga-map-list">
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-1"><span class="ga-map-num">5.1</span><span class="ga-map-ttl">Gap Definition &amp; Executive Thesis</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s5-1-1"><span class="ga-map-num">5.1.1</span><span class="ga-map-ttl">Systems Thinking: First-, Second-, and Third-Order Implications</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-2"><span class="ga-map-num">5.2</span><span class="ga-map-ttl">Root Causes &amp; Structural Bottlenecks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-3"><span class="ga-map-num">5.3</span><span class="ga-map-ttl">Why Incumbents Have Not Filled the Gap</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-4"><span class="ga-map-num">5.4</span><span class="ga-map-ttl">Feasibility Analysis: Technical, Shariah, Regulatory, Market</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s5-4-1"><span class="ga-map-num">5.4.1</span><span class="ga-map-ttl">Technical Feasibility</span></a></li>
+				<li><a href="#s5-4-2"><span class="ga-map-num">5.4.2</span><span class="ga-map-ttl">Shariah Feasibility</span></a></li>
+				<li><a href="#s5-4-3"><span class="ga-map-num">5.4.3</span><span class="ga-map-ttl">Regulatory Feasibility</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-5"><span class="ga-map-num">5.5</span><span class="ga-map-ttl">Viability Analysis &amp; Exhaustive Unit Economics</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s5-5-1"><span class="ga-map-num">5.5.1</span><span class="ga-map-ttl">Enterprise Revenue Model</span></a></li>
+				<li><a href="#s5-5-2"><span class="ga-map-num">5.5.2</span><span class="ga-map-ttl">Unit Economics Per Cohort of 50,000 Smallholder Farmers</span></a></li>
+				<li><a href="#s5-5-3"><span class="ga-map-num">5.5.3</span><span class="ga-map-ttl">Capital Efficiency &amp; Break-Even Metrics</span></a></li>
+				<li><a href="#s5-5-4"><span class="ga-map-num">5.5.4</span><span class="ga-map-ttl">Bottom-Up Market Sizing (TAM / SAM / SOM)</span></a></li>
+				<li><a href="#s5-5-5"><span class="ga-map-num">5.5.5</span><span class="ga-map-ttl">Seed-to-Series A Financing Roadmap &amp; Capital Allocation</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-6"><span class="ga-map-num">5.6</span><span class="ga-map-ttl">Survivability Analysis, Moats &amp; Defensibility</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s5-6-1"><span class="ga-map-num">5.6.1</span><span class="ga-map-ttl">Defensible Moats</span></a></li>
+				<li><a href="#s5-6-2"><span class="ga-map-num">5.6.2</span><span class="ga-map-ttl">Founding Team Archetype &amp; Key Hires #1–5</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-7"><span class="ga-map-num">5.7</span><span class="ga-map-ttl">Comprehensive Competitor Mapping</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-8"><span class="ga-map-num">5.8</span><span class="ga-map-ttl">Critical Caveats, Legal Landmines &amp; Operational Traps</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-9"><span class="ga-map-num">5.9</span><span class="ga-map-ttl">Zero/Near-Zero Cost MVP Architecture</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s5-9-1"><span class="ga-map-num">5.9.1</span><span class="ga-map-ttl">Complete Database Schema (Supabase / PostgreSQL)</span></a></li>
+				<li><a href="#s5-9-2"><span class="ga-map-num">5.9.2</span><span class="ga-map-ttl">Complete Trigger Evaluation Engine (Node.js / Deno Edge Function)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-10"><span class="ga-map-num">5.10</span><span class="ga-map-ttl">MVP Presentation &amp; Demonstration Strategy</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-11"><span class="ga-map-num">5.11</span><span class="ga-map-ttl">90-Day Tactical Go-To-Market (GTM) Plan</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-12"><span class="ga-map-num">5.12</span><span class="ga-map-ttl">Verified Contact Targets &amp; Pipeline</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-13"><span class="ga-map-num">5.13</span><span class="ga-map-ttl">Monetization Methods &amp; Revenue Stacks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-14"><span class="ga-map-num">5.14</span><span class="ga-map-ttl">Pivot Playbooks &amp; Strategic Expansion</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-15"><span class="ga-map-num">5.15</span><span class="ga-map-ttl">Acquisition Positioning &amp; M&amp;A Logic</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-16"><span class="ga-map-num">5.16</span><span class="ga-map-ttl">Categorized Risk Register</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s5-16-1"><span class="ga-map-num">5.16.1</span><span class="ga-map-ttl">Founder &amp; VC &quot;Kill Criteria&quot; (Fail-Fast Metric Triggers)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-17"><span class="ga-map-num">5.17</span><span class="ga-map-ttl">Startup Name Rationale &amp; Brand Architecture</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-18"><span class="ga-map-num">5.18</span><span class="ga-map-ttl">Quantitative Gating Scores</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s5-19"><span class="ga-map-num">5.19</span><span class="ga-map-ttl">Master References</span></a>
+		</li>
+	</ol>
+</details>
+
 
 <a id="s5-1" aria-hidden="true"></a>
 
@@ -18,6 +110,8 @@ description: "graph TD"
 **Precise Formulation:** Across the 57 member states of the Organization of Islamic Cooperation (OIC), insurance penetration languishes at an alarming **1.5% to 1.9% of GDP**, compared to a global average exceeding **6.8%** [2025](https://www.6wresearch.com/market-takeaways-view/how-big-is-the-takaful-market). Over 500 million low-income individuals, smallholder farmers, and informal gig workers are completely uninsured against accelerating climate shocks (severe droughts, unseasonal monsoons, and extreme heat waves). Traditional indemnity insurance fails completely in this segment: deploying human loss adjusters to inspect a flooded 1-hectare rice farm costs between $50 and $150 in travel and surveying fees, rendering a $15 micro-insurance policy mathematically unviable. Furthermore, vast rural populations actively reject conventional insurance policies due to explicit religious prohibitions against *Gharar* (excessive uncertainty) and *Maysir* (gambling).
 
 **The Solution — AmanPayung:** An automated, mobile-first **Parametric Micro-Takaful Infrastructure & Managing General Agent (MGA)** operating on Shariah-compliant mutual risk-pooling (*Tabarru'*). AmanPayung replaces human loss adjustment with algorithmic, satellite-monitored weather and vegetative indices (NDVI soil moisture, radar precipitation, and heat indexes). When an objective meteorological threshold is breached (e.g., rainfall in a specific agricultural sub-district drops 40% below the 10-year historical baseline for 21 consecutive days), the smart contract automatically triggers an instant, pre-agreed financial relief payout directly to the farmer’s mobile money wallet (Touch 'n Go, JazzCash, or OPay) within 24 hours, with zero paperwork, zero claim filing, and zero human adjudication.
+
+<a id="s5-1-1" aria-hidden="true"></a>
 
 ### `5.1.1` Systems Thinking: First-, Second-, and Third-Order Implications
 
@@ -73,16 +167,22 @@ graph TD
 
 ## `5.4` Feasibility Analysis: Technical, Shariah, Regulatory, Market
 
+<a id="s5-4-1" aria-hidden="true"></a>
+
 ### `5.4.1` Technical Feasibility
 - **Satellite Data Pipelines:** Ingests daily precipitation and soil moisture readings via **NASA POWER** and **Open-Meteo historical APIs** (free open-access data), cross-referenced with **ESA Sentinel-2 Normalized Difference Vegetation Index (NDVI)** imagery at 10-meter spatial resolution.
 - **Algorithmic Trigger Engine:** A serverless edge function runs a scheduled evaluation every 24 hours against GPS polygon centroids for enrolled farming cooperatives. When consecutive dry-spell days or flood volume indices cross defined triggers, the function generates a cryptographic payment instruction.
 - **Mobile Money Disbursal:** Connects via open webhooks to national mobile payment switches (Touch 'n Go DuitNow in Malaysia, JazzCash / Easypaisa in Pakistan, and OPay in Nigeria), executing batch disbursements directly into smallholder e-wallets.
+
+<a id="s5-4-2" aria-hidden="true"></a>
 
 ### `5.4.2` Shariah Feasibility
 - **The Wakalah-Waqf Hybrid Structure:** Modeled strictly on AAOIFI Governance Standard GS-25 and IFSB Standard No. 31 (Shariah Governance in Takaful) [2025](https://www.ifsb.org/standards-page/):
   - *Tabarru' Pool:* All smallholder contributions are pooled into an independent, bankruptcy-remote Waqf fund.
   - *Wakalah Management Fee:* AmanPayung earns a pre-disclosed, fixed management fee (typically 18% to 22%) for operating the underwriting platform and oracle feeds.
   - *Surplus Distribution:* Any operational surplus remaining in the Waqf pool after claims settlement and retakaful reserves is distributed back to non-claiming participants as a cash rebate or rolled over into subsequent premium discounts, mathematically eliminating the profit-from-risk (*Maysir*) prohibition.
+
+<a id="s5-4-3" aria-hidden="true"></a>
 
 ### `5.4.3` Regulatory Feasibility
 - **Malaysia (Bank Negara Malaysia):** Premier launchpad. BNM operates the **Perlindungan Tenang** framework, specifically designed for micro-insurance/micro-takaful, permitting simplified 2-page plain-language contracts, maximum 5-day claim settlement, and distribution via e-wallets and telcos [2025](https://www.bnm.gov.my/perlindungan-tenang). Furthermore, BNM’s **Digital Insurers and Takaful Operators (DITO)** licensing window is active through December 2026 [2025](https://www.bnm.gov.my/-/dito-pr).
@@ -96,12 +196,16 @@ graph TD
 
 ## `5.5` Viability Analysis & Exhaustive Unit Economics
 
+<a id="s5-5-1" aria-hidden="true"></a>
+
 ### `5.5.1` Enterprise Revenue Model
 AmanPayung operates as a digital **Managing General Agent (MGA) and Technology Provider**:
 1. **Wakalah Underwriting Take-Rate:** 18% to 22% of gross written contributions (GWC) deducted upon policy enrollment as an upfront administration and underwriting fee.
 2. **Performance Surplus Share (Mudarib):** 15% to 25% share of the underwriting surplus generated by the Waqf pool in low-catastrophe seasons, as certified by the Shariah Supervisory Board.
 3. **B2B2C API Commission:** 3% to 5% technology fee charged to digital agricultural aggregators, fertilizer distributors, and microfinance banks embedding climate cover into their seed loan packages.
 4. **Enterprise Climate Risk Data Feeds:** $1,200 to $3,500/month SaaS subscriptions charged to commercial banks and supply-chain off-takers seeking hyper-local climate vulnerability heatmaps.
+
+<a id="s5-5-2" aria-hidden="true"></a>
 
 ### `5.5.2` Unit Economics Per Cohort of 50,000 Smallholder Farmers
 
@@ -127,15 +231,21 @@ pie title Gross Contribution Pool Allocation ($1.2M Pool)
     "Retained Waqf Surplus (5%)" : 60000
 ```
 
+<a id="s5-5-3" aria-hidden="true"></a>
+
 ### `5.5.3` Capital Efficiency & Break-Even Metrics
 - **Customer Acquisition Cost (CAC):** **$1.85 per farmer** (achieved through bulk cooperative enrollment and government digital voucher redemption).
 - **Customer Lifetime Value (LTV):** **$28.80** (assuming a 6-season / 3-year average retention and $4.80 annual Wakalah fee).
 - **LTV / CAC Ratio:** **15.5x** — demonstrating strong B2B2C distribution efficiency.
 - **Cash Flow Break-Even:** Achieved at **Month 13** with **22,000 active policyholders**.
+<a id="s5-5-4" aria-hidden="true"></a>
+
 ### `5.5.4` Bottom-Up Market Sizing (TAM / SAM / SOM)
 * **Total Addressable Market (TAM):** **$32 Billion** — Total global gross written contributions (GWC) across the takaful and micro-takaful industry [2025](https://www.6wresearch.com/market-takeaways-view/how-big-is-the-takaful-market).
 * **Serviceable Addressable Market (SAM):** **$4.5 Billion** — Smallholder agricultural crop protection and low-income gig-worker micro-insurance across target beachhead markets (Malaysia, Pakistan, Indonesia, and Nigeria).
 * **Serviceable Obtainable Market (SOM - Year 3):** **$45 Million** — Capturing 1.0% of the target SAM by underwriting 350,000 active smallholder farmers and gig workers averaging $128 in annual GWC pool contributions.
+
+<a id="s5-5-5" aria-hidden="true"></a>
 
 ### `5.5.5` Seed-to-Series A Financing Roadmap & Capital Allocation
 * **Pre-Seed / Angel Round (Month 0–3):** $400,000 raised on an uncapped SAFE note with a $3,500,000 valuation cap to develop the satellite index processing pipeline and launch the initial Perlindungan Tenang pilot in Kedah, Malaysia.
@@ -163,10 +273,14 @@ graph LR
     D --> E[Unassailable Market Leadership]
 ```
 
+<a id="s5-6-1" aria-hidden="true"></a>
+
 ### `5.6.1` Defensible Moats
 1. **The Ground-Truthed Micro-Climate Moat:** Standard global weather models fail at micro-topographic levels. AmanPayung builds a proprietary machine-learning model combining satellite feeds with crowd-sourced ground photos uploaded by farmers and local weather IoT sensors. Over 3 years, this predictive calibration eliminates basis risk, creating an actuarial underwriting moat that global reinsurers cannot replicate.
 2. **The "Perlindungan Tenang" Voucher Integration:** In Malaysia, the government subsidizes micro-takaful for bottom-40% income recipients via statutory vouchers (e.g., the RM 30 Program Baucar Perlindungan Tenang - PTV) [2025](https://www.bnm.gov.my/-/budget2025). Integrating directly into the Touch 'n Go eWallet and national digital identity databases locks in state-sponsored acquisition channels that conventional startups cannot penetrate.
 3. **Retakaful Trust Relationships:** International retakaful capacity for micro-climate risk is severely restricted. Having pre-negotiated quota-share reinsurance treaties (with syndicates like Swiss Re or Munich Re via Malaysian and Dubai Islamic windows) prevents new entrants from underwriting policies even if they copy the software.
+<a id="s5-6-2" aria-hidden="true"></a>
+
 ### `5.6.2` Founding Team Archetype & Key Hires #1–5
 * **Co-Founder & CEO (Microinsurance & Takaful Executive):** Former Country Director or Head of Microinsurance / Takaful at a major multinational insurer (Allianz, FWD Takaful, Prudential BSN, or MicroEnsure). 10+ years scaling mass-market low-ticket insurance with established relationships across agricultural ministries, telco mobile wallets, and cooperative federations.
 * **Co-Founder & CTO (Geospatial & Remote Sensing Architect):** Senior data systems engineer with 8+ years experience processing multi-spectral Earth observation satellite feeds (ESA Copernicus Sentinel-2, Landsat, NASA MODIS, Open-Meteo), distributed geofencing algorithms, and high-frequency webhook pipelines.
@@ -237,6 +351,8 @@ The entire MVP can be scaffolded and operated across initial pilot cohorts witho
 +-------------------------------------------------------------------------------+
 ```
 
+<a id="s5-9-1" aria-hidden="true"></a>
+
 ### `5.9.1` Complete Database Schema (Supabase / PostgreSQL)
 
 ```sql
@@ -303,6 +419,8 @@ CREATE TABLE automated_payouts (
     disbursed_at TIMESTAMPTZ DEFAULT NOW()
 );
 ```
+
+<a id="s5-9-2" aria-hidden="true"></a>
 
 ### `5.9.2` Complete Trigger Evaluation Engine (Node.js / Deno Edge Function)
 
@@ -462,6 +580,8 @@ gantt
 | **Catastrophe Risk** | Historic multi-state flood event exhausts Waqf risk pool completely. | Low | Critical | Structure mandatory quota-share retakaful and aggregate stop-loss treaties with international reinsurers. |
 | **Regulatory Risk** | Regulator revokes MGA status, demanding full carrier capitalization. | Low | High | Maintain fronting carrier partnerships with established domestic takaful operators (FWD, Great Eastern). |
 | **Operational Risk** | Mobile money payment API fails during emergency relief distribution. | Moderate | Moderate | Build multi-rail redundancy allowing automatic failover between mobile wallets, direct bank accounts, and local agricultural co-op cashiers. |
+<a id="s5-16-1" aria-hidden="true"></a>
+
 ### `5.16.1` Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
 To enforce rigorous capital discipline and avoid sustaining a commercially unviable insurance book, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
 

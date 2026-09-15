@@ -10,6 +10,107 @@ description: "graph TD"
 <span class="chip">16 cited sources</span>
 </div>
 
+<details class="ga-map" open>
+	<summary class="ga-map-summary">
+		<span class="ga-map-kicker">Section map</span>
+		<span class="ga-map-meta">19 sections · 16 parts</span>
+	</summary>
+	<ol class="ga-map-list">
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-1"><span class="ga-map-num">7.1</span><span class="ga-map-ttl">Gap Definition &amp; Executive Thesis</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s7-1-1"><span class="ga-map-num">7.1.1</span><span class="ga-map-ttl">Systems Thinking: First-, Second-, and Third-Order Implications</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-2"><span class="ga-map-num">7.2</span><span class="ga-map-ttl">Root Causes &amp; Structural Bottlenecks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-3"><span class="ga-map-num">7.3</span><span class="ga-map-ttl">Why Incumbents Have Not Filled the Gap</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-4"><span class="ga-map-num">7.4</span><span class="ga-map-ttl">Feasibility Analysis: Technical, Shariah, Regulatory, Market</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s7-4-1"><span class="ga-map-num">7.4.1</span><span class="ga-map-ttl">Technical Feasibility</span></a></li>
+				<li><a href="#s7-4-2"><span class="ga-map-num">7.4.2</span><span class="ga-map-ttl">Shariah Feasibility</span></a></li>
+				<li><a href="#s7-4-3"><span class="ga-map-num">7.4.3</span><span class="ga-map-ttl">Regulatory Feasibility</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-5"><span class="ga-map-num">7.5</span><span class="ga-map-ttl">Viability Analysis &amp; Exhaustive Unit Economics</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s7-5-1"><span class="ga-map-num">7.5.1</span><span class="ga-map-ttl">Enterprise Revenue Architecture</span></a></li>
+				<li><a href="#s7-5-2"><span class="ga-map-num">7.5.2</span><span class="ga-map-ttl">Granular Financial Model (Per <div class="sec-head">
+<span class="chip chip-kind">Gap Blueprint</span>
+<span class="chip">Section 7 of 14</span>
+<span class="chip">5,628 words</span>
+<span class="chip">16 cited sources</span>
+</div>0M in Annual Loan Origination)</span></a></li>
+				<li><a href="#s7-5-3"><span class="ga-map-num">7.5.3</span><span class="ga-map-ttl">Capital Efficiency &amp; Break-Even Math</span></a></li>
+				<li><a href="#s7-5-4"><span class="ga-map-num">7.5.4</span><span class="ga-map-ttl">Bottom-Up Market Sizing (TAM / SAM / SOM)</span></a></li>
+				<li><a href="#s7-5-5"><span class="ga-map-num">7.5.5</span><span class="ga-map-ttl">Seed-to-Series A Financing Roadmap &amp; Capital Allocation</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-6"><span class="ga-map-num">7.6</span><span class="ga-map-ttl">Survivability Analysis, Moats &amp; Defensibility</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s7-6-1"><span class="ga-map-num">7.6.1</span><span class="ga-map-ttl">Defensible Moats</span></a></li>
+				<li><a href="#s7-6-2"><span class="ga-map-num">7.6.2</span><span class="ga-map-ttl">Founding Team Archetype &amp; Key Hires #1–5</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-7"><span class="ga-map-num">7.7</span><span class="ga-map-ttl">Comprehensive Competitor Mapping</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-8"><span class="ga-map-num">7.8</span><span class="ga-map-ttl">Critical Caveats, Legal Landmines &amp; Operational Traps</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-9"><span class="ga-map-num">7.9</span><span class="ga-map-ttl">Zero/Near-Zero Cost MVP Architecture</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s7-9-1"><span class="ga-map-num">7.9.1</span><span class="ga-map-ttl">Complete Database Schema (Supabase / PostgreSQL)</span></a></li>
+				<li><a href="#s7-9-2"><span class="ga-map-num">7.9.2</span><span class="ga-map-ttl">Complete Credit Scoring &amp; SHAP Explainer Microservice (Python / FastAPI)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-10"><span class="ga-map-num">7.10</span><span class="ga-map-ttl">MVP Presentation &amp; Demonstration Strategy</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-11"><span class="ga-map-num">7.11</span><span class="ga-map-ttl">90-Day Tactical Go-To-Market (GTM) Plan</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-12"><span class="ga-map-num">7.12</span><span class="ga-map-ttl">Verified Contact Targets &amp; Pipeline</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-13"><span class="ga-map-num">7.13</span><span class="ga-map-ttl">Monetization Methods &amp; Revenue Stacks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-14"><span class="ga-map-num">7.14</span><span class="ga-map-ttl">Pivot Playbooks &amp; Failure Fallback Options</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-15"><span class="ga-map-num">7.15</span><span class="ga-map-ttl">Acquisition Positioning &amp; Salvage M&amp;A Logic</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s7-15-1"><span class="ga-map-num">7.15.1</span><span class="ga-map-ttl">Strategic Acquirers</span></a></li>
+				<li><a href="#s7-15-2"><span class="ga-map-num">7.15.2</span><span class="ga-map-ttl">Salvage M&amp;A &amp; Distressed Asset Recovery Logic</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-16"><span class="ga-map-num">7.16</span><span class="ga-map-ttl">Categorized Risk Register</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s7-16-1"><span class="ga-map-num">7.16.1</span><span class="ga-map-ttl">Founder &amp; VC &quot;Kill Criteria&quot; (Fail-Fast Metric Triggers)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-17"><span class="ga-map-num">7.17</span><span class="ga-map-ttl">Startup Name Rationale &amp; Brand Architecture</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-18"><span class="ga-map-num">7.18</span><span class="ga-map-ttl">Quantitative Gating Scores</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s7-19"><span class="ga-map-num">7.19</span><span class="ga-map-ttl">Master References</span></a>
+		</li>
+	</ol>
+</details>
+
 
 <a id="s7-1" aria-hidden="true"></a>
 
@@ -18,6 +119,8 @@ description: "graph TD"
 **Precise Formulation:** In Southeast Asia and the Middle East, over **60 million micro and small enterprises (MSMEs)** operate in the informal cash economy, representing over 97% of all commercial enterprises and 60% of national GDP [2025](https://openknowledge.worldbank.org/entities/publication/a6e99c26-ff4e-54cb-b3ca-77e33afc41f2). However, over 80% of these enterprises are completely "thin-file" borrowers: they lack audited financial statements, tax filings, and formal credit bureau histories (*Slik OJK* in Indonesia, *SIMAH* in Saudi Arabia). Conventional peer-to-peer (P2P) lending platforms rely on aggressive, high-interest consumer lending practices that trigger severe regulatory clampdowns (such as Indonesia's aggregate P2P 90-day default rate / TWP90 spiking to **4.33% in November 2025** on IDR 94.85 trillion in outstanding loans) [2025](https://en.tempo.co/read/2079233/indonesias-fintech-lending-reaches-rp94-85-trillion-as-default-rate-rises). Meanwhile, Islamic financial institutions refuse to finance thin-file MSMEs because they lack the technical capability to accurately underwrite risk without collateral, leaving an unaddressed **$230 billion MSME credit gap in Indonesia alone** [2026](https://www.ifc.org/en/pressroom/2024/ifc-s-landmark-investment-to-ramp-up-sustainable-finance-in-indo).
 
 **The Solution — AdlScore:** A two-sided, Shariah-compliant **SME Crowdfunding Marketplace & Alternative Credit Scoring (ACS) Engine**. AdlScore underwrites thin-file informal merchants (such as Indonesian FMCG retail stalls / *warungs*, community pharmacies, and agricultural traders) using a proprietary machine-learning credit scoring model that ingests consented, non-traditional alternative data: e-wallet cashflow velocity, telecom airtime top-up frequency, point-of-sale inventory turnover, and utility payment consistency. The platform packages verified working-capital needs into Shariah-compliant peer-to-peer investment notes structured under **Murabaha** (cost-plus sale), **Wakalah bil Istithmar** (investment agency), and **Musyarakah** (partnership profit-and-loss sharing), matching them with retail and institutional impact investors seeking ethical 11% to 15% annual yields.
+
+<a id="s7-1-1" aria-hidden="true"></a>
 
 ### `7.1.1` Systems Thinking: First-, Second-, and Third-Order Implications
 
@@ -77,6 +180,8 @@ graph TD
 
 ## `7.4` Feasibility Analysis: Technical, Shariah, Regulatory, Market
 
+<a id="s7-4-1" aria-hidden="true"></a>
+
 ### `7.4.1` Technical Feasibility
 - **Alternative Feature Pipeline:** The scoring engine ingests consented, privacy-compliant data payloads:
   - *Cashflow Stability:* Coefficient of variation in daily e-wallet inflows (GoPay, OVO, Dana).
@@ -84,12 +189,16 @@ graph TD
   - *Commercial Relationships:* Order frequency and inventory restocking velocity from verified wholesale distributors.
 - **Machine Learning Architecture:** Uses a gradient-boosted decision tree model (LightGBM) trained on historical microfinance default datasets, paired with **SHAP (SHapley Additive exPlanations)** values. The SHAP integration is critical: it provides transparent, explainable reason codes for every credit decision, satisfying OJK’s statutory algorithmic fairness requirements under Regulation 29/2024.
 
+<a id="s7-4-2" aria-hidden="true"></a>
+
 ### `7.4.2` Shariah Feasibility
 - **Multi-Contract Product Catalog:**
   - *Murabaha for Inventory:* Platform buys raw materials or inventory from the distributor and resells to the merchant on 30-day deferred terms with a disclosed markup.
   - *Wakalah bil Istithmar for Funders:* Retail investors appoint AdlScore as their investment agent (*Wakil*) to pool funds and execute the underlying Murabaha trades.
   - *Musyarakah for Revenue Expansion:* Capital is deployed into merchant inventory expansion with profits shared based on actual point-of-sale cashflow audits.
 - **Independent Shariah Supervisory Board (DPS):** Certified by the National Sharia Board (DSN-MUI) in Indonesia and compliant with AAOIFI standards.
+
+<a id="s7-4-3" aria-hidden="true"></a>
 
 ### `7.4.3` Regulatory Feasibility
 - **The "Partner-Rider" Licensing Strategy:** Launching as a de-novo P2P lending operator (LPBBTI) in Indonesia requires IDR 25 billion ($1.6M) in paid-up capital under POJK 40/2024. AdlScore legally bypasses this massive capital barrier by launching in **Phase 1 as a licensed Alternative Credit Scoring (ACS) provider** under OJK Regulation 29/2024 (requiring only IDR 5 billion capital) and partnering as an embedded technology and underwriting provider to existing licensed Sharia P2P operators and Islamic rural banks (BPR Syariah).
@@ -101,11 +210,15 @@ graph TD
 
 ## `7.5` Viability Analysis & Exhaustive Unit Economics
 
+<a id="s7-5-1" aria-hidden="true"></a>
+
 ### `7.5.1` Enterprise Revenue Architecture
 1. **Borrower Origination Fee:** 2.5% to 3.5% of gross loan volume, deducted upon drawdown.
 2. **Platform Servicing Fee:** 1.0% to 1.5% per annum on active outstanding balances, deducted from monthly repayments.
 3. **Funder Wakalah Profit Share:** 12.5% to 15.0% performance cut on the net profit margin delivered to retail and institutional funders.
 4. **B2B Alternative Credit Scoring API:** $0.40 to $0.85 per API score query charged to third-party Islamic microfinance banks (BMTs, BPR Syariah) evaluating unbanked borrowers.
+
+<a id="s7-5-2" aria-hidden="true"></a>
 
 ### `7.5.2` Granular Financial Model (Per $10M in Annual Loan Origination)
 
@@ -132,15 +245,21 @@ pie title Gross Revenue Breakdown ($10M Originated Volume - $524.8k)
     "B2B Scoring API Fees" : 9000
 ```
 
+<a id="s7-5-3" aria-hidden="true"></a>
+
 ### `7.5.3` Capital Efficiency & Break-Even Math
 - **Borrower Acquisition Cost (CAC):** **$12.50 per merchant** (acquired through wholesale distributor partnerships and BMT microfinance networks).
 - **Borrower Lifetime Value (LTV):** **$315.00** (assuming an average merchant takes 6 revolving inventory loans over 2.5 years).
 - **LTV / CAC Ratio:** **25.2x** — indicating world-class lending unit economics driven by wholesale merchant lock-in.
 - **Cash Flow Break-Even:** Achieved at **Month 12** upon scaling to **$7.5M in cumulative loan volume**.
+<a id="s7-5-4" aria-hidden="true"></a>
+
 ### `7.5.4` Bottom-Up Market Sizing (TAM / SAM / SOM)
 * **Total Addressable Market (TAM):** **$230 Billion** — Total informal and thin-file MSME financing deficit across Indonesia and Southeast Asia [2026](https://www.ifc.org/en/pressroom/2024/ifc-s-landmark-investment-to-ramp-up-sustainable-finance-in-indo).
 * **Serviceable Addressable Market (SAM):** **$15 Billion** — The licensed Sharia digital lending and Islamic rural bank (BPR Syariah) addressable credit market in Indonesia.
 * **Serviceable Obtainable Market (SOM - Year 3):** **$180 Million** — Originating revolving micro-Murabaha inventory lines across 15,000 active retail merchants and 20 wholesale FMCG distribution hubs.
+
+<a id="s7-5-5" aria-hidden="true"></a>
 
 ### `7.5.5` Seed-to-Series A Financing Roadmap & Capital Allocation
 * **Pre-Seed / Angel Round (Month 0–3):** $450,000 raised on an uncapped SAFE note with a $4,000,000 valuation cap to train the LightGBM machine learning scoring engine and secure OJK Regulation 29/2024 compliance.
@@ -168,10 +287,14 @@ graph LR
     D --> E[Sustainable Multi-Year Moat]
 ```
 
+<a id="s7-6-1" aria-hidden="true"></a>
+
 ### `7.6.1` Defensible Moats
 1. **The Closed-Loop Distributor Collection Moat:** Rather than disbursing unrestricted cash to a merchant's personal bank account, AdlScore disburses funds directly to the FMCG manufacturer (e.g., Unilever Indonesia or Indofood distribution agents) to fulfill the inventory order. When the merchant sells the inventory, customer digital payments flow through AdlScore’s partner QRIS settlement rails, automatically sweeping daily principal and Murabaha profit before releasing the remaining retail margin to the merchant. This closed-loop structural control keeps non-performing financing (NPF) below 1%, vastly outperforming conventional unsecured P2P platforms.
 2. **The Alternative Data Scoring IP:** As AdlScore processes tens of thousands of micro-transactions, its machine-learning model refines localized credit-risk correlations (e.g., the relationship between telecom airtime replenishment consistency and working-capital solvency) that conventional banks and general P2P platforms do not possess.
 3. **Regulatory Explainability Compliance:** OJK’s 2025 AI and credit-scoring guidelines mandate that algorithms must not operate as "black boxes." AdlScore’s native SHAP architecture produces human-readable regulatory compliance reports for every rejected or approved applicant, ensuring statutory protection against licensing revocation.
+<a id="s7-6-2" aria-hidden="true"></a>
+
 ### `7.6.2` Founding Team Archetype & Key Hires #1–5
 * **Co-Founder & CEO (Merchant Fintech & Super-App Veteran):** Former Head of Merchant Lending or Alternative Credit at a leading Southeast Asian platform (GoTo Financial, Grab Financial, ShopeePay, or Kredivo). 10+ years scaling merchant working capital with personal relationships across FMCG principal distribution networks.
 * **Co-Founder & CTO (Machine Learning & Alternative Data Systems Architect):** Senior data systems engineer with 8+ years experience building real-time credit decision engines, feature stores (Feast), and explainable AI pipelines (SHAP). Expert in Python microservices, PostgreSQL, and high-throughput transaction scoring.
@@ -245,6 +368,8 @@ The entire MVP can be built, tested, and deployed across initial merchant cohort
 +-------------------------------------------------------------------------------+
 ```
 
+<a id="s7-9-1" aria-hidden="true"></a>
+
 ### `7.9.1` Complete Database Schema (Supabase / PostgreSQL)
 
 ```sql
@@ -300,6 +425,8 @@ CREATE TABLE p2p_loan_notes (
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
 ```
+
+<a id="s7-9-2" aria-hidden="true"></a>
 
 ### `7.9.2` Complete Credit Scoring & SHAP Explainer Microservice (Python / FastAPI)
 
@@ -469,10 +596,14 @@ graph TD
 
 ## `7.15` Acquisition Positioning & Salvage M&A Logic
 
+<a id="s7-15-1" aria-hidden="true"></a>
+
 ### `7.15.1` Strategic Acquirers
 - **Regional Sharia Banking Groups (Bank Syariah Indonesia, Al Rajhi Bank, Maybank Islamic):** Seeking proprietary alternative credit underwriting algorithms to hit mandatory government SME lending quotas (e.g., Indonesia’s statutory 25% MSME lending target) without taking excessive default losses.
 - **Fintech Super-Apps & E-Commerce Giants (GoTo / Tokopedia, Shopee, Grab):** Looking to embed faith-compliant merchant cash advance facilities directly into their merchant seller portals.
 - **Regional P2P Consolidators (Modalku / Funding Societies, KoinWorks):** Seeking an established, regulatory-cleared Sharia business unit to capture Muslim-majority market share.
+
+<a id="s7-15-2" aria-hidden="true"></a>
 
 ### `7.15.2` Salvage M&A & Distressed Asset Recovery Logic
 - **If the Venture Faces Severe Credit Contagion:** In the event of a catastrophic macro default event that impairs the crowdfunding marketplace, the core intellectual property—specifically the **trained LightGBM alternative scoring model, the proprietary dataset of 50,000+ merchant cashflow behaviors, and the OJK-approved explainable AI compliance module**—retains immense commercial value.
@@ -490,6 +621,8 @@ graph TD
 | **Regulatory Risk** | OJK revokes ACS registration or enforces unviable capital hikes. | Low | Critical | Launch as a certified technology partner to existing licensed Sharia financial institutions; maintain strict SHAP explainability. |
 | **Shariah Risk** | National Sharia Board rejects alternative scoring as a form of *Gharar*. | Moderate | High | Ensure that credit scores only govern facility tenure and size; maintain a flat, uniform Shariah profit markup across all tiers. |
 | **Data Privacy Risk** | Data breach exposes merchant personal identification or telco logs. | Low | Critical | Enforce field-level AES-256 encryption on all PII; store all sensitive datasets on local Indonesian servers compliant with Law UU PDP. |
+<a id="s7-16-1" aria-hidden="true"></a>
+
 ### `7.16.1` Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
 To enforce rigorous capital discipline and avoid funding a distressed credit book, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
 

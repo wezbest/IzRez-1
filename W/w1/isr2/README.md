@@ -37,6 +37,8 @@ src/components/Head.astro    social images, PWA tags, service worker registratio
 src/integrations/pwa.mjs     emits sw-manifest.js after each build
 public/                      favicon, PWA icons, OG card, service worker, offline page
 scripts/build-docs.mjs       research corpus → numbered docs + references section
+scripts/build-report.mjs     writes section 14 (below)
+scripts/section-map.mjs      the numbered contents panel under every page header
 scripts/build-assets.mjs     favicon, icons and OG image from the theme palette
 scripts/build-report.mjs     measures the repo and writes section 14
 scripts/check-links.mjs      internal link + fragment audit over dist/
@@ -56,6 +58,29 @@ Each `##` heading also carries a stable, hand-generated anchor
 (`<a id="s1-13">` …), which is what the references section links back to. Run
 `bun run check` after a build to verify that every one of those links and
 fragments still resolves.
+
+## The section map under every header
+
+Immediately under each page header sits a numbered map of that page's own
+headings — `1.1`, `1.2`, `1.2.1` … — as links that jump straight to the section.
+
+It exists because Starlight's right-hand “On this page” pane is `display: none`
+below 72rem. That is the width of an installed PWA on a phone, so without the map
+the only wayfinding left there is the collapsed dropdown in the nav bar. The map
+is plain HTML inside the content pane — never in the hidden aside — so it is
+present at every width with no JavaScript, and it starts expanded while still
+being collapsible by the reader.
+
+Structure: numbered `##` entries as cards (two columns once there is room), each
+with its numbered `###` parts as inline chips. Generating it needed no
+slug-guessing, because the map links to anchors this build already emits: `#s1-13`
+for a `##` heading and `#s1-13-2` for a `###` heading. Pages with fewer than four
+headings get no map — a one-line contents list is noise.
+
+`scripts/section-map.mjs` builds it and is shared by both generators, so section
+14 gets the same panel as sections 1–12. The reading guide is hand-authored,
+but `bun run generate` still rebuilds its map from the headings above it, and
+`bun run audit` fails if any map drifts from the headings it points at.
 
 ## Content pipeline
 
@@ -97,6 +122,11 @@ text/background pair in both colour schemes, plus the Mermaid node palette.
 - **Heading integrity** — every heading carries a number, numbers are unique and
   share one section prefix, no levels are skipped, and the right-hand contents
   pane mirrors the same numbers with no dead fragment.
+- **Section map** — present on every page with four or more headings, expanded
+  rather than collapsed, listing exactly the same numbers as the headings, with
+  every link resolving and the panel placed in the content pane (never the aside
+  that is hidden below 72rem), plus a check that Starlight really does hide that
+  pane — the premise the panel exists for.
 - **Overflow discipline** — tables, diagrams and code become their own scroll
   containers with a readable minimum column width instead of being squeezed.
 - **Responsive maths** — Starlight's pane arithmetic reproduced exactly, showing

@@ -11,6 +11,8 @@ description: "Authoritative source registry, category 6 of 7 — 248 entries acr
 
 <a href="/13-references/source-registry/">← Back to the registry overview</a>
 
+<a id="s13-2-6-0" aria-hidden="true"></a>
+
 ## `13.2.6.0` Ecosystem Hubs, Accelerators & Venture Capital (Hub71, DIFC Hive, BFB, SVC, Jada, HASAN)
 
 Entries are preserved in their original registry order and numbering. Registry numbers are stable and directly linkable, e.g. `#r1440`.

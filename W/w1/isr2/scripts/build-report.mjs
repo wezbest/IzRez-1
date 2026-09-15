@@ -21,6 +21,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { addSectionMap } from './section-map.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(HERE, '..');
@@ -475,7 +476,8 @@ The two levers compound: **cached off-peak baseline** lands at **${usd(actualCos
 `;
 
 fs.mkdirSync(path.dirname(path.join(DOCS, '14-site-build-report.md')), { recursive: true });
-fs.writeFileSync(path.join(DOCS, '14-site-build-report.md'), body);
+// the numbered contents panel under the header, shared with build-docs.mjs
+fs.writeFileSync(path.join(DOCS, '14-site-build-report.md'), addSectionMap(body));
 console.log('  + src/content/docs/14-site-build-report.md');
 
 fs.mkdirSync(DATA, { recursive: true });

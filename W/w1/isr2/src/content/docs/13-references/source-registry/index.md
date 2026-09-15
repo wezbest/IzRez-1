@@ -9,6 +9,8 @@ description: "The 1764 primary sources discovered during the research source-exp
 <span class="chip">7 categories</span>
 </div>
 
+<a id="s13-2-0" aria-hidden="true"></a>
+
 ## `13.2.0` Registry overview
 
 The registry is the raw discovery ledger behind the research: every central-bank page, peer-reviewed article, rating-agency note, fintech filing and vendor rate card retrieved live during the 2025–2026 source-expansion pass. It is preserved here in full but split by institutional category, so that no single page has to carry the entire ledger.

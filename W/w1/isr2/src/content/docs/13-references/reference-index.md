@@ -9,6 +9,34 @@ description: "226 unique sources cited across the Islamic fintech research corpu
 <span class="chip">1,764 registry entries</span>
 </div>
 
+<details class="ga-map" open>
+	<summary class="ga-map-summary">
+		<span class="ga-map-kicker">Section map</span>
+		<span class="ga-map-meta">1 sections · 12 parts</span>
+	</summary>
+	<ol class="ga-map-list">
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s13-1-0"><span class="ga-map-num">13.1.0</span><span class="ga-map-ttl">What this index contains</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s13-1-1"><span class="ga-map-num">13.1.1</span><span class="ga-map-ttl">1 · Master Report — Islamic Fintech Gap Analysis &amp; Startup Blueprint (2026 Edition)</span></a></li>
+				<li><a href="#s13-1-2"><span class="ga-map-num">13.1.2</span><span class="ga-map-ttl">2 · Gap 01 — JuzSukuk — JuzSukuk</span></a></li>
+				<li><a href="#s13-1-3"><span class="ga-map-num">13.1.3</span><span class="ga-map-ttl">3 · Gap 02 — SanadFlow — SanadFlow</span></a></li>
+				<li><a href="#s13-1-4"><span class="ga-map-num">13.1.4</span><span class="ga-map-ttl">4 · Gap 03 — HalalPort — HalalPort</span></a></li>
+				<li><a href="#s13-1-5"><span class="ga-map-num">13.1.5</span><span class="ga-map-ttl">5 · Gap 04 — AmanPayung — AmanPayung</span></a></li>
+				<li><a href="#s13-1-6"><span class="ga-map-num">13.1.6</span><span class="ga-map-ttl">6 · Gap 05 — WaqfTrace — WaqfTrace</span></a></li>
+				<li><a href="#s13-1-7"><span class="ga-map-num">13.1.7</span><span class="ga-map-ttl">7 · Gap 06 — AdlScore — AdlScore</span></a></li>
+				<li><a href="#s13-1-8"><span class="ga-map-num">13.1.8</span><span class="ga-map-ttl">8 · Gap 07 — SiratRemit — SiratRemit</span></a></li>
+				<li><a href="#s13-1-9"><span class="ga-map-num">13.1.9</span><span class="ga-map-ttl">9 · Gap 08 — FiqhStack — FiqhStack</span></a></li>
+				<li><a href="#s13-1-10"><span class="ga-map-num">13.1.10</span><span class="ga-map-ttl">10 · Gap 09 — QistHalal — QistHalal</span></a></li>
+				<li><a href="#s13-1-11"><span class="ga-map-num">13.1.11</span><span class="ga-map-ttl">11 · Gap 10 — TayyibLedger — TayyibLedger</span></a></li>
+				<li><a href="#s13-1-12"><span class="ga-map-num">13.1.12</span><span class="ga-map-ttl">12 · LLM Usage &amp;amp; Cost Intelligence — Research Pipeline Telemetry, Rate Cards &amp; CFO Briefing</span></a></li>
+			</ul>
+		</li>
+	</ol>
+</details>
+
+<a id="s13-1-0" aria-hidden="true"></a>
+
 ## `13.1.0` What this index contains
 
 This index collects **every** external source cited by sections 1–12 — inline citations, benchmark anchors and the per-document `Master References` lists — into a single de-duplicated ledger. Entries are grouped by the section that cites them first and sorted by domain inside each group.
@@ -21,6 +49,8 @@ This index collects **every** external source cited by sections 1–12 — inlin
 | Sections indexed | **12** |
 
 Each entry reads `title · year · domain · registry ↗ · cited in §N.M`. The `§N.M` link jumps straight to the citing section in the centre reading pane.
+
+<a id="s13-1-1" aria-hidden="true"></a>
 
 ### `13.1.1` <a href="/01-master-report/">1 · Master Report</a> — Islamic Fintech Gap Analysis & Startup Blueprint (2026 Edition)
 
@@ -114,6 +144,8 @@ Each entry reads `title · year · domain · registry ↗ · cited in §N.M`. Th
 - <a id="ref-1fb0am" aria-hidden="true"></a><a href="https://waya.media/bahrains-flooss-secures-usd-22m-credit-facility-to-scale-consumer-finance/">Bahrain's Flooss Secures $22 Million Credit Facility to Scale Sharia Consumer Finance</a> · `2026` · `waya.media` · cited in <a href="/01-master-report/#s1-6">§1.6</a> <a href="/01-master-report/#s1-8">§1.8</a> <a href="/10-gap-09-qisthalal/#s10-3">§10.3</a> <a href="/10-gap-09-qisthalal/#s10-7">§10.7</a> <a href="/10-gap-09-qisthalal/#s10-19">§10.19</a>
 - <a id="ref-yapeq6" aria-hidden="true"></a><a href="https://www.yuverse.ai/resources/posts/cbuae-ai-guidance-financial-institutions-explained">CBUAE AI Guidance for Financial Institutions: Model Risk and Governance Explained</a> · `2026` · `yuverse.ai` · cited in <a href="/01-master-report/#s1-4">§1.4</a> <a href="/09-gap-08-fiqhstack/#s9-2">§9.2</a> <a href="/09-gap-08-fiqhstack/#s9-4">§9.4</a> <a href="/09-gap-08-fiqhstack/#s9-19">§9.19</a>
 
+<a id="s13-1-2" aria-hidden="true"></a>
+
 ### `13.1.2` <a href="/02-gap-01-juzsukuk/">2 · Gap 01 — JuzSukuk</a> — JuzSukuk
 
 - <a id="ref-m1d5yh" aria-hidden="true"></a><a href="https://www.adgm.com/financial-services-regulatory-authority">ADGM Financial Services Regulatory Authority (FSRA):</a> · `adgm.com` · <a href="/13-references/source-registry/regulators-central-banks/#r846">registry ↗</a> · cited in <a href="/02-gap-01-juzsukuk/#s2-12">§2.12</a> <a href="/04-gap-03-halalport/#s4-12">§4.12</a>
@@ -132,6 +164,8 @@ Each entry reads `title · year · domain · registry ↗ · cited in §N.M`. Th
 - <a id="ref-5bl74f" aria-hidden="true"></a><a href="https://www.whitecase.com/insight-our-thinking/tokenised-islamic-finance-products-shariah-compliance-meets-digital-innovation">milkiyyah shā'i'ah</a> · `2025` · `whitecase.com` · cited in <a href="/02-gap-01-juzsukuk/#s2-2">§2.2</a> <a href="/02-gap-01-juzsukuk/#s2-19">§2.19</a>
 - <a id="ref-4tknhm" aria-hidden="true"></a><a href="https://www.whitecase.com/insight-alert/saudi-domestic-retail-sukuk-practical-considerations-issuers-and-financial-advisors">Saudi Domestic Retail Sukuk: Practical Considerations</a> · `2025` · `whitecase.com` · cited in <a href="/02-gap-01-juzsukuk/#s2-19">§2.19</a>
 
+<a id="s13-1-3" aria-hidden="true"></a>
+
 ### `13.1.3` <a href="/03-gap-02-sanadflow/">3 · Gap 02 — SanadFlow</a> — SanadFlow
 
 - <a id="ref-8pqww8" aria-hidden="true"></a><a href="https://alamisharia.co.id/en/">Corporate Overview, TKB90 Performance Metrics, and Hijra Bank Expansion</a> · `2025` · `alamisharia.co.id` · <a href="/13-references/source-registry/islamic-financial-institutions-fintech-primaries/#r1202">registry ↗</a> · cited in <a href="/03-gap-02-sanadflow/#s3-7">§3.7</a> <a href="/07-gap-06-adlscore/#s7-3">§7.3</a> <a href="/07-gap-06-adlscore/#s7-7">§7.7</a> <a href="/07-gap-06-adlscore/#s7-19">§7.19</a>
@@ -149,6 +183,8 @@ Each entry reads `title · year · domain · registry ↗ · cited in §N.M`. Th
 - <a id="ref-3z3ufr" aria-hidden="true"></a><a href="https://sme.asia/capbay-p2p-financing-achieves-rm1-billion-financing-milestone/">CapBay P2P Financing Achieves RM 1 Billion Milestone in Shariah-Compliant Supply Chain</a> · `2025` · `sme.asia` · cited in <a href="/03-gap-02-sanadflow/#s3-3">§3.3</a> <a href="/03-gap-02-sanadflow/#s3-19">§3.19</a>
 - <a id="ref-bgi54o" aria-hidden="true"></a><a href="https://www.spa.gov.sa/en/N2661995">Kafalah Program Surpasses SAR 100 Billion in SME Guarantees</a> · `2025` · `spa.gov.sa` · <a href="/13-references/source-registry/regulators-central-banks/#r1051">registry ↗</a> · cited in <a href="/03-gap-02-sanadflow/#s3-6">§3.6</a> <a href="/03-gap-02-sanadflow/#s3-19">§3.19</a>
 
+<a id="s13-1-4" aria-hidden="true"></a>
+
 ### `13.1.4` <a href="/04-gap-03-halalport/">4 · Gap 03 — HalalPort</a> — HalalPort
 
 - <a id="ref-fisw6y" aria-hidden="true"></a><a href="https://akinda.io/for-business">B2B Islamic Screening and Financial Ratio APIs</a> · `2025` · `akinda.io` · <a href="/13-references/source-registry/islamic-financial-institutions-fintech-primaries/#r1199">registry ↗</a> · cited in <a href="/04-gap-03-halalport/#s4-5">§4.5</a> <a href="/04-gap-03-halalport/#s4-7">§4.7</a> <a href="/04-gap-03-halalport/#s4-19">§4.19</a>
@@ -161,6 +197,8 @@ Each entry reads `title · year · domain · registry ↗ · cited in §N.M`. Th
 - <a id="ref-0jbppk" aria-hidden="true"></a><a href="https://help.zoya.finance/en/articles/8307704-how-much-does-zoya-pro-cost">Zoya</a> · `2025` · `help.zoya.finance` · <a href="/13-references/source-registry/islamic-financial-institutions-fintech-primaries/#r1361">registry ↗</a> · cited in <a href="/04-gap-03-halalport/#s4-7">§4.7</a>
 - <a id="ref-hanz09" aria-hidden="true"></a><a href="https://www.sc.com.my/api/documentms/download.ashx?id=2671e073-8b4c-4291-af90-7cb34ad7715f">Securities Commission Malaysia (SAC):</a> · `2025` · `sc.com.my` · <a href="/13-references/source-registry/regulators-central-banks/#r978">registry ↗</a> · cited in <a href="/04-gap-03-halalport/#s4-2">§4.2</a> <a href="/04-gap-03-halalport/#s4-4">§4.4</a> <a href="/04-gap-03-halalport/#s4-19">§4.19</a>
 - <a id="ref-hskis5" aria-hidden="true"></a><a href="https://www.wahed.com/mme/crossing-2-billion-in-aum-what-this-milestone-means-for-wahed-and-the-future-of-islamic-finance">Crossing $2 Billion in AUM: What This Milestone Means for Islamic Finance</a> · `2025` · `wahed.com` · cited in <a href="/04-gap-03-halalport/#s4-3">§4.3</a> <a href="/04-gap-03-halalport/#s4-7">§4.7</a> <a href="/04-gap-03-halalport/#s4-19">§4.19</a>
+
+<a id="s13-1-5" aria-hidden="true"></a>
 
 ### `13.1.5` <a href="/05-gap-04-amanpayung/">5 · Gap 04 — AmanPayung</a> — AmanPayung
 
@@ -180,6 +218,8 @@ Each entry reads `title · year · domain · registry ↗ · cited in §N.M`. Th
 - <a id="ref-8p41z6" aria-hidden="true"></a><a href="https://ssek.com/blog/indonesia-issues-new-regulation-on-financial-services-aggregators-key-highlights-of-ojk-reg-4-2025/">Indonesia (OJK):</a> · `2025` · `ssek.com` · cited in <a href="/05-gap-04-amanpayung/#s5-4">§5.4</a>
 - <a id="ref-ju2702" aria-hidden="true"></a><a href="https://takaful4all.org/en/cards/family-takaful/perlindungan-tenang/">Malaysian Takaful Association (MTA):</a> · `takaful4all.org` · cited in <a href="/05-gap-04-amanpayung/#s5-12">§5.12</a>
 
+<a id="s13-1-6" aria-hidden="true"></a>
+
 ### `13.1.6` <a href="/06-gap-05-waqftrace/">6 · Gap 05 — WaqfTrace</a> — WaqfTrace
 
 - <a id="ref-0xr73g" aria-hidden="true"></a><a href="https://awqaf.gov.sa/en/media-center/news/feb43d3d-6874-4f64-b26d-0c9a9dad0b08">Awqaf Managed Real Estate Returns Reach SAR 1.58 Billion</a> · `2026` · `awqaf.gov.sa` · <a href="/13-references/source-registry/regulators-central-banks/#r761">registry ↗</a> · cited in <a href="/06-gap-05-waqftrace/#s6-10">§6.10</a> <a href="/06-gap-05-waqftrace/#s6-19">§6.19</a>
@@ -197,6 +237,8 @@ Each entry reads `title · year · domain · registry ↗ · cited in §N.M`. Th
 - <a id="ref-qtzxnq" aria-hidden="true"></a><a href="https://waqfa.pro/">Institutional Transparency Seals &amp; Social Finance Verification</a> · `2025` · `waqfa.pro` · cited in <a href="/06-gap-05-waqftrace/#s6-3">§6.3</a> <a href="/06-gap-05-waqftrace/#s6-7">§6.7</a> <a href="/06-gap-05-waqftrace/#s6-19">§6.19</a>
 - <a id="ref-67bcet" aria-hidden="true"></a><a href="https://www.zakat.com.my/">Pusat Pungutan Zakat (PPZ-MAIWP):</a> · `zakat.com.my` · cited in <a href="/06-gap-05-waqftrace/#s6-12">§6.12</a>
 
+<a id="s13-1-7" aria-hidden="true"></a>
+
 ### `13.1.7` <a href="/07-gap-06-adlscore/">7 · Gap 06 — AdlScore</a> — AdlScore
 
 - <a id="ref-w44dmn" aria-hidden="true"></a><a href="https://alamisharia.co.id/en/press/alami-raises-growth-investment-and-strengthens-its-senior-management-team/">ALAMI / Hijra Bank Chose Commercial Banking:</a> · `2025` · `alamisharia.co.id` · <a href="/13-references/source-registry/islamic-financial-institutions-fintech-primaries/#r1205">registry ↗</a> · cited in <a href="/07-gap-06-adlscore/#s7-3">§7.3</a>
@@ -208,6 +250,8 @@ Each entry reads `title · year · domain · registry ↗ · cited in §N.M`. Th
 - <a id="ref-6za7nc" aria-hidden="true"></a><a href="https://www.ifc.org/en/pressroom/2024/ifc-s-landmark-investment-to-ramp-up-sustainable-finance-in-indo">60 million micro and small enterprises (MSMEs)</a> · `2026` · `ifc.org` · cited in <a href="/07-gap-06-adlscore/#s7-1">§7.1</a> <a href="/07-gap-06-adlscore/#s7-5">§7.5</a>
 - <a id="ref-6jghqh" aria-hidden="true"></a><a href="https://ojk.go.id/en/fungsi-utama/itsk/regulatory-sandbox/default.aspx">Otoritas Jasa Keuangan (OJK Indonesia):</a> · `ojk.go.id` · <a href="/13-references/source-registry/regulators-central-banks/#r813">registry ↗</a> · cited in <a href="/07-gap-06-adlscore/#s7-12">§7.12</a>
 - <a id="ref-0tu5oa" aria-hidden="true"></a><a href="https://www.povertyactionlab.org/blog/3-21-24/using-alternative-data-and-artificial-intelligence-expand-financial-inclusion-evidence">Using Alternative Data and Artificial Intelligence to Expand Financial Inclusion: Evidence from Emerging Markets</a> · `2025` · `povertyactionlab.org` · cited in <a href="/07-gap-06-adlscore/#s7-2">§7.2</a> <a href="/07-gap-06-adlscore/#s7-19">§7.19</a>
+
+<a id="s13-1-8" aria-hidden="true"></a>
 
 ### `13.1.8` <a href="/08-gap-07-siratremit/">8 · Gap 07 — SiratRemit</a> — SiratRemit
 
@@ -221,6 +265,8 @@ Each entry reads `title · year · domain · registry ↗ · cited in §N.M`. Th
 - <a id="ref-a93xnx" aria-hidden="true"></a><a href="https://www.sbp.org.pk/psd/">State Bank of Pakistan (SBP):</a> · `sbp.org.pk` · cited in <a href="/08-gap-07-siratremit/#s8-12">§8.12</a>
 - <a id="ref-t2u7b5" aria-hidden="true"></a><a href="https://thedigitalbanker.com/fasset-secures-provisional-banking-license-to-become-worlds-first-stablecoin-powered-islamic-bank/">Fasset Secures Provisional Banking License to Launch World's First Stablecoin Islamic Bank</a> · `2025` · `thedigitalbanker.com` · cited in <a href="/08-gap-07-siratremit/#s8-3">§8.3</a> <a href="/08-gap-07-siratremit/#s8-7">§8.7</a> <a href="/08-gap-07-siratremit/#s8-19">§8.19</a>
 - <a id="ref-amwmuj" aria-hidden="true"></a><a href="https://www.vara.ae/">Virtual Assets Regulatory Authority (VARA, Dubai):</a> · `vara.ae` · cited in <a href="/08-gap-07-siratremit/#s8-12">§8.12</a>
+
+<a id="s13-1-9" aria-hidden="true"></a>
 
 ### `13.1.9` <a href="/09-gap-08-fiqhstack/">9 · Gap 08 — FiqhStack</a> — FiqhStack
 
@@ -240,6 +286,8 @@ Each entry reads `title · year · domain · registry ↗ · cited in §N.M`. Th
 - <a id="ref-72z9eq" aria-hidden="true"></a><a href="https://www.temenos.com/products/islamic-banking/">Core Banking Providers (Temenos, Finastra) are Rigid:</a> · `2025` · `temenos.com` · cited in <a href="/09-gap-08-fiqhstack/#s9-3">§9.3</a> <a href="/09-gap-08-fiqhstack/#s9-7">§9.7</a>
 - <a id="ref-9c6ks9" aria-hidden="true"></a><a href="https://zoya.finance/api">Zoya and Musaffa are Consumer-Facing Apps:</a> · `2025` · `zoya.finance` · <a href="/13-references/source-registry/islamic-financial-institutions-fintech-primaries/#r1438">registry ↗</a> · cited in <a href="/09-gap-08-fiqhstack/#s9-3">§9.3</a> <a href="/09-gap-08-fiqhstack/#s9-7">§9.7</a>
 
+<a id="s13-1-10" aria-hidden="true"></a>
+
 ### `13.1.10` <a href="/10-gap-09-qisthalal/">10 · Gap 09 — QistHalal</a> — QistHalal
 
 - <a id="ref-hkd8w0" aria-hidden="true"></a><a href="https://www.cbb.gov.bh/wp-content/uploads/2025/11/Consultation_Proposed-Buy-Now-Pay-Later-Module.pdf">Consultation on Proposed Buy-Now-Pay-Later Module (Volume 5)</a> · `2025` · `cbb.gov.bh` · <a href="/13-references/source-registry/regulators-central-banks/#r925">registry ↗</a> · cited in <a href="/10-gap-09-qisthalal/#s10-2">§10.2</a> <a href="/10-gap-09-qisthalal/#s10-19">§10.19</a>
@@ -255,6 +303,8 @@ Each entry reads `title · year · domain · registry ↗ · cited in §N.M`. Th
 - <a id="ref-8h00zx" aria-hidden="true"></a><a href="https://www.triplepoint.co.uk/">Triple Point Private Credit (London):</a> · `triplepoint.co.uk` · cited in <a href="/10-gap-09-qisthalal/#s10-12">§10.12</a>
 - <a id="ref-30vszu" aria-hidden="true"></a><a href="https://www.whitecase.com/insight-alert/uae-central-bank-introduces-regulatory-framework-buy-now-pay-later-providers">UAE Central Bank Introduces Regulatory Framework for Buy-Now-Pay-Later Providers</a> · `2025` · `whitecase.com` · cited in <a href="/10-gap-09-qisthalal/#s10-19">§10.19</a>
 
+<a id="s13-1-11" aria-hidden="true"></a>
+
 ### `13.1.11` <a href="/11-gap-10-tayyibledger/">11 · Gap 10 — TayyibLedger</a> — TayyibLedger
 
 - <a id="ref-ui5cz5" aria-hidden="true"></a><a href="https://www.adib.ae/en/news/2025/apr/abu-dhabi-islamic-bank-becomes-first-bank-to-offer-fractional-sukuk">Retail Tokenisation Initiatives Focus Exclusively on Sovereign Debt:</a> · `2025` · `adib.ae` · <a href="/13-references/source-registry/islamic-financial-institutions-fintech-primaries/#r1400">registry ↗</a> · cited in <a href="/11-gap-10-tayyibledger/#s11-3">§11.3</a> <a href="/11-gap-10-tayyibledger/#s11-7">§11.7</a>
@@ -269,6 +319,8 @@ Each entry reads `title · year · domain · registry ↗ · cited in §N.M`. Th
 - <a id="ref-hn5ga0" aria-hidden="true"></a><a href="https://journal.inceif.edu.my/index.php/ijif/article/download/210/182">Journal of Islamic Finance: Operationalizing ESG in Islamic Capital Markets</a> · `2025` · `journal.inceif.edu.my` · <a href="/13-references/source-registry/academic-journals-economic-research/#r188">registry ↗</a> · cited in <a href="/11-gap-10-tayyibledger/#s11-19">§11.19</a>
 - <a id="ref-bhehj4" aria-hidden="true"></a><a href="https://www.sc.com.my/">Securities Commission Malaysia:</a> · `sc.com.my` · <a href="/13-references/source-registry/regulators-central-banks/#r976">registry ↗</a> · cited in <a href="/11-gap-10-tayyibledger/#s11-12">§11.12</a>
 - <a id="ref-j4hrcl" aria-hidden="true"></a><a href="https://verdeledger.eu/blog/sustainability-reporting-for-smes">$58 billion in outstanding volume at the end of 2025</a> · `2025` · `verdeledger.eu` · cited in <a href="/11-gap-10-tayyibledger/#s11-1">§11.1</a>
+
+<a id="s13-1-12" aria-hidden="true"></a>
 
 ### `13.1.12` <a href="/12-llm-usage-and-cost-analysis/">12 · LLM Usage &amp; Cost Intelligence</a> — Research Pipeline Telemetry, Rate Cards & CFO Briefing
 

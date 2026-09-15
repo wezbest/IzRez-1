@@ -10,6 +10,102 @@ description: "graph TD"
 <span class="chip">22 cited sources</span>
 </div>
 
+<details class="ga-map" open>
+	<summary class="ga-map-summary">
+		<span class="ga-map-kicker">Section map</span>
+		<span class="ga-map-meta">19 sections · 16 parts</span>
+	</summary>
+	<ol class="ga-map-list">
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-1"><span class="ga-map-num">9.1</span><span class="ga-map-ttl">Gap Definition &amp; Executive Thesis</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s9-1-1"><span class="ga-map-num">9.1.1</span><span class="ga-map-ttl">Systems Thinking: First-, Second-, and Third-Order Implications</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-2"><span class="ga-map-num">9.2</span><span class="ga-map-ttl">Root Causes &amp; Structural Bottlenecks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-3"><span class="ga-map-num">9.3</span><span class="ga-map-ttl">Why Incumbents Have Not Filled the Gap</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-4"><span class="ga-map-num">9.4</span><span class="ga-map-ttl">Feasibility Analysis: Technical, Shariah, Regulatory, Market</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s9-4-1"><span class="ga-map-num">9.4.1</span><span class="ga-map-ttl">Technical Feasibility</span></a></li>
+				<li><a href="#s9-4-2"><span class="ga-map-num">9.4.2</span><span class="ga-map-ttl">Shariah Feasibility</span></a></li>
+				<li><a href="#s9-4-3"><span class="ga-map-num">9.4.3</span><span class="ga-map-ttl">Regulatory Feasibility</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-5"><span class="ga-map-num">9.5</span><span class="ga-map-ttl">Viability Analysis &amp; Exhaustive Unit Economics</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s9-5-1"><span class="ga-map-num">9.5.1</span><span class="ga-map-ttl">Enterprise Revenue Architecture</span></a></li>
+				<li><a href="#s9-5-2"><span class="ga-map-num">9.5.2</span><span class="ga-map-ttl">Unit Economics Per Enterprise Client Cohort (25 Mid-Tier Islamic Banks)</span></a></li>
+				<li><a href="#s9-5-3"><span class="ga-map-num">9.5.3</span><span class="ga-map-ttl">Capital Efficiency &amp; Payback Period</span></a></li>
+				<li><a href="#s9-5-4"><span class="ga-map-num">9.5.4</span><span class="ga-map-ttl">Bottom-Up Market Sizing (TAM / SAM / SOM)</span></a></li>
+				<li><a href="#s9-5-5"><span class="ga-map-num">9.5.5</span><span class="ga-map-ttl">Seed-to-Series A Financing Roadmap &amp; Capital Allocation</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-6"><span class="ga-map-num">9.6</span><span class="ga-map-ttl">Survivability Analysis, Moats &amp; Defensibility</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s9-6-1"><span class="ga-map-num">9.6.1</span><span class="ga-map-ttl">Defensible Moats</span></a></li>
+				<li><a href="#s9-6-2"><span class="ga-map-num">9.6.2</span><span class="ga-map-ttl">Founding Team Archetype &amp; Key Hires #1–5</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-7"><span class="ga-map-num">9.7</span><span class="ga-map-ttl">Comprehensive Competitor Mapping</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-8"><span class="ga-map-num">9.8</span><span class="ga-map-ttl">Critical Caveats, Legal Landmines &amp; Operational Traps</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-9"><span class="ga-map-num">9.9</span><span class="ga-map-ttl">Zero/Near-Zero Cost MVP Architecture</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s9-9-1"><span class="ga-map-num">9.9.1</span><span class="ga-map-ttl">Complete Database Schema (Supabase / PostgreSQL with pgvector)</span></a></li>
+				<li><a href="#s9-9-2"><span class="ga-map-num">9.9.2</span><span class="ga-map-ttl">Complete Fatwa Precedent Semantic Search Function (TypeScript / Supabase Edge)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-10"><span class="ga-map-num">9.10</span><span class="ga-map-ttl">MVP Presentation &amp; Demonstration Strategy</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-11"><span class="ga-map-num">9.11</span><span class="ga-map-ttl">90-Day Tactical Go-To-Market (GTM) Plan</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-12"><span class="ga-map-num">9.12</span><span class="ga-map-ttl">Verified Contact Targets &amp; Pipeline</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-13"><span class="ga-map-num">9.13</span><span class="ga-map-ttl">Monetization Methods &amp; Revenue Stacks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-14"><span class="ga-map-num">9.14</span><span class="ga-map-ttl">Pivot Playbooks &amp; Failure Fallback Options</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-15"><span class="ga-map-num">9.15</span><span class="ga-map-ttl">Acquisition Positioning &amp; Salvage M&amp;A Logic</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s9-15-1"><span class="ga-map-num">9.15.1</span><span class="ga-map-ttl">Strategic Acquirers</span></a></li>
+				<li><a href="#s9-15-2"><span class="ga-map-num">9.15.2</span><span class="ga-map-ttl">Salvage M&amp;A &amp; Distressed Asset Recovery Logic</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-16"><span class="ga-map-num">9.16</span><span class="ga-map-ttl">Categorized Risk Register</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s9-16-1"><span class="ga-map-num">9.16.1</span><span class="ga-map-ttl">Founder &amp; VC &quot;Kill Criteria&quot; (Fail-Fast Metric Triggers)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-17"><span class="ga-map-num">9.17</span><span class="ga-map-ttl">Startup Name Rationale &amp; Brand Architecture</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-18"><span class="ga-map-num">9.18</span><span class="ga-map-ttl">Quantitative Gating Scores</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s9-19"><span class="ga-map-num">9.19</span><span class="ga-map-ttl">Master References</span></a>
+		</li>
+	</ol>
+</details>
+
 
 <a id="s9-1" aria-hidden="true"></a>
 
@@ -20,6 +116,8 @@ description: "graph TD"
 **The Solution — FiqhStack:** An enterprise-grade, developer-first **AI Shariah Governance Engine, Screening API, and SSB Workflow Automation Platform**. FiqhStack serves as the digital sidecar for Islamic financial institutions:
 1. **Multi-Standard Developer API:** Provides instantaneous programmatic screening of global equities, ETFs, and sukuk tranches across versioned standards (AAOIFI Standard No. 21, S&P Shariah, Dow Jones Islamic Market, and Securities Commission Malaysia), calculating exact non-permissible income ratios and automated dividend purification amounts via a single REST/GraphQL endpoint.
 2. **SSB Workflow & Precedent Retrieval (RAG):** An AI-augmented Governance, Risk, and Compliance (GRC) workspace that ingests proposed financial product documentation, queries an authoritative vector database of public statutory fatwas and standard-setting rulings, automatically flags potential non-compliance risks (e.g., hidden interest clauses, improper *Inah* sale sequencing, or ambiguous risk transfer), generates pre-populated Shariah audit packs, and tracks operational SNC events in real time.
+
+<a id="s9-1-1" aria-hidden="true"></a>
 
 ### `9.1.1` Systems Thinking: First-, Second-, and Third-Order Implications
 
@@ -77,14 +175,20 @@ graph TD
 
 ## `9.4` Feasibility Analysis: Technical, Shariah, Regulatory, Market
 
+<a id="s9-4-1" aria-hidden="true"></a>
+
 ### `9.4.1` Technical Feasibility
 - **Retrieval-Augmented Generation (RAG) Architecture:** Utilizes an open-source sentence-transformer embedding model (`bge-large-en-v1.5` or `text-embedding-3-small`) paired with **pgvector in PostgreSQL** to vectorize public Shariah standards, central bank policy documents, and published fatwa compendiums. When a product manager uploads a new product term sheet, the RAG engine retrieves the exact relevant standards (with paragraph citations) and evaluates potential compliance breaches in under 3 seconds.
 - **Multi-Standard Rules-as-Code Engine:** Translates quantitative screening thresholds (AAOIFI Standard 21, S&P, DJIM, SC-Malaysia) into deterministic, unit-tested TypeScript logic. The engine ingests SEC EDGAR XBRL filings, calculates financial ratios down to 4 decimal places, and emits transparent, reproducible pass/fail verdicts.
 - **Cryptographic Audit Log:** Every screening query, fatwa search, and scholar approval sign-off is hashed and stored in an immutable audit ledger, providing bank compliance officers with an instantly exportable statutory audit trail for central bank inspectors.
 
+<a id="s9-4-2" aria-hidden="true"></a>
+
 ### `9.4.2` Shariah Feasibility
 - **The "Assistive-Only" Theological Posture:** FiqhStack is intentionally designed as an **augmented decision-support tool (*Adāt al-Tas'hīl*)**, never as an autonomous automated mufti. The software explicitly states that it does not issue religious fatwas; it synthesizes historical precedents, verifies mathematical financial ratios, and formats submission packs for the human scholars of the institution’s appointed Shariah Supervisory Board, preserving scholar primacy and religious legitimacy.
 - **Purification Transparency:** The engine automatically outputs exact mathematical dividend purification fractions, displaying the calculation formula on-screen and logging the required charitable purging amount.
+
+<a id="s9-4-3" aria-hidden="true"></a>
 
 ### `9.4.3` Regulatory Feasibility
 - **Premier Regulatory Posture (Friction Score: 4 / 10):** FiqhStack is the lowest-friction venture in the entire portfolio. Under the **UAE Central Bank Law (Federal Decree-Law No. 6 of 2025)** and official regulatory guidance, pure B2B software and technology infrastructure vendors supplying services exclusively to licensed financial institutions are **explicitly exempt from central bank licensing** [2025](https://www.pinsentmasons.com/out-law/news/cbuae-guidance-technology-firms-regulation-shift). The statutory compliance and prudential risk remains with the licensed bank purchasing the software.
@@ -96,11 +200,15 @@ graph TD
 
 ## `9.5` Viability Analysis & Exhaustive Unit Economics
 
+<a id="s9-5-1" aria-hidden="true"></a>
+
 ### `9.5.1` Enterprise Revenue Architecture
 1. **Tier 1 — Developer Screening API:** $99 to $499 per month base subscription + $0.02 per query for fintech neobanks, screeners, and wealth managers embedding automated Shariah stock/ETF screening.
 2. **Tier 2 — Institutional GRC Workflow Workspace:** $1,500 to $4,500 per month charged to Islamic commercial banks, takaful operators, and asset management firms for multi-seat Shariah department licenses, automated fatwa RAG, and live SNC event logging.
 3. **Tier 3 — Annual SSB Statutory Audit Pack:** $10,000 to $25,000 annual recurring license per institution for generating automated central bank compliance packages (pre-formatted for BNM SGPD or CBUAE HSA statutory audits).
 4. **Custom Standard Configuration Fees:** $5,000 to $15,000 one-off setup fee for programming bespoke institutional screening criteria for sovereign wealth funds and private family offices.
+
+<a id="s9-5-2" aria-hidden="true"></a>
 
 ### `9.5.2` Unit Economics Per Enterprise Client Cohort (25 Mid-Tier Islamic Banks)
 
@@ -123,15 +231,21 @@ pie title Gross Revenue Breakdown ($1.02M ARR)
     "Developer Screening API (50 Fintechs)" : 120000
 ```
 
+<a id="s9-5-3" aria-hidden="true"></a>
+
 ### `9.5.3` Capital Efficiency & Payback Period
 - **Customer Acquisition Cost (CAC) per Bank:** **$14,500** (comprising 4 months of B2B sales cycles, executive demos to Shariah department heads, and legal security reviews).
 - **Enterprise Lifetime Value (LTV):** **$144,000** (assuming a conservative 4-year banking software contract retention and $36,000 ACV).
 - **LTV / CAC Ratio:** **9.93x** — exceptional capital efficiency characteristic of enterprise GRC software.
 - **Cash Flow Break-Even:** Achieved at **Month 8** upon signing **8 enterprise banking clients** and 20 developer API subscriptions.
+<a id="s9-5-4" aria-hidden="true"></a>
+
 ### `9.5.4` Bottom-Up Market Sizing (TAM / SAM / SOM)
 * **Total Addressable Market (TAM):** **$5.98 Trillion** — Total asset base of the global Islamic financial services industry across 1,600+ institutions [2025](https://www.lseg.com/en/data-analytics/islamic-finance/islamic-market-intelligence/islamic-finance-development-report-2025).
 * **Serviceable Addressable Market (SAM):** **$420 Million** — Annual addressable software spend on Governance, Risk & Compliance (GRC), Shariah audit software, and equity screening data feeds across Islamic banks, windows, and funds.
 * **Serviceable Obtainable Market (SOM - Year 3):** **$18 Million** — Capturing 4.3% of the target SAM across 120 institutional bank, takaful, and asset management clients averaging $150,000 in Annual Contract Value (ACV).
+
+<a id="s9-5-5" aria-hidden="true"></a>
 
 ### `9.5.5` Seed-to-Series A Financing Roadmap & Capital Allocation
 * **Pre-Seed / Angel Round (Month 0–3):** $400,000 raised on an uncapped SAFE note with a $4,000,000 valuation cap to vectorize public AAOIFI standards and SC-SAC resolutions and build the Next.js GRC terminal.
@@ -159,10 +273,14 @@ graph LR
     D --> E[Permanent Enterprise SaaS Moat]
 ```
 
+<a id="s9-6-1" aria-hidden="true"></a>
+
 ### `9.6.1` Defensible Moats
 1. **The Statutory Audit Trail Switching Moat:** Once an Islamic bank's Shariah department utilizes FiqhStack to log compliance reviews, product approvals, and SNC incident records for 18 months, switching to another vendor creates severe regulatory audit exposure. Central bank inspectors evaluate historical continuity; abandoning the platform means breaking the digital chain of custody of Shariah governance.
 2. **The Vectorized Multilingual Fiqh Corpus:** FiqhStack’s proprietary vector database indexes thousands of historical fatwas, regulatory circulars, and scholarly journal pronouncements in classical Arabic, English, and Bahasa Malaysia. Replicating this domain-specific knowledge graph requires thousands of hours of specialized legal engineering that generic enterprise GRC platforms (ServiceNow, MetricStream) cannot justify.
 3. **Regulatory Co-Creation Credibility:** Participating directly in regulatory innovation sandboxes (such as the Securities Commission Malaysia’s FIKRALab) embeds FiqhStack’s reporting formats as the de-facto standard for statutory capital market submissions.
+<a id="s9-6-2" aria-hidden="true"></a>
+
 ### `9.6.2` Founding Team Archetype & Key Hires #1–5
 * **Co-Founder & CEO (Islamic Banking Compliance & Innovation Veteran):** Former Head of Shariah Audit, GRC Director, or FinTech Innovation Lead at a prominent Islamic commercial bank (Al Rajhi Bank, Dubai Islamic Bank, Bank Islam, or Standard Chartered Saadiq). 10+ years inside commercial bank compliance workflows with deep credibility among senior Shariah board scholars.
 * **Co-Founder & CTO (Natural Language Processing & RAG Systems Architect):** Senior AI systems engineer with 8+ years experience in domain-specific RAG pipelines, vector databases (pgvector), and enterprise SOC2 compliance. Expert in Python, LangChain/LlamaIndex, PostgreSQL, and on-premise private cloud deployments.
@@ -231,6 +349,8 @@ The entire MVP can be built, hosted, and operated across initial beta pilots wit
 |  - HuggingFace Inference API (Free Open Tier): Generates semantic embeddings  |
 +-------------------------------------------------------------------------------+
 ```
+
+<a id="s9-9-1" aria-hidden="true"></a>
 
 ### `9.9.1` Complete Database Schema (Supabase / PostgreSQL with pgvector)
 
@@ -301,6 +421,8 @@ CREATE TABLE snc_incident_ledger (
     logged_at TIMESTAMPTZ DEFAULT NOW()
 );
 ```
+
+<a id="s9-9-2" aria-hidden="true"></a>
 
 ### `9.9.2` Complete Fatwa Precedent Semantic Search Function (TypeScript / Supabase Edge)
 
@@ -443,10 +565,14 @@ graph TD
 
 ## `9.15` Acquisition Positioning & Salvage M&A Logic
 
+<a id="s9-15-1" aria-hidden="true"></a>
+
 ### `9.15.1` Strategic Acquirers
 - **Global Financial Information Providers (LSEG, Bloomberg, S&P Global):** Seeking to acquire an agile Islamic screening and governance software engine to expand their high-margin terminal subscriptions across the GCC and Southeast Asia.
 - **Core Banking Giants (Temenos, Finastra, Intellect Design):** Looking to absorb a pre-built Shariah GRC sidecar to bundle into their multi-million-dollar core banking transformation contracts.
 - **Big-4 Accounting & Advisory Networks (PwC, EY, Deloitte, KPMG):** Looking to automate their internal Islamic financial advisory practices and deliver digital compliance audits to bank clients.
+
+<a id="s9-15-2" aria-hidden="true"></a>
 
 ### `9.15.2` Salvage M&A & Distressed Asset Recovery Logic
 - **If Enterprise Direct Sales Stall:** In the event that startup sales fail to achieve venture velocity, the underlying assets—specifically the **vectorized database of 10,000+ cleaned Islamic finance precedents, the deterministic multi-standard financial screening codebase, and the SC-Malaysia/AAOIFI compliance pipelines**—hold immediate commercial value.
@@ -464,6 +590,8 @@ graph TD
 | **Intellectual Property Risk**| AAOIFI files copyright claim regarding standards ingestion. | Moderate | High | Ingest only public summaries, standard names, and quantitative ratios; reference official subscription URLs rather than redistributing full texts. |
 | **Model Drift Risk** | Statutory regulator updates screening ratios, causing false positive audits. | Moderate | High | Implement automated snapshot versioning for all rulebooks; execute bi-weekly automated scraping of central bank policy registries. |
 | **Procurement Risk** | Bank enterprise IT departments stall integration with security reviews. | High | Moderate | Offer lightweight, non-intrusive SaaS deployment requiring zero core banking database hooks; operate via secure PDF/CSV file uploads. |
+<a id="s9-16-1" aria-hidden="true"></a>
+
 ### `9.16.1` Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
 To ensure disciplined capital management and protect investor resources against enterprise sales stagnation, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
 

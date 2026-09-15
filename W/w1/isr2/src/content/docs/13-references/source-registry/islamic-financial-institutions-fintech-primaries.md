@@ -11,6 +11,8 @@ description: "Authoritative source registry, category 5 of 7 — 246 entries acr
 
 <a href="/13-references/source-registry/">← Back to the registry overview</a>
 
+<a id="s13-2-5-0" aria-hidden="true"></a>
+
 ## `13.2.5.0` Islamic Financial Institutions & Fintech Primaries (Banks, Sukuk, SCF, P2P, Brokerage)
 
 Entries are preserved in their original registry order and numbering. Registry numbers are stable and directly linkable, e.g. `#r1194`.

@@ -183,6 +183,10 @@ function paletteContrast(scheme) {
 		['sidebar links on sidebar background', v('sl-color-gray-3'), v('sl-color-bg-sidebar'), 4.5],
 		['home button label on its fill', v('sl-color-gray-1'), buttonFill, 4.5],
 		['index backlink on panel', v('sl-color-gray-3'), panel, 3.0],
+		['section map link on panel', v('sl-color-gray-1'), panel, 4.5],
+		['section map number on panel', v('sl-color-accent'), panel, 3.0],
+		['section map meta on panel', v('sl-color-gray-3'), panel, 4.5],
+		['section map part chip on its fill', v('sl-color-gray-3'), over(v('sl-color-bg-inline-code'), panel), 4.5],
 	];
 }
 
@@ -291,6 +295,80 @@ for (const page of CONTENT_PAGES) {
 	check('headings', `${name}: every contents link resolves`, deadToc.length === 0, deadToc.join(', '));
 }
 
+/* ------------------------------------------------------- 2b. section map
+   The numbered map under each page header. It matters most on phones and in the
+   installed PWA, where Starlight's right-hand pane does not exist at all, so the
+   checks here are about it being present, complete, resolvable and reachable at
+   those widths — not merely rendered. */
+
+const MAP_THRESHOLD = 4; // generation skips pages with fewer headings than this
+
+for (const page of CONTENT_PAGES) {
+	const name = rel(page);
+	const source = html(page);
+	const content = contentOf(source);
+
+	const headings = [...content.matchAll(/<h[23] id="[^"]*">\s*<code[^>]*>([^<]*)<\/code>/g)].map(
+		(m) => m[1].trim()
+	);
+
+	const map = source.match(/<details class="ga-map"[^>]*>[\s\S]*?<\/details>/)?.[0] ?? '';
+	const expected = headings.length >= MAP_THRESHOLD;
+
+	if (!expected) {
+		check('section map', `${name}: no map for <${MAP_THRESHOLD} headings`, !map);
+		continue;
+	}
+
+	check('section map', `${name}: map is present`, Boolean(map));
+	check(
+		'section map',
+		`${name}: map is open by default (not collapsed behind a tap)`,
+		/<details class="ga-map"[^>]*\sopen/.test(source)
+	);
+
+	const links = [...map.matchAll(/href="#([^"]+)"/g)].map((m) => m[1]);
+	check(
+		'section map',
+		`${name}: map lists every heading`,
+		links.length === headings.length,
+		`${links.length} links for ${headings.length} headings`
+	);
+
+	const ids = new Set([...source.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]));
+	const dead = links.filter((href) => !ids.has(href));
+	check('section map', `${name}: every map link resolves`, dead.length === 0, dead.join(', '));
+
+	const labels = [...map.matchAll(/class="ga-map-num">([^<]*)</g)].map((m) => m[1].trim());
+	check(
+		'section map',
+		`${name}: map numbers match the headings`,
+		labels.join('|') === headings.join('|'),
+		labels.join(', ')
+	);
+
+	// document order: after the title, before the body it describes
+	const mapAt = content.indexOf('<details class="ga-map"');
+	const firstH2 = content.search(/<h2 id="[^"]*">\s*<code/);
+	check(
+		'section map',
+		`${name}: map sits directly under the header`,
+		mapAt > 0 && firstH2 > mapAt,
+		`map@${mapAt} firstH2@${firstH2}`
+	);
+
+	// it has to be inside the content pane: the aside that holds Starlight's own
+	// contents list is display:none at these widths, so a map placed there would
+	// vanish in exactly the situation it exists for
+	const contentStart = source.indexOf('<div class="sl-markdown-content');
+	const mapInSource = source.indexOf('<details class="ga-map"');
+	check(
+		'section map',
+		`${name}: map is in the content pane, not the hidden aside`,
+		mapInSource > contentStart && mapInSource < source.indexOf('</main>')
+	);
+}
+
 /* ---------------------------------------------------- 3. overflow discipline */
 
 const cssHas = (pattern, target = themeCss) => pattern.test(target);
@@ -344,6 +422,14 @@ check(
 );
 check('a11y', 'shipped CSS keeps visible focus rings', shipped(/:focus-visible[^{]*\{[^}]*outline: ?2px solid/));
 check('pwa', 'shipped CSS keeps standalone safe-area handling', shipped(/display-mode: ?standalone/) && shipped(/safe-area-inset-top/));
+check('section map', 'shipped CSS carries the map panel', shipped(/\.ga-map\{[^}]*border-radius/));
+check(
+	'section map',
+	'shipped CSS builds the map on a grid with a two-column step',
+	shipped(/\.ga-map \.ga-map-list\{[^}]*grid-template-columns:minmax\(0, ?1fr\)/) &&
+		shipped(/@media \(width>=60rem\)\{[^@]*ga-map/) &&
+		shipped(/@media \(width>=60rem\)\{[^@]*repeat\(2, ?minmax\(0, ?1fr\)\)/)
+);
 const wide = { tables: 0, diagrams: 0, codeBlocks: 0, longUrls: 0 };
 for (const page of pages) {
 	const source = html(page);
@@ -356,6 +442,41 @@ for (const page of pages) {
 			wide.longUrls += 1;
 	}
 }
+/* the map must not be hidden at any width: below 72rem the right-hand contents
+   pane is gone, and that is exactly where the map has to be doing the work */
+{
+	// only rules whose *subject* is the panel itself can hide it; a rule on
+	// `.ga-map > summary::marker` is not one of them
+	const hidden = [...themeCss.matchAll(/([^{}]+)\{([^{}]*)\}/g)]
+		.filter(([, , body]) => /display:\s*none|visibility:\s*hidden/.test(body))
+		.filter(([, selector]) =>
+			selector
+				.split('{')
+				.pop()
+				.split(',')
+				.some((part) => /\.ga-map$/.test(part.trim().split('::')[0].trim()))
+		);
+	check('section map', 'the map is never hidden by CSS', hidden.length === 0, hidden[0]?.[1]?.trim());
+
+	// the premise of the whole panel: Starlight's “On this page” pane is hidden at
+	// PWA widths, leaving only the sticky dropdown in the nav bar
+	const contentsPaneHidden =
+		/\.sl-hidden\{display:none\}/.test(cssFiles) &&
+		/@media \(width>=72rem\)\{[^@]*\.lg\\:sl-block\{display:block\}/.test(cssFiles);
+	check(
+		'section map',
+		"Starlight's contents pane really is hidden below 72rem",
+		contentsPaneHidden
+	);
+	check(
+		'section map',
+		'the map is one column when the side panes are gone',
+		/\.ga-map \.ga-map-list\s*\{[^}]*grid-template-columns:\s*minmax\(0, 1fr\)/.test(
+			themeCss.replace(/\s+/g, ' ')
+		)
+	);
+}
+
 check(
 	'overflow',
 	'wide-content inventory contained',
@@ -594,6 +715,7 @@ const GROUPS = [
 	'contrast (light)',
 	'contrast (diagrams)',
 	'headings',
+	'section map',
 	'overflow',
 	'layout',
 	'pwa',

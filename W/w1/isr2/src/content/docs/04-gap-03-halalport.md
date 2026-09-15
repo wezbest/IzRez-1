@@ -10,6 +10,98 @@ description: "graph TD"
 <span class="chip">17 cited sources</span>
 </div>
 
+<details class="ga-map" open>
+	<summary class="ga-map-summary">
+		<span class="ga-map-kicker">Section map</span>
+		<span class="ga-map-meta">19 sections · 14 parts</span>
+	</summary>
+	<ol class="ga-map-list">
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-1"><span class="ga-map-num">4.1</span><span class="ga-map-ttl">Gap Definition &amp; Executive Thesis</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s4-1-1"><span class="ga-map-num">4.1.1</span><span class="ga-map-ttl">Systems Thinking: First-, Second-, and Third-Order Implications</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-2"><span class="ga-map-num">4.2</span><span class="ga-map-ttl">Root Causes &amp; Structural Bottlenecks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-3"><span class="ga-map-num">4.3</span><span class="ga-map-ttl">Why Incumbents Have Not Filled the Gap</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-4"><span class="ga-map-num">4.4</span><span class="ga-map-ttl">Feasibility Analysis: Technical, Shariah, Regulatory, Market</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s4-4-1"><span class="ga-map-num">4.4.1</span><span class="ga-map-ttl">Technical Feasibility</span></a></li>
+				<li><a href="#s4-4-2"><span class="ga-map-num">4.4.2</span><span class="ga-map-ttl">Shariah Feasibility</span></a></li>
+				<li><a href="#s4-4-3"><span class="ga-map-num">4.4.3</span><span class="ga-map-ttl">Regulatory Feasibility</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-5"><span class="ga-map-num">4.5</span><span class="ga-map-ttl">Viability Analysis &amp; Exhaustive Unit Economics</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s4-5-1"><span class="ga-map-num">4.5.1</span><span class="ga-map-ttl">Enterprise Revenue Architecture</span></a></li>
+				<li><a href="#s4-5-2"><span class="ga-map-num">4.5.2</span><span class="ga-map-ttl">Granular Customer Unit Economics (Per 10,000 Retail Users)</span></a></li>
+				<li><a href="#s4-5-3"><span class="ga-map-num">4.5.3</span><span class="ga-map-ttl">Capital Efficiency &amp; Break-Even Math</span></a></li>
+				<li><a href="#s4-5-4"><span class="ga-map-num">4.5.4</span><span class="ga-map-ttl">Bottom-Up Market Sizing (TAM / SAM / SOM)</span></a></li>
+				<li><a href="#s4-5-5"><span class="ga-map-num">4.5.5</span><span class="ga-map-ttl">Seed-to-Series A Financing Roadmap &amp; Capital Allocation</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-6"><span class="ga-map-num">4.6</span><span class="ga-map-ttl">Survivability Analysis, Moats &amp; Defensibility</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s4-6-1"><span class="ga-map-num">4.6.1</span><span class="ga-map-ttl">Defensible Moats</span></a></li>
+				<li><a href="#s4-6-2"><span class="ga-map-num">4.6.2</span><span class="ga-map-ttl">Founding Team Archetype &amp; Key Hires #1–5</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-7"><span class="ga-map-num">4.7</span><span class="ga-map-ttl">Comprehensive Competitor Mapping</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-8"><span class="ga-map-num">4.8</span><span class="ga-map-ttl">Critical Caveats, Legal Landmines &amp; Operational Traps</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-9"><span class="ga-map-num">4.9</span><span class="ga-map-ttl">Zero/Near-Zero Cost MVP Architecture</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s4-9-1"><span class="ga-map-num">4.9.1</span><span class="ga-map-ttl">Complete Database Schema (Supabase / PostgreSQL)</span></a></li>
+				<li><a href="#s4-9-2"><span class="ga-map-num">4.9.2</span><span class="ga-map-ttl">Complete Ratio Calculation Engine (TypeScript Edge Function)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-10"><span class="ga-map-num">4.10</span><span class="ga-map-ttl">MVP Presentation &amp; Demonstration Strategy</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-11"><span class="ga-map-num">4.11</span><span class="ga-map-ttl">90-Day Tactical Go-To-Market (GTM) Plan</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-12"><span class="ga-map-num">4.12</span><span class="ga-map-ttl">Verified Contact Targets &amp; Pipeline</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-13"><span class="ga-map-num">4.13</span><span class="ga-map-ttl">Monetization Methods &amp; Revenue Stacks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-14"><span class="ga-map-num">4.14</span><span class="ga-map-ttl">Pivot Playbooks &amp; Strategic Expansion</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-15"><span class="ga-map-num">4.15</span><span class="ga-map-ttl">Acquisition Positioning &amp; M&amp;A Logic</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-16"><span class="ga-map-num">4.16</span><span class="ga-map-ttl">Categorized Risk Register</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s4-16-1"><span class="ga-map-num">4.16.1</span><span class="ga-map-ttl">Founder &amp; VC &quot;Kill Criteria&quot; (Fail-Fast Metric Triggers)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-17"><span class="ga-map-num">4.17</span><span class="ga-map-ttl">Startup Name Rationale &amp; Brand Architecture</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-18"><span class="ga-map-num">4.18</span><span class="ga-map-ttl">Quantitative Gating Scores</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s4-19"><span class="ga-map-num">4.19</span><span class="ga-map-ttl">Master References</span></a>
+		</li>
+	</ol>
+</details>
+
 
 <a id="s4-1" aria-hidden="true"></a>
 
@@ -18,6 +110,8 @@ description: "graph TD"
 **Precise Formulation:** The global Islamic wealth and fund management sector has expanded to over **$308 billion in assets**, embedded within a **$5.98 trillion Islamic finance ecosystem** [2025](https://www.lseg.com/en/data-analytics/islamic-finance/islamic-market-intelligence/islamic-finance-development-report-2025). However, modern Muslim retail investors face a severe structural disconnect in capital markets: the market is split into **standalone screening/research tools (Zoya, Musaffa)** that diagnose halal compliance but cannot execute trades, and **automated robo-advisors (Wahed Invest)** that manage pre-packaged ETF baskets but prohibit self-directed equity investing [2026](https://www.halalwallet.us/compare/wahed-invest-vs-zoya). To invest in an individual stock, an investor must manually look up a ticker in a screening app, verify compliance ratios, switch over to a conventional brokerage account (Interactive Brokers, Charles Schwab, Robinhood), execute the trade, manually track quarterly financial ratio drift, calculate dividend purification percentages on spreadsheets, and manage non-permissible interest earned on uninvested cash sweeps.
 
 **The Solution — HalalPort:** An integrated, multi-methodology **All-in-One Halal Investment Platform & Brokerage** that natively unites real-time Shariah screening, self-directed zero-commission trading execution, continuous portfolio status-drift monitoring, automated dividend purification, and annual Zakat calculations within a single, unified application. HalalPort eliminates "screener-to-broker" friction while resolving scholar trust deficits by allowing investors to toggle dynamically between recognized global standards (AAOIFI Standard No. 21, S&P Shariah, Dow Jones Islamic Market, and Securities Commission Malaysia), backed by Shariah-compliant idle cash management.
+
+<a id="s4-1-1" aria-hidden="true"></a>
 
 ### `4.1.1` Systems Thinking: First-, Second-, and Third-Order Implications
 
@@ -77,6 +171,8 @@ graph TD
 
 ## `4.4` Feasibility Analysis: Technical, Shariah, Regulatory, Market
 
+<a id="s4-4-1" aria-hidden="true"></a>
+
 ### `4.4.1` Technical Feasibility
 - **Automated SEC EDGAR Scraping & Parsing:** Ingests quarterly 10-K and 10-Q financial filings via free SEC EDGAR APIs, utilizing automated XBRL tags to extract total debt, cash and marketable securities, accounts receivable, and non-operating interest income.
 - **Brokerage-as-a-Service (BaaS) Execution:** Integrates directly with institutional clearing APIs (such as **Alpaca Securities Broker API** or **DriveWealth**), utilizing sub-account omnibus structures to execute fractional equity purchases, manage KYC onboarding, and clear trades under FINRA/SIPC protections [2026](https://alpaca.markets/shariah-compliant).
@@ -84,12 +180,16 @@ graph TD
   $$\text{Purification Amount} = \text{Gross Dividend Received} \times \left( \frac{\text{Non-Permissible Income}}{\text{Total Revenue}} \right)$$
   The software calculates the exact dollar/cent amount that must be purged to charity annually and generates an audit-ready tax and Shariah certificate.
 
+<a id="s4-4-2" aria-hidden="true"></a>
+
 ### `4.4.2` Shariah Feasibility
 - **Multi-Methodology Engine:** The platform models the exact screening algorithms of AAOIFI Standard No. 21, S&P Shariah, Dow Jones, and SC Malaysia as versioned code modules, presenting side-by-side compliance breakdowns for every equity.
 - **Swap-Free & Zero-Interest Cash Accounts:** Uninvested user funds are held in non-interest-bearing segregated omnibus client money accounts (or swept into short-term Wakala/Murabaha interbank deposits yielding Shariah-compliant profit, certified by an independent Shariah board).
 - **Disposal Workflow Automation:** If an asset flips to non-compliant during quarterly index reviews, the system triggers the classical Malaysian SAC disposal protocol:
   - *Scenario A (Stock is in profit):* Investor is advised to liquidate immediately; principal plus capital gains up to the date of reclassification are retained; excess gains post-announcement are routed to charity.
   - *Scenario B (Stock is at an unrealized loss):* Investor is permitted under Shariah law to hold the asset until the market price recovers to the original acquisition cost (*breakeven*), minimizing unfair capital destruction [2025](https://www.sc.com.my/api/documentms/download.ashx?id=2671e073-8b4c-4291-af90-7cb34ad7715f).
+
+<a id="s4-4-3" aria-hidden="true"></a>
 
 ### `4.4.3` Regulatory Feasibility
 - **UAE (ADGM FSRA):** Category 3A / Category 4 license permits dealing in investments as agent, arranging deals, and safeguarding client assets, de-risked by the Tabadulat precedent [2025](https://fintechnews.ae/29193/abudhabi/tabadulat-full-fsra-license-halal-trading/).
@@ -103,12 +203,16 @@ graph TD
 
 ## `4.5` Viability Analysis & Exhaustive Unit Economics
 
+<a id="s4-5-1" aria-hidden="true"></a>
+
 ### `4.5.1` Enterprise Revenue Architecture
 HalalPort monetizes across four recurring channels:
 1. **Freemium Pro Subscription ("HalalPort Prime"):** $9.99/month or $99/year charged for advanced features: real-time stock-flip SMS alerts, deep multi-standard financial ratio breakdowns, one-click automated dividend purification, and comprehensive Zakat filing exports.
 2. **Foreign Exchange (FX) Spread:** 25 to 35 basis points (0.25%–0.35%) on multi-currency deposit conversions (e.g., converting AED, SAR, or MYR into USD for US stock purchases).
 3. **Cash-Sweep Yield Spread:** 30 to 50 basis points (0.30%–0.50%) annual margin on uninvested customer balances swept into overnight institutional Shariah Murabaha bank facilities.
 4. **B2B Screening & Compliance API:** $199 to $599/month charged to regional neobanks, family offices, and wealth managers licensing HalalPort’s real-time screening engine (mirroring the Akinda B2B model) [2025](https://akinda.io/for-business).
+
+<a id="s4-5-2" aria-hidden="true"></a>
 
 ### `4.5.2` Granular Customer Unit Economics (Per 10,000 Retail Users)
 
@@ -135,15 +239,21 @@ pie title Annual Revenue Composition (10k User Cohort - $249.7k)
     "Murabaha Cash Sweep" : 21000
 ```
 
+<a id="s4-5-3" aria-hidden="true"></a>
+
 ### `4.5.3` Capital Efficiency & Break-Even Math
 - **Customer Acquisition Cost (CAC):** Blended **$14.20 per user** (driven heavily by low-cost community acquisition via mosque study groups, halal investing subreddits, and Islamic finance creators).
 - **User Lifetime Value (LTV):** **$104.50** (assuming an average 4.2-year retention period and $24.97 ARPU).
 - **LTV / CAC Ratio:** **7.36x** — demonstrating strong consumer software economics.
 - **Cash Flow Break-Even:** Achieved at **Month 11** upon reaching **3,500 active funded accounts**.
+<a id="s4-5-4" aria-hidden="true"></a>
+
 ### `4.5.4` Bottom-Up Market Sizing (TAM / SAM / SOM)
 * **Total Addressable Market (TAM):** **$308 Billion** — Total global Islamic fund and wealth management assets under management [2025](https://www.lseg.com/en/data-analytics/islamic-finance/islamic-market-intelligence/islamic-finance-development-report-2025).
 * **Serviceable Addressable Market (SAM):** **$45 Billion** — Self-directed retail, mass-affluent, and young professional Muslim wealth in core Western diaspora (UK, US, Canada) and GCC markets (UAE, Saudi Arabia).
 * **Serviceable Obtainable Market (SOM - Year 3):** **$850 Million** — Assets under administration (AUA) captured across 25,000 active funded trading accounts averaging $34,000 in account balance.
+
+<a id="s4-5-5" aria-hidden="true"></a>
 
 ### `4.5.5` Seed-to-Series A Financing Roadmap & Capital Allocation
 * **Pre-Seed / Angel Round (Month 0–3):** $450,000 raised on a SAFE note ($4,000,000 valuation cap) to build the multi-standard ratio calculation engine, SEC EDGAR XBRL scraper, and Alpaca paper-trading integration.
@@ -171,10 +281,14 @@ graph LR
     D --> E[Permanent Structural Moat]
 ```
 
+<a id="s4-6-1" aria-hidden="true"></a>
+
 ### `4.6.1` Defensible Moats
 1. **The Multi-Standard Transparency Moat:** Unlike Zoya (single methodology) or Musaffa (proprietary black-box grades), HalalPort displays live mathematical calculations across AAOIFI, S&P, and SC-Malaysia simultaneously. If a scholar criticizes one standard, the user simply toggles to another without leaving the app.
 2. **The Integrated Execution Lock-In:** A pure screener faces high churn because once an investor identifies their top 15 halal stocks, they have no reason to keep paying for the screener. In HalalPort, the user’s actual portfolio resides on the platform; continuous flip alerts and automatic dividend purification calculations create permanent retention.
 3. **Regulatory Brokerage Barriers:** Obtaining clearing brokerage permissions (or executing deep BaaS integration agreements with Alpaca or DriveWealth) requires extensive AML/KYC audits and capital adequacy compliance that pure content websites cannot easily duplicate.
+<a id="s4-6-2" aria-hidden="true"></a>
+
 ### `4.6.2` Founding Team Archetype & Key Hires #1–5
 * **Co-Founder & CEO (Consumer Brokerage & Growth Operator):** Former Product Director or General Manager at a high-growth retail brokerage or wealthtech platform (Robinhood, Revolut, eToro, Sarwa, or StashAway). Deep understanding of retail trader onboarding funnels, BaaS unit economics, and viral community referral loops.
 * **Co-Founder & CTO (Fintech Brokerage & Data Systems Architect):** Senior software engineer with 8+ years experience integrating broker-dealer clearing APIs (Alpaca, DriveWealth, Interactive Brokers), low-latency market data websockets, and financial document parsing pipelines. Expert in React Native, Node.js, and SEC XBRL financial data architectures.
@@ -244,6 +358,8 @@ The entire MVP can be built, hosted, and operated during beta testing without in
 +-------------------------------------------------------------------------------+
 ```
 
+<a id="s4-9-1" aria-hidden="true"></a>
+
 ### `4.9.1` Complete Database Schema (Supabase / PostgreSQL)
 
 ```sql
@@ -308,6 +424,8 @@ CREATE TABLE dividend_purification_ledger (
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
 ```
+
+<a id="s4-9-2" aria-hidden="true"></a>
 
 ### `4.9.2` Complete Ratio Calculation Engine (TypeScript Edge Function)
 
@@ -452,6 +570,8 @@ gantt
 | **Operational Risk** | BaaS carrying broker terminates API access or increases volume minimums. | Low | Critical | Architect the execution adapter using clean abstraction layers allowing a seamless switch between Alpaca, DriveWealth, or regional custodians. |
 | **Legal Risk** | User sues platform after incurring financial loss on a reclassified stock. | Moderate | High | Implement clear click-through risk disclosures and automate standard disposal protocols based on Malaysian SAC precedent. |
 | **Data Risk** | SEC EDGAR parsing script misinterprets complex hybrid convertible debt notes. | Moderate | Moderate | Enforce automated anomaly detection flagging any debt ratio changes greater than 15% in a single quarter for human auditor review. |
+<a id="s4-16-1" aria-hidden="true"></a>
+
 ### `4.16.1` Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
 To ensure disciplined capital stewardship and avoid funding a "zombie" consumer app, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
 

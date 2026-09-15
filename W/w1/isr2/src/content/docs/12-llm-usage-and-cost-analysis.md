@@ -10,10 +10,56 @@ description: "The following table summarizes the verified telemetry captured dur
 <span class="chip">11 cited sources</span>
 </div>
 
+<details class="ga-map" open>
+	<summary class="ga-map-summary">
+		<span class="ga-map-kicker">Section map</span>
+		<span class="ga-map-meta">8 sections · 5 parts</span>
+	</summary>
+	<ol class="ga-map-list">
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s12-1"><span class="ga-map-num">12.1</span><span class="ga-map-ttl">Executive Briefing: C-Suite One-Pager</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s12-1-1"><span class="ga-map-num">12.1.1</span><span class="ga-map-ttl">For the Board, CEO, CFO, and CTO</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s12-2"><span class="ga-map-num">12.2</span><span class="ga-map-ttl">Execution Telemetry &amp; Pipeline Resource Audit</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s12-3"><span class="ga-map-num">12.3</span><span class="ga-map-ttl">Frontier LLM Pricing Analysis: United States (Top 10)</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s12-4"><span class="ga-map-num">12.4</span><span class="ga-map-ttl">Frontier LLM Pricing Analysis: China (Top 10)</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s12-5"><span class="ga-map-num">12.5</span><span class="ga-map-ttl">Cross-Border Economic Arbitrage &amp; Comparative Benchmarks</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s12-5-1"><span class="ga-map-num">12.5.1</span><span class="ga-map-ttl">Cost to Execute This Research Pipeline (4.65M Total Tokens)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s12-6"><span class="ga-map-num">12.6</span><span class="ga-map-ttl">Strategic Cost Engineering &amp; Architecture Recommendations</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s12-6-1"><span class="ga-map-num">12.6.1</span><span class="ga-map-ttl">1. The Tiered &quot;Router &amp; Worker&quot; Architecture</span></a></li>
+				<li><a href="#s12-6-2"><span class="ga-map-num">12.6.2</span><span class="ga-map-ttl">2. Exploiting Off-Peak Asynchronous Batch Windows</span></a></li>
+				<li><a href="#s12-6-3"><span class="ga-map-num">12.6.3</span><span class="ga-map-ttl">3. Implementing Aggressive KV-Cache Pinning</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s12-7"><span class="ga-map-num">12.7</span><span class="ga-map-ttl">Enterprise Scaling Roadmap &amp; Financial Model</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s12-8"><span class="ga-map-num">12.8</span><span class="ga-map-ttl">References</span></a>
+		</li>
+	</ol>
+</details>
+
 
 <a id="s12-1" aria-hidden="true"></a>
 
 ## `12.1` Executive Briefing: C-Suite One-Pager
+
+<a id="s12-1-1" aria-hidden="true"></a>
 
 ### `12.1.1` For the Board, CEO, CFO, and CTO
 
@@ -96,6 +142,8 @@ The following table summarizes the verified telemetry captured during the execut
 
 ## `12.5` Cross-Border Economic Arbitrage & Comparative Benchmarks
 
+<a id="s12-5-1" aria-hidden="true"></a>
+
 ### `12.5.1` Cost to Execute This Research Pipeline (4.65M Total Tokens)
 | Provider / Model Configuration | Input Cost (3.62M) | Output Cost (1.03M) | Total Run Cost (USD) | Relative Index |
 |---|---|---|---|---|
@@ -117,6 +165,8 @@ The following table summarizes the verified telemetry captured during the execut
 
 ## `12.6` Strategic Cost Engineering & Architecture Recommendations
 
+<a id="s12-6-1" aria-hidden="true"></a>
+
 ### `12.6.1` 1. The Tiered "Router & Worker" Architecture
 * **Do Not Use Flagships for Scraping:** Allocating Claude Opus or GPT-5.6 Sol to parse raw regulatory PDFs or web search snippets burns capital at 6x the necessary rate. 
 * **The Tri-Tier Topology:**
@@ -124,8 +174,12 @@ The following table summarizes the verified telemetry captured during the execut
   - **Tier 2 (Structuring & Code):** Use Claude Sonnet 4.6 ($2.00/M) or Qwen3.8-Max ($2.00/M) for JSON schema compliance and financial spreadsheet synthesis.
   - **Tier 3 (Master Synthesizer):** Reserve Claude Opus 4.6 ($5.00/M) or GPT-5.6 Sol ($4.00/M) strictly for the final supervisory turn that synthesizes executive decisions and cross-checks regulatory risks.
 
+<a id="s12-6-2" aria-hidden="true"></a>
+
 ### `12.6.2` 2. Exploiting Off-Peak Asynchronous Batch Windows
 * Both DeepSeek and OpenAI offer massive structural discounts for non-real-time calls. Scheduling background data ingestion and compliance monitoring jobs during DeepSeek's off-peak hours (cutting rates by 50%) or utilizing OpenAI/Anthropic 24-hour Batch APIs (50% off) cuts enterprise operational expenditure in half.
+
+<a id="s12-6-3" aria-hidden="true"></a>
 
 ### `12.6.3` 3. Implementing Aggressive KV-Cache Pinning
 * In financial intelligence systems, regulatory codes (e.g., AAOIFI Shariah standards, BNM Policy Documents, CBB Rulebooks) represent large static token blocks. Caching these static reference corpora cuts input costs by **90%** ($0.20 down to $0.02 per million tokens). Systems must be architected so that prompt prefixes remain identical across subagent calls.

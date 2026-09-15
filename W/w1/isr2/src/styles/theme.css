@@ -429,6 +429,172 @@ a.xref:hover {
 	letter-spacing: 0.03em;
 }
 
+/* ---------------------------------------------------------------- section map
+   The numbered map of the page's own headings, generated directly under the
+   header. Starlight hides the right-hand “On this page” pane below 72rem — the
+   width of an installed PWA on a phone — so this panel is the contents there.
+   These rules sit after the generic `.sl-markdown-content a` rule above and
+   carry equal specificity, so source order is what keeps the map's own colours;
+   the layout audit asserts that order survives minification. */
+
+.sl-markdown-content .ga-map {
+	margin: 1.4rem 0 2.1rem;
+	border: 1px solid var(--sl-color-hairline-light);
+	border-radius: var(--ga-radius);
+	background:
+		linear-gradient(180deg, rgba(34, 211, 238, 0.07), rgba(45, 212, 191, 0.02)),
+		var(--ga-panel);
+	box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.05), 0 18px 42px rgba(0, 0, 0, 0.26);
+	overflow: hidden;
+}
+
+.sl-markdown-content .ga-map > summary {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.6rem;
+	padding: 0.68rem 0.95rem;
+	border-bottom: 1px solid var(--sl-color-hairline);
+	cursor: pointer;
+	list-style: none;
+	user-select: none;
+}
+
+.sl-markdown-content .ga-map > summary::-webkit-details-marker {
+	display: none;
+}
+
+.sl-markdown-content .ga-map > summary::marker {
+	content: '';
+}
+
+.sl-markdown-content .ga-map > summary::after {
+	content: '';
+	width: 0.42rem;
+	height: 0.42rem;
+	margin-inline-start: 0.15rem;
+	border-inline-end: 2px solid var(--sl-color-gray-3);
+	border-block-end: 2px solid var(--sl-color-gray-3);
+	transform: rotate(45deg);
+	transition: transform 0.18s ease;
+}
+
+.sl-markdown-content .ga-map:not([open]) > summary::after {
+	transform: rotate(-45deg);
+}
+
+.sl-markdown-content .ga-map > summary:hover .ga-map-kicker,
+.sl-markdown-content .ga-map > summary:hover::after {
+	border-color: var(--sl-color-accent);
+	color: var(--sl-color-accent);
+}
+
+.sl-markdown-content .ga-map .ga-map-kicker {
+	color: var(--sl-color-accent-high);
+	font-family: var(--sl-font-display);
+	font-size: 0.7rem;
+	font-weight: 500;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+}
+
+.sl-markdown-content .ga-map .ga-map-meta {
+	margin-inline-start: auto;
+	color: var(--sl-color-gray-3);
+	font-family: var(--sl-font-mono);
+	font-size: 0.7rem;
+	letter-spacing: 0.04em;
+}
+
+.sl-markdown-content .ga-map .ga-map-list {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	gap: 0.1rem 1.1rem;
+	margin: 0;
+	padding: 0.55rem 0.6rem 0.65rem;
+	list-style: none;
+}
+
+/* the centre pane is 58rem wide, so two columns are the most that stay readable */
+@media (min-width: 60rem) {
+	.sl-markdown-content .ga-map .ga-map-list {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+.sl-markdown-content .ga-map .ga-map-item {
+	margin: 0;
+	padding: 0.28rem 0.45rem 0.32rem;
+	border-inline-start: 2px solid transparent;
+	border-radius: 0.5rem;
+	transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.sl-markdown-content .ga-map .ga-map-item:hover,
+.sl-markdown-content .ga-map .ga-map-item:focus-within {
+	border-inline-start-color: var(--sl-color-accent);
+	background: rgba(34, 211, 238, 0.07);
+}
+
+.sl-markdown-content .ga-map a.ga-map-link {
+	display: flex;
+	align-items: baseline;
+	gap: 0.5rem;
+	color: var(--sl-color-gray-1);
+	font-size: 0.87rem;
+	font-weight: 500;
+	line-height: 1.42;
+	text-decoration: none;
+}
+
+.sl-markdown-content .ga-map a.ga-map-link:hover {
+	color: var(--sl-color-accent-high);
+	text-decoration: none;
+}
+
+.sl-markdown-content .ga-map .ga-map-num {
+	flex: 0 0 auto;
+	min-width: 2.7rem;
+	color: var(--sl-color-accent);
+	font-family: var(--sl-font-mono);
+	font-size: 0.72rem;
+	letter-spacing: 0.03em;
+}
+
+.sl-markdown-content .ga-map .ga-map-sub {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.22rem 0.35rem;
+	margin: 0.3rem 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sl-markdown-content .ga-map .ga-map-sub a {
+	display: inline-flex;
+	align-items: baseline;
+	gap: 0.32rem;
+	padding: 0.06rem 0.45rem;
+	border: 1px solid var(--sl-color-hairline);
+	border-radius: 999px;
+	background: var(--sl-color-bg-inline-code);
+	color: var(--sl-color-gray-3);
+	font-size: 0.71rem;
+	line-height: 1.5;
+	text-decoration: none;
+}
+
+.sl-markdown-content .ga-map .ga-map-sub a:hover {
+	border-color: var(--sl-color-accent);
+	color: var(--sl-color-accent-high);
+}
+
+.sl-markdown-content .ga-map .ga-map-sub .ga-map-num {
+	min-width: 0;
+	font-size: 0.68rem;
+	opacity: 0.85;
+}
+
 /* -------------------------------------------------------------- home page */
 
 .hero {

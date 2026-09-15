@@ -10,6 +10,102 @@ description: "graph TD"
 <span class="chip">15 cited sources</span>
 </div>
 
+<details class="ga-map" open>
+	<summary class="ga-map-summary">
+		<span class="ga-map-kicker">Section map</span>
+		<span class="ga-map-meta">19 sections · 16 parts</span>
+	</summary>
+	<ol class="ga-map-list">
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-1"><span class="ga-map-num">8.1</span><span class="ga-map-ttl">Gap Definition &amp; Executive Thesis</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s8-1-1"><span class="ga-map-num">8.1.1</span><span class="ga-map-ttl">Systems Thinking: First-, Second-, and Third-Order Implications</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-2"><span class="ga-map-num">8.2</span><span class="ga-map-ttl">Root Causes &amp; Structural Bottlenecks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-3"><span class="ga-map-num">8.3</span><span class="ga-map-ttl">Why Incumbents Have Not Filled the Gap</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-4"><span class="ga-map-num">8.4</span><span class="ga-map-ttl">Feasibility Analysis: Technical, Shariah, Regulatory, Market</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s8-4-1"><span class="ga-map-num">8.4.1</span><span class="ga-map-ttl">Technical Feasibility</span></a></li>
+				<li><a href="#s8-4-2"><span class="ga-map-num">8.4.2</span><span class="ga-map-ttl">Shariah Feasibility</span></a></li>
+				<li><a href="#s8-4-3"><span class="ga-map-num">8.4.3</span><span class="ga-map-ttl">Regulatory Feasibility</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-5"><span class="ga-map-num">8.5</span><span class="ga-map-ttl">Viability Analysis &amp; Exhaustive Unit Economics</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s8-5-1"><span class="ga-map-num">8.5.1</span><span class="ga-map-ttl">Enterprise Revenue Architecture</span></a></li>
+				<li><a href="#s8-5-2"><span class="ga-map-num">8.5.2</span><span class="ga-map-ttl">Granular Unit Economic Model (Per $200 Standard Remittance Transaction)</span></a></li>
+				<li><a href="#s8-5-3"><span class="ga-map-num">8.5.3</span><span class="ga-map-ttl">Capital Efficiency &amp; Break-Even Math</span></a></li>
+				<li><a href="#s8-5-4"><span class="ga-map-num">8.5.4</span><span class="ga-map-ttl">Bottom-Up Market Sizing (TAM / SAM / SOM)</span></a></li>
+				<li><a href="#s8-5-5"><span class="ga-map-num">8.5.5</span><span class="ga-map-ttl">Seed-to-Series A Financing Roadmap &amp; Capital Allocation</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-6"><span class="ga-map-num">8.6</span><span class="ga-map-ttl">Survivability Analysis, Moats &amp; Defensibility</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s8-6-1"><span class="ga-map-num">8.6.1</span><span class="ga-map-ttl">Defensible Moats</span></a></li>
+				<li><a href="#s8-6-2"><span class="ga-map-num">8.6.2</span><span class="ga-map-ttl">Founding Team Archetype &amp; Key Hires #1–5</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-7"><span class="ga-map-num">8.7</span><span class="ga-map-ttl">Comprehensive Competitor Mapping</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-8"><span class="ga-map-num">8.8</span><span class="ga-map-ttl">Critical Caveats, Legal Landmines &amp; Operational Traps</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-9"><span class="ga-map-num">8.9</span><span class="ga-map-ttl">Zero/Near-Zero Cost MVP Architecture</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s8-9-1"><span class="ga-map-num">8.9.1</span><span class="ga-map-ttl">Complete Database Schema (Supabase / PostgreSQL)</span></a></li>
+				<li><a href="#s8-9-2"><span class="ga-map-num">8.9.2</span><span class="ga-map-ttl">Complete Screening &amp; Purification Edge Function (TypeScript)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-10"><span class="ga-map-num">8.10</span><span class="ga-map-ttl">MVP Presentation &amp; Demonstration Strategy</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-11"><span class="ga-map-num">8.11</span><span class="ga-map-ttl">90-Day Tactical Go-To-Market (GTM) Plan</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-12"><span class="ga-map-num">8.12</span><span class="ga-map-ttl">Verified Contact Targets &amp; Pipeline</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-13"><span class="ga-map-num">8.13</span><span class="ga-map-ttl">Monetization Methods &amp; Revenue Stacks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-14"><span class="ga-map-num">8.14</span><span class="ga-map-ttl">Pivot Playbooks &amp; Failure Fallback Options</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-15"><span class="ga-map-num">8.15</span><span class="ga-map-ttl">Acquisition Positioning &amp; Salvage M&amp;A Logic</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s8-15-1"><span class="ga-map-num">8.15.1</span><span class="ga-map-ttl">Strategic Acquirers</span></a></li>
+				<li><a href="#s8-15-2"><span class="ga-map-num">8.15.2</span><span class="ga-map-ttl">Salvage M&amp;A &amp; Distressed Asset Recovery Logic</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-16"><span class="ga-map-num">8.16</span><span class="ga-map-ttl">Categorized Risk Register</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s8-16-1"><span class="ga-map-num">8.16.1</span><span class="ga-map-ttl">Founder &amp; VC &quot;Kill Criteria&quot; (Fail-Fast Metric Triggers)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-17"><span class="ga-map-num">8.17</span><span class="ga-map-ttl">Startup Name Rationale &amp; Brand Architecture</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-18"><span class="ga-map-num">8.18</span><span class="ga-map-ttl">Quantitative Gating Scores &amp; Gating Verdict</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s8-19"><span class="ga-map-num">8.19</span><span class="ga-map-ttl">Master References</span></a>
+		</li>
+	</ol>
+</details>
+
 
 <a id="s8-1" aria-hidden="true"></a>
 
@@ -20,6 +116,8 @@ description: "graph TD"
 **The Solution — SiratRemit (Conditional Architecture):** A fiat-in / fiat-out **Cross-Border Remittance Orchestration Layer** utilizing 100% fiat-backed stablecoins (USDC) as an instantaneous cross-border settlement rail, completely abstracted from the end user. The migrant sender deposits local fiat (e.g., AED via cash agent or digital bank transfer) and the beneficiary receives local fiat (e.g., PKR via JazzCash, Easypaisa, or bank account) in under 10 minutes at an all-in cost of **0.95% (a 75% savings vs. MTOs)**. Critically, SiratRemit embeds a proprietary Shariah Governance Layer: (1) an automated screening oracle that restricts settlement strictly to 1:1 fiat-backed tokens, mathematically excluding algorithmic or yield-bearing tokens, (2) an automated reserve-riba purification engine that purges holding-period interest generated by underlying treasury collateral directly to audited charities, and (3) corridor-specific Shariah Supervisory Board (SSB) comfort letters displayed directly on every digital receipt.
 
 > **CONDITIONAL GATING DECLARATION:** Because regulatory friction scored **9 / 10** due to multi-jurisdictional virtual asset licensing perimeters (VARA in Dubai, CBB in Bahrain, PVARA in Pakistan) and conservative religious rulings in Southeast Asia (MUI Indonesia's ban on crypto as currency), SiratRemit is approved **strictly on a non-custodial, rented-rails model**. SiratRemit does not issue tokens, hold custody of funds, or operate de-novo exchange licenses; it operates purely as an API orchestration layer partnering with licensed VASPs and central-bank-authorized commercial banks.
+
+<a id="s8-1-1" aria-hidden="true"></a>
 
 ### `8.1.1` Systems Thinking: First-, Second-, and Third-Order Implications
 
@@ -77,11 +175,15 @@ graph TD
 
 ## `8.4` Feasibility Analysis: Technical, Shariah, Regulatory, Market
 
+<a id="s8-4-1" aria-hidden="true"></a>
+
 ### `8.4.1` Technical Feasibility
 - **The "Fiat-Sandwich" Abstraction Engine:** The frontend interface completely hides all blockchain mechanics. The sender selects "Send 1,000 AED to Pakistan", the backend locks an instant exchange rate, ingests AED via local instant payment switches (e.g., UAE Aani / DuitNow), converts fiat to USDC via an authorized local institutional liquidity partner, settles the cross-border leg over low-fee Layer-1/Layer-2 networks (Stellar, XRPL, or Base) in under 15 seconds for less than $0.001 in network gas, and triggers an automated local fiat payout in Pakistan (PKR) via partner banking switches (1Link / Raast) directly into the recipient’s JazzCash wallet.
 - **Automated Shariah Screening Oracle:** A dedicated serverless microservice inspects every settlement transaction against an immutable token allowlist:
   - *Permissible:* 100% cash-and-treasury-backed single-currency fiat stablecoins (USDC) with published monthly independent reserve attestations.
   - *Strictly Blocked:* Algorithmic stablecoins (e.g., UST-type models), multi-asset collateralized debt positions (DAI-type models), and privacy-preserving anonymous tokens (Monero, Zcash).
+
+<a id="s8-4-2" aria-hidden="true"></a>
 
 ### `8.4.2` Shariah Feasibility
 - **Medium-of-Exchange Fiqh Classification:** The underlying stablecoin is treated strictly as an ephemeral accounting medium (*Waseelat al-Muhasabah*), held for less than 180 seconds during the flight of the funds. The investor never holds the token as a store-of-value investment, avoiding exposure to the issuer’s interest-earning reserve assets.
@@ -89,6 +191,8 @@ graph TD
   $$\text{Purification Fee} = \text{Principal Amount} \times \text{Issuer Reserve Yield Rate} \times \left( \frac{\text{Flight Time in Seconds}}{31,536,000} \right)$$
   This tiny fraction of a cent (e.g., $0.0004 on a $200 transfer) is automatically aggregated and disbursed monthly to verified charitable endowments, providing an unassailable Shariah audit trail.
 - **Fatwa Alignment:** Validated against contemporary rulings by prominent jurists (including Mufti Faraz Adam and AAOIFI exposure drafts) and certified by an independent Shariah board.
+
+<a id="s8-4-3" aria-hidden="true"></a>
 
 ### `8.4.3` Regulatory Feasibility
 - **United Arab Emirates (Dubai VARA & CBUAE):** SiratRemit operates strictly as an **Unregulated Technology Orchestrator** partnering with an authorized Category-2 Virtual Asset Service Provider (VASP) licensed by the Virtual Assets Regulatory Authority (VARA) for the crypto on-ramp, while fiat payment collection is managed by an authorized CBUAE-licensed payment services partner [2026](https://cryptoslate.com/crypto-laws/vara-virtual-asset-issuance-rulebook/).
@@ -101,11 +205,15 @@ graph TD
 
 ## `8.5` Viability Analysis & Exhaustive Unit Economics
 
+<a id="s8-5-1" aria-hidden="true"></a>
+
 ### `8.5.1` Enterprise Revenue Architecture
 1. **Flat Transaction Surcharge:** 0.70% of gross transfer volume, deducted from the principal send amount.
 2. **Foreign Exchange (FX) Micro-Spread:** 25 basis points (0.25%) earned on the wholesale-to-retail currency conversion spread (gross margin: 0.95% all-in to consumer).
 3. **B2B SME Cross-Border Contractor Payouts:** $5.00 flat fee + 0.50% volume fee charged to Gulf enterprises paying remote software developers and contractors in South Asia.
 4. **Shariah Screening & Reserve-Purification API:** $0.05 per transaction charged to external remittance houses licensing SiratRemit’s automated fatwa-compliance and purification engine.
+
+<a id="s8-5-2" aria-hidden="true"></a>
 
 ### `8.5.2` Granular Unit Economic Model (Per $200 Standard Remittance Transaction)
 
@@ -131,16 +239,22 @@ pie title Transaction Fee Distribution ($1.90 Revenue)
     "Charity Purification" : 0.01
 ```
 
+<a id="s8-5-3" aria-hidden="true"></a>
+
 ### `8.5.3` Capital Efficiency & Break-Even Math
 - **Customer Acquisition Cost (CAC):** **$6.20 per active migrant user** (achieved through grassroots field ambassadors in Gulf labour accommodations and mosque community referral networks).
 - **Transaction Frequency:** Average user sends 11 remittances per year ($2,200 annual volume).
 - **Annual Gross Profit per User:** 11 transfers × $0.85 = **$9.35 / year**.
 - **Payback Period:** **Under 8 Months** (1.3 years LTV = $28.05; LTV / CAC = **4.52x**).
 - **Cash Flow Break-Even:** Achieved at **Month 14** upon scaling to **12,000 monthly active users** generating $2.4M in monthly corridor volume ($28.8M annualized).
+<a id="s8-5-4" aria-hidden="true"></a>
+
 ### `8.5.4` Bottom-Up Market Sizing (TAM / SAM / SOM)
 * **Total Addressable Market (TAM):** **$130 Billion** — Total annual outward remittance flows departing from GCC economies [2026](https://www.allium.so/reports/stablecoins-cross-border-payments-2026).
 * **Serviceable Addressable Market (SAM):** **$28 Billion** — Outward blue-collar retail remittance flows specifically moving from the UAE and Saudi Arabia to Pakistan and Bangladesh.
 * **Serviceable Obtainable Market (SOM - Year 3):** **$650 Million** — Capturing ~2.3% of the target corridor volume, processing ~3,250,000 annual transfers averaging $200 each.
+
+<a id="s8-5-5" aria-hidden="true"></a>
 
 ### `8.5.5` Seed-to-Series A Financing Roadmap & Capital Allocation
 * **Pre-Seed / Angel Round (Month 0–3):** $500,000 raised on an uncapped SAFE note with a $4,500,000 valuation cap to develop the fiat-abstraction orchestration engine and integrate with UAE VARA-licensed liquidity sandboxes.
@@ -168,10 +282,14 @@ graph LR
     D --> E[Sustainable Defensive Moat]
 ```
 
+<a id="s8-6-1" aria-hidden="true"></a>
+
 ### `8.6.1` Defensible Moats
 1. **The Theological Comfort Letter Moat:** Conventional remittance apps cannot overcome the deep religious skepticism of conservative Muslim diaspora workers who fear that crypto involves unlawful usury or gambling. SiratRemit's inclusion of an official, scholar-signed Shariah Certificate on every transaction receipt—complete with a verified purification deduction—creates an emotional and religious trust moat that Western competitors cannot match.
 2. **The "Rented-Rails" Regulatory Insulation:** By refusing to hold customer funds or operate de-novo crypto exchanges, SiratRemit remains insulated from regulatory enforcement actions. If a partner VASP faces regulatory scrutiny, SiratRemit simply reroutes its automated API webhooks to an alternative licensed liquidity provider, ensuring 100% operational uptime.
 3. **The Landed-Cost Pricing Wedge:** Operating at a 0.95% all-in fee structure gives SiratRemit an unassailable pricing advantage over legacy Western Union and bank channels (which must charge 5% to 15% to support physical real estate and agent networks), allowing the startup to acquire users purely on economic self-interest.
+<a id="s8-6-2" aria-hidden="true"></a>
+
 ### `8.6.2` Founding Team Archetype & Key Hires #1–5
 * **Co-Founder & CEO (Cross-Border Remittance Veteran):** Former Head of Cross-Border Payments or Remittance Operations at a major money transfer operator or regional exchange house (Al Ansari Exchange, Western Union Middle East, Wise, or Careem Pay). 12+ years managing Gulf-South Asia corridors with personal relationships with exchange company chairmen and central bank payment regulators.
 * **Co-Founder & CTO (Payment Infrastructure & Stablecoin Architect):** Senior payment systems engineer with 8+ years experience integrating stablecoin liquidity rails (Stellar, Circle, Base), high-throughput banking payment switches (Raast, 1Link), and idempotent transaction routers.
@@ -240,6 +358,8 @@ The entire MVP can be built, tested, and deployed across initial test cohorts wi
 +-------------------------------------------------------------------------------+
 ```
 
+<a id="s8-9-1" aria-hidden="true"></a>
+
 ### `8.9.1` Complete Database Schema (Supabase / PostgreSQL)
 
 ```sql
@@ -296,6 +416,8 @@ CREATE TABLE shariah_token_allowlist (
     last_audited_at DATE NOT NULL
 );
 ```
+
+<a id="s8-9-2" aria-hidden="true"></a>
 
 ### `8.9.2` Complete Screening & Purification Edge Function (TypeScript)
 
@@ -428,10 +550,14 @@ graph TD
 
 ## `8.15` Acquisition Positioning & Salvage M&A Logic
 
+<a id="s8-15-1" aria-hidden="true"></a>
+
 ### `8.15.1` Strategic Acquirers
 - **Regional Exchange Houses (Al Ansari Exchange, LuLu Financial Group, Joyalukkas):** Brick-and-mortar exchange houses looking to rapidly modernize their digital infrastructure and defend remittance market share against fintech erosion.
 - **Islamic Digital Banking Platforms (Fasset, Ajman Bank Digital, DIB Digital):** Seeking an agile cross-border corridor settlement engine to integrate directly into their mobile banking applications.
 - **Global Stablecoin Infrastructure Giants (Circle, Paxos, Ripple):** Looking for an established, regulatory-compliant, faith-aligned distribution gateway into the multi-hundred-billion-dollar Muslim diaspora market.
+
+<a id="s8-15-2" aria-hidden="true"></a>
 
 ### `8.15.2` Salvage M&A & Distressed Asset Recovery Logic
 - **If Cross-Border Remittance Regulations are Completely Suspended:** In the event that regulatory hostility terminates the cross-border payment corridor, the startup's underlying assets—specifically the **multi-language mobile interface, the 10,000+ verified KYC user base, the automated KYC/AML screening pipeline, and the merchant integration rails**—retain immense value.
@@ -449,6 +575,8 @@ graph TD
 | **Theological Risk** | Influential scholar issues a public fatwa declaring stablecoin remittance *Haram*. | Moderate | High | Restrict settlement strictly to 100% cash-backed USDC, publish automated purification proofs, and engage scholars proactively. |
 | **Counterparty Risk** | Rented VASP or wholesale on-ramp partner faces regulatory freezing. | Moderate | Critical | Maintain relationships with at least two independent licensed liquidity providers in different jurisdictions (Dubai VARA and Bahrain CBB). |
 | **Market Risk** | Stablecoin de-pegging event breaks the 1:1 parity during fund flight. | Low | Critical | Implement automated volatility oracles that pause settlement if stablecoin value drifts outside a $0.995–$1.005 trading band. |
+<a id="s8-16-1" aria-hidden="true"></a>
+
 ### `8.16.1` Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
 To enforce rigorous capital discipline and protect investor resources in a complex regulatory environment, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
 

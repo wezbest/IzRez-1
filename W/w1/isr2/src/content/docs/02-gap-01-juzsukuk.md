@@ -10,6 +10,100 @@ description: "graph TD"
 <span class="chip">22 cited sources</span>
 </div>
 
+<details class="ga-map" open>
+	<summary class="ga-map-summary">
+		<span class="ga-map-kicker">Section map</span>
+		<span class="ga-map-meta">19 sections · 16 parts</span>
+	</summary>
+	<ol class="ga-map-list">
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-1"><span class="ga-map-num">2.1</span><span class="ga-map-ttl">Gap Definition &amp; Executive Thesis</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s2-1-1"><span class="ga-map-num">2.1.1</span><span class="ga-map-ttl">Systems Thinking: First-, Second-, and Third-Order Implications</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-2"><span class="ga-map-num">2.2</span><span class="ga-map-ttl">Root Causes &amp; Structural Bottlenecks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-3"><span class="ga-map-num">2.3</span><span class="ga-map-ttl">Why Incumbents Have Not Filled the Gap</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-4"><span class="ga-map-num">2.4</span><span class="ga-map-ttl">Feasibility Analysis: Technical, Shariah, Regulatory, Market</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s2-4-1"><span class="ga-map-num">2.4.1</span><span class="ga-map-ttl">Technical Feasibility</span></a></li>
+				<li><a href="#s2-4-2"><span class="ga-map-num">2.4.2</span><span class="ga-map-ttl">Shariah Feasibility</span></a></li>
+				<li><a href="#s2-4-3"><span class="ga-map-num">2.4.3</span><span class="ga-map-ttl">Regulatory Feasibility</span></a></li>
+				<li><a href="#s2-4-4"><span class="ga-map-num">2.4.4</span><span class="ga-map-ttl">Market Feasibility</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-5"><span class="ga-map-num">2.5</span><span class="ga-map-ttl">Viability Analysis &amp; Exhaustive Unit Economics</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s2-5-1"><span class="ga-map-num">2.5.1</span><span class="ga-map-ttl">Enterprise Revenue Model</span></a></li>
+				<li><a href="#s2-5-2"><span class="ga-map-num">2.5.2</span><span class="ga-map-ttl">Granular Unit Economic Model (Per $50M Corporate Sukuk Tranche)</span></a></li>
+				<li><a href="#s2-5-3"><span class="ga-map-num">2.5.3</span><span class="ga-map-ttl">Enterprise Scaling &amp; Break-Even Projections</span></a></li>
+				<li><a href="#s2-5-4"><span class="ga-map-num">2.5.4</span><span class="ga-map-ttl">Bottom-Up Market Sizing (TAM / SAM / SOM)</span></a></li>
+				<li><a href="#s2-5-5"><span class="ga-map-num">2.5.5</span><span class="ga-map-ttl">Seed-to-Series A Financing Roadmap &amp; Capital Allocation</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-6"><span class="ga-map-num">2.6</span><span class="ga-map-ttl">Survivability Analysis, Moats &amp; Defensibility</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s2-6-1"><span class="ga-map-num">2.6.1</span><span class="ga-map-ttl">Defensible Moats</span></a></li>
+				<li><a href="#s2-6-2"><span class="ga-map-num">2.6.2</span><span class="ga-map-ttl">Counter-Strategies Against Incumbent Response</span></a></li>
+				<li><a href="#s2-6-3"><span class="ga-map-num">2.6.3</span><span class="ga-map-ttl">Founding Team Archetype &amp; Key Hires #1–5</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-7"><span class="ga-map-num">2.7</span><span class="ga-map-ttl">Comprehensive Competitor Mapping</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-8"><span class="ga-map-num">2.8</span><span class="ga-map-ttl">Critical Caveats, Legal Landmines &amp; Operational Traps</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-9"><span class="ga-map-num">2.9</span><span class="ga-map-ttl">Zero/Near-Zero Cost MVP Architecture</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s2-9-1"><span class="ga-map-num">2.9.1</span><span class="ga-map-ttl">Complete Database Schema (Supabase / PostgreSQL)</span></a></li>
+				<li><a href="#s2-9-2"><span class="ga-map-num">2.9.2</span><span class="ga-map-ttl">Core ERC-3643 Permission Verification Smart Contract (Solidity)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-10"><span class="ga-map-num">2.10</span><span class="ga-map-ttl">MVP Presentation &amp; Demonstration Strategy</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-11"><span class="ga-map-num">2.11</span><span class="ga-map-ttl">90-Day Tactical Go-To-Market (GTM) Plan</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-12"><span class="ga-map-num">2.12</span><span class="ga-map-ttl">Verified Contact Targets &amp; Pipeline</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-13"><span class="ga-map-num">2.13</span><span class="ga-map-ttl">Monetization Methods &amp; Revenue Stacks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-14"><span class="ga-map-num">2.14</span><span class="ga-map-ttl">Pivot Playbooks &amp; Strategic Expansion</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-15"><span class="ga-map-num">2.15</span><span class="ga-map-ttl">Acquisition Positioning &amp; M&amp;A Logic</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-16"><span class="ga-map-num">2.16</span><span class="ga-map-ttl">Categorized Risk Register</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s2-16-1"><span class="ga-map-num">2.16.1</span><span class="ga-map-ttl">Founder &amp; VC &quot;Kill Criteria&quot; (Fail-Fast Metric Triggers)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-17"><span class="ga-map-num">2.17</span><span class="ga-map-ttl">Startup Name Rationale &amp; Brand Architecture</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-18"><span class="ga-map-num">2.18</span><span class="ga-map-ttl">Quantitative Gating Scores</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s2-19"><span class="ga-map-num">2.19</span><span class="ga-map-ttl">Master References</span></a>
+		</li>
+	</ol>
+</details>
+
 
 <a id="s2-1" aria-hidden="true"></a>
 
@@ -18,6 +112,8 @@ description: "graph TD"
 **Precise Formulation:** The global sukuk market has surpassed **$1.37 trillion in cumulative volume** with over **$264.8 billion issued in 2025 alone** [2025](https://www.spglobal.com/ratings/en/regulatory/article/sukuk-market-strong-growth-to-continue-s101664864). However, standard institutional issuance denominations are legally and operationally locked at **$200,000 (or AED 100,000+ / SAR 500,000+) minimum ticket sizes**, clearing over-the-counter (OTC) via Euroclear and Clearstream. This institutional lock-out permanently excludes over 98% of retail and affluent Muslim investors from accessing the primary fixed-income yield engine of Islamic finance.
 
 **The Solution — JuzSukuk:** A white-label, multi-tenant **Sukuk-as-a-Service (SaaS) and tokenization infrastructure** that enables sovereign debt offices, Islamic banks, and corporate issuers to originate an asset-backed sukuk once (under Wakala bi al-Istithmar, Ijara, or Murabaha structures) and fractionalize the trust certificates into compliant digital tokens denominated at **$1,000 / AED 4,000 / SAR 1,000 / RM 100**. The platform embeds automated on-chain KYC/AML allowlists, programmatic quarterly profit disbursements via smart contracts, and T+0 Delivery-versus-Payment (DvP) settlement, while maintaining an off-chain synchronized legal registry that satisfies central bank and capital market authority requirements.
+
+<a id="s2-1-1" aria-hidden="true"></a>
 
 ### `2.1.1` Systems Thinking: First-, Second-, and Third-Order Implications
 
@@ -74,10 +170,14 @@ graph TD
 
 ## `2.4` Feasibility Analysis: Technical, Shariah, Regulatory, Market
 
+<a id="s2-4-1" aria-hidden="true"></a>
+
 ### `2.4.1` Technical Feasibility
 - **Architecture:** The platform utilizes the **ERC-3643 (T-REX) standard** for permissioned security tokens. The smart contract ensures that only wallet addresses that have passed automated KYC/AML checks and received an on-chain identity claim (ONCHAIN-ID) can transfer or hold tokens.
 - **Dual-Registry Synchronization:** To satisfy capital market regulators, every on-chain token balance is mirrored in an immutable PostgreSQL database acting as the legal registrar of certificate holders. A WebSocket bridge ensures that on-chain minting, transfers, and burns update the legal CSD record instantaneously.
 - **Automated Servicing Engine:** A serverless scheduler calculates quarterly profit payouts based on actual underlying asset yield (e.g., rental payments from an *Ijara* lease). The system executes batch payouts using fiat-pegged stablecoins (or central bank digital currency / open-banking API sweeps) directly to investors' designated bank accounts or custody wallets.
+
+<a id="s2-4-2" aria-hidden="true"></a>
 
 ### `2.4.2` Shariah Feasibility
 - **Contract Alignment:** Structured around classical **Wakala bi al-Istithmar** (Investment Agency) and **Ijara Muntahia Bittamleek** (Lease ending in ownership).
@@ -85,11 +185,15 @@ graph TD
 - **Elimination of Gharar and Riba:** Profit rates represent anticipated returns based on actual lease income or trade markup; late-payment penalties are routed entirely to a designated charity account audited by the Shariah board, strictly avoiding interest capitalization (*riba al-nasi'ah*).
 - **Repo Compatibility:** Integrates a bilateral undertaking (*Wa'ad*) mechanism allowing institutional holders to execute overnight or 7-day Shariah-compliant Islamic repos (repurchase agreements) using tokenized sukuk as collateral, leveraging the precedent established by Edaa and Wamid in Saudi Arabia (>SAR 110M pilot) [2026](https://www.saudiexchange.sa/Resources/fsPdf/2583_0_2026-03-30_12-34-39_En.pdf).
 
+<a id="s2-4-3" aria-hidden="true"></a>
+
 ### `2.4.3` Regulatory Feasibility
 - **Bahrain (Central Bank of Bahrain):** Most favorable regulatory point of entry. The CBB Regulatory Sandbox provides an established track for fractional sukuk under Volume 6 (Capital Markets), as demonstrated by INABLR [2025](https://www.unlock23.com/inablr-middle-east-redefines-bahrains-legacy-of-financial-innovation-with-fractional-sukuk-advancements/).
 - **Malaysia (Securities Commission):** High feasibility under the Capital Market and Services Act (CMSA 2007). The SC’s Consultation Paper 1/2025 establishes clear operational standards for tokenized capital market products on a digital-twin model [2025](https://www.sc.com.my/api/documentms/download.ashx?id=5a9a10e2-5872-4b48-9ea3-5b9635cc5179).
 - **UAE (ADGM FSRA / DFSA):** The Abu Dhabi Global Market and Dubai Financial Services Authority provide explicit frameworks for digital investment tokens, requiring minimum base capital ($150k–$500k depending on category) and independent custodial safeguarding [2026](https://neoslegal.co/rwa-tokenization-guide/).
 - **Saudi Arabia (CMA):** Most lucrative market, but requires entering via the CMA FinTech Lab and graduating into a licensed Capital Market Institution (Arranging category) [2025](https://www.spa.gov.sa/en/N2393257).
+
+<a id="s2-4-4" aria-hidden="true"></a>
 
 ### `2.4.4` Market Feasibility
 - Retail appetite for sovereign and corporate fixed income in the GCC is immense: Saudi Arabia’s retail "Sah" savings sukuk program has achieved consistent oversubscriptions offering ~4.58% returns [2026](https://spa.gov.sa/en/N2370557). Lowering private corporate sukuk tickets from $200k to $1,000 unlocks retail and mass-affluent liquidity that currently sits idle in zero-interest bank current accounts.
@@ -100,12 +204,16 @@ graph TD
 
 ## `2.5` Viability Analysis & Exhaustive Unit Economics
 
+<a id="s2-5-1" aria-hidden="true"></a>
+
 ### `2.5.1` Enterprise Revenue Model
 JuzSukuk operates a hybrid B2B infrastructure SaaS and transaction fee model:
 1. **Origination & Tokenization Fee:** 35 to 60 basis points (0.35%–0.60%) of the total face value of each sukuk tranche issued through the platform, paid by the issuing entity.
 2. **Annual Servicing & Registry Fee:** 10 to 15 basis points (0.10%–0.15%) per annum on the outstanding nominal value for lifecycle management, coupon calculation, automated distributions, and regulatory reporting.
 3. **White-Label Arranger SaaS:** $4,500 to $9,000 per month recurring software fee charged to commercial banks, broker-dealers, and digital investment platforms operating their own branded retail sukuk portals.
 4. **Secondary Liquidity & DvP Settlement Fee:** 10 basis points (0.10%) charged on peer-to-peer secondary transfers and institutional Islamic repo transactions.
+
+<a id="s2-5-2" aria-hidden="true"></a>
 
 ### `2.5.2` Granular Unit Economic Model (Per $50M Corporate Sukuk Tranche)
 
@@ -121,6 +229,8 @@ JuzSukuk operates a hybrid B2B infrastructure SaaS and transaction fee model:
 | **Net Contribution Margin (Year 1)** | **$239,850** | **84.1% Gross Profit Margin on Deal Inception.** |
 | **Lifetime Deal Value (5-Year Tenure)** | **$525,000 Gross** | $437,850 Net Contribution Margin across asset lifecycle. |
 
+<a id="s2-5-3" aria-hidden="true"></a>
+
 ### `2.5.3` Enterprise Scaling & Break-Even Projections
 
 ```mermaid
@@ -134,10 +244,14 @@ pie title 5-Year Revenue Composition ($50M Tranche)
 - **LTV / CAC Ratio:** **34.2x** — indicating exceptional capital efficiency once arranger integrations are established.
 - **Cash Flow Break-Even:** Achievable at **Month 14** with 2 active corporate arranger contracts and cumulative tokenized volume of $35M.
 
+<a id="s2-5-4" aria-hidden="true"></a>
+
 ### `2.5.4` Bottom-Up Market Sizing (TAM / SAM / SOM)
 * **Total Addressable Market (TAM):** **$1.37 Trillion** — Total cumulative volume of outstanding global sukuk instruments [2025](https://www.spglobal.com/ratings/en/regulatory/article/sukuk-market-strong-growth-to-continue-s101664864).
 * **Serviceable Addressable Market (SAM):** **$120 Billion** — The total annual issuance volume across core target jurisdictions (Saudi Arabia, UAE, Malaysia, Bahrain) addressable by digital-twin fractionalization and sovereign retail savings programs.
 * **Serviceable Obtainable Market (SOM - Year 3):** **$1.2 Billion** — Capturing 1.0% of the target SAM by powering fractional distribution across 15 corporate and sovereign-agency sukuk tranches averaging $80M each.
+
+<a id="s2-5-5" aria-hidden="true"></a>
 
 ### `2.5.5` Seed-to-Series A Financing Roadmap & Capital Allocation
 * **Pre-Seed / Angel Round (Month 0–3):** $600,000 raised on an uncapped SAFE note with a $5,000,000 valuation cap.
@@ -165,14 +279,20 @@ graph LR
     D --> E[Sustainable Multi-Year Moat]
 ```
 
+<a id="s2-6-1" aria-hidden="true"></a>
+
 ### `2.6.1` Defensible Moats
 1. **The Dual-Registry Regulatory Moat:** Conventional crypto tokenization protocols cannot operate in the GCC because local regulators mandate that the legal registrar of record reside within regulated jurisdictions and synchronize with statutory CSDs (Edaa in Saudi Arabia, Bursa Depository in Malaysia). JuzSukuk’s bi-directional synchronization bridge creates a permanent regulatory barrier to entry against offshore web3 competitors.
 2. **Pre-Cleared Shariah Board Consensus:** Shariah Supervisory Boards are notoriously risk-averse regarding distributed ledgers. JuzSukuk’s pre-cleared, codified smart-contract library—certified by top scholars from AAOIFI and national Shariah councils—saves prospective issuers 6 to 9 months of theological review, creating immense switching friction.
 3. **Institutional Repo Clearing Network Effects:** Once an issuing bank uses JuzSukuk to tokenize sukuk, institutional holders can use those same tokens for overnight Islamic repo liquidity via our smart-contract wa'ad module. This network utility cannot be matched by point-solution software tools.
 
+<a id="s2-6-2" aria-hidden="true"></a>
+
 ### `2.6.2` Counter-Strategies Against Incumbent Response
 - **If Tier-1 Banks (Al Rajhi, DIB, Maybank) Build In-House:** Mid-tier corporate arrangers and regional private banks cannot afford the $5M+ internal R&D and ongoing compliance costs of custom tokenization engines. JuzSukuk counter-positions as the neutral, multi-tenant utility for the remaining 85% of the market.
 - **If Web3 Tokenizers (Securitize, Polymath) Enter:** Conventional tokenization platforms do not support *Wakala*, *Mudaraba*, or *Ijara* contract logic, nor do they comply with AAOIFI Standard No. 17 or charity purification flows. Adapting their infrastructure requires fundamental redesigns they will not prioritize for emerging markets.
+
+<a id="s2-6-3" aria-hidden="true"></a>
 
 ### `2.6.3` Founding Team Archetype & Key Hires #1–5
 To successfully execute JuzSukuk, the founding syndicate must balance institutional capital market credibility with deep cryptographic engineering:
@@ -247,6 +367,8 @@ The entire MVP can be scaffolded and operated during regulatory sandbox testing 
 +-------------------------------------------------------------------------------+
 ```
 
+<a id="s2-9-1" aria-hidden="true"></a>
+
 ### `2.9.1` Complete Database Schema (Supabase / PostgreSQL)
 
 ```sql
@@ -302,6 +424,8 @@ CREATE TABLE profit_distributions (
     executed_at TIMESTAMPTZ DEFAULT NOW()
 );
 ```
+
+<a id="s2-9-2" aria-hidden="true"></a>
 
 ### `2.9.2` Core ERC-3643 Permission Verification Smart Contract (Solidity)
 
@@ -479,6 +603,8 @@ graph TD
 | **Technical Risk** | Smart contract vulnerability or private key compromise in multi-sig. | Low | Critical | Implement audited OpenZeppelin / ERC-3643 battle-tested contracts; enforce 3-of-5 multi-sig hardware key management. |
 | **Market Risk** | Lack of secondary market liquidity leads to retail investor dissatisfaction. | High | Moderate | Structure early tranches primarily as short-tenure (6–12 months) hold-to-maturity instruments offering high recurring yield. |
 | **Liquidity Risk** | Underlying corporate obligor defaults on lease rental payments. | Moderate | Critical | Enforce strict credit underwriting (minimum investment-grade or verified government contract receivables) and reserve sinking funds. |
+<a id="s2-16-1" aria-hidden="true"></a>
+
 ### `2.16.1` Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
 To ensure disciplined capital stewardship and avoid funding a "zombie" infrastructure platform, founders and VC investors must commit to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
 

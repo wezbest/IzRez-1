@@ -19,6 +19,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { addSectionMap } from './section-map.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(HERE, '..');
@@ -44,11 +45,15 @@ const snToCode = (text) =>
 
 function writeFile(absPath, contents) {
 	fs.mkdirSync(path.dirname(absPath), { recursive: true });
-	fs.writeFileSync(absPath, snToCode(contents));
+	const page = absPath.endsWith('.md') ? addSectionMap(contents) : contents;
+	fs.writeFileSync(absPath, snToCode(page));
 	console.log(`  + ${path.relative(SITE, absPath)}`);
 }
 
 const yaml = (v) => JSON.stringify(v);
+
+/* numAnchor / mapLabel / addSectionMap live in section-map.mjs because section
+   14 is written by build-report.mjs and needs the very same panel. */
 
 /** Collapse the same source cited twice (trailing slash, protocol, www, #). */
 function normUrl(raw) {
@@ -414,6 +419,13 @@ for (const section of SECTIONS) {
 	const doc = { ...section, words, citeCount };
 	manifest.push(doc);
 	collectCitations(fullBody, doc);
+}
+
+/* The reading guide is hand-authored — only its section map is generated, so the
+   map keeps working when someone edits the headings above it. */
+for (const file of ['reading-guide.md']) {
+	const abs = path.join(DOCS, file);
+	if (fs.existsSync(abs)) writeFile(abs, read(abs));
 }
 
 function clampText(text, max = 175) {

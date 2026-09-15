@@ -10,6 +10,27 @@ description: "Every source cited in this research, collected into one cross-link
 <span class="chip">1,764 registry entries</span>
 </div>
 
+<details class="ga-map" open>
+	<summary class="ga-map-summary">
+		<span class="ga-map-kicker">Section map</span>
+		<span class="ga-map-meta">2 sections · 2 parts</span>
+	</summary>
+	<ol class="ga-map-list">
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s13-1"><span class="ga-map-num">13.1</span><span class="ga-map-ttl">How this reference system works</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s13-1-1"><span class="ga-map-num">13.1.1</span><span class="ga-map-ttl">Citation vocabulary used across the site</span></a></li>
+				<li><a href="#s13-1-2"><span class="ga-map-num">13.1.2</span><span class="ga-map-ttl">Section coverage</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s13-2"><span class="ga-map-num">13.2</span><span class="ga-map-ttl">Reference collections</span></a>
+		</li>
+	</ol>
+</details>
+
+<a id="s13-1" aria-hidden="true"></a>
+
 ## `13.1` How this reference system works
 
 Every empirical claim in this doksite is traceable to a live-retrieved primary source. To keep that traceability usable rather than decorative, all citations were lifted out of the twelve research documents and re-assembled here as three linked layers:
@@ -28,6 +49,8 @@ graph LR
     C -->|external link| E["Primary source<br/>on the open web"]
 ```
 
+<a id="s13-1-1" aria-hidden="true"></a>
+
 ### `13.1.1` Citation vocabulary used across the site
 
 | Marker | Meaning |
@@ -36,6 +59,8 @@ graph LR
 | `index ↗` | Sits under every reference bullet and jumps to that source in §13.1 |
 | `cited in §1.16` | Sits on an index entry and jumps back to the citing section |
 | `registry ↗` | Shown when a cited URL also exists as an entry in §13.2 |
+
+<a id="s13-1-2" aria-hidden="true"></a>
 
 ### `13.1.2` Section coverage
 
@@ -53,6 +78,8 @@ graph LR
 | 10 | <a href="/10-gap-09-qisthalal/">Gap 09 — QistHalal</a> | 18 |
 | 11 | <a href="/11-gap-10-tayyibledger/">Gap 10 — TayyibLedger</a> | 19 |
 | 12 | <a href="/12-llm-usage-and-cost-analysis/">LLM Usage &amp; Cost Intelligence — Research Pipeline Telemetry, Rate Cards &amp; CFO Briefing</a> | 11 |
+
+<a id="s13-2" aria-hidden="true"></a>
 
 ## `13.2` Reference collections
 

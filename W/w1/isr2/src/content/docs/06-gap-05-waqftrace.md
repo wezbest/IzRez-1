@@ -10,6 +10,98 @@ description: "graph TD"
 <span class="chip">17 cited sources</span>
 </div>
 
+<details class="ga-map" open>
+	<summary class="ga-map-summary">
+		<span class="ga-map-kicker">Section map</span>
+		<span class="ga-map-meta">19 sections · 14 parts</span>
+	</summary>
+	<ol class="ga-map-list">
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-1"><span class="ga-map-num">6.1</span><span class="ga-map-ttl">Gap Definition &amp; Executive Thesis</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s6-1-1"><span class="ga-map-num">6.1.1</span><span class="ga-map-ttl">Systems Thinking: First-, Second-, and Third-Order Implications</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-2"><span class="ga-map-num">6.2</span><span class="ga-map-ttl">Root Causes &amp; Structural Bottlenecks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-3"><span class="ga-map-num">6.3</span><span class="ga-map-ttl">Why Incumbents Have Not Filled the Gap</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-4"><span class="ga-map-num">6.4</span><span class="ga-map-ttl">Feasibility Analysis: Technical, Shariah, Regulatory, Market</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s6-4-1"><span class="ga-map-num">6.4.1</span><span class="ga-map-ttl">Technical Feasibility</span></a></li>
+				<li><a href="#s6-4-2"><span class="ga-map-num">6.4.2</span><span class="ga-map-ttl">Shariah Feasibility</span></a></li>
+				<li><a href="#s6-4-3"><span class="ga-map-num">6.4.3</span><span class="ga-map-ttl">Regulatory Feasibility</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-5"><span class="ga-map-num">6.5</span><span class="ga-map-ttl">Viability Analysis &amp; Exhaustive Unit Economics</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s6-5-1"><span class="ga-map-num">6.5.1</span><span class="ga-map-ttl">Enterprise Revenue Model</span></a></li>
+				<li><a href="#s6-5-2"><span class="ga-map-num">6.5.2</span><span class="ga-map-ttl">Unit Economics Per Regional Operating Hub (50 Enrolled Institutions)</span></a></li>
+				<li><a href="#s6-5-3"><span class="ga-map-num">6.5.3</span><span class="ga-map-ttl">Capital Efficiency &amp; Break-Even Math</span></a></li>
+				<li><a href="#s6-5-4"><span class="ga-map-num">6.5.4</span><span class="ga-map-ttl">Bottom-Up Market Sizing (TAM / SAM / SOM)</span></a></li>
+				<li><a href="#s6-5-5"><span class="ga-map-num">6.5.5</span><span class="ga-map-ttl">Seed-to-Series A Financing Roadmap &amp; Capital Allocation</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-6"><span class="ga-map-num">6.6</span><span class="ga-map-ttl">Survivability Analysis, Moats &amp; Defensibility</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s6-6-1"><span class="ga-map-num">6.6.1</span><span class="ga-map-ttl">Defensible Moats</span></a></li>
+				<li><a href="#s6-6-2"><span class="ga-map-num">6.6.2</span><span class="ga-map-ttl">Founding Team Archetype &amp; Key Hires #1–5</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-7"><span class="ga-map-num">6.7</span><span class="ga-map-ttl">Comprehensive Competitor Mapping</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-8"><span class="ga-map-num">6.8</span><span class="ga-map-ttl">Critical Caveats, Legal Landmines &amp; Operational Traps</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-9"><span class="ga-map-num">6.9</span><span class="ga-map-ttl">Zero/Near-Zero Cost MVP Architecture</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s6-9-1"><span class="ga-map-num">6.9.1</span><span class="ga-map-ttl">Complete Database Schema (Supabase / PostgreSQL)</span></a></li>
+				<li><a href="#s6-9-2"><span class="ga-map-num">6.9.2</span><span class="ga-map-ttl">Complete Merkle Tree Batch Generation Script (Node.js)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-10"><span class="ga-map-num">6.10</span><span class="ga-map-ttl">MVP Presentation &amp; Demonstration Strategy</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-11"><span class="ga-map-num">6.11</span><span class="ga-map-ttl">90-Day Tactical Go-To-Market (GTM) Plan</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-12"><span class="ga-map-num">6.12</span><span class="ga-map-ttl">Verified Contact Targets &amp; Pipeline</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-13"><span class="ga-map-num">6.13</span><span class="ga-map-ttl">Monetization Methods &amp; Revenue Stacks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-14"><span class="ga-map-num">6.14</span><span class="ga-map-ttl">Pivot Playbooks &amp; Strategic Expansion</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-15"><span class="ga-map-num">6.15</span><span class="ga-map-ttl">Acquisition Positioning &amp; M&amp;A Logic</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-16"><span class="ga-map-num">6.16</span><span class="ga-map-ttl">Categorized Risk Register</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s6-16-1"><span class="ga-map-num">6.16.1</span><span class="ga-map-ttl">Founder &amp; VC &quot;Kill Criteria&quot; (Fail-Fast Metric Triggers)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-17"><span class="ga-map-num">6.17</span><span class="ga-map-ttl">Startup Name Rationale &amp; Brand Architecture</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-18"><span class="ga-map-num">6.18</span><span class="ga-map-ttl">Quantitative Gating Scores</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s6-19"><span class="ga-map-num">6.19</span><span class="ga-map-ttl">Master References</span></a>
+		</li>
+	</ol>
+</details>
+
 
 <a id="s6-1" aria-hidden="true"></a>
 
@@ -20,6 +112,8 @@ description: "graph TD"
 **The Solution — WaqfTrace:** A non-custodial, cryptographic **Social Finance Transparency Ledger & Fractional Cash-Waqf Platform**. WaqfTrace provides two interlinked capabilities:
 1. **Verifiable Traceability-as-a-Service:** Enables zakat and waqf institutions (Amils and Nazhirs) to issue cryptographic, machine-readable digital receipts that allow donors to track their specific donation batch directly from payment to verified field distribution without violating beneficiary privacy.
 2. **Fractional Waqf Yield Access:** Integrates with sovereign **Cash Waqf Linked Sukuk (CWLS / SWR series)** and productive endowment real estate, enabling retail donors to contribute small tickets (**IDR 1,000,000 / RM 10 / SAR 50**) into high-yield social infrastructure (eye hospitals, rural schools, solar micro-grids). The principal is preserved in perpetuity (*Ta'bid*), while the tokenized quarterly income stream is programmatically disbursed to verified beneficiaries, complete with an on-chain audit trail.
+
+<a id="s6-1-1" aria-hidden="true"></a>
 
 ### `6.1.1` Systems Thinking: First-, Second-, and Third-Order Implications
 
@@ -75,14 +169,20 @@ graph TD
 
 ## `6.4` Feasibility Analysis: Technical, Shariah, Regulatory, Market
 
+<a id="s6-4-1" aria-hidden="true"></a>
+
 ### `6.4.1` Technical Feasibility
 - **Zero-Knowledge / Merkle Tree Audit Anchoring:** To comply with national data privacy laws (PDPA in Malaysia and Indonesia), individual donor names and vulnerable beneficiary (*Mustahiq*) identities are never published on a public blockchain. Instead, daily batch receipts and disbursement records are hashed into a cryptographic Merkle tree. Only the daily root hash is anchored to the Polygon Amoy public testnet, providing mathematically tamper-proof verification at zero gas expense.
 - **Non-Custodial Architecture:** WaqfTrace never takes custody of charitable funds. Payments flow directly from the donor’s e-wallet (GoPay, Touch 'n Go) to the authorized bank account of the licensed Zakat/Waqf institution via standard open-banking APIs. WaqfTrace ingests the transaction metadata via webhooks to update the transparency ledger.
+
+<a id="s6-4-2" aria-hidden="true"></a>
 
 ### `6.4.2` Shariah Feasibility
 - **Preservation of Waqf Perpetuity:** In compliance with AAOIFI Governance Standards and classical jurisprudence, WaqfTrace structures fractional endowments exclusively on a **Temporary Cash Waqf (*Waqf al-Nuqud al-Muwakkat*)** or **Perpetual Yield-Right** model, as validated by the pioneering precedent of Awqaf New Zealand (ISRA-reviewed and AAOIFI-aligned) [2025](https://www.awqafnz.org/en/about.html) [2025](https://inceif.edu.my/shariah-research-and-industry-workshop-on-the-cash-waqf-sukuk-structure-for-awqaf-new-zealand/).
 - **The principal remains 100% intact and invested in sovereign-backed instruments** (such as CWLS Sukuk), while only the generated social yield is disbursed to designated charitable targets (*Mawquf 'Alaih*).
 - **Asnaf-Specific Allocation:** The smart-contract allocation logic enforces strict separation between Zakat funds (which can only be disbursed across the 8 specific Quranic categories of *Asnaf*) and Waqf/Sadaqah funds (which can be deployed for broader public infrastructure and economic empowerment).
+
+<a id="s6-4-3" aria-hidden="true"></a>
 
 ### `6.4.3` Regulatory Feasibility
 - **Indonesia (BWI & OJK):** Governed under Law No. 41/2004 on Waqf and OJK Regulation on Sharia Financial Innovation (ITSK). Startups can operate as an authorized technical partner (*Mitra Penyalur*) to licensed Nazhirs without requiring a de-novo trust banking license.
@@ -95,12 +195,16 @@ graph TD
 
 ## `6.5` Viability Analysis & Exhaustive Unit Economics
 
+<a id="s6-5-1" aria-hidden="true"></a>
+
 ### `6.5.1` Enterprise Revenue Model
 WaqfTrace operates on an institutional B2B SaaS and capital distribution model:
 1. **Nazhir & Charity Transparency SaaS:** Tiered monthly subscription ($45 to $150/month in Indonesia; RM 200 to RM 600/month in Malaysia) charged to certified charities and endowment managers for the donor-facing transparency dashboard, automated PDF impact reporting, and Merkle audit exports.
 2. **CWLS Retail Distribution Commission:** 0.50% to 1.25% placement fee paid by partner Islamic banks (BSI, Bank Muamalat) on retail cash waqf subscriptions originated through the WaqfTrace mobile interface.
 3. **Corporate Zakat & ESG Purification Module:** $1,500 to $4,500/year charged to corporate enterprises to automate their annual corporate Zakat calculation, employee payroll deduction, and verified distribution reporting.
 4. **Waqfa-Compatible Audit Readiness Packs:** $500 one-off fee for packaging a charity’s annual financial records into an institutional compliance report ready for Gold/Platinum transparency seal verification.
+
+<a id="s6-5-2" aria-hidden="true"></a>
 
 ### `6.5.2` Unit Economics Per Regional Operating Hub (50 Enrolled Institutions)
 
@@ -125,15 +229,21 @@ pie title Annual Revenue Breakdown (50 Institutions - $123.5k)
     "Corporate Zakat Enterprise Modules" : 30000
 ```
 
+<a id="s6-5-3" aria-hidden="true"></a>
+
 ### `6.5.3` Capital Efficiency & Break-Even Math
 - **Customer Acquisition Cost (CAC) per Institution:** **$650** (driven by attending national waqf forums, BWI workshops, and religious council conferences).
 - **Institution Lifetime Value (LTV):** **$3,850** (assuming a conservative 4-year retention period and $962 net annual margin).
 - **LTV / CAC Ratio:** **5.92x** — demonstrating sustainable B2B software metrics.
 - **Cash Flow Break-Even:** Achieved at **Month 10** upon enrolling **35 institutional charities** and facilitating $2.5M in annual social finance flows.
+<a id="s6-5-4" aria-hidden="true"></a>
+
 ### `6.5.4` Bottom-Up Market Sizing (TAM / SAM / SOM)
 * **Total Addressable Market (TAM):** **$500 Billion** — Total global annual flows across Zakat, voluntary Sadaqah, and perpetual Waqf endowments.
 * **Serviceable Addressable Market (SAM):** **$18 Billion** — Total annual cash waqf potential and formal institutional Zakat collections across primary target markets (Indonesia and Malaysia).
 * **Serviceable Obtainable Market (SOM - Year 3):** **$250 Million** — Cumulative verified social finance flows and Cash Waqf Linked Sukuk (CWLS) retail placements tracked across 150 enrolled institutions.
+
+<a id="s6-5-5" aria-hidden="true"></a>
 
 ### `6.5.5` Seed-to-Series A Financing Roadmap & Capital Allocation
 * **Pre-Seed / Angel Round (Month 0–3):** $350,000 raised on an uncapped SAFE note with a $3,500,000 valuation cap to develop the Merkle batching engine, IPFS metadata pipeline, and pilot with Indonesian university endowments.
@@ -161,10 +271,14 @@ graph LR
     D --> E[Defensible Social Infrastructure Moat]
 ```
 
+<a id="s6-6-1" aria-hidden="true"></a>
+
 ### `6.6.1` Defensible Moats
 1. **The Multi-Institution Neutrality Moat:** Government collection agencies (such as BAZNAS or PPZ) are politically constrained from aggregating data from independent private foundations (LAZNAS) or foreign endowments. WaqfTrace operates as an independent, neutral third-party verification utility, creating an open ecosystem that no single state council can duplicate.
 2. **The Cryptographic Proof of Impact:** Once a charity establishes a 2-year verified history of Merkle-anchored impact proofs on WaqfTrace, its donor conversion rate increases by 25% to 40%. Leaving the platform means abandoning their public trust verification record, creating massive switching costs.
 3. **CWLS Retail Integration:** Partnering with commercial banks to streamline retail access to sovereign Cash Waqf Linked Sukuk creates an asset-backed financial anchor that purely promotional charity portals cannot replicate.
+<a id="s6-6-2" aria-hidden="true"></a>
+
 ### `6.6.2` Founding Team Archetype & Key Hires #1–5
 * **Co-Founder & CEO (Islamic Social Finance Executive):** Former Executive Director or Head of Digital Transformation at a prominent regional Islamic charity or foundation (Dompet Dhuafa, BAZNAS, Islamic Relief, or Yayasan Hasanah). 10+ years managing large-scale humanitarian programs with established personal trust across national religious councils (MUI, JAKIM) and university endowments.
 * **Co-Founder & CTO (Cryptographic Systems & Data Security Architect):** Senior systems engineer with 7+ years experience in Merkle trees, zero-knowledge proofs (ZK-SNARKs), and public distributed ledger anchoring. Expert in PostgreSQL row-level security, IPFS decentralized storage, and tamper-evident audit architectures.
@@ -233,6 +347,8 @@ The entire MVP can be built, deployed, and operated without server infrastructur
 +-------------------------------------------------------------------------------+
 ```
 
+<a id="s6-9-1" aria-hidden="true"></a>
+
 ### `6.9.1` Complete Database Schema (Supabase / PostgreSQL)
 
 ```sql
@@ -296,6 +412,8 @@ CREATE TABLE daily_merkle_roots (
     anchored_at TIMESTAMPTZ DEFAULT NOW()
 );
 ```
+
+<a id="s6-9-2" aria-hidden="true"></a>
 
 ### `6.9.2` Complete Merkle Tree Batch Generation Script (Node.js)
 
@@ -426,6 +544,8 @@ gantt
 | **Regulatory Risk** | State religious council accuses platform of unauthorized zakat collection. | Moderate | High | Maintain non-custodial software status; all donations flow directly into licensed religious council bank accounts. |
 | **Shariah Risk** | Scholar dispute regarding the perpetuity (*Ta'bid*) of tokenized cash waqf. | Moderate | High | Adopt classical temporary cash-waqf models validated by Awqaf New Zealand and certified by prominent AAOIFI scholars. |
 | **Operational Risk** | Charity falsifies delivery documentation to generate fraudulent Merkle proofs. | Moderate | Moderate | Enforce randomized spot-audits, require dual-signoff from local community elders, and restrict Gold tiers to audited institutions. |
+<a id="s6-16-1" aria-hidden="true"></a>
+
 ### `6.16.1` Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
 To ensure disciplined capital stewardship and avoid sustaining an unadoptable non-profit tool, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
 

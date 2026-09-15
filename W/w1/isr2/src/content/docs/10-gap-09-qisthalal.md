@@ -10,6 +10,101 @@ description: "graph TD"
 <span class="chip">18 cited sources</span>
 </div>
 
+<details class="ga-map" open>
+	<summary class="ga-map-summary">
+		<span class="ga-map-kicker">Section map</span>
+		<span class="ga-map-meta">19 sections · 15 parts</span>
+	</summary>
+	<ol class="ga-map-list">
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-1"><span class="ga-map-num">10.1</span><span class="ga-map-ttl">Gap Definition &amp; Executive Thesis</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s10-1-1"><span class="ga-map-num">10.1.1</span><span class="ga-map-ttl">Systems Thinking: First-, Second-, and Third-Order Implications</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-2"><span class="ga-map-num">10.2</span><span class="ga-map-ttl">Root Causes &amp; Structural Bottlenecks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-3"><span class="ga-map-num">10.3</span><span class="ga-map-ttl">Why Incumbents Have Not Filled the Gap</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-4"><span class="ga-map-num">10.4</span><span class="ga-map-ttl">Feasibility Analysis: Technical, Shariah, Regulatory, Market</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s10-4-1"><span class="ga-map-num">10.4.1</span><span class="ga-map-ttl">Technical Feasibility</span></a></li>
+				<li><a href="#s10-4-2"><span class="ga-map-num">10.4.2</span><span class="ga-map-ttl">Shariah Feasibility</span></a></li>
+				<li><a href="#s10-4-3"><span class="ga-map-num">10.4.3</span><span class="ga-map-ttl">Regulatory Feasibility</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-5"><span class="ga-map-num">10.5</span><span class="ga-map-ttl">Viability Analysis &amp; Exhaustive Unit Economics</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s10-5-1"><span class="ga-map-num">10.5.1</span><span class="ga-map-ttl">Enterprise Revenue Architecture</span></a></li>
+				<li><a href="#s10-5-2"><span class="ga-map-num">10.5.2</span><span class="ga-map-ttl">Granular Financial Model (Per Combined Cohort: 10,000 BNPL Orders + 100 Auto Leases)</span></a></li>
+				<li><a href="#s10-5-3"><span class="ga-map-num">10.5.3</span><span class="ga-map-ttl">Capital Efficiency &amp; Break-Even Math</span></a></li>
+				<li><a href="#s10-5-4"><span class="ga-map-num">10.5.4</span><span class="ga-map-ttl">Bottom-Up Market Sizing (TAM / SAM / SOM)</span></a></li>
+				<li><a href="#s10-5-5"><span class="ga-map-num">10.5.5</span><span class="ga-map-ttl">Seed-to-Series A Financing Roadmap &amp; Capital Allocation</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-6"><span class="ga-map-num">10.6</span><span class="ga-map-ttl">Survivability Analysis, Moats &amp; Defensibility</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s10-6-1"><span class="ga-map-num">10.6.1</span><span class="ga-map-ttl">Defensible Moats</span></a></li>
+				<li><a href="#s10-6-2"><span class="ga-map-num">10.6.2</span><span class="ga-map-ttl">Founding Team Archetype &amp; Key Hires #1–5</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-7"><span class="ga-map-num">10.7</span><span class="ga-map-ttl">Comprehensive Competitor Mapping</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-8"><span class="ga-map-num">10.8</span><span class="ga-map-ttl">Critical Caveats, Legal Landmines &amp; Operational Traps</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-9"><span class="ga-map-num">10.9</span><span class="ga-map-ttl">Zero/Near-Zero Cost MVP Architecture</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s10-9-1"><span class="ga-map-num">10.9.1</span><span class="ga-map-ttl">Complete Database Schema (Supabase / PostgreSQL)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-10"><span class="ga-map-num">10.10</span><span class="ga-map-ttl">MVP Presentation &amp; Demonstration Strategy</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-11"><span class="ga-map-num">10.11</span><span class="ga-map-ttl">90-Day Tactical Go-To-Market (GTM) Plan</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-12"><span class="ga-map-num">10.12</span><span class="ga-map-ttl">Verified Contact Targets &amp; Pipeline</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-13"><span class="ga-map-num">10.13</span><span class="ga-map-ttl">Monetization Methods &amp; Revenue Stacks</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-14"><span class="ga-map-num">10.14</span><span class="ga-map-ttl">Pivot Playbooks &amp; Failure Fallback Options</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-15"><span class="ga-map-num">10.15</span><span class="ga-map-ttl">Acquisition Positioning &amp; Salvage M&amp;A Logic</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s10-15-1"><span class="ga-map-num">10.15.1</span><span class="ga-map-ttl">Strategic Acquirers</span></a></li>
+				<li><a href="#s10-15-2"><span class="ga-map-num">10.15.2</span><span class="ga-map-ttl">Salvage M&amp;A &amp; Distressed Asset Recovery Logic</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-16"><span class="ga-map-num">10.16</span><span class="ga-map-ttl">Categorized Risk Register</span></a>
+			<ul class="ga-map-sub">
+				<li><a href="#s10-16-1"><span class="ga-map-num">10.16.1</span><span class="ga-map-ttl">Founder &amp; VC &quot;Kill Criteria&quot; (Fail-Fast Metric Triggers)</span></a></li>
+			</ul>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-17"><span class="ga-map-num">10.17</span><span class="ga-map-ttl">Startup Name Rationale &amp; Brand Architecture</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-18"><span class="ga-map-num">10.18</span><span class="ga-map-ttl">Quantitative Gating Scores</span></a>
+		</li>
+		<li class="ga-map-item">
+			<a class="ga-map-link" href="#s10-19"><span class="ga-map-num">10.19</span><span class="ga-map-ttl">Master References</span></a>
+		</li>
+	</ol>
+</details>
+
 
 <a id="s10-1" aria-hidden="true"></a>
 
@@ -21,6 +116,8 @@ description: "graph TD"
 1. **Low-Ticket Halal BNPL:** 3-to-4 interest-free installment plans at online checkout, structured under certified commodity **Murabaha** (cost-plus sale with zero compounding interest and zero profit from late fees), certified by the Shariyah Review Bureau (SRB).
 2. **High-Ticket Auto & Asset Ijara Leasing:** A digital vehicle financing marketplace structured on **Ijara wa Iqtina** (lease-to-own). QistHalal partners with institutional warehouse liquidity providers (such as Triple Point) and certified automotive dealers: the funder buys the car, takes legal ownership risk, leases it to the consumer for a fixed monthly rental, and transfers title via a separate gift or nominal sale (*Hibah*) at the end of the term.
 3. **The Scholar Transparency Ledger:** A mobile interface that displays the complete Shariah paper trail for every transaction—including the commodity purchase confirmation and a real-time charity purification log—restoring public faith in modern Islamic consumer finance.
+<a id="s10-1-1" aria-hidden="true"></a>
+
 ### `10.1.1` Systems Thinking: First-, Second-, and Third-Order Implications
 
 * **First-Order Implications (Direct & Immediate Impact):**
@@ -78,6 +175,8 @@ graph TD
 
 ## `10.4` Feasibility Analysis: Technical, Shariah, Regulatory, Market
 
+<a id="s10-4-1" aria-hidden="true"></a>
+
 ### `10.4.1` Technical Feasibility
 - **Unified Credit Engine:** Ingests applicant data via open banking APIs (TrueLayer in the UK, BenefitPay in Bahrain, Lean Technologies in Saudi Arabia), automatically analyzing 90-day bank transaction feeds to compute disposable income, recurring expenditure, and creditworthiness.
 - **Automated Murabaha & Ijara Document Generator:** Generates legally binding, AAOIFI-compliant contract documents within 10 seconds:
@@ -85,10 +184,14 @@ graph TD
   - For Vehicle Finance: Master lease agreement (*Ijara*) + independent unilateral undertaking (*Wa'ad*) guaranteeing title transfer upon completion of all rental payments.
 - **Charity Purification Automation:** System calculates late-payment collection fees and programmatically routes all penalty funds above direct collection costs into an audited charitable foundation pool.
 
+<a id="s10-4-2" aria-hidden="true"></a>
+
 ### `10.4.2` Shariah Feasibility
 - **True Ownership Risk in Ijara:** In strict compliance with AAOIFI Standard No. 9 (*Ijara and Ijara Muntahia Bittamleek*), the funder retains ownership of the vehicle and is responsible for major structural maintenance and total-loss insurance (Takaful). If the vehicle is completely destroyed in an accident without customer negligence, lease rentals immediately cease, eliminating the unjust risk-shifting characteristic of conventional finance.
 - **Prohibition of Compounding Interest:** If a customer defaults on an installment, no compounding interest is ever added. Late fees are strictly capped at actual administrative recovery expenses, with any punitive excess routed to charity.
 - **Certified Governance:** Backed by independent Shariah supervisory boards certified by the Shariyah Review Bureau (SRB) or Dar Al Marajaa.
+
+<a id="s10-4-3" aria-hidden="true"></a>
 
 ### `10.4.3` Regulatory Feasibility
 - **The "Broker-First" Regulatory Architecture:** To launch immediately without waiting 18 months for de-novo credit licenses, QistHalal launches as an **Authorized Credit Broker / Appointed Representative (AR)** in the UK, and as an authorized fintech intermediary partnering with SAMA/CBUAE-licensed finance companies in the GCC. The carrying partner holds the balance-sheet receivables; QistHalal captures software SaaS and origination brokerage commissions.
@@ -100,11 +203,15 @@ graph TD
 
 ## `10.5` Viability Analysis & Exhaustive Unit Economics
 
+<a id="s10-5-1" aria-hidden="true"></a>
+
 ### `10.5.1` Enterprise Revenue Architecture
 1. **Merchant Discount Rate (BNPL Checkout):** 3.0% to 5.0% charged to e-commerce merchants upon checkout transaction settlement.
 2. **Auto Lease Origination Commission:** 1.5% to 2.5% one-off brokerage fee paid by the institutional liquidity provider upon vehicle delivery (averaging $450 to $750 on a $30,000 vehicle).
 3. **Ancillary Takaful & Warranty Attach (AyanCare Model):** $250 to $600 margin on bundled Islamic vehicle gap-takaful, breakdown assistance, and extended mechanical warranties.
 4. **Merchant Integration SaaS:** $49 to $149/month charged to e-commerce merchants for the branded Halal Checkout plugin and automated Shariah audit logging.
+
+<a id="s10-5-2" aria-hidden="true"></a>
 
 ### `10.5.2` Granular Financial Model (Per Combined Cohort: 10,000 BNPL Orders + 100 Auto Leases)
 
@@ -129,16 +236,22 @@ pie title Revenue Composition ($275.3k Cohort Revenue)
     "Ancillary Takaful Attach Margins" : 22750
 ```
 
+<a id="s10-5-3" aria-hidden="true"></a>
+
 ### `10.5.3` Capital Efficiency & Break-Even Math
 - **Blended CAC per BNPL User:** **$8.50** (driven by merchant checkout conversion).
 - **Blended CAC per Auto Lease Customer:** **$220.00** (acquired via participating halal used-car dealerships and mosque taxi associations).
 - **Auto Lease Customer Lifetime Value (LTV):** **$1,025.00** ($600 origination + $350 warranty + $75 repeat servicing).
 - **LTV / CAC Ratio (Auto Leasing):** **4.65x**.
 - **Cash Flow Break-Even:** Achieved at **Month 12** upon sustaining **80 funded vehicle leases and 2,500 monthly BNPL checkouts**.
+<a id="s10-5-4" aria-hidden="true"></a>
+
 ### `10.5.4` Bottom-Up Market Sizing (TAM / SAM / SOM)
 * **Total Addressable Market (TAM):** **$40.5 Billion** — Consolidated $20.5 Billion GCC Buy-Now-Pay-Later market [2025](https://synapse-analytics.io/blog/bnpl-in-mena-gcc-growth-drivers-market-dynamics-and-the-road-ahead) plus the £20 Billion (~$25 Billion) UK used-car motor finance market.
 * **Serviceable Addressable Market (SAM):** **$8.5 Billion** — UK Muslim diaspora automotive financing demand (£3.5B) combined with Saudi Arabia and UAE faith-conscious retail installment checkout ($5.0B).
 * **Serviceable Obtainable Market (SOM - Year 3):** **$220 Million** — Financed auto leasing volume and retail BNPL gross merchandise value captured across 15,000 active consumer accounts.
+
+<a id="s10-5-5" aria-hidden="true"></a>
 
 ### `10.5.5` Seed-to-Series A Financing Roadmap & Capital Allocation
 * **Pre-Seed / Angel Round (Month 0–3):** $500,000 raised on an uncapped SAFE note with a $4,500,000 valuation cap to develop the dealer point-of-sale PWA, open-banking affordability engine, and secure FCA Appointed Representative status.
@@ -166,10 +279,14 @@ graph LR
     D --> E[Sustainable Multi-Year Moat]
 ```
 
+<a id="s10-6-1" aria-hidden="true"></a>
+
 ### `10.6.1` Defensible Moats
 1. **The Broker-First Insolvency Shield:** Lending startups that hold assets on their own balance sheet face existential risk when interest rates spike or credit losses rise. QistHalal operates as an asset-light technology broker; institutional credit funds (Triple Point, Shorooq) absorb the balance-sheet capital risk, insulating QistHalal’s software business.
 2. **The Halal Dealer Exclusivity Network:** Halal used-car dealers in the UK (Birmingham, East London, Bradford) and private-hire taxi cooperatives have established deep trust with local Muslim communities. Contracting these dealerships as exclusive QistHalal integration partners locks up retail acquisition channels that conventional lenders (Klarna, MotoNovo) cannot penetrate.
 3. **The Published Commodity Paper Trail:** Conventional BNPL providers cannot provide verified certificates proving that underlying trades are asset-backed and free of *Riba*. QistHalal’s automated publication of commodity tickets and charity purification logs provides immutable theological defensibility.
+<a id="s10-6-2" aria-hidden="true"></a>
+
 ### `10.6.2` Founding Team Archetype & Key Hires #1–5
 * **Co-Founder & CEO (Motor Finance & Credit Distribution Executive):** Former Commercial Director or Head of Motor Finance at a prominent UK or GCC consumer lender (MotoNovo, Black Horse, Tabby, or Tamara). 12+ years in automotive credit distribution with deep, established personal relationships with regional dealership networks and broker channels.
 * **Co-Founder & CTO (Consumer Fintech & Point-of-Sale Systems Architect):** Senior software engineer with 8+ years experience building point-of-sale checkout widgets, mobile onboarding funnels, and open-banking affordability engines (TrueLayer, BenefitPay). Expert in React Native, Node.js, and banking API integrations.
@@ -237,6 +354,8 @@ The entire MVP can be launched and tested across initial dealer cohorts using fr
 |  - WhatsApp Cloud API (Free Tier - 1,000 conversations/mo): Repayment nudges  |
 +-------------------------------------------------------------------------------+
 ```
+
+<a id="s10-9-1" aria-hidden="true"></a>
 
 ### `10.9.1` Complete Database Schema (Supabase / PostgreSQL)
 
@@ -402,10 +521,14 @@ graph TD
 
 ## `10.15` Acquisition Positioning & Salvage M&A Logic
 
+<a id="s10-15-1" aria-hidden="true"></a>
+
 ### `10.15.1` Strategic Acquirers
 - **GCC Consumer Credit Giants (Tabby, Tamara):** Seeking to expand beyond retail e-commerce into high-ticket automotive financing and establish an immediate regulatory and dealer footprint in the UK and European diaspora.
 - **Specialized UK Islamic Lenders (Ayan Capital, Al Rayan Bank, Gatehouse Bank):** Looking to acquire an agile mobile origination engine and retail checkout customer acquisition funnel.
 - **Automotive Marketplace Platforms (Auto Trader UK, Syarah in Saudi Arabia):** Seeking to embed a proprietary, certified faith-based financing module to capture the high-margin Muslim car-buying demographic.
+
+<a id="s10-15-2" aria-hidden="true"></a>
 
 ### `10.15.2` Salvage M&A & Distressed Asset Recovery Logic
 - **If Warehouse Capital or Credit Operations Stall:** In the event that credit market liquidity freezes, the startup’s core intellectual property—specifically the **proprietary dealer point-of-sale software, the pre-cleared AAOIFI-compliant Ijara contract templates, the open-banking affordability algorithms, and the active registry of 15,000+ verified Muslim borrowers**—retains significant commercial value.
@@ -423,6 +546,8 @@ graph TD
 | **Credit Risk** | Macroeconomic inflation leads to consumer auto lease defaults. | Moderate | Critical | Enforce strict open-banking debt-burden caps (<40%); maintain remote vehicle immobilizer technology for repossession. |
 | **Shariah Risk** | Scholar disputes the independence of the terminal gift (*Hibah*) undertaking. | Low | High | Utilize standardized AAOIFI Standard No. 9 legal contracts verified by the Shariyah Review Bureau. |
 | **Merchant Risk** | E-commerce merchants abandon platform due to checkout friction. | Moderate | Moderate | Optimize checkout conversion with 1-click mobile verification, keeping checkout completion under 20 seconds. |
+<a id="s10-16-1" aria-hidden="true"></a>
+
 ### `10.16.1` Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
 To ensure disciplined capital stewardship and avoid sustaining an unviable credit portfolio, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
 
