@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="robots" content="noindex" />
+		<title>Offline · GapAtlas 2026</title>
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+		<style>
+			:root {
+				color-scheme: dark;
+				--bg: #04121a;
+				--bg-soft: #062029;
+				--ink: #d8fff7;
+				--dim: #8fd6c8;
+				--cyan: #22d3ee;
+				--teal: #2dd4bf;
+			}
+			* { box-sizing: border-box; }
+			body {
+				margin: 0;
+				min-height: 100vh;
+				display: grid;
+				place-items: center;
+				padding: 2rem;
+				font-family: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+				color: var(--ink);
+				background:
+					radial-gradient(1200px 600px at 15% -10%, rgba(34, 211, 238, 0.16), transparent 60%),
+					radial-gradient(900px 500px at 95% 110%, rgba(45, 212, 191, 0.14), transparent 60%),
+					var(--bg);
+			}
+			main {
+				width: min(46rem, 100%);
+				padding: 2.25rem;
+				border: 1px solid rgba(45, 212, 191, 0.28);
+				border-radius: 1rem;
+				background: linear-gradient(180deg, rgba(6, 32, 41, 0.94), rgba(4, 18, 26, 0.94));
+				box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.08), 0 24px 60px rgba(0, 0, 0, 0.45);
+			}
+			.eyebrow {
+				margin: 0 0 0.75rem;
+				font-family: 'JetBrains Mono', ui-monospace, monospace;
+				font-size: 0.75rem;
+				letter-spacing: 0.22em;
+				text-transform: uppercase;
+				color: var(--teal);
+			}
+			h1 {
+				margin: 0 0 0.75rem;
+				font-size: clamp(1.75rem, 4vw, 2.5rem);
+				letter-spacing: 0.01em;
+				text-shadow: 0 0 18px rgba(34, 211, 238, 0.45);
+			}
+			p { line-height: 1.7; color: var(--dim); }
+			ul { line-height: 1.9; color: var(--dim); padding-left: 1.15rem; }
+			strong { color: var(--ink); }
+			.actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.5rem 0 0; }
+			a.btn, button.btn {
+				display: inline-block;
+				padding: 0.6rem 1.1rem;
+				border-radius: 0.6rem;
+				border: 1px solid var(--cyan);
+				background: rgba(34, 211, 238, 0.12);
+				color: var(--ink);
+				font: inherit;
+				font-weight: 600;
+				cursor: pointer;
+				text-decoration: none;
+			}
+			a.btn.ghost {
+				background: transparent;
+				border-color: rgba(45, 212, 191, 0.45);
+				color: var(--teal);
+			}
+			a.btn:hover, button.btn:hover { background: rgba(34, 211, 238, 0.22); }
+		</style>
+	</head>
+	<body>
+		<main>
+			<p class="eyebrow">GapAtlas 2026 · offline mode</p>
+			<h1>You are offline</h1>
+			<p>
+				The page you asked for is not in the local cache yet. Every page you have
+				already opened — and, once the site is installed, every page precached at
+				install time — stays available with no network.
+			</p>
+			<ul>
+				<li>Reconnect and reload to pull the page from the network.</li>
+				<li>Use the <strong>burger menu</strong> on mobile or the left pane on desktop to open a cached section.</li>
+				<li>Search keeps working against the locally cached index.</li>
+			</ul>
+			<p class="actions">
+				<button type="button" class="btn" onclick="location.reload()">Retry</button>
+				<a class="btn ghost" href="/">Go to the home page</a>
+			</p>
+		</main>
+	</body>
+</html>

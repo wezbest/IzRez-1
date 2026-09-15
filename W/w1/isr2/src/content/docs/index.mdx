@@ -1,40 +1,123 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: Islamic Fintech Gap Intelligence 2026
+description: Ten monetizable Islamic fintech gaps derived from 1,764 authoritative sources, ten institutional-grade startup blueprints, and the full build and cost telemetry behind this doksite.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  title: 'GapAtlas <span class="glow-word">2026</span>'
+  tagline: 'Ten monetizable gaps in Islamic fintech, derived from 1,764 authoritative sources and turned into ten institutional-grade startup blueprints — plus the complete reference system and build telemetry behind this doksite.'
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/hero.svg
+    alt: A radar sweep over a fragmented ten-node atlas grid, mapping the gaps between nodes
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Start with the Master Report
+      link: /01-master-report/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+      variant: primary
+    - text: Browse the 10 gap blueprints
+      link: /02-gap-01-juzsukuk/
+      icon: open-book
+      variant: secondary
+    - text: Site build & cost report
+      link: /14-site-build-report/
+      icon: setting
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import sections from '../data/sections.json';
+import stats from '../data/site-stats.json';
 
-## Next steps
+<div class="ga-btn-row">
+  <a class="ga-btn" href="/01-master-report/">Read the master report</a>
+  <a class="ga-btn ghost" href="/13-references/">Jump to the 1,764-source registry</a>
+  <a class="ga-btn ghost" href="/reading-guide/">How to read this doksite</a>
+</div>
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid>
+<div class="ga-stats">
+  <div class="ga-stat"><b>14</b><span>numbered sections</span></div>
+  <div class="ga-stat"><b>10</b><span>gap blueprints</span></div>
+  <div class="ga-stat"><b>{stats.registryEntries.toLocaleString('en-US')}</b><span>authoritative sources</span></div>
+  <div class="ga-stat"><b>{stats.uniqueCitations.toLocaleString('en-US')}</b><span>unique cited sources</span></div>
+  <div class="ga-stat"><b>~{(stats.totalWords / 1000).toFixed(1)}k</b><span>words of research</span></div>
+  <div class="ga-stat"><b>4.65M</b><span>research tokens burned</span></div>
+  <div class="ga-stat"><b>PWA</b><span>offline · installable</span></div>
+</div>
+
+## The research — sections 1 to 12
+
+Every section is numbered, and so is every heading inside it: the master report is section 1, the ten blueprints are sections 2–11, and the research cost intelligence is section 12.
+
+<div class="ga-grid">
+  {sections
+    .filter((section) => section.n <= 12)
+    .map((section) => (
+      <article class="ga-card" key={section.slug}>
+        <div class="ga-card-top">
+          <span class="ga-num">{String(section.n).padStart(2, '0')}</span>
+          <span class="chip">{section.kind}</span>
+        </div>
+        <h3>
+          <a href={`/${section.slug}/`}>{section.name ?? section.title}</a>
+        </h3>
+        <p>{section.summary}</p>
+        <span class="ga-open">Open section {section.n} →</span>
+      </article>
+    ))}
+</div>
+
+## The reference and build layer — sections 13 and 14
+
+<div class="ga-grid">
+  {sections
+    .filter((section) => section.n >= 13)
+    .map((section) => (
+      <article class="ga-card" key={section.slug}>
+        <div class="ga-card-top">
+          <span class="ga-num">{String(section.n).padStart(2, '0')}</span>
+          <span class="chip">{section.kind}</span>
+        </div>
+        <h3>
+          <a href={`/${section.slug}/`}>{section.title}</a>
+        </h3>
+        <p>{section.summary}</p>
+        <span class="ga-open">Open section {section.n} →</span>
+      </article>
+    ))}
+</div>
+
+## The ten gaps at a glance
+
+| # | Venture | Core focus | Monetization | Regulatory friction | Gating decision |
+| --- | --- | --- | --- | --- | --- |
+| 01 | **[JuzSukuk](/02-gap-01-juzsukuk/)** | Fractional tokenised retail sukuk | 7 / 10 | BH 3 · MY 4 · UAE 5 · SA 6 | Approved |
+| 02 | **[SanadFlow](/03-gap-02-sanadflow/)** | Automated-murabaha SME supply-chain finance | 8 / 10 | MY 3 · PK 4 · SA 5 · ID 6 | Approved |
+| 03 | **[HalalPort](/04-gap-03-halalport/)** | Multi-standard halal brokerage | 8 / 10 | UAE 4 · MY 5 · UK 7 · US 8 | Approved |
+| 04 | **[AmanPayung](/05-gap-04-amanpayung/)** | Parametric micro-takaful insurtech | 7 / 10 | MY 3 · ID 5 · PK 5 · NG 6 | Approved |
+| 05 | **[WaqfTrace](/06-gap-05-waqftrace/)** | Zakat & waqf cryptographic audit + CWLS | 8 / 10 | MY 6 · ID 7 · SA 8 | Approved |
+| 06 | **[AdlScore](/07-gap-06-adlscore/)** | Sharia P2P + AI alternative credit scoring | 8 / 10 | ID 8 de-novo · partner rails 4 | Approved (partner rails) |
+| 07 | **[SiratRemit](/08-gap-07-siratremit/)** | Shariah-screened stablecoin remittance | 7 / 10 | Global 9 (+2 crypto penalty) | Approved (conditional) |
+| 08 | **[FiqhStack](/09-gap-08-fiqhstack/)** | AI Shariah governance & screening API | 8 / 10 | UAE 4 · MY 4 · global B2B 3 | Approved (top B2B) |
+| 09 | **[QistHalal](/10-gap-09-qisthalal/)** | Halal BNPL + diaspora auto ijara leasing | 8 / 10 | KSA 6 · UAE 6 · UK 7 | Approved (broker-first) |
+| 10 | **[TayyibLedger](/11-gap-10-tayyibledger/)** | Green halal sukuk + ESG MRV ledger | 7 / 10 | MY 4 · UAE 5 · cross-border 6 | Approved |
+
+## Headline findings
+
+- **The macro is expanding faster than the plumbing.** Islamic fintech transaction volume reached roughly **$198bn in 2024/25** and is projected to hit **$341bn by 2029** (11.5% CAGR), inside a total Islamic finance asset base above **$5.98tn** — yet MSMEs in developing OIC economies still face a **$5.7tn** financing deficit.
+- **Nine of ten gaps share one root cause:** institutional liquidity exists but is structurally blocked from thin-file retail and SME borrowers, so the winning architectures are technology rails that sit *beside* licensed institutions rather than on top of their balance sheets.
+- **Regulatory friction, not monetization, decides the sequence.** Malaysia, Bahrain and the UAE carry the lowest friction; Indonesia and Pakistan are the largest addressable markets but demand partner-licensed structures; cross-border stablecoin rails remain conditional.
+- **The portfolio is deliberately barbelled:** four Tier-1 outliers (SanadFlow, HalalPort, QistHalal, SiratRemit), three capital-markets rails (JuzSukuk, AdlScore, TayyibLedger) and three defensive B2B SaaS assets (FiqhStack, AmanPayung, WaqfTrace) modelled at a **4.61x net MOIC / 27.8% net IRR** in a $50M seed fund construction.
+- **The research itself was capital-cheap:** 4.65M billable tokens across 34 subagents for **$6.58** of direct compute at the model actually used, against **$35.08–$43.85** for the same workload on Western flagship reasoning models.
+
+## How this doksite is put together
+
+1. **Read sections 1–12** in order for the argument; each numbered heading has a glowing section marker in the centre pane and mirrors into the numbered contents list on the right.
+2. **Check any claim** through the inline year-tagged citation, which links to the primary source, or through the [`index ↗`](/13-references/reference-index/) back-link that appears under every reference bullet.
+3. **Audit the sources** in [section 13](/13-references/) — the collected index plus the full 1,764-entry authoritative source registry, cross-linked in both directions.
+4. **Audit the build** in [section 14](/14-site-build-report/) — token telemetry, BenchLM rate cards for the top 10 US and top 10 China models, and sorted what-if build cost scenarios.
+
+:::tip[Install this doksite as an app]
+This site is a PWA: use your browser's **Install** / **Add to Home Screen** action to get a standalone window, a burger menu for navigation, an offline cache of every page and working search with no network. Wide tables and diagrams scroll sideways instead of squeezing.
+:::
+
+---
+
+**GapAtlas 2026** — Islamic Fintech Gap Analysis & Startup Blueprint Intelligence. Ten gaps, ten blueprints, 1,764 sources, one build report.

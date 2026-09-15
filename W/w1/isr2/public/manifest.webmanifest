@@ -1,0 +1,78 @@
+{
+	"id": "/",
+	"name": "GapAtlas 2026 — Islamic Fintech Gap Intelligence",
+	"short_name": "GapAtlas 2026",
+	"description": "Islamic Fintech Gap Analysis & Startup Blueprint Intelligence: 10 monetizable gaps, 1,764 authoritative sources, and full build and cost telemetry.",
+	"start_url": "/",
+	"scope": "/",
+	"display": "standalone",
+	"display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+	"orientation": "any",
+	"background_color": "#04121a",
+	"theme_color": "#04121a",
+	"lang": "en",
+	"dir": "ltr",
+	"categories": ["business", "finance", "education", "productivity"],
+	"icons": [
+		{
+			"src": "/icons/icon-192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "/icons/icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "/icons/maskable-192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "/icons/maskable-512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "/icons/icon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml",
+			"purpose": "any"
+		}
+	],
+	"shortcuts": [
+		{
+			"name": "Master Report",
+			"short_name": "Master",
+			"description": "Methodology, gap scoring and portfolio construction",
+			"url": "/01-master-report/",
+			"icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+		},
+		{
+			"name": "Gap Blueprints",
+			"short_name": "Gaps",
+			"description": "The ten startup blueprints",
+			"url": "/02-gap-01-juzsukuk/",
+			"icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+		},
+		{
+			"name": "References",
+			"short_name": "Sources",
+			"description": "Collected reference index and 1,764-entry source registry",
+			"url": "/13-references/",
+			"icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+		},
+		{
+			"name": "Site Build Report",
+			"short_name": "Build",
+			"description": "Build telemetry, token metrics and cost scenarios",
+			"url": "/14-site-build-report/",
+			"icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+		}
+	]
+}

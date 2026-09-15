@@ -1,0 +1,700 @@
+/* ===========================================================================
+   GapAtlas 2026 — "deep current" theme
+   A bluish-green synthwave palette tuned for long-form reading:
+   wide centre pane, narrow side panes, glow-numbered headings, and
+   horizontally scrollable tables and diagrams instead of scrunched columns.
+   Unlayered CSS (outside @layer) so it always wins over Starlight's layers.
+   =========================================================================== */
+
+/* ---------------------------------------------------------------- palette */
+
+:root,
+:root[data-theme='dark'] {
+	color-scheme: dark;
+
+	--sl-color-white: #f2fffc;
+	--sl-color-gray-1: #ddf6f1;
+	--sl-color-gray-2: #b9ded8;
+	--sl-color-gray-3: #86b3ae;
+	--sl-color-gray-4: #567f7c;
+	--sl-color-gray-5: #1d3b44;
+	--sl-color-gray-6: #0b2029;
+	--sl-color-gray-7: #061219;
+	--sl-color-black: #04121a;
+
+	--sl-color-accent-low: #06333a;
+	--sl-color-accent: #2ee6c8;
+	--sl-color-accent-high: #8ff9df;
+
+	--sl-color-text: var(--sl-color-gray-2);
+	--sl-color-text-accent: var(--sl-color-accent-high);
+	--sl-color-text-invert: #04121a;
+	--sl-color-bg: #04121a;
+	--sl-color-bg-nav: rgba(5, 21, 28, 0.86);
+	--sl-color-bg-sidebar: #05171f;
+	--sl-color-bg-inline-code: rgba(34, 211, 238, 0.09);
+	--sl-color-bg-accent: var(--sl-color-accent);
+	--sl-color-hairline-light: rgba(45, 212, 191, 0.22);
+	--sl-color-hairline: rgba(34, 211, 238, 0.14);
+	--sl-color-hairline-shade: #041019;
+	--sl-color-backdrop-overlay: rgba(3, 12, 18, 0.72);
+
+	--ga-panel: rgba(6, 30, 39, 0.72);
+	--ga-panel-solid: #061e27;
+	--ga-glow: rgba(34, 211, 238, 0.4);
+	--ga-glow-soft: rgba(45, 212, 191, 0.22);
+	--ga-grid: rgba(45, 212, 191, 0.045);
+}
+
+:root[data-theme='light'] {
+	color-scheme: light;
+
+	--sl-color-white: #03151a;
+	--sl-color-gray-1: #0a2a2c;
+	--sl-color-gray-2: #14403f;
+	--sl-color-gray-3: #2f615e;
+	--sl-color-gray-4: #5b8f89;
+	--sl-color-gray-5: #a9d8d0;
+	--sl-color-gray-6: #d8f0eb;
+	--sl-color-gray-7: #eef9f6;
+	--sl-color-black: #ffffff;
+
+	--sl-color-accent-low: #c7f2e9;
+	--sl-color-accent: #0d8f83;
+	--sl-color-accent-high: #075b58;
+
+	--sl-color-text: var(--sl-color-gray-2);
+	--sl-color-text-accent: #0a6b66;
+	--sl-color-text-invert: #f2fffc;
+	--sl-color-bg: #f6fffd;
+	--sl-color-bg-nav: rgba(240, 253, 250, 0.9);
+	--sl-color-bg-sidebar: #eef9f6;
+	--sl-color-bg-inline-code: rgba(13, 143, 131, 0.1);
+	--sl-color-bg-accent: var(--sl-color-accent);
+	--sl-color-hairline-light: rgba(13, 143, 131, 0.25);
+	--sl-color-hairline: rgba(13, 143, 131, 0.16);
+	--sl-color-hairline-shade: #d3ece6;
+	--sl-color-backdrop-overlay: rgba(6, 40, 38, 0.5);
+
+	--ga-panel: rgba(255, 255, 255, 0.82);
+	--ga-panel-solid: #ffffff;
+	--ga-glow: rgba(13, 143, 131, 0.22);
+	--ga-glow-soft: rgba(13, 143, 131, 0.14);
+	--ga-grid: rgba(13, 143, 131, 0.05);
+}
+
+/* ------------------------------------------------------ type & layout */
+
+:root {
+	--sl-font: 'Space Grotesk Variable', -apple-system, BlinkMacSystemFont,
+		'Segoe UI', system-ui, sans-serif;
+	--sl-font-mono: 'JetBrains Mono Variable', ui-monospace, SFMono-Regular,
+		Menlo, Consolas, monospace;
+	--sl-font-display: 'Orbitron', 'Space Grotesk Variable', system-ui, sans-serif;
+
+	/* centre pane widest, side panes narrow but never cramped */
+	--sl-content-width: 58rem;
+	--sl-sidebar-width: 16rem;
+	--sl-content-pad-x: 1.5rem;
+	--sl-sidebar-pad-x: 0.85rem;
+
+	--sl-text-base: 1.0625rem;
+	--sl-line-height: 1.78;
+	--sl-text-h1: 2.5rem;
+	--sl-text-h2: 1.9rem;
+	--sl-text-h3: 1.42rem;
+
+	--ga-radius: 0.9rem;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: calc(var(--sl-nav-height) + 1rem);
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	background-image:
+		radial-gradient(1100px 620px at 12% -8%, rgba(34, 211, 238, 0.11), transparent 62%),
+		radial-gradient(900px 520px at 96% 6%, rgba(45, 212, 191, 0.09), transparent 60%),
+		linear-gradient(var(--ga-grid) 1px, transparent 1px),
+		linear-gradient(90deg, var(--ga-grid) 1px, transparent 1px);
+	background-size: auto, auto, 46px 46px, 46px 46px;
+	background-attachment: fixed;
+}
+
+.site-title {
+	font-family: var(--sl-font-display);
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	font-size: var(--sl-text-base);
+	text-shadow: 0 0 14px var(--ga-glow);
+}
+
+header.header {
+	backdrop-filter: blur(14px);
+	border-bottom: 1px solid var(--sl-color-hairline);
+}
+
+/* ------------------------------------------------- numbered glow headings */
+
+.content-panel h1#_top {
+	font-family: var(--sl-font-display);
+	font-weight: 700;
+	letter-spacing: 0.015em;
+	line-height: 1.15;
+	text-shadow: 0 0 22px var(--ga-glow), 0 0 68px var(--ga-glow-soft);
+}
+
+.sl-markdown-content h2 {
+	margin-top: 2.4em;
+	padding-bottom: 0.35em;
+	border-bottom: 1px solid var(--sl-color-hairline);
+	font-family: var(--sl-font-display);
+	font-weight: 500;
+	letter-spacing: 0.012em;
+	text-shadow: 0 0 16px var(--ga-glow), 0 0 46px var(--ga-glow-soft);
+}
+
+.sl-markdown-content h3 {
+	margin-top: 1.9em;
+	font-weight: 600;
+	letter-spacing: 0.008em;
+	text-shadow: 0 0 12px var(--ga-glow-soft);
+}
+
+.sl-markdown-content h4 {
+	font-weight: 600;
+	color: var(--sl-color-accent-high);
+	text-shadow: 0 0 10px var(--ga-glow-soft);
+}
+
+/* the section number itself: authored as inline code so it survives into the
+   table of contents, then rendered as a glowing monospace chip */
+.sl-markdown-content h2 > code,
+.sl-markdown-content h3 > code,
+.sl-markdown-content h4 > code {
+	display: inline-block;
+	margin-inline-end: 0.55em;
+	padding: 0.1em 0.5em;
+	border: 1px solid var(--sl-color-hairline-light);
+	border-radius: 0.45rem;
+	background: linear-gradient(
+		180deg,
+		rgba(34, 211, 238, 0.16),
+		rgba(45, 212, 191, 0.05)
+	);
+	color: var(--sl-color-accent-high);
+	font-family: var(--sl-font-mono);
+	font-size: 0.66em;
+	font-weight: 600;
+	letter-spacing: 0.06em;
+	text-shadow: none;
+	box-shadow: 0 0 14px var(--ga-glow-soft), inset 0 0 10px rgba(34, 211, 238, 0.07);
+	vertical-align: middle;
+}
+
+.sl-markdown-content h3 > code {
+	font-size: 0.7em;
+	opacity: 0.92;
+}
+
+/* ------------------------------------------------------------ reading body */
+
+.sl-markdown-content {
+	overflow-wrap: break-word;
+}
+
+.sl-markdown-content p,
+.sl-markdown-content li {
+	color: var(--sl-color-gray-2);
+}
+
+.sl-markdown-content a:not(.sl-anchor-link):not(.xref) {
+	color: var(--sl-color-accent-high);
+	text-decoration-color: rgba(45, 212, 191, 0.45);
+	text-underline-offset: 0.18em;
+	overflow-wrap: anywhere;
+}
+
+.sl-markdown-content a:hover {
+	text-decoration-color: currentColor;
+	text-shadow: 0 0 12px var(--ga-glow-soft);
+}
+
+.sl-markdown-content code:not(:where(h2, h3, h4) code) {
+	border: 1px solid var(--sl-color-hairline);
+	border-radius: 0.35rem;
+	background: var(--sl-color-bg-inline-code);
+	color: var(--sl-color-accent-high);
+	font-size: 0.9em;
+	overflow-wrap: anywhere;
+}
+
+.sl-markdown-content blockquote {
+	border-inline-start: 3px solid var(--sl-color-accent);
+	background: var(--ga-panel);
+	border-radius: 0 var(--ga-radius) var(--ga-radius) 0;
+}
+
+.sl-markdown-content hr {
+	border-color: var(--sl-color-hairline);
+}
+
+/* -------------------------------------------------- tables that never scrunch
+   Tables become their own scroll container: columns keep a readable minimum
+   width (9rem) and the whole table scrolls sideways instead of squeezing. */
+
+.sl-markdown-content table {
+	display: block;
+	overflow-x: auto;
+	overflow-y: hidden;
+	max-width: 100%;
+	margin: 1.4rem 0;
+	border: 1px solid var(--sl-color-hairline);
+	border-radius: var(--ga-radius);
+	background: var(--ga-panel);
+	overscroll-behavior-inline: contain;
+	scrollbar-width: thin;
+}
+
+.sl-markdown-content table :is(th, td) {
+	min-width: 9rem;
+	padding: 0.7rem 0.9rem;
+	border-color: var(--sl-color-hairline);
+	vertical-align: top;
+	line-height: 1.6;
+}
+
+.sl-markdown-content table th {
+	background: rgba(34, 211, 238, 0.07);
+	color: var(--sl-color-accent-high);
+	font-family: var(--sl-font-mono);
+	font-size: 0.82em;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.sl-markdown-content table tr:nth-child(even) td {
+	background: rgba(45, 212, 191, 0.03);
+}
+
+.sl-markdown-content table td :is(code, a) {
+	overflow-wrap: anywhere;
+}
+
+/* ------------------------------------------------------------ diagrams */
+
+.sl-markdown-content pre.mermaid,
+.mermaid {
+	display: block;
+	max-width: 100%;
+	margin: 1.5rem 0;
+	padding: 1.1rem;
+	border: 1px solid var(--sl-color-hairline-light);
+	border-radius: var(--ga-radius);
+	background: linear-gradient(180deg, #061e27, #04151d);
+	box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.07), 0 18px 40px rgba(0, 0, 0, 0.35);
+	overflow-x: auto;
+	overflow-y: hidden;
+	text-align: center;
+	scrollbar-width: thin;
+}
+
+.sl-markdown-content pre.mermaid svg,
+.mermaid svg {
+	max-width: none;
+	height: auto;
+	margin-inline: auto;
+}
+
+.sl-markdown-content pre.mermaid:not([data-processed]) {
+	color: var(--sl-color-gray-3);
+	font-size: var(--sl-text-sm);
+}
+
+/* code blocks keep their own horizontal scroll (wide Solidity/SQL samples) */
+.expressive-code pre,
+.sl-markdown-content pre:not(.mermaid) {
+	max-width: 100%;
+}
+
+/* ------------------------------------------------------------ right pane */
+
+starlight-toc nav > ul,
+.right-sidebar {
+	font-size: var(--sl-text-sm);
+}
+
+starlight-toc a {
+	color: var(--sl-color-gray-3);
+}
+
+starlight-toc a:hover {
+	color: var(--sl-color-accent-high);
+}
+
+starlight-toc a[aria-current='true'] {
+	color: var(--sl-color-accent-high);
+	font-weight: 600;
+	text-shadow: 0 0 12px var(--ga-glow-soft);
+}
+
+/* ------------------------------------------------------------ left pane */
+
+.sidebar-content a {
+	border-radius: 0.5rem;
+}
+
+.sidebar-content a[aria-current='page'] {
+	background: linear-gradient(
+		90deg,
+		rgba(34, 211, 238, 0.18),
+		rgba(45, 212, 191, 0.05)
+	);
+	color: var(--sl-color-accent-high);
+	box-shadow: inset 0 0 0 1px var(--sl-color-hairline-light);
+}
+
+/* ---------------------------------------------------- generated page bits */
+
+.sec-head {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+	margin: 0 0 0.4rem;
+}
+
+.chip {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	padding: 0.18rem 0.6rem;
+	border: 1px solid var(--sl-color-hairline);
+	border-radius: 999px;
+	background: var(--ga-panel);
+	color: var(--sl-color-gray-3);
+	font-family: var(--sl-font-mono);
+	font-size: 0.72rem;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.chip-kind {
+	border-color: var(--sl-color-hairline-light);
+	background: linear-gradient(
+		90deg,
+		rgba(34, 211, 238, 0.16),
+		rgba(45, 212, 191, 0.05)
+	);
+	color: var(--sl-color-accent-high);
+}
+
+a.xref {
+	display: inline-block;
+	margin-inline-start: 0.35rem;
+	padding: 0 0.4rem;
+	border: 1px solid var(--sl-color-hairline);
+	border-radius: 999px;
+	color: var(--sl-color-gray-3);
+	font-family: var(--sl-font-mono);
+	font-size: 0.68rem;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+a.xref:hover {
+	border-color: var(--sl-color-accent);
+	color: var(--sl-color-accent-high);
+	box-shadow: 0 0 14px var(--ga-glow-soft);
+	text-decoration: none;
+}
+
+.reg-num {
+	display: inline-block;
+	min-width: 3.4rem;
+	color: var(--sl-color-gray-4);
+	font-family: var(--sl-font-mono);
+	font-size: 0.78rem;
+	letter-spacing: 0.03em;
+}
+
+/* -------------------------------------------------------------- home page */
+
+.hero {
+	padding-inline: 1rem;
+}
+
+.hero h1 {
+	font-family: var(--sl-font-display);
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	text-shadow: 0 0 26px var(--ga-glow), 0 0 80px var(--ga-glow-soft);
+}
+
+.hero .tagline {
+	max-width: 46rem;
+	color: var(--sl-color-gray-2);
+	font-size: var(--sl-text-lg);
+	line-height: 1.7;
+}
+
+.hero img,
+.hero svg {
+	filter: drop-shadow(0 0 26px var(--ga-glow-soft));
+}
+
+.glow-word {
+	color: var(--sl-color-accent-high);
+	text-shadow: 0 0 18px var(--ga-glow), 0 0 56px var(--ga-glow);
+}
+
+.ga-stats {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+	gap: 0.75rem;
+	margin: 2rem 0 0.5rem;
+}
+
+.ga-stat {
+	padding: 0.95rem 1.05rem;
+	border: 1px solid var(--sl-color-hairline);
+	border-radius: var(--ga-radius);
+	background: linear-gradient(180deg, rgba(6, 30, 39, 0.75), rgba(4, 18, 26, 0.6));
+}
+
+.ga-stat b {
+	display: block;
+	font-family: var(--sl-font-display);
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--sl-color-accent-high);
+	text-shadow: 0 0 16px var(--ga-glow-soft);
+}
+
+.ga-stat span {
+	display: block;
+	margin-top: 0.15rem;
+	color: var(--sl-color-gray-3);
+	font-family: var(--sl-font-mono);
+	font-size: 0.72rem;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.ga-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+	gap: 0.85rem;
+	margin: 1.25rem 0 0;
+}
+
+.ga-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 0.45rem;
+	padding: 1.05rem 1.1rem 1.15rem;
+	border: 1px solid var(--sl-color-hairline);
+	border-radius: var(--ga-radius);
+	background: linear-gradient(180deg, rgba(6, 30, 39, 0.7), rgba(4, 18, 26, 0.55));
+	transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.ga-card:hover {
+	border-color: var(--sl-color-accent);
+	box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.16), 0 14px 34px rgba(0, 0, 0, 0.35);
+	transform: translateY(-2px);
+}
+
+.ga-card .ga-card-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.6rem;
+}
+
+.ga-card .ga-num {
+	font-family: var(--sl-font-display);
+	font-size: 0.82rem;
+	letter-spacing: 0.14em;
+	color: var(--sl-color-accent-high);
+}
+
+.ga-card h3 {
+	margin: 0;
+	font-size: 1.05rem;
+	font-weight: 600;
+	text-shadow: 0 0 12px var(--ga-glow-soft);
+}
+
+.ga-card h3 a {
+	color: var(--sl-color-gray-1);
+	text-decoration: none;
+}
+
+.ga-card h3 a::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	border-radius: var(--ga-radius);
+}
+
+.ga-card p {
+	margin: 0;
+	color: var(--sl-color-gray-3);
+	font-size: 0.94rem;
+	line-height: 1.65;
+}
+
+.ga-card .ga-open {
+	margin-top: auto;
+	padding-top: 0.5rem;
+	color: var(--sl-color-accent-high);
+	font-family: var(--sl-font-mono);
+	font-size: 0.76rem;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.ga-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.65rem 1.15rem;
+	border: 1px solid var(--sl-color-accent);
+	border-radius: 0.65rem;
+	background: linear-gradient(
+		180deg,
+		rgba(34, 211, 238, 0.2),
+		rgba(45, 212, 191, 0.07)
+	);
+	color: var(--sl-color-gray-1);
+	font-weight: 600;
+	text-decoration: none;
+	box-shadow: 0 0 20px var(--ga-glow-soft);
+	transition: box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.ga-btn:hover {
+	box-shadow: 0 0 28px var(--ga-glow);
+	transform: translateY(-1px);
+	text-decoration: none;
+}
+
+.ga-btn.ghost {
+	border-color: var(--sl-color-hairline-light);
+	background: transparent;
+	color: var(--sl-color-accent-high);
+	box-shadow: none;
+}
+
+.ga-btn-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.6rem;
+	margin: 1.5rem 0 0.5rem;
+}
+
+/* --------------------------------------------------------- PWA / mobile */
+
+@media (display-mode: standalone) {
+	/* keep the burger menu clear of the status bar / notch on installed PWAs */
+	button.sl-menu-button {
+		top: calc(
+			env(safe-area-inset-top, 0px) + (var(--sl-nav-height) - var(--sl-menu-button-size)) / 2
+		);
+	}
+
+	.page {
+		min-height: 100dvh;
+		padding-bottom: env(safe-area-inset-bottom, 0px);
+	}
+
+	.sidebar-pane {
+		padding-bottom: env(safe-area-inset-bottom, 0px);
+		overscroll-behavior: contain;
+	}
+}
+
+@media (max-width: 50rem) {
+	:root {
+		--sl-content-pad-x: 1rem;
+	}
+
+	.ga-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.sl-markdown-content table :is(th, td) {
+		min-width: 8rem;
+	}
+}
+
+/* ------------------------------------------------ offline fallback page */
+.offline-wrap {
+	max-width: 46rem;
+	margin: 12vh auto;
+	padding: 2rem;
+	border: 1px solid var(--sl-color-hairline-light);
+	border-radius: var(--ga-radius);
+	background: var(--ga-panel);
+}
+
+.offline-eyebrow {
+	font-family: var(--sl-font-mono);
+	font-size: 0.75rem;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--sl-color-accent);
+}
+
+.offline-title {
+	text-shadow: 0 0 22px var(--ga-glow);
+}
+
+.offline-list {
+	line-height: 1.9;
+}
+
+.offline-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.6rem;
+}
+
+.offline-btn,
+a.offline-btn {
+	display: inline-block;
+	padding: 0.6rem 1.1rem;
+	border: 1px solid var(--sl-color-accent);
+	border-radius: 0.6rem;
+	background: rgba(34, 211, 238, 0.14);
+	color: var(--sl-color-gray-1);
+	font: inherit;
+	font-weight: 600;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a.offline-btn-ghost {
+	background: transparent;
+	border-color: var(--sl-color-hairline-light);
+	color: var(--sl-color-accent-high);
+}
+
+@media print {
+	.sec-head,
+	.ga-btn-row {
+		display: none;
+	}
+
+	.sl-markdown-content table,
+	.sl-markdown-content pre.mermaid {
+		overflow: visible;
+	}
+}

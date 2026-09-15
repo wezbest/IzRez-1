@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" role="img" aria-label="GapAtlas 2026">
+	<defs>
+		<linearGradient id="gaLogo" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0" stop-color="#7df9d5" />
+			<stop offset="0.55" stop-color="#22d3ee" />
+			<stop offset="1" stop-color="#0e7490" />
+		</linearGradient>
+		<radialGradient id="gaHalo" cx="0.5" cy="0.45" r="0.6">
+			<stop offset="0" stop-color="#22d3ee" stop-opacity="0.5" />
+			<stop offset="1" stop-color="#22d3ee" stop-opacity="0" />
+		</radialGradient>
+	</defs>
+	<circle cx="20" cy="20" r="19" fill="url(#gaHalo)" />
+	<circle cx="20" cy="20" r="17.5" fill="none" stroke="url(#gaLogo)" stroke-width="1.6" stroke-dasharray="3 2.4" />
+	<path d="M20 5.5a14.5 14.5 0 1 0 12.6 7.3" fill="none" stroke="url(#gaLogo)" stroke-width="3.2" stroke-linecap="round" />
+	<path d="M20 12.2 26.9 20 20 27.8 13.1 20Z" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linejoin="round" />
+	<circle cx="20" cy="20" r="3.1" fill="#7df9d5" />
+	<path d="M31.4 27.4h6.2M34.5 24.3v6.2" stroke="#22d3ee" stroke-width="1.6" stroke-linecap="round" opacity="0.75" />
+</svg>

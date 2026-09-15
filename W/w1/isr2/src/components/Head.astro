@@ -1,0 +1,76 @@
+---
+/**
+ * Head override: keeps every tag Starlight already emits, then adds
+ * social-share images, the PWA plumbing and service worker registration.
+ */
+import Default from '@astrojs/starlight/components/Head.astro';
+
+const origin = (Astro.site ?? new URL(Astro.url.origin)).href.replace(/\/$/, '');
+const pageUrl = new URL(Astro.url.pathname, `${origin}/`).href;
+const ogImage = `${origin}/og-image.png`;
+const ogAlt =
+	'GapAtlas 2026 — Islamic fintech gap intelligence: 10 gaps, 1,764 sources, full build telemetry.';
+---
+
+<Default />
+
+<!-- ---------------------------------------------------------------- social -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="GapAtlas 2026" />
+<meta property="og:url" content={pageUrl} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content={ogAlt} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content={ogImage} />
+<meta name="twitter:image:alt" content={ogAlt} />
+
+<!-- ------------------------------------------------------------------- PWA -->
+<link rel="manifest" href="/manifest.webmanifest" />
+<meta name="theme-color" content="#04121a" media="(prefers-color-scheme: dark)" />
+<meta name="theme-color" content="#eafaf6" media="(prefers-color-scheme: light)" />
+<meta name="application-name" content="GapAtlas 2026" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="GapAtlas 2026" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="mask-icon" href="/favicon.svg" color="#22d3ee" />
+
+<script>
+	// Runs in both dev and prod; the PROD guard is replaced at build time so a
+	// dev server never leaves a stale service worker behind.
+	if ('serviceWorker' in navigator) {
+		if (import.meta.env.PROD) {
+			window.addEventListener('load', () => {
+				navigator.serviceWorker
+					.register('/sw.js', { scope: '/' })
+					.then((registration) => {
+						// pick up new builds without a hard refresh
+						registration.addEventListener('updatefound', () => {
+							const worker = registration.installing;
+							if (!worker) return;
+							worker.addEventListener('statechange', () => {
+								if (worker.state === 'installed' && navigator.serviceWorker.controller) {
+									worker.postMessage('SKIP_WAITING');
+								}
+							});
+						});
+					})
+					.catch(() => {
+						/* offline support is a progressive enhancement */
+					});
+			});
+		} else {
+			// clean up registrations left over from a previous production preview
+			navigator.serviceWorker.getRegistrations().then((registrations) => {
+				for (const registration of registrations) registration.unregister();
+			});
+		}
+	}
+</script>

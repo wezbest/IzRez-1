@@ -1,0 +1,265 @@
+---
+title: "13.2.6 · Ecosystem Hubs, Accelerators & Venture Capital (Hub71, DIFC Hive, BFB, SVC, Jada, HASAN)"
+description: "Authoritative source registry, category 6 of 7 — 248 entries across 26 domains."
+---
+
+<div class="sec-head">
+<span class="chip chip-kind">Registry 13.2.6</span>
+<span class="chip">248 entries</span>
+<span class="chip">26 domains</span>
+</div>
+
+<a href="/13-references/source-registry/">← Back to the registry overview</a>
+
+## <span class="sn">13.2.6.0</span> Ecosystem Hubs, Accelerators & Venture Capital (Hub71, DIFC Hive, BFB, SVC, Jada, HASAN)
+
+Entries are preserved in their original registry order and numbering. Registry numbers are stable and directly linkable, e.g. `#r1440`.
+
+- <a id="r1440" aria-hidden="true"></a><span class="reg-num">r1440</span> <a href="http://flat6labs.com/flat6labs-hosts-sixth-demo-day-in-riyadh">[flat6labs.com]</a>
+- <a id="r1441" aria-hidden="true"></a><span class="reg-num">r1441</span> <a href="http://flat6labs.com/flat6labs-hosts-sixth-demo-day-in-riyadh/">[flat6labs.com]</a>
+- <a id="r1442" aria-hidden="true"></a><span class="reg-num">r1442</span> <a href="http://flat6labs.com/fr/program/fintech-accelerator">[flat6labs.com]</a>
+- <a id="r1443" aria-hidden="true"></a><span class="reg-num">r1443</span> <a href="https://500.co/mena">[500.co]</a> · cited in <a href="/01-master-report/#s1-9">§1.9</a>
+- <a id="r1444" aria-hidden="true"></a><span class="reg-num">r1444</span> <a href="https://fintechnews.ae/21024/abudhabi/25-startups-from-11-countries-join-hub71-accelerator-program">[fintechnews.ae]</a>
+- <a id="r1445" aria-hidden="true"></a><span class="reg-num">r1445</span> <a href="https://fintechnews.ae/26943/qatar/qatar-islamic-fintech-sector-hits-us2-7b-set-to-reach-us4-4b-by-2028">[fintechnews.ae]</a>
+- <a id="r1446" aria-hidden="true"></a><span class="reg-num">r1446</span> <a href="https://fintechnews.ae/27178/fintech/f6-group-launch-venture-support-mea">[fintechnews.ae]</a>
+- <a id="r1447" aria-hidden="true"></a><span class="reg-num">r1447</span> <a href="https://fintechnews.ae/27929/saudi/saudi-cma-fintech-permits-2025">[fintechnews.ae]</a>
+- <a id="r1448" aria-hidden="true"></a><span class="reg-num">r1448</span> <a href="https://fintechnews.ae/29193/abudhabi/tabadulat-full-fsra-license-halal-trading">[fintechnews.ae]</a> · cited in <a href="/01-master-report/#s1-4">§1.4</a> <a href="/01-master-report/#s1-6">§1.6</a> <a href="/04-gap-03-halalport/#s4-3">§4.3</a> <a href="/04-gap-03-halalport/#s4-4">§4.4</a> <a href="/04-gap-03-halalport/#s4-7">§4.7</a> <a href="/04-gap-03-halalport/#s4-10">§4.10</a> <a href="/04-gap-03-halalport/#s4-19">§4.19</a>
+- <a id="r1449" aria-hidden="true"></a><span class="reg-num">r1449</span> <a href="https://fintechnews.ae/29193/abudhabi/tabadulat-full-fsra-license-halal-trading/">[fintechnews.ae]</a> · cited in <a href="/01-master-report/#s1-4">§1.4</a> <a href="/01-master-report/#s1-6">§1.6</a> <a href="/04-gap-03-halalport/#s4-3">§4.3</a> <a href="/04-gap-03-halalport/#s4-4">§4.4</a> <a href="/04-gap-03-halalport/#s4-7">§4.7</a> <a href="/04-gap-03-halalport/#s4-10">§4.10</a> <a href="/04-gap-03-halalport/#s4-19">§4.19</a>
+- <a id="r1450" aria-hidden="true"></a><span class="reg-num">r1450</span> <a href="https://fintechnews.ae/29466/abudhabi/2025-in-review-ai-tokenization-islamic-finance-dominate-uae-fintech-landscape">[fintechnews.ae]</a>
+- <a id="r1451" aria-hidden="true"></a><span class="reg-num">r1451</span> <a href="https://fintechnews.ae/29824/oman/fintech-in-oman-market-overview">[fintechnews.ae]</a>
+- <a id="r1452" aria-hidden="true"></a><span class="reg-num">r1452</span> <a href="https://fintechnews.ae/30304/turkey/turkiye-islamic-banks-market-share-2025">[fintechnews.ae]</a>
+- <a id="r1453" aria-hidden="true"></a><span class="reg-num">r1453</span> <a href="https://fintechnews.ae/30624/saudi/6-saudi-fintech-startups-to-follow-in-2026">[fintechnews.ae]</a>
+- <a id="r1454" aria-hidden="true"></a><span class="reg-num">r1454</span> <a href="https://fintechnews.ae/31758/digital-banking/mal-cbuae-approval-islamic-digital-bank">[fintechnews.ae]</a>
+- <a id="r1455" aria-hidden="true"></a><span class="reg-num">r1455</span> <a href="https://fintechnews.ae/31775/payments/top-bnpl-uae-platforms">[fintechnews.ae]</a>
+- <a id="r1456" aria-hidden="true"></a><span class="reg-num">r1456</span> <a href="https://fintechnews.ae/32292/saudi/saudi-central-bank-regulatory-sandbox-portal-upgrade">[fintechnews.ae]</a> · cited in <a href="/01-master-report/#s1-5">§1.5</a>
+- <a id="r1457" aria-hidden="true"></a><span class="reg-num">r1457</span> <a href="https://fintechnews.ae/32292/saudi/saudi-central-bank-regulatory-sandbox-portal-upgrade/">[fintechnews.ae]</a> · cited in <a href="/01-master-report/#s1-5">§1.5</a>
+- <a id="r1458" aria-hidden="true"></a><span class="reg-num">r1458</span> <a href="https://fintechnews.ae/9410/saudi/saudi-fintech-startup-funding-in-h1-2021">[fintechnews.ae]</a>
+- <a id="r1459" aria-hidden="true"></a><span class="reg-num">r1459</span> <a href="https://fintechnews.id/108212/lending/ojk-p2p-lenders-exit-capital-rule">[fintechnews.id]</a>
+- <a id="r1460" aria-hidden="true"></a><span class="reg-num">r1460</span> <a href="https://fintechnews.id/109566/lending/indonesia-p2p-lending-credit-quality">[fintechnews.id]</a>
+- <a id="r1461" aria-hidden="true"></a><span class="reg-num">r1461</span> <a href="https://fintechnews.id/110442/insurtech/msig-sharia-life-insurance-ojk-license">[fintechnews.id]</a>
+- <a id="r1462" aria-hidden="true"></a><span class="reg-num">r1462</span> <a href="https://fintechnews.id/list-fintech-startup-indonesia-fintech-companies-directory/categories/alternative-lending-indonesia">[fintechnews.id]</a>
+- <a id="r1463" aria-hidden="true"></a><span class="reg-num">r1463</span> <a href="https://fintechnews.my/23658/blockchain/globalsadaqah-to-enable-zakat-and-waqf-payments-in-bitcoin">[fintechnews.my]</a>
+- <a id="r1464" aria-hidden="true"></a><span class="reg-num">r1464</span> <a href="https://fintechnews.my/23658/blockchain/globalsadaqah-to-enable-zakat-and-waqf-payments-in-bitcoin/">[fintechnews.my]</a>
+- <a id="r1465" aria-hidden="true"></a><span class="reg-num">r1465</span> <a href="https://fintechnews.my/30333/funding/capbays-p2p-islamic-financing-platform-bags-rm30-million-from-kenanga">[fintechnews.my]</a>
+- <a id="r1466" aria-hidden="true"></a><span class="reg-num">r1466</span> <a href="https://fintechnews.my/36843/funding/5-fintech-investments-made-by-malaysias-khazanah-nasional">[fintechnews.my]</a>
+- <a id="r1467" aria-hidden="true"></a><span class="reg-num">r1467</span> <a href="https://fintechnews.my/43568/insurtech-malaysia/policystreet-offers-accident-coverage-loan-protection-for-auto-repairs">[fintechnews.my]</a>
+- <a id="r1468" aria-hidden="true"></a><span class="reg-num">r1468</span> <a href="https://fintechnews.my/50483/blockchain/sc-tokenised-capital-market-products">[fintechnews.my]</a>
+- <a id="r1469" aria-hidden="true"></a><span class="reg-num">r1469</span> <a href="https://fintechnews.my/54576/islamic-fintech/mifc-global-impact-challenge-2025-winners">[fintechnews.my]</a>
+- <a id="r1470" aria-hidden="true"></a><span class="reg-num">r1470</span> <a href="https://fintechnews.my/57399/islamic-fintech/sc-malaysia-fikralab">[fintechnews.my]</a> · cited in <a href="/01-master-report/#s1-4">§1.4</a> <a href="/01-master-report/#s1-5">§1.5</a> <a href="/01-master-report/#s1-6">§1.6</a> <a href="/01-master-report/#s1-7">§1.7</a> <a href="/01-master-report/#s1-16">§1.16</a> <a href="/09-gap-08-fiqhstack/#s9-3">§9.3</a> <a href="/09-gap-08-fiqhstack/#s9-10">§9.10</a> <a href="/09-gap-08-fiqhstack/#s9-19">§9.19</a>
+- <a id="r1471" aria-hidden="true"></a><span class="reg-num">r1471</span> <a href="https://fintechnews.my/57399/islamic-fintech/sc-malaysia-fikralab/">[fintechnews.my]</a> · cited in <a href="/01-master-report/#s1-4">§1.4</a> <a href="/01-master-report/#s1-5">§1.5</a> <a href="/01-master-report/#s1-6">§1.6</a> <a href="/01-master-report/#s1-7">§1.7</a> <a href="/01-master-report/#s1-16">§1.16</a> <a href="/09-gap-08-fiqhstack/#s9-3">§9.3</a> <a href="/09-gap-08-fiqhstack/#s9-10">§9.10</a> <a href="/09-gap-08-fiqhstack/#s9-19">§9.19</a>
+- <a id="r1472" aria-hidden="true"></a><span class="reg-num">r1472</span> <a href="https://fintechnews.my/57588/funding/policystreet-series-c">[fintechnews.my]</a>
+- <a id="r1473" aria-hidden="true"></a><span class="reg-num">r1473</span> <a href="https://fintechnews.my/57758/fintech-lending-malaysia/capbay-cgc-digital-msme-guarantee-scheme">[fintechnews.my]</a>
+- <a id="r1474" aria-hidden="true"></a><span class="reg-num">r1474</span> <a href="https://fintechnews.my/58007/wealthtech-malaysia/sc-malaysia-annual-report-2025-fintech">[fintechnews.my]</a>
+- <a id="r1475" aria-hidden="true"></a><span class="reg-num">r1475</span> <a href="https://fintechnews.my/58178/blockchain/securities-commission-khazanah-tokenised-sukuk">[fintechnews.my]</a>
+- <a id="r1476" aria-hidden="true"></a><span class="reg-num">r1476</span> <a href="https://fintechnews.my/58283/blockchain/v-systems-tokenised-sukuk">[fintechnews.my]</a>
+- <a id="r1477" aria-hidden="true"></a><span class="reg-num">r1477</span> <a href="https://fintechnews.my/58819/wealthtech-malaysia/wahed-aum">[fintechnews.my]</a>
+- <a id="r1478" aria-hidden="true"></a><span class="reg-num">r1478</span> <a href="https://fintechnews.my/59316/innovation/bnm-green-lane">[fintechnews.my]</a>
+- <a id="r1479" aria-hidden="true"></a><span class="reg-num">r1479</span> <a href="https://fintechnews.my/59458/insurtech-malaysia/mediasas-mof-pilot">[fintechnews.my]</a>
+- <a id="r1480" aria-hidden="true"></a><span class="reg-num">r1480</span> <a href="https://fintechnews.my/59458/insurtech-malaysia/mediasas-mof-pilot/">[fintechnews.my]</a>
+- <a id="r1481" aria-hidden="true"></a><span class="reg-num">r1481</span> <a href="https://fintechnews.my/59837/fintech-lending-malaysia/ocbc-cgc-sme-financing">[fintechnews.my]</a>
+- <a id="r1482" aria-hidden="true"></a><span class="reg-num">r1482</span> <a href="https://fintechnews.my/list-fintech-startup-malaysia-fintech-companies-malaysia-directory/fintech/capbay-islamic">[fintechnews.my]</a>
+- <a id="r1483" aria-hidden="true"></a><span class="reg-num">r1483</span> <a href="https://fintechnews.sg/136561/digitalassets/singapore-stablecoin-regulation-mas-rules">[fintechnews.sg]</a>
+- <a id="r1484" aria-hidden="true"></a><span class="reg-num">r1484</span> <a href="https://fintechnews.sg/136791/ai/scale-ai-banking-2027-singapore-banks">[fintechnews.sg]</a>
+- <a id="r1485" aria-hidden="true"></a><span class="reg-num">r1485</span> <a href="https://flat6labs.com">[flat6labs.com]</a> · cited in <a href="/01-master-report/#s1-9">§1.9</a>
+- <a id="r1486" aria-hidden="true"></a><span class="reg-num">r1486</span> <a href="https://flat6labs.com/program/fintech-accelerator">[flat6labs.com]</a>
+- <a id="r1487" aria-hidden="true"></a><span class="reg-num">r1487</span> <a href="https://flat6labs.com/program/riyadh-seed-program-page">[flat6labs.com]</a>
+- <a id="r1488" aria-hidden="true"></a><span class="reg-num">r1488</span> <a href="https://gobi.vc">[gobi.vc]</a>
+- <a id="r1489" aria-hidden="true"></a><span class="reg-num">r1489</span> <a href="https://hasan.vc">[hasan.vc]</a> · cited in <a href="/01-master-report/#s1-8">§1.8</a>
+- <a id="r1490" aria-hidden="true"></a><span class="reg-num">r1490</span> <a href="https://hasan.vc/">[hasan.vc]</a> · cited in <a href="/01-master-report/#s1-8">§1.8</a>
+- <a id="r1491" aria-hidden="true"></a><span class="reg-num">r1491</span> <a href="https://hasan.vc/accelerator">[hasan.vc]</a>
+- <a id="r1492" aria-hidden="true"></a><span class="reg-num">r1492</span> <a href="https://hasan.vc/angel-investor-and-startup-application">[hasan.vc]</a>
+- <a id="r1493" aria-hidden="true"></a><span class="reg-num">r1493</span> <a href="https://hasan.vc/angels">[hasan.vc]</a>
+- <a id="r1494" aria-hidden="true"></a><span class="reg-num">r1494</span> <a href="https://hasan.vc/ethis-group-aims-for-3m-initial-closing-to-boost-halal-economy-startups">[hasan.vc]</a>
+- <a id="r1495" aria-hidden="true"></a><span class="reg-num">r1495</span> <a href="https://hasan.vc/globalsadaqah">[hasan.vc]</a>
+- <a id="r1496" aria-hidden="true"></a><span class="reg-num">r1496</span> <a href="https://hasan.vc/sponsorship">[hasan.vc]</a>
+- <a id="r1497" aria-hidden="true"></a><span class="reg-num">r1497</span> <a href="https://hasan.vc/venture-capital">[hasan.vc]</a>
+- <a id="r1498" aria-hidden="true"></a><span class="reg-num">r1498</span> <a href="https://hasan.vc/wp-content/uploads/2024/01/Acc.png">[hasan.vc]</a>
+- <a id="r1499" aria-hidden="true"></a><span class="reg-num">r1499</span> <a href="https://hasan.vc/wp-content/uploads/2024/01/VC.png">[hasan.vc]</a>
+- <a id="r1500" aria-hidden="true"></a><span class="reg-num">r1500</span> <a href="https://hasan.vc/wp-content/uploads/2024/01/accelerator-1.png">[hasan.vc]</a>
+- <a id="r1501" aria-hidden="true"></a><span class="reg-num">r1501</span> <a href="https://hasan.vc/wp-content/uploads/2024/01/community-pic.png">[hasan.vc]</a>
+- <a id="r1502" aria-hidden="true"></a><span class="reg-num">r1502</span> <a href="https://hasan.vc/wp-content/uploads/2024/02/HASAN-HERO-SECTION-FOR-MOBILE.png">[hasan.vc]</a>
+- <a id="r1503" aria-hidden="true"></a><span class="reg-num">r1503</span> <a href="https://hasan.vc/wp-content/uploads/2024/03/hasan-vc.jpeg">[hasan.vc]</a>
+- <a id="r1504" aria-hidden="true"></a><span class="reg-num">r1504</span> <a href="https://hasan.vc/wp-content/uploads/2024/05/Angel-Investors-1.png">[hasan.vc]</a>
+- <a id="r1505" aria-hidden="true"></a><span class="reg-num">r1505</span> <a href="https://hasan.vc/wp-content/uploads/2024/05/visit-linkedin-profile-.png">[hasan.vc]</a>
+- <a id="r1506" aria-hidden="true"></a><span class="reg-num">r1506</span> <a href="https://hasan.vc/wp-content/uploads/2024/06/HASAN.VC-latest-image.webp">[hasan.vc]</a>
+- <a id="r1507" aria-hidden="true"></a><span class="reg-num">r1507</span> <a href="https://hasan.vc/wp-content/uploads/2024/10/Community-1.png">[hasan.vc]</a>
+- <a id="r1508" aria-hidden="true"></a><span class="reg-num">r1508</span> <a href="https://hasan.vc/wp-content/uploads/2024/11/Accelerator-1.webp">[hasan.vc]</a>
+- <a id="r1509" aria-hidden="true"></a><span class="reg-num">r1509</span> <a href="https://hasan.vc/wp-content/uploads/2024/11/Akhtaar.png">[hasan.vc]</a>
+- <a id="r1510" aria-hidden="true"></a><span class="reg-num">r1510</span> <a href="https://hasan.vc/wp-content/uploads/2024/11/Amran.png">[hasan.vc]</a>
+- <a id="r1511" aria-hidden="true"></a><span class="reg-num">r1511</span> <a href="https://hasan.vc/wp-content/uploads/2024/11/Angels-Meetup-MY-Sep-2024.webp">[hasan.vc]</a>
+- <a id="r1512" aria-hidden="true"></a><span class="reg-num">r1512</span> <a href="https://hasan.vc/wp-content/uploads/2024/11/Angels-Meetup-SG-Sep-2024.webp">[hasan.vc]</a>
+- <a id="r1513" aria-hidden="true"></a><span class="reg-num">r1513</span> <a href="https://hasan.vc/wp-content/uploads/2024/11/Demo-Day-Jakarta-2024.webp">[hasan.vc]</a>
+- <a id="r1514" aria-hidden="true"></a><span class="reg-num">r1514</span> <a href="https://hasan.vc/wp-content/uploads/2024/11/Demo-Day-KL-2024.webp">[hasan.vc]</a>
+- <a id="r1515" aria-hidden="true"></a><span class="reg-num">r1515</span> <a href="https://hasan.vc/wp-content/uploads/2024/11/HASAN-Launch-at-MY-2024.webp">[hasan.vc]</a>
+- <a id="r1516" aria-hidden="true"></a><span class="reg-num">r1516</span> <a href="https://hasan.vc/wp-content/uploads/2024/11/HASAN-Launch-at-SG-2024.webp">[hasan.vc]</a>
+- <a id="r1517" aria-hidden="true"></a><span class="reg-num">r1517</span> <a href="https://hasan.vc/wp-content/uploads/2024/11/HASAN-Meetup-MY-Dec-2023.webp">[hasan.vc]</a>
+- <a id="r1518" aria-hidden="true"></a><span class="reg-num">r1518</span> <a href="https://hasan.vc/wp-content/uploads/2024/11/HASAN-Meetup-SG-Dec-2023.webp">[hasan.vc]</a>
+- <a id="r1519" aria-hidden="true"></a><span class="reg-num">r1519</span> <a href="https://hasan.vc/wp-content/uploads/2024/11/HASAN-Meetup-SG-Nov-2023.webp">[hasan.vc]</a>
+- <a id="r1520" aria-hidden="true"></a><span class="reg-num">r1520</span> <a href="https://hasan.vc/wp-content/uploads/2024/11/Ramadan-Iftaar-Meetup-2024.webp">[hasan.vc]</a>
+- <a id="r1521" aria-hidden="true"></a><span class="reg-num">r1521</span> <a href="https://hasan.vc/wp-content/uploads/2025/03/Demo-Day-KL-2025.webp">[hasan.vc]</a>
+- <a id="r1522" aria-hidden="true"></a><span class="reg-num">r1522</span> <a href="https://hasan.vc/wp-content/uploads/2025/05/DD-KL-25.webp">[hasan.vc]</a>
+- <a id="r1523" aria-hidden="true"></a><span class="reg-num">r1523</span> <a href="https://hasan.vc/wp-content/uploads/2025/05/DD-KL.webp">[hasan.vc]</a>
+- <a id="r1524" aria-hidden="true"></a><span class="reg-num">r1524</span> <a href="https://hasan.vc/wp-content/uploads/2025/05/DD-jkt.webp">[hasan.vc]</a>
+- <a id="r1525" aria-hidden="true"></a><span class="reg-num">r1525</span> <a href="https://hasan.vc/wp-content/uploads/2025/10/Community-Meetup-Sept-2025.webp">[hasan.vc]</a>
+- <a id="r1526" aria-hidden="true"></a><span class="reg-num">r1526</span> <a href="https://hasan.vc/wp-content/uploads/2025/10/Halal-Startup-Showcase-2025.webp">[hasan.vc]</a>
+- <a id="r1527" aria-hidden="true"></a><span class="reg-num">r1527</span> <a href="https://hasan.vc/wp-content/uploads/2025/10/Private-Pitch-Halal-Startup-Showcase-2025.webp">[hasan.vc]</a>
+- <a id="r1528" aria-hidden="true"></a><span class="reg-num">r1528</span> <a href="https://hasan.vc/wp-content/uploads/2025/12/Alumni-PortCo-Gathering-Jakarta-2025.webp">[hasan.vc]</a>
+- <a id="r1529" aria-hidden="true"></a><span class="reg-num">r1529</span> <a href="https://hasan.vc/wp-content/uploads/2025/12/Dammam-Angels-Gathering-KSA-2025.webp">[hasan.vc]</a>
+- <a id="r1530" aria-hidden="true"></a><span class="reg-num">r1530</span> <a href="https://hasan.vc/wp-content/uploads/2025/12/Jeddah-Community-Gathering-KSA-2025.webp">[hasan.vc]</a>
+- <a id="r1531" aria-hidden="true"></a><span class="reg-num">r1531</span> <a href="https://hasan.vc/wp-content/uploads/2025/12/Madina-Angels-Gathering-KSA-2025.webp">[hasan.vc]</a>
+- <a id="r1532" aria-hidden="true"></a><span class="reg-num">r1532</span> <a href="https://hasan.vc/wp-content/uploads/2025/12/Makkah-Entrepreneurship-Forum-KSA-2025.webp">[hasan.vc]</a>
+- <a id="r1533" aria-hidden="true"></a><span class="reg-num">r1533</span> <a href="https://hasan.vc/wp-content/uploads/2025/12/Riyadh-Angels-Gathering-KSA-2025.webp">[hasan.vc]</a>
+- <a id="r1534" aria-hidden="true"></a><span class="reg-num">r1534</span> <a href="https://hasan.vc/wp-content/uploads/2026/04/Fundraising-Masterclass-Bandung-2026-1.webp">[hasan.vc]</a>
+- <a id="r1535" aria-hidden="true"></a><span class="reg-num">r1535</span> <a href="https://hasan.vc/wp-content/uploads/2026/04/Fundraising-Masterclass-Jakarta-2026-1.webp">[hasan.vc]</a>
+- <a id="r1536" aria-hidden="true"></a><span class="reg-num">r1536</span> <a href="https://hasan.vc/wp-content/uploads/2026/04/KL-Community-Gathering-April-2026-1.webp">[hasan.vc]</a>
+- <a id="r1537" aria-hidden="true"></a><span class="reg-num">r1537</span> <a href="https://hasan.vc/wp-content/uploads/2026/06/DP-Umar.webp">[hasan.vc]</a>
+- <a id="r1538" aria-hidden="true"></a><span class="reg-num">r1538</span> <a href="https://hasan.vc/wp-content/uploads/2026/06/London-Angels-Gathering-Muslim-Tech-Week-June-2026.webp">[hasan.vc]</a>
+- <a id="r1539" aria-hidden="true"></a><span class="reg-num">r1539</span> <a href="https://hasan.vc/wp-content/uploads/2026/07/Closed-Door-Investment-Session-Bandung-June-2026.webp">[hasan.vc]</a>
+- <a id="r1540" aria-hidden="true"></a><span class="reg-num">r1540</span> <a href="https://hasan.vc/wp-content/uploads/2026/07/Demo-Day-Bandung-June-2026.webp">[hasan.vc]</a>
+- <a id="r1541" aria-hidden="true"></a><span class="reg-num">r1541</span> <a href="https://hasan.vc/wp-content/uploads/2026/07/Demo-Day-thumbnail.webp">[hasan.vc]</a>
+- <a id="r1542" aria-hidden="true"></a><span class="reg-num">r1542</span> <a href="https://hasan.vc/wp-content/uploads/2026/08/Rizq-Investment-Festival-Singapore-July-2026.webp">[hasan.vc]</a>
+- <a id="r1543" aria-hidden="true"></a><span class="reg-num">r1543</span> <a href="https://hasan.vc/wp-content/uploads/2026/08/The-Prophetic-Strategy-Summit-Istanbul-July-2026.webp">[hasan.vc]</a>
+- <a id="r1544" aria-hidden="true"></a><span class="reg-num">r1544</span> <a href="https://hasan.vc/wp-content/uploads/2026/09/Niya-Summit-Silicon-Valley-August-2026.webp">[hasan.vc]</a>
+- <a id="r1545" aria-hidden="true"></a><span class="reg-num">r1545</span> <a href="https://hub71.com">[hub71.com]</a> · cited in <a href="/01-master-report/#s1-9">§1.9</a>
+- <a id="r1546" aria-hidden="true"></a><span class="reg-num">r1546</span> <a href="https://hub71.com/">[hub71.com]</a> · cited in <a href="/01-master-report/#s1-9">§1.9</a>
+- <a id="r1547" aria-hidden="true"></a><span class="reg-num">r1547</span> <a href="https://jada.com.sa">[jada.com.sa]</a> · cited in <a href="/01-master-report/#s1-8">§1.8</a>
+- <a id="r1548" aria-hidden="true"></a><span class="reg-num">r1548</span> <a href="https://jada.com.sa/">[jada.com.sa]</a> · cited in <a href="/01-master-report/#s1-8">§1.8</a>
+- <a id="r1549" aria-hidden="true"></a><span class="reg-num">r1549</span> <a href="https://kliff.com.my">[kliff.com.my]</a>
+- <a id="r1550" aria-hidden="true"></a><span class="reg-num">r1550</span> <a href="https://kliff.com.my/">[kliff.com.my]</a>
+- <a id="r1551" aria-hidden="true"></a><span class="reg-num">r1551</span> <a href="https://kliff.com.my/wp-content/uploads/2025/08/KLIFF-2025_-Brochure.pdf">[kliff.com.my]</a>
+- <a id="r1552" aria-hidden="true"></a><span class="reg-num">r1552</span> <a href="https://kliff.com.my/wp-content/uploads/2025/09/KLIFF-2025_-Brochure-v2.pdf">[kliff.com.my]</a>
+- <a id="r1553" aria-hidden="true"></a><span class="reg-num">r1553</span> <a href="https://shorooq.ae">[shorooq.ae]</a>
+- <a id="r1554" aria-hidden="true"></a><span class="reg-num">r1554</span> <a href="https://svc.com.sa">[svc.com.sa]</a>
+- <a id="r1555" aria-hidden="true"></a><span class="reg-num">r1555</span> <a href="https://svc.com.sa/ar">[svc.com.sa]</a>
+- <a id="r1556" aria-hidden="true"></a><span class="reg-num">r1556</span> <a href="https://svc.com.sa/en">[svc.com.sa]</a> · cited in <a href="/01-master-report/#s1-8">§1.8</a>
+- <a id="r1557" aria-hidden="true"></a><span class="reg-num">r1557</span> <a href="https://svc.com.sa/en/about-us">[svc.com.sa]</a>
+- <a id="r1558" aria-hidden="true"></a><span class="reg-num">r1558</span> <a href="https://svc.com.sa/en/author/heosama">[svc.com.sa]</a>
+- <a id="r1559" aria-hidden="true"></a><span class="reg-num">r1559</span> <a href="https://svc.com.sa/en/contact-us">[svc.com.sa]</a>
+- <a id="r1560" aria-hidden="true"></a><span class="reg-num">r1560</span> <a href="https://svc.com.sa/en/programs">[svc.com.sa]</a>
+- <a id="r1561" aria-hidden="true"></a><span class="reg-num">r1561</span> <a href="https://svc.com.sa/en/reports">[svc.com.sa]</a>
+- <a id="r1562" aria-hidden="true"></a><span class="reg-num">r1562</span> <a href="https://svc.com.sa/en">[svc.com.sa]</a> · cited in <a href="/01-master-report/#s1-8">§1.8</a>
+- <a id="r1563" aria-hidden="true"></a><span class="reg-num">r1563</span> <a href="https://svc.com.sa/wp-content/uploads/2023/03/SVC-Logo-Simple-h60.png">[svc.com.sa]</a>
+- <a id="r1564" aria-hidden="true"></a><span class="reg-num">r1564</span> <a href="https://www.antler.co">[www.antler.co]</a>
+- <a id="r1565" aria-hidden="true"></a><span class="reg-num">r1565</span> <a href="https://www.antler.co/location/menap">[www.antler.co]</a>
+- <a id="r1566" aria-hidden="true"></a><span class="reg-num">r1566</span> <a href="https://www.bahrainfintechbay.com">[www.bahrainfintechbay.com]</a> · cited in <a href="/01-master-report/#s1-9">§1.9</a>
+- <a id="r1567" aria-hidden="true"></a><span class="reg-num">r1567</span> <a href="https://www.bahrainfintechbay.com/acceleration">[www.bahrainfintechbay.com]</a> · cited in <a href="/02-gap-01-juzsukuk/#s2-12">§2.12</a>
+- <a id="r1568" aria-hidden="true"></a><span class="reg-num">r1568</span> <a href="https://www.bahrainfintechbay.com/acceleration">[www.bahrainfintechbay.com]</a> · cited in <a href="/02-gap-01-juzsukuk/#s2-12">§2.12</a>
+- <a id="r1569" aria-hidden="true"></a><span class="reg-num">r1569</span> <a href="https://www.bahrainfintechbay.com/single-post/bahrain-gears-up-to-host-fintech-forward-2026-this-october">[www.bahrainfintechbay.com]</a>
+- <a id="r1570" aria-hidden="true"></a><span class="reg-num">r1570</span> <a href="https://www.bahrainfintechbay.com/single-post/bahrain-gears-up-to-host-fintech-forward-2026-this-october">[www.bahrainfintechbay.com]</a>
+- <a id="r1571" aria-hidden="true"></a><span class="reg-num">r1571</span> <a href="https://www.flat6labs.com">[www.flat6labs.com]</a> · cited in <a href="/01-master-report/#s1-9">§1.9</a>
+- <a id="r1572" aria-hidden="true"></a><span class="reg-num">r1572</span> <a href="https://www.gobi.vc">[www.gobi.vc]</a>
+- <a id="r1573" aria-hidden="true"></a><span class="reg-num">r1573</span> <a href="https://www.gobi.vc/news/ethis-group-and-gobi-partners-to-debut-shariah-compliant-us20-million-seed-fund">[www.gobi.vc]</a> · cited in <a href="/01-master-report/#s1-8">§1.8</a>
+- <a id="r1574" aria-hidden="true"></a><span class="reg-num">r1574</span> <a href="https://www.gobi.vc/news/muslim-venture-capital-malaysia">[www.gobi.vc]</a>
+- <a id="r1575" aria-hidden="true"></a><span class="reg-num">r1575</span> <a href="https://www.hub71.com">[www.hub71.com]</a> · cited in <a href="/01-master-report/#s1-9">§1.9</a>
+- <a id="r1576" aria-hidden="true"></a><span class="reg-num">r1576</span> <a href="https://www.hub71.com/ar">[www.hub71.com]</a>
+- <a id="r1577" aria-hidden="true"></a><span class="reg-num">r1577</span> <a href="https://www.hub71.com/i-am-a-startup">[www.hub71.com]</a>
+- <a id="r1578" aria-hidden="true"></a><span class="reg-num">r1578</span> <a href="https://www.hub71.com/i-want-to-invest">[www.hub71.com]</a>
+- <a id="r1579" aria-hidden="true"></a><span class="reg-num">r1579</span> <a href="https://www.hub71.com/images/home/image1-mobile-new.webp">[www.hub71.com]</a>
+- <a id="r1580" aria-hidden="true"></a><span class="reg-num">r1580</span> <a href="https://www.hub71.com/images/home/image1-new.webp">[www.hub71.com]</a>
+- <a id="r1581" aria-hidden="true"></a><span class="reg-num">r1581</span> <a href="https://www.hub71.com/images/home/image2.webp">[www.hub71.com]</a>
+- <a id="r1582" aria-hidden="true"></a><span class="reg-num">r1582</span> <a href="https://www.hub71.com/images/homepage-benefit-1.png">[www.hub71.com]</a>
+- <a id="r1583" aria-hidden="true"></a><span class="reg-num">r1583</span> <a href="https://www.hub71.com/images/info-sessions/big-arrow.svg">[www.hub71.com]</a>
+- <a id="r1584" aria-hidden="true"></a><span class="reg-num">r1584</span> <a href="https://www.hub71.com/images/og-hub71.jpg">[www.hub71.com]</a>
+- <a id="r1585" aria-hidden="true"></a><span class="reg-num">r1585</span> <a href="https://www.hub71.com/impact/2025">[www.hub71.com]</a>
+- <a id="r1586" aria-hidden="true"></a><span class="reg-num">r1586</span> <a href="https://www.hub71.com/info-sessions">[www.hub71.com]</a>
+- <a id="r1587" aria-hidden="true"></a><span class="reg-num">r1587</span> <a href="https://www.hub71.com/latest-news">[www.hub71.com]</a>
+- <a id="r1588" aria-hidden="true"></a><span class="reg-num">r1588</span> <a href="https://www.hub71.com/latest-news/blog/from-introduction-to-clinical-trial:-how-hub71-connects-innovation-to-abu-dhabis-health-and-life-sciences-ecosystem">[www.hub71.com]</a>
+- <a id="r1589" aria-hidden="true"></a><span class="reg-num">r1589</span> <a href="https://www.hub71.com/latest-news/blog/the-hardest-thing-about-early-childhood-tech-isnt-the-technology">[www.hub71.com]</a>
+- <a id="r1590" aria-hidden="true"></a><span class="reg-num">r1590</span> <a href="https://www.hub71.com/latest-news/press-release/hub71-expands-initiate-programme-after-almost-5500-founders-register-for-early-stage-startup-support">[www.hub71.com]</a>
+- <a id="r1591" aria-hidden="true"></a><span class="reg-num">r1591</span> <a href="https://www.hub71.com/partners">[www.hub71.com]</a>
+- <a id="r1592" aria-hidden="true"></a><span class="reg-num">r1592</span> <a href="https://www.hub71.com/program/access-programme">[www.hub71.com]</a>
+- <a id="r1593" aria-hidden="true"></a><span class="reg-num">r1593</span> <a href="https://www.hub71.com/program/access-programme/apply">[www.hub71.com]</a>
+- <a id="r1594" aria-hidden="true"></a><span class="reg-num">r1594</span> <a href="https://www.hub71.com/program/eca-anjal-z-x-hub71">[www.hub71.com]</a>
+- <a id="r1595" aria-hidden="true"></a><span class="reg-num">r1595</span> <a href="https://www.hub71.com/program/hub71-plus-ai">[www.hub71.com]</a>
+- <a id="r1596" aria-hidden="true"></a><span class="reg-num">r1596</span> <a href="https://www.hub71.com/program/hub71-plus-climatetech">[www.hub71.com]</a>
+- <a id="r1597" aria-hidden="true"></a><span class="reg-num">r1597</span> <a href="https://www.hub71.com/program/hub71-plus-climatetech/apply">[www.hub71.com]</a>
+- <a id="r1598" aria-hidden="true"></a><span class="reg-num">r1598</span> <a href="https://www.hub71.com/program/hub71-plus-digital-assets">[www.hub71.com]</a>
+- <a id="r1599" aria-hidden="true"></a><span class="reg-num">r1599</span> <a href="https://www.hub71.com/program/hub71-plus-digital-assets/apply">[www.hub71.com]</a>
+- <a id="r1600" aria-hidden="true"></a><span class="reg-num">r1600</span> <a href="https://www.hub71.com/program/hub71-plus-life-sciences">[www.hub71.com]</a>
+- <a id="r1601" aria-hidden="true"></a><span class="reg-num">r1601</span> <a href="https://www.hub71.com/program/hub71-plus-life-sciences/apply">[www.hub71.com]</a>
+- <a id="r1602" aria-hidden="true"></a><span class="reg-num">r1602</span> <a href="https://www.hub71.com/program/india">[www.hub71.com]</a>
+- <a id="r1603" aria-hidden="true"></a><span class="reg-num">r1603</span> <a href="https://www.hub71.com/program/initiate">[www.hub71.com]</a>
+- <a id="r1604" aria-hidden="true"></a><span class="reg-num">r1604</span> <a href="https://www.hub71.com/program/initiate/apply">[www.hub71.com]</a>
+- <a id="r1605" aria-hidden="true"></a><span class="reg-num">r1605</span> <a href="https://www.hub71.com/program/mzn-x-hub71-programme">[www.hub71.com]</a>
+- <a id="r1606" aria-hidden="true"></a><span class="reg-num">r1606</span> <a href="https://www.hub71.com/program/sandbox-programme">[www.hub71.com]</a>
+- <a id="r1607" aria-hidden="true"></a><span class="reg-num">r1607</span> <a href="https://www.hub71.com/program/savi">[www.hub71.com]</a>
+- <a id="r1608" aria-hidden="true"></a><span class="reg-num">r1608</span> <a href="https://www.hub71.com/storage/media/15409/conversions/IMG-20260623-WA0029_s7uKAUTy-converted-webp.webp?v=1786340599&amp;quot">[www.hub71.com]</a>
+- <a id="r1609" aria-hidden="true"></a><span class="reg-num">r1609</span> <a href="https://www.hub71.com/storage/media/15409/responsive-images/IMG-20260623-WA0029_s7uKAUTy___converted-webp_1070_713.webp">[www.hub71.com]</a>
+- <a id="r1610" aria-hidden="true"></a><span class="reg-num">r1610</span> <a href="https://www.hub71.com/storage/media/15409/responsive-images/IMG-20260623-WA0029_s7uKAUTy___converted-webp_1280_853.webp">[www.hub71.com]</a>
+- <a id="r1611" aria-hidden="true"></a><span class="reg-num">r1611</span> <a href="https://www.hub71.com/storage/media/15409/responsive-images/IMG-20260623-WA0029_s7uKAUTy___converted-webp_179_119.webp">[www.hub71.com]</a>
+- <a id="r1612" aria-hidden="true"></a><span class="reg-num">r1612</span> <a href="https://www.hub71.com/storage/media/15409/responsive-images/IMG-20260623-WA0029_s7uKAUTy___converted-webp_215_143.webp">[www.hub71.com]</a>
+- <a id="r1613" aria-hidden="true"></a><span class="reg-num">r1613</span> <a href="https://www.hub71.com/storage/media/15409/responsive-images/IMG-20260623-WA0029_s7uKAUTy___converted-webp_257_171.webp">[www.hub71.com]</a>
+- <a id="r1614" aria-hidden="true"></a><span class="reg-num">r1614</span> <a href="https://www.hub71.com/storage/media/15409/responsive-images/IMG-20260623-WA0029_s7uKAUTy___converted-webp_307_205.webp">[www.hub71.com]</a>
+- <a id="r1615" aria-hidden="true"></a><span class="reg-num">r1615</span> <a href="https://www.hub71.com/storage/media/15409/responsive-images/IMG-20260623-WA0029_s7uKAUTy___converted-webp_367_245.webp">[www.hub71.com]</a>
+- <a id="r1616" aria-hidden="true"></a><span class="reg-num">r1616</span> <a href="https://www.hub71.com/storage/media/15409/responsive-images/IMG-20260623-WA0029_s7uKAUTy___converted-webp_439_293.webp">[www.hub71.com]</a>
+- <a id="r1617" aria-hidden="true"></a><span class="reg-num">r1617</span> <a href="https://www.hub71.com/storage/media/15409/responsive-images/IMG-20260623-WA0029_s7uKAUTy___converted-webp_524_349.webp">[www.hub71.com]</a>
+- <a id="r1618" aria-hidden="true"></a><span class="reg-num">r1618</span> <a href="https://www.hub71.com/storage/media/15409/responsive-images/IMG-20260623-WA0029_s7uKAUTy___converted-webp_627_418.webp">[www.hub71.com]</a>
+- <a id="r1619" aria-hidden="true"></a><span class="reg-num">r1619</span> <a href="https://www.hub71.com/storage/media/15409/responsive-images/IMG-20260623-WA0029_s7uKAUTy___converted-webp_749_499.webp">[www.hub71.com]</a>
+- <a id="r1620" aria-hidden="true"></a><span class="reg-num">r1620</span> <a href="https://www.hub71.com/storage/media/15409/responsive-images/IMG-20260623-WA0029_s7uKAUTy___converted-webp_896_597.webp">[www.hub71.com]</a>
+- <a id="r1621" aria-hidden="true"></a><span class="reg-num">r1621</span> <a href="https://www.hub71.com/storage/media/18028/conversions/thumbnail-anjal-z_7l5b1GLo-converted-webp.webp?v=1787651792&amp;quot">[www.hub71.com]</a>
+- <a id="r1622" aria-hidden="true"></a><span class="reg-num">r1622</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_1028_574.webp">[www.hub71.com]</a>
+- <a id="r1623" aria-hidden="true"></a><span class="reg-num">r1623</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_1229_686.webp">[www.hub71.com]</a>
+- <a id="r1624" aria-hidden="true"></a><span class="reg-num">r1624</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_1469_820.webp">[www.hub71.com]</a>
+- <a id="r1625" aria-hidden="true"></a><span class="reg-num">r1625</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_1756_980.webp">[www.hub71.com]</a>
+- <a id="r1626" aria-hidden="true"></a><span class="reg-num">r1626</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_206_115.webp">[www.hub71.com]</a>
+- <a id="r1627" aria-hidden="true"></a><span class="reg-num">r1627</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_2100_1172.webp">[www.hub71.com]</a>
+- <a id="r1628" aria-hidden="true"></a><span class="reg-num">r1628</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_247_138.webp">[www.hub71.com]</a>
+- <a id="r1629" aria-hidden="true"></a><span class="reg-num">r1629</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_295_165.webp">[www.hub71.com]</a>
+- <a id="r1630" aria-hidden="true"></a><span class="reg-num">r1630</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_352_196.webp">[www.hub71.com]</a>
+- <a id="r1631" aria-hidden="true"></a><span class="reg-num">r1631</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_421_235.webp">[www.hub71.com]</a>
+- <a id="r1632" aria-hidden="true"></a><span class="reg-num">r1632</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_504_281.webp">[www.hub71.com]</a>
+- <a id="r1633" aria-hidden="true"></a><span class="reg-num">r1633</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_602_336.webp">[www.hub71.com]</a>
+- <a id="r1634" aria-hidden="true"></a><span class="reg-num">r1634</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_720_402.webp">[www.hub71.com]</a>
+- <a id="r1635" aria-hidden="true"></a><span class="reg-num">r1635</span> <a href="https://www.hub71.com/storage/media/18028/responsive-images/thumbnail-anjal-z_7l5b1GLo___converted-webp_860_480.webp">[www.hub71.com]</a>
+- <a id="r1636" aria-hidden="true"></a><span class="reg-num">r1636</span> <a href="https://www.hub71.com/storage/media/18066/conversions/Initiate_Programme_1_lfY9yRgp-converted-webp.webp?v=1787730493&amp;quot">[www.hub71.com]</a>
+- <a id="r1637" aria-hidden="true"></a><span class="reg-num">r1637</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_1008_567.webp">[www.hub71.com]</a>
+- <a id="r1638" aria-hidden="true"></a><span class="reg-num">r1638</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_1205_678.webp">[www.hub71.com]</a>
+- <a id="r1639" aria-hidden="true"></a><span class="reg-num">r1639</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_1441_811.webp">[www.hub71.com]</a>
+- <a id="r1640" aria-hidden="true"></a><span class="reg-num">r1640</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_169_95.webp">[www.hub71.com]</a>
+- <a id="r1641" aria-hidden="true"></a><span class="reg-num">r1641</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_1722_969.webp">[www.hub71.com]</a>
+- <a id="r1642" aria-hidden="true"></a><span class="reg-num">r1642</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_202_114.webp">[www.hub71.com]</a>
+- <a id="r1643" aria-hidden="true"></a><span class="reg-num">r1643</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_2059_1159.webp">[www.hub71.com]</a>
+- <a id="r1644" aria-hidden="true"></a><span class="reg-num">r1644</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_242_136.webp">[www.hub71.com]</a>
+- <a id="r1645" aria-hidden="true"></a><span class="reg-num">r1645</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_2461_1385.webp">[www.hub71.com]</a>
+- <a id="r1646" aria-hidden="true"></a><span class="reg-num">r1646</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_289_163.webp">[www.hub71.com]</a>
+- <a id="r1647" aria-hidden="true"></a><span class="reg-num">r1647</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_346_195.webp">[www.hub71.com]</a>
+- <a id="r1648" aria-hidden="true"></a><span class="reg-num">r1648</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_413_232.webp">[www.hub71.com]</a>
+- <a id="r1649" aria-hidden="true"></a><span class="reg-num">r1649</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_494_278.webp">[www.hub71.com]</a>
+- <a id="r1650" aria-hidden="true"></a><span class="reg-num">r1650</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_590_332.webp">[www.hub71.com]</a>
+- <a id="r1651" aria-hidden="true"></a><span class="reg-num">r1651</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_706_397.webp">[www.hub71.com]</a>
+- <a id="r1652" aria-hidden="true"></a><span class="reg-num">r1652</span> <a href="https://www.hub71.com/storage/media/18066/responsive-images/Initiate_Programme_1_lfY9yRgp___converted-webp_844_475.webp">[www.hub71.com]</a>
+- <a id="r1653" aria-hidden="true"></a><span class="reg-num">r1653</span> <a href="https://www.hub71.com/svgs/chat-icon-mini.svg">[www.hub71.com]</a>
+- <a id="r1654" aria-hidden="true"></a><span class="reg-num">r1654</span> <a href="https://www.hub71.com/svgs/closeicon.svg">[www.hub71.com]</a>
+- <a id="r1655" aria-hidden="true"></a><span class="reg-num">r1655</span> <a href="https://www.hub71.com/svgs/homepage-benefit-2.svg">[www.hub71.com]</a>
+- <a id="r1656" aria-hidden="true"></a><span class="reg-num">r1656</span> <a href="https://www.hub71.com/svgs/homepage-benefit-3.svg">[www.hub71.com]</a>
+- <a id="r1657" aria-hidden="true"></a><span class="reg-num">r1657</span> <a href="https://www.hub71.com/svgs/homepage-benefit-4.svg">[www.hub71.com]</a>
+- <a id="r1658" aria-hidden="true"></a><span class="reg-num">r1658</span> <a href="https://www.hub71.com/svgs/icon.svg">[www.hub71.com]</a>
+- <a id="r1659" aria-hidden="true"></a><span class="reg-num">r1659</span> <a href="https://www.hub71.com/svgs/icon0.svg">[www.hub71.com]</a>
+- <a id="r1660" aria-hidden="true"></a><span class="reg-num">r1660</span> <a href="https://www.hub71.com/svgs/icon1.svg">[www.hub71.com]</a>
+- <a id="r1661" aria-hidden="true"></a><span class="reg-num">r1661</span> <a href="https://www.hub71.com/svgs/icon12.svg">[www.hub71.com]</a>
+- <a id="r1662" aria-hidden="true"></a><span class="reg-num">r1662</span> <a href="https://www.hub71.com/svgs/icon17.svg">[www.hub71.com]</a>
+- <a id="r1663" aria-hidden="true"></a><span class="reg-num">r1663</span> <a href="https://www.hub71.com/svgs/icon5.svg">[www.hub71.com]</a>
+- <a id="r1664" aria-hidden="true"></a><span class="reg-num">r1664</span> <a href="https://www.hub71.com/svgs/icon6.svg">[www.hub71.com]</a>
+- <a id="r1665" aria-hidden="true"></a><span class="reg-num">r1665</span> <a href="https://www.hub71.com/svgs/logo2.svg?v=1">[www.hub71.com]</a>
+- <a id="r1666" aria-hidden="true"></a><span class="reg-num">r1666</span> <a href="https://www.hub71.com/svgs/searchicon.svg">[www.hub71.com]</a>
+- <a id="r1667" aria-hidden="true"></a><span class="reg-num">r1667</span> <a href="https://www.hub71.com/talent">[www.hub71.com]</a>
+- <a id="r1668" aria-hidden="true"></a><span class="reg-num">r1668</span> <a href="https://www.hub71.com/who-we-are">[www.hub71.com]</a>
+- <a id="r1669" aria-hidden="true"></a><span class="reg-num">r1669</span> <a href="https://www.jada.com.sa">[www.jada.com.sa]</a> · cited in <a href="/01-master-report/#s1-8">§1.8</a>
+- <a id="r1670" aria-hidden="true"></a><span class="reg-num">r1670</span> <a href="https://www.jada.com.sa/publication-and-news">[www.jada.com.sa]</a>
+- <a id="r1671" aria-hidden="true"></a><span class="reg-num">r1671</span> <a href="https://www.legal500.com/developments/thought-leadership/tokenisation-in-malaysia-navigating-the-digital-asset-revolution">[www.legal500.com]</a>
+- <a id="r1672" aria-hidden="true"></a><span class="reg-num">r1672</span> <a href="https://www.legal500.com/guides/chapter/saudi-arabia-fintech/?export-pdf">[www.legal500.com]</a>
+- <a id="r1673" aria-hidden="true"></a><span class="reg-num">r1673</span> <a href="https://www.legal500.com/guides/chapter/saudi-arabia-fintech/?export-pdf">[www.legal500.com]</a>
+- <a id="r1674" aria-hidden="true"></a><span class="reg-num">r1674</span> <a href="https://www.menabytes.com/qist-bazaar-series-a">[www.menabytes.com]</a>
+- <a id="r1675" aria-hidden="true"></a><span class="reg-num">r1675</span> <a href="https://www.menabytes.com/shorooq-debt-fund-2">[www.menabytes.com]</a>
+- <a id="r1676" aria-hidden="true"></a><span class="reg-num">r1676</span> <a href="https://www.menabytes.com/tamara-consumer-finance-sama-license">[www.menabytes.com]</a>
+- <a id="r1677" aria-hidden="true"></a><span class="reg-num">r1677</span> <a href="https://www.sanabil500.com/en-US">[www.sanabil500.com]</a>
+- <a id="r1678" aria-hidden="true"></a><span class="reg-num">r1678</span> <a href="https://www.shorooq.com">[www.shorooq.com]</a>
+- <a id="r1679" aria-hidden="true"></a><span class="reg-num">r1679</span> <a href="https://www.startupblink.com/top-startups/kuwait/fintech">[www.startupblink.com]</a>
+- <a id="r1680" aria-hidden="true"></a><span class="reg-num">r1680</span> <a href="https://www.startupblink.com/top-startups/manama-bh/fintech/financial-services">[www.startupblink.com]</a>
+- <a id="r1681" aria-hidden="true"></a><span class="reg-num">r1681</span> <a href="https://www.stv.vc">[www.stv.vc]</a>
+- <a id="r1682" aria-hidden="true"></a><span class="reg-num">r1682</span> <a href="https://www.venturesouq.com">[www.venturesouq.com]</a> · cited in <a href="/01-master-report/#s1-8">§1.8</a>
+- <a id="r1683" aria-hidden="true"></a><span class="reg-num">r1683</span> <a href="https://www.venturesouq.com/">[www.venturesouq.com]</a> · cited in <a href="/01-master-report/#s1-8">§1.8</a>
+- <a id="r1684" aria-hidden="true"></a><span class="reg-num">r1684</span> <a href="https://www.venturesouq.com/portfolio">[www.venturesouq.com]</a>
+- <a id="r1685" aria-hidden="true"></a><span class="reg-num">r1685</span> <a href="https://www.venturesouq.com/portfolio?fund=ClimateTech">[www.venturesouq.com]</a>
+- <a id="r1686" aria-hidden="true"></a><span class="reg-num">r1686</span> <a href="https://www.venturesouq.com/portfolio?fund=Global+Seed">[www.venturesouq.com]</a>
+- <a id="r1687" aria-hidden="true"></a><span class="reg-num">r1687</span> <a href="https://www.venturesouq.com/portfolio?sector=FinTech">[www.venturesouq.com]</a>

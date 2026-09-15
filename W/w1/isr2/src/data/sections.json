@@ -1,0 +1,142 @@
+[
+	{
+		"n": 1,
+		"ref": "01",
+		"slug": "01-master-report",
+		"kind": "Master Report",
+		"title": "Master Report",
+		"headline": "Islamic Fintech Gap Analysis & Startup Blueprint (2026 Edition)",
+		"name": null,
+		"summary": "How the top 10 monetizable gaps in Islamic fintech were derived from 1,764 authoritative sources: discovery methodology, the disqualified-gap log, per-gap decision rationale, ecosystem and regulatory benchmarks, funding channels, portfolio construction, and a full self-audit."
+	},
+	{
+		"n": 2,
+		"ref": "02",
+		"slug": "02-gap-01-juzsukuk",
+		"kind": "Gap Blueprint",
+		"title": "Gap 01 — JuzSukuk",
+		"headline": "Fractional Tokenized Retail Sukuk (Sukuk-as-a-Service)",
+		"name": "JuzSukuk",
+		"summary": "Institutional-grade blueprint for JuzSukuk — Fractional Tokenized Retail Sukuk (Sukuk-as-a-Service). Feasibility, unit economics, moats, competitor mapping, zero-cost MVP architecture, go-to-market, risk register and gating scores."
+	},
+	{
+		"n": 3,
+		"ref": "03",
+		"slug": "03-gap-02-sanadflow",
+		"kind": "Gap Blueprint",
+		"title": "Gap 02 — SanadFlow",
+		"headline": "Automated-Murabaha SME Supply-Chain Finance",
+		"name": "SanadFlow",
+		"summary": "Institutional-grade blueprint for SanadFlow — Automated-Murabaha SME Supply-Chain Finance. Feasibility, unit economics, moats, competitor mapping, zero-cost MVP architecture, go-to-market, risk register and gating scores."
+	},
+	{
+		"n": 4,
+		"ref": "04",
+		"slug": "04-gap-03-halalport",
+		"kind": "Gap Blueprint",
+		"title": "Gap 03 — HalalPort",
+		"headline": "All-in-One Halal Brokerage (Screen + Execute)",
+		"name": "HalalPort",
+		"summary": "Institutional-grade blueprint for HalalPort — All-in-One Halal Brokerage (Screen + Execute). Feasibility, unit economics, moats, competitor mapping, zero-cost MVP architecture, go-to-market, risk register and gating scores."
+	},
+	{
+		"n": 5,
+		"ref": "05",
+		"slug": "05-gap-04-amanpayung",
+		"kind": "Gap Blueprint",
+		"title": "Gap 04 — AmanPayung",
+		"headline": "Parametric Micro-Takaful Insurtech",
+		"name": "AmanPayung",
+		"summary": "Institutional-grade blueprint for AmanPayung — Parametric Micro-Takaful Insurtech. Feasibility, unit economics, moats, competitor mapping, zero-cost MVP architecture, go-to-market, risk register and gating scores."
+	},
+	{
+		"n": 6,
+		"ref": "06",
+		"slug": "06-gap-05-waqftrace",
+		"kind": "Gap Blueprint",
+		"title": "Gap 05 — WaqfTrace",
+		"headline": "Zakat/Waqf Transparency + Fractional Waqf",
+		"name": "WaqfTrace",
+		"summary": "Institutional-grade blueprint for WaqfTrace — Zakat/Waqf Transparency + Fractional Waqf. Feasibility, unit economics, moats, competitor mapping, zero-cost MVP architecture, go-to-market, risk register and gating scores."
+	},
+	{
+		"n": 7,
+		"ref": "07",
+		"slug": "07-gap-06-adlscore",
+		"kind": "Gap Blueprint",
+		"title": "Gap 06 — AdlScore",
+		"headline": "Shariah P2P Crowdfunding + AI Alternative Credit Scoring",
+		"name": "AdlScore",
+		"summary": "Institutional-grade blueprint for AdlScore — Shariah P2P Crowdfunding + AI Alternative Credit Scoring. Feasibility, unit economics, moats, competitor mapping, zero-cost MVP architecture, go-to-market, risk register and gating scores."
+	},
+	{
+		"n": 8,
+		"ref": "08",
+		"slug": "08-gap-07-siratremit",
+		"kind": "Gap Blueprint",
+		"title": "Gap 07 — SiratRemit",
+		"headline": "Shariah-Screened Stablecoin Cross-Border Remittance (Conditional)",
+		"name": "SiratRemit",
+		"summary": "Institutional-grade blueprint for SiratRemit — Shariah-Screened Stablecoin Cross-Border Remittance (Conditional). Feasibility, unit economics, moats, competitor mapping, zero-cost MVP architecture, go-to-market, risk register and gating scores."
+	},
+	{
+		"n": 9,
+		"ref": "09",
+		"slug": "09-gap-08-fiqhstack",
+		"kind": "Gap Blueprint",
+		"title": "Gap 08 — FiqhStack",
+		"headline": "AI Shariah-Compliance Layer & SSB Workflow Automation",
+		"name": "FiqhStack",
+		"summary": "Institutional-grade blueprint for FiqhStack — AI Shariah-Compliance Layer & SSB Workflow Automation. Feasibility, unit economics, moats, competitor mapping, zero-cost MVP architecture, go-to-market, risk register and gating scores."
+	},
+	{
+		"n": 10,
+		"ref": "10",
+		"slug": "10-gap-09-qisthalal",
+		"kind": "Gap Blueprint",
+		"title": "Gap 09 — QistHalal",
+		"headline": "Halal BNPL & Diaspora Auto Ijara Leasing",
+		"name": "QistHalal",
+		"summary": "Institutional-grade blueprint for QistHalal — Halal BNPL & Diaspora Auto Ijara Leasing. Feasibility, unit economics, moats, competitor mapping, zero-cost MVP architecture, go-to-market, risk register and gating scores."
+	},
+	{
+		"n": 11,
+		"ref": "11",
+		"slug": "11-gap-10-tayyibledger",
+		"kind": "Gap Blueprint",
+		"title": "Gap 10 — TayyibLedger",
+		"headline": "Green Halal Sustainable Sukuk + ESG Impact Ledger for SMEs",
+		"name": "TayyibLedger",
+		"summary": "Institutional-grade blueprint for TayyibLedger — Green Halal Sustainable Sukuk + ESG Impact Ledger for SMEs. Feasibility, unit economics, moats, competitor mapping, zero-cost MVP architecture, go-to-market, risk register and gating scores."
+	},
+	{
+		"n": 12,
+		"ref": "12",
+		"slug": "12-llm-usage-and-cost-analysis",
+		"kind": "Cost Intelligence",
+		"title": "LLM Usage & Cost Intelligence",
+		"headline": "Research Pipeline Telemetry, Rate Cards & CFO Briefing",
+		"name": null,
+		"summary": "Execution telemetry for the research pipeline (34 subagents, 4.65M billable tokens, $6.58 direct compute), top-10 US and top-10 China frontier rate cards, cross-border arbitrage benchmarks and an enterprise scaling financial model."
+	},
+	{
+		"n": 13,
+		"ref": "13",
+		"slug": "13-references",
+		"kind": "References",
+		"title": "References",
+		"headline": "Collected Citations & Authoritative Source Registry",
+		"name": null,
+		"summary": "Every source cited anywhere in the research, collected into one de-duplicated, cross-linked index, together with the 850+ entry Authoritative Source Registry split across its seven institutional categories."
+	},
+	{
+		"n": 14,
+		"ref": "14",
+		"slug": "14-site-build-report",
+		"kind": "Engineering & Cost",
+		"title": "Site Build Report",
+		"headline": "Build Telemetry, Token Metrics & Executive Cost Briefing",
+		"name": null,
+		"summary": "What it cost to engineer this documentation site: the measured build surface, a modelled token flow, live BenchLM rate cards for the top 10 US and top 10 China models, sorted what-if cost scenarios and an executive briefing for the EM, CFO, CTO and CEO."
+	}
+]
