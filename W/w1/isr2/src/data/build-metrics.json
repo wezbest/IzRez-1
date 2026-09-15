@@ -8,13 +8,13 @@
 	},
 	"pipeline": {
 		"files": 21,
-		"bytes": 1687769,
-		"tokens": 421942
+		"bytes": 1697385,
+		"tokens": 424346
 	},
 	"authored": {
-		"files": 22,
-		"bytes": 239246,
-		"tokens": 59812
+		"files": 24,
+		"bytes": 257373,
+		"tokens": 64343
 	},
 	"assets": {
 		"files": 10,
@@ -24,39 +24,39 @@
 		{
 			"key": "lean",
 			"name": "Lean (aggressive compaction)",
-			"inputTokens": 2634539,
-			"outputTokens": 155511,
-			"totalTokens": 2790050,
-			"costActualModel": 0.977
+			"inputTokens": 2656176,
+			"outputTokens": 167292,
+			"totalTokens": 2823468,
+			"costActualModel": 0.9976
 		},
 		{
 			"key": "baseline",
 			"name": "Baseline (moderate compaction)",
-			"inputTokens": 4362539,
-			"outputTokens": 239248,
-			"totalTokens": 4601787,
-			"costActualModel": 1.5959
+			"inputTokens": 4384176,
+			"outputTokens": 257372,
+			"totalTokens": 4641548,
+			"costActualModel": 1.6241
 		},
 		{
 			"key": "naive",
 			"name": "Context-naive (no compaction)",
-			"inputTokens": 14538539,
-			"outputTokens": 239248,
-			"totalTokens": 14777787,
-			"costActualModel": 4.6487
+			"inputTokens": 14560176,
+			"outputTokens": 257372,
+			"totalTokens": 14817548,
+			"costActualModel": 4.6769
 		}
 	],
-	"baselineCost": 1.5959,
+	"baselineCost": 1.6241,
 	"bounds": {
 		"cheapest": {
 			"model": "DeepSeek V4.1 Flash",
-			"cost": 1.5959
+			"cost": 1.6241
 		},
 		"priciest": {
 			"model": "Claude Fable 5",
-			"cost": 55.5878
+			"cost": 56.7104
 		},
-		"usMedian": 27.7939,
-		"chinaMedian": 5.6601
+		"usMedian": 28.3552,
+		"chinaMedian": 5.7491
 	}
 }

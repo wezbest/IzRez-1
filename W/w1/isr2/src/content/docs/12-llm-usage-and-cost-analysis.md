@@ -4,7 +4,7 @@ description: "The following table summarizes the verified telemetry captured dur
 ---
 
 <div class="sec-head">
-<span class="chip chip-kind">Cost Intelligence</span>
+<span class="chip chip-kind acc-violet">Cost Intelligence</span>
 <span class="chip">Section 12 of 14</span>
 <span class="chip">1,841 words</span>
 <span class="chip">11 cited sources</span>

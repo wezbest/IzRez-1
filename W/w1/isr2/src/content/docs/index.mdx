@@ -50,10 +50,10 @@ Every section is numbered, and so is every heading inside it: the master report 
   {sections
     .filter((section) => section.n <= 12)
     .map((section) => (
-      <article class="ga-card" key={section.slug}>
+      <article class={`ga-card acc-${section.accent}`} key={section.slug}>
         <div class="ga-card-top">
           <span class="ga-num">{String(section.n).padStart(2, '0')}</span>
-          <span class="chip">{section.kind}</span>
+          <span class={`chip chip-kind acc-${section.accent}`}>{section.kind}</span>
         </div>
         <h3>
           <a href={`/${section.slug}/`}>{section.name ?? section.title}</a>
@@ -70,10 +70,10 @@ Every section is numbered, and so is every heading inside it: the master report 
   {sections
     .filter((section) => section.n >= 13)
     .map((section) => (
-      <article class="ga-card" key={section.slug}>
+      <article class={`ga-card acc-${section.accent}`} key={section.slug}>
         <div class="ga-card-top">
           <span class="ga-num">{String(section.n).padStart(2, '0')}</span>
-          <span class="chip">{section.kind}</span>
+          <span class={`chip chip-kind acc-${section.accent}`}>{section.kind}</span>
         </div>
         <h3>
           <a href={`/${section.slug}/`}>{section.title}</a>

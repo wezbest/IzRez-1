@@ -14,11 +14,15 @@
  * or to retry the ones that failed.
  *
  * Where a title comes from, in order:
- *   1. `<meta property="og:title">`, `twitter:title`, `<title>`, `<h1>`
- *   2. PDF metadata — XMP `<dc:title>` at the head, the `/Info` dictionary at
+ *   1. the page's own metadata — `citation_title` and Dublin Core first, then
+ *      `og:title`, `twitter:title`, `<title>` and `<h1>`
+ *   2. the sibling landing page, if the URL is a download endpoint
+ *      (`/article/download/975/529` → `/article/view/975`), since that is where
+ *      a journal puts the metadata the download itself does not carry
+ *   3. PDF metadata — XMP `<dc:title>` at the head, the `/Info` dictionary at
  *      the tail (fetched with two range requests, never the whole file)
- *   3. the readable part of the URL path — journal download links and
- *      JavaScript-rendered pages have no title to read, but
+ *   4. the readable part of the URL path — JavaScript-rendered pages have no
+ *      title to read, but
  *      `/press-releases/new-protections-confirmed-buy-now-pay-later-borrowers`
  *      still names the source
  * Anything generic — `Just a moment...`, `404 Not Found`, `Home`, `Log in` — is
@@ -140,20 +144,49 @@ function tidy(candidate, host) {
 		.trim();
 }
 
-/** Look for a name in a document head. */
+/**
+ * Look for a name in a document head.
+ *
+ * `citation_title` and Dublin Core come first because they are authoritative and
+ * verbatim: journal platforms (OJS, OJS-3, DSpace) emit the article's real name
+ * there, while `<title>` usually carries the journal, the issue and the
+ * publisher as well. Those two are also exempt from `tidy()`, which strips a
+ * site name from a display title but would happily truncate a real article title
+ * that happens to contain a dash.
+ */
 function extractHtmlTitle(html, host) {
 	const candidates = [
-		['og:title', html.match(META('og:title'))],
-		['twitter:title', html.match(META('twitter:title'))],
-		['title', html.match(TAG('title'))],
-		['h1', html.match(TAG('h1'))],
+		['citation_title', html.match(META('citation_title')), true],
+		['DC.Title', html.match(META('DC.Title')), true],
+		['dc.title', html.match(META('dc.title')), true],
+		['og:title', html.match(META('og:title')), false],
+		['twitter:title', html.match(META('twitter:title')), false],
+		['title', html.match(TAG('title')), false],
+		['h1', html.match(TAG('h1')), false],
 	];
-	for (const [via, match] of candidates) {
+	for (const [via, match, verbatim] of candidates) {
 		if (!match) continue;
-		const title = tidy(match[1] ?? match[2] ?? '', host);
+		const raw = match[1] ?? match[2] ?? '';
+		const title = (verbatim ? decode(raw) : tidy(raw, host))
+			.replace(TRAILING_LABEL_PUNCTUATION, '')
+			.trim();
 		if (isUsableTitle(title)) return { title, via };
 	}
 	return null;
+}
+
+/**
+ * A download link usually has a sibling landing page carrying the metadata.
+ * Open Journal Systems exposes the article at `/article/view/<id>` next to its
+ * `/article/download/<id>/<file>` — which is exactly the shape of the ~200
+ * sources whose only URL is a download endpoint.
+ * @param {string} url
+ */
+function siblingLandingPages(url) {
+	const out = [];
+	const match = String(url).match(/^(.*?)\/article\/(?:download|view)\/(\d+)/i);
+	if (match) out.push(`${match[1]}/article/view/${match[2]}`);
+	return [...new Set(out)].filter((candidate) => candidate !== url);
 }
 
 /** PDF strings are either `(literal)` or `<hex>`, sometimes UTF-16BE. */
@@ -261,7 +294,7 @@ async function fetchPdfTitle(url) {
 	return raw.ok ? extractPdfTitle(raw.text) : '';
 }
 
-async function fetchTitle(url) {
+async function fetchTitleOnce(url) {
 	const host = hostOf(url);
 	let attempt = await fetchHead(url, { maxBytes: MAX_BYTES, stopAt: '</head>' });
 
@@ -290,6 +323,21 @@ async function fetchTitle(url) {
 		status: attempt.status || 0,
 		error: attempt.error ?? (attempt.ok ? 'no title found' : `http ${attempt.status}`),
 	};
+}
+
+/**
+ * The URL we were given, then any sibling page that carries metadata for it.
+ * Only the given URL's own outcome is reported when everything fails, so the
+ * cache's error reasons keep describing the source the corpus actually cites.
+ */
+async function fetchTitle(url) {
+	const direct = await fetchTitleOnce(url);
+	if (direct.title) return direct;
+	for (const sibling of siblingLandingPages(url)) {
+		const found = await fetchTitleOnce(sibling);
+		if (found.title) return { ...found, via: 'landing' };
+	}
+	return direct;
 }
 
 /* --------------------------------------------------------------------- main */

@@ -20,6 +20,10 @@
  *                            is exactly 1200x630, every precached URL resolves,
  *                            standalone safe-area rules are present
  *   6. Accessibility basics— lang, alt text, skip link, visible focus styles
+ *   7. Accents             — every section-kind chip carries a hue, the theme
+ *                            defines all three roles for each of the five hues,
+ *                            and the accent rules survive into the shipped CSS
+ *   8. Retired URLs        — every §13 redirect points at a page that exists
  *
  * Run with:  bun run audit        (after `bun run build`)
  */
@@ -27,7 +31,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
+import { ACCENTS } from './accents.mjs';
 import { isUsableTitle } from './source-key.mjs';
+
+const ACCENT_NAMES = ACCENTS;
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(HERE, '..');
@@ -197,6 +204,20 @@ function paletteContrast(scheme) {
 		['section map number on panel', v('sl-color-accent'), panel, 3.0],
 		['section map meta on panel', v('sl-color-gray-3'), panel, 4.5],
 		['section map part chip on its fill', v('sl-color-gray-3'), over(v('sl-color-bg-inline-code'), panel), 4.5],
+		// the five accent hues, each used as a label colour on the same panel the
+		// section chip sits on
+		...ACCENT_NAMES.map((hue) => [
+			`${hue} accent label on panel`,
+			v(`ga-${hue}-text`),
+			panel,
+			4.5,
+		]),
+		...ACCENT_NAMES.map((hue) => [
+			`${hue} accent ink border on panel`,
+			v(`ga-${hue}-ink`),
+			panel,
+			3.0,
+		]),
 	];
 }
 
@@ -522,6 +543,49 @@ const referencePages = ['13-references/index.html', '13-references/source-regist
 	);
 }
 
+/* ------------------------------------------------------- 2e. accent colouring
+   Every section-kind chip must carry a hue, and the theme must define that hue
+   in all three roles — a chip whose class does not exist renders as a plain
+   grey pill, which is exactly the regression this catches. */
+{
+	const chips = [];
+	for (const page of pages) {
+		for (const [tag] of html(page).matchAll(/<span class="chip chip-kind[^"]*"[^>]*>/g))
+			chips.push(tag);
+	}
+	const uncoloured = chips.filter(
+		(tag) => !/\bacc-(cyan|spring|violet|amber|rose)\b/.test(tag)
+	);
+	check(
+		'accents',
+		`every section-kind chip carries an accent hue (${chips.length} chips)`,
+		chips.length > 0 && uncoloured.length === 0,
+		uncoloured.slice(0, 3).join(' '),
+	);
+
+	const missingClasses = ACCENT_NAMES.filter(
+		(hue) => !new RegExp(`\\.acc-${hue}\\s*\\{`).test(themeCss)
+	);
+	check(
+		'accents',
+		'the theme defines an .acc- class for every hue',
+		missingClasses.length === 0,
+		missingClasses.map((hue) => `.acc-${hue}`).join(', ')
+	);
+
+	const missingVars = ACCENT_NAMES.flatMap((hue) =>
+		['ink', 'text', 'soft']
+			.filter((role) => !new RegExp(`--ga-${hue}-${role}:`).test(themeCss))
+			.map((role) => `--ga-${hue}-${role}`)
+	);
+	check(
+		'accents',
+		'the palette defines ink, text and soft for every hue',
+		missingVars.length === 0,
+		missingVars.join(', ')
+	);
+}
+
 /* ---------------------------------------------------- 3. overflow discipline */
 
 const cssHas = (pattern, target = themeCss) => pattern.test(target);
@@ -584,6 +648,30 @@ check(
 	shipped(/@media \(width>=50rem\) and \(width<=82rem\)/) || shipped(/@media \(min-width: 50rem\) and \(max-width: 82rem\)/)
 );
 check('a11y', 'shipped CSS keeps visible focus rings', shipped(/:focus-visible[^{]*\{[^}]*outline: ?2px solid/));
+// the accent rules are only worth anything if they survive minification and
+// land in the bundle the reader actually downloads
+check(
+	'accents',
+	'shipped CSS draws the h2 accent underline',
+	shipped(/h2\{[^}]*background-size: ?100% 1px/)
+);
+check(
+	'accents',
+	'shipped CSS draws the table accent rule',
+	shipped(/table\{[^}]*background-size: ?100% 2px/)
+);
+check(
+	'accents',
+	'shipped CSS defines all five accent hues',
+	['cyan', 'spring', 'violet', 'amber', 'rose'].every((hue) =>
+		shipped(new RegExp(`--ga-${hue}-text:`))
+	)
+);
+check(
+	'accents',
+	'shipped CSS colours the scrollbars',
+	shipped(/scrollbar-color: ?var\(--ga-cyan-ink\)/)
+);
 check('pwa', 'shipped CSS keeps standalone safe-area handling', shipped(/display-mode: ?standalone/) && shipped(/safe-area-inset-top/));
 check('section map', 'shipped CSS carries the map panel', shipped(/\.ga-map\{[^}]*border-radius/));
 check(
@@ -894,6 +982,7 @@ const GROUPS = [
 	'headings',
 	'section map',
 	'references',
+	'accents',
 	'overflow',
 	'layout',
 	'pwa',

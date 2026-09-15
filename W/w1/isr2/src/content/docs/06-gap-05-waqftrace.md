@@ -4,7 +4,7 @@ description: "graph TD"
 ---
 
 <div class="sec-head">
-<span class="chip chip-kind">Gap Blueprint</span>
+<span class="chip chip-kind acc-spring">Gap Blueprint</span>
 <span class="chip">Section 6 of 14</span>
 <span class="chip">5,198 words</span>
 <span class="chip">17 cited sources</span>

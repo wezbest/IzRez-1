@@ -4,7 +4,7 @@ description: "graph TD"
 ---
 
 <div class="sec-head">
-<span class="chip chip-kind">Gap Blueprint</span>
+<span class="chip chip-kind acc-spring">Gap Blueprint</span>
 <span class="chip">Section 7 of 14</span>
 <span class="chip">5,628 words</span>
 <span class="chip">16 cited sources</span>
@@ -41,7 +41,7 @@ description: "graph TD"
 			<ul class="ga-map-sub">
 				<li><a href="#s7-5-1"><span class="ga-map-num">7.5.1</span><span class="ga-map-ttl">Enterprise Revenue Architecture</span></a></li>
 				<li><a href="#s7-5-2"><span class="ga-map-num">7.5.2</span><span class="ga-map-ttl">Granular Financial Model (Per <div class="sec-head">
-<span class="chip chip-kind">Gap Blueprint</span>
+<span class="chip chip-kind acc-spring">Gap Blueprint</span>
 <span class="chip">Section 7 of 14</span>
 <span class="chip">5,628 words</span>
 <span class="chip">16 cited sources</span>

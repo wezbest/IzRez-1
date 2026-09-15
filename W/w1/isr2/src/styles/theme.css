@@ -44,6 +44,37 @@
 	--ga-glow: rgba(34, 211, 238, 0.4);
 	--ga-glow-soft: rgba(45, 212, 191, 0.22);
 	--ga-grid: rgba(45, 212, 191, 0.045);
+
+	/* The five-hue accent spectrum. Cyan and spring green are the identity, so
+	   they carry the structure (headings, numbers, links); violet, amber and
+	   rose are the accents, used to tell one kind of section from another.
+	   Three roles per hue: `-ink` draws borders and glow, `-text` is the
+	   contrast-safe label colour, `-soft` is the wash behind it. */
+	--ga-cyan-ink: #22d3ee;
+	--ga-cyan-text: #a5f3fc;
+	--ga-cyan-soft: rgba(34, 211, 238, 0.18);
+	--ga-spring-ink: #2dd4bf;
+	--ga-spring-text: #99f6e4;
+	--ga-spring-soft: rgba(45, 212, 191, 0.18);
+	--ga-violet-ink: #a78bfa;
+	--ga-violet-text: #ddd6fe;
+	--ga-violet-soft: rgba(167, 139, 250, 0.2);
+	--ga-amber-ink: #fbbf24;
+	--ga-amber-text: #fde68a;
+	--ga-amber-soft: rgba(251, 191, 36, 0.18);
+	--ga-rose-ink: #f472b6;
+	--ga-rose-text: #fbcfe8;
+	--ga-rose-soft: rgba(244, 114, 182, 0.2);
+
+	/* the spectrum itself, for rules that are meant to read as a sweep */
+	--ga-spectrum: linear-gradient(
+		90deg,
+		#22d3ee,
+		#2dd4bf 26%,
+		#a78bfa 52%,
+		#fbbf24 76%,
+		#f472b6
+	);
 }
 
 :root[data-theme='light'] {
@@ -81,6 +112,33 @@
 	--ga-glow: rgba(13, 143, 131, 0.22);
 	--ga-glow-soft: rgba(13, 143, 131, 0.14);
 	--ga-grid: rgba(13, 143, 131, 0.05);
+
+	/* the same five hues, darkened for a white page: each already clears 4.5:1
+	   against the panel, which is what the audit checks them for */
+	--ga-cyan-ink: #0e7490;
+	--ga-cyan-text: #0e7490;
+	--ga-cyan-soft: rgba(14, 116, 144, 0.12);
+	--ga-spring-ink: #0f766e;
+	--ga-spring-text: #0f766e;
+	--ga-spring-soft: rgba(15, 118, 110, 0.12);
+	--ga-violet-ink: #6d28d9;
+	--ga-violet-text: #6d28d9;
+	--ga-violet-soft: rgba(109, 40, 217, 0.12);
+	--ga-amber-ink: #a16207;
+	--ga-amber-text: #854d0e;
+	--ga-amber-soft: rgba(161, 98, 7, 0.12);
+	--ga-rose-ink: #be185d;
+	--ga-rose-text: #be185d;
+	--ga-rose-soft: rgba(190, 24, 93, 0.12);
+
+	--ga-spectrum: linear-gradient(
+		90deg,
+		#0e7490,
+		#0f766e 26%,
+		#6d28d9 52%,
+		#a16207 76%,
+		#be185d
+	);
 }
 
 /* ------------------------------------------------------ type & layout */
@@ -111,6 +169,30 @@ html {
 	scroll-behavior: smooth;
 	scroll-padding-top: calc(var(--sl-nav-height) + 1rem);
 	-webkit-tap-highlight-color: transparent;
+	/* side-scrolling tables and diagrams are load-bearing here, so the scroll
+	   affordance carries the theme colour instead of the OS default. The Firefox
+	   property is inherited, so setting it here reaches every scroll container. */
+	scrollbar-color: var(--ga-cyan-ink) transparent;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	border: 2px solid transparent;
+	border-radius: 999px;
+	background-color: var(--ga-cyan-ink);
+	background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: var(--ga-violet-ink);
 }
 
 body {
@@ -149,8 +231,22 @@ header.header {
 
 .sl-markdown-content h2 {
 	margin-top: 2.4em;
-	padding-bottom: 0.35em;
-	border-bottom: 1px solid var(--sl-color-hairline);
+	padding-bottom: 0.4em;
+	/* the rule under an h2 is the accent sweep rather than a flat hairline, and
+	   it fades out before the end of the measure so it reads as an underline
+	   instead of closing the heading into a box */
+	border-bottom: 0;
+	background-image: linear-gradient(
+		90deg,
+		var(--ga-cyan-ink),
+		var(--ga-spring-ink) 34%,
+		var(--ga-violet-ink) 66%,
+		var(--ga-rose-ink) 88%,
+		transparent
+	);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: 100% 1px;
 	font-family: var(--sl-font-display);
 	font-weight: 500;
 	letter-spacing: 0.012em;
@@ -183,7 +279,7 @@ header.header {
 	background: linear-gradient(
 		180deg,
 		rgba(34, 211, 238, 0.16),
-		rgba(45, 212, 191, 0.05)
+		rgba(167, 139, 250, 0.09)
 	);
 	color: var(--sl-color-accent-high);
 	font-family: var(--sl-font-mono);
@@ -191,7 +287,10 @@ header.header {
 	font-weight: 600;
 	letter-spacing: 0.06em;
 	text-shadow: none;
-	box-shadow: 0 0 14px var(--ga-glow-soft), inset 0 0 10px rgba(34, 211, 238, 0.07);
+	box-shadow:
+		0 0 14px var(--ga-glow-soft),
+		0 0 22px var(--ga-violet-soft),
+		inset 0 0 10px rgba(34, 211, 238, 0.07);
 	vertical-align: middle;
 }
 
@@ -225,7 +324,7 @@ header.header {
 }
 
 .sl-markdown-content a:hover {
-	text-decoration-color: currentColor;
+	text-decoration-color: var(--ga-violet-ink);
 	text-shadow: 0 0 12px var(--ga-glow-soft);
 }
 
@@ -239,13 +338,24 @@ header.header {
 }
 
 .sl-markdown-content blockquote {
-	border-inline-start: 3px solid var(--sl-color-accent);
+	border-inline-start: 3px solid var(--ga-spring-ink);
 	background: var(--ga-panel);
 	border-radius: 0 var(--ga-radius) var(--ga-radius) 0;
+	box-shadow: -8px 0 22px -10px var(--ga-violet-soft);
 }
 
 .sl-markdown-content hr {
-	border-color: var(--sl-color-hairline);
+	height: 2px;
+	border: 0;
+	border-radius: 2px;
+	background: linear-gradient(
+		90deg,
+		var(--ga-cyan-ink),
+		var(--ga-spring-ink) 40%,
+		var(--ga-violet-ink) 78%,
+		transparent
+	);
+	opacity: 0.7;
 }
 
 /* -------------------------------------------------- tables that never scrunch
@@ -260,7 +370,20 @@ header.header {
 	margin: 1.4rem 0;
 	border: 1px solid var(--sl-color-hairline);
 	border-radius: var(--ga-radius);
-	background: var(--ga-panel);
+	/* a 2px accent rule pinned to the top of the panel. This element is its own
+	   scroll container, so the background stays put while the table scrolls. */
+	background-image: linear-gradient(
+		90deg,
+		var(--ga-cyan-ink),
+		var(--ga-spring-ink) 34%,
+		var(--ga-violet-ink) 68%,
+		var(--ga-amber-ink) 88%,
+		transparent
+	);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 100% 2px;
+	background-color: var(--ga-panel);
 	overscroll-behavior-inline: contain;
 	scrollbar-width: thin;
 }
@@ -301,7 +424,19 @@ header.header {
 	padding: 1.1rem;
 	border: 1px solid var(--sl-color-hairline-light);
 	border-radius: var(--ga-radius);
-	background: linear-gradient(180deg, #061e27, #04151d);
+	background-image:
+		linear-gradient(
+			90deg,
+			var(--ga-cyan-ink),
+			var(--ga-spring-ink) 34%,
+			var(--ga-violet-ink) 68%,
+			var(--ga-rose-ink) 88%,
+			transparent
+		),
+		linear-gradient(180deg, #061e27, #04151d);
+	background-repeat: no-repeat, no-repeat;
+	background-position: top left, center;
+	background-size: 100% 2px, auto;
 	box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.07), 0 18px 40px rgba(0, 0, 0, 0.35);
 	overflow-x: auto;
 	overflow-y: hidden;
@@ -357,8 +492,9 @@ starlight-toc a[aria-current='true'] {
 .sidebar-content a[aria-current='page'] {
 	background: linear-gradient(
 		90deg,
-		rgba(34, 211, 238, 0.18),
-		rgba(45, 212, 191, 0.05)
+		var(--ga-cyan-soft),
+		var(--ga-violet-soft) 70%,
+		transparent
 	);
 	color: var(--sl-color-accent-high);
 	box-shadow: inset 0 0 0 1px var(--sl-color-hairline-light);
@@ -389,14 +525,58 @@ starlight-toc a[aria-current='true'] {
 	white-space: nowrap;
 }
 
+/* One hue per section kind. `--acc-*` is set by the class, and the chip, the
+   home-page card stripe and the home-page stat numbers all read it, so a section
+   keeps the same colour everywhere it appears. */
+.acc-cyan {
+	--acc-ink: var(--ga-cyan-ink);
+	--acc-text: var(--ga-cyan-text);
+	--acc-soft: var(--ga-cyan-soft);
+}
+
+.acc-spring {
+	--acc-ink: var(--ga-spring-ink);
+	--acc-text: var(--ga-spring-text);
+	--acc-soft: var(--ga-spring-soft);
+}
+
+.acc-violet {
+	--acc-ink: var(--ga-violet-ink);
+	--acc-text: var(--ga-violet-text);
+	--acc-soft: var(--ga-violet-soft);
+}
+
+.acc-amber {
+	--acc-ink: var(--ga-amber-ink);
+	--acc-text: var(--ga-amber-text);
+	--acc-soft: var(--ga-amber-soft);
+}
+
+.acc-rose {
+	--acc-ink: var(--ga-rose-ink);
+	--acc-text: var(--ga-rose-text);
+	--acc-soft: var(--ga-rose-soft);
+}
+
 .chip-kind {
-	border-color: var(--sl-color-hairline-light);
+	border-color: var(--acc-ink, var(--sl-color-hairline-light));
 	background: linear-gradient(
 		90deg,
-		rgba(34, 211, 238, 0.16),
-		rgba(45, 212, 191, 0.05)
+		var(--acc-soft, rgba(34, 211, 238, 0.16)),
+		transparent
 	);
-	color: var(--sl-color-accent-high);
+	color: var(--acc-text, var(--sl-color-accent-high));
+	box-shadow: 0 0 12px var(--acc-soft, transparent);
+}
+
+/* the kind chip's dot keeps the hue even in a print stylesheet */
+.chip-kind::before {
+	content: '';
+	width: 0.42rem;
+	height: 0.42rem;
+	border-radius: 50%;
+	background: var(--acc-ink, var(--sl-color-accent));
+	box-shadow: 0 0 8px var(--acc-ink, var(--sl-color-accent));
 }
 
 a.xref {
@@ -608,6 +788,19 @@ a.xref:hover {
 	text-shadow: 0 0 26px var(--ga-glow), 0 0 80px var(--ga-glow-soft);
 }
 
+/* a short accent sweep under the wordmark: the only place the full spectrum
+   appears at once, which is what makes the home page read as the cover */
+.hero h1::after {
+	content: '';
+	display: block;
+	width: 8.5rem;
+	height: 3px;
+	margin-top: 0.7rem;
+	border-radius: 3px;
+	background: var(--ga-spectrum);
+	box-shadow: 0 0 20px var(--ga-glow);
+}
+
 .hero .tagline {
 	max-width: 46rem;
 	color: var(--sl-color-gray-2);
@@ -648,6 +841,28 @@ a.xref:hover {
 	text-shadow: 0 0 16px var(--ga-glow-soft);
 }
 
+/* the headline numbers sweep the accent spectrum, so the strip of stats reads
+   as a spectrum instead of a block of one colour */
+.ga-stat:nth-child(5n + 1) b {
+	color: var(--ga-cyan-text);
+}
+
+.ga-stat:nth-child(5n + 2) b {
+	color: var(--ga-spring-text);
+}
+
+.ga-stat:nth-child(5n + 3) b {
+	color: var(--ga-violet-text);
+}
+
+.ga-stat:nth-child(5n + 4) b {
+	color: var(--ga-amber-text);
+}
+
+.ga-stat:nth-child(5n + 5) b {
+	color: var(--ga-rose-text);
+}
+
 .ga-stat span {
 	display: block;
 	margin-top: 0.15rem;
@@ -677,9 +892,23 @@ a.xref:hover {
 	transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
 }
 
+/* the card carries its section's hue as a hairline along the top edge */
+.ga-card::before {
+	content: '';
+	position: absolute;
+	inset: 0 0 auto;
+	height: 2px;
+	border-radius: var(--ga-radius) var(--ga-radius) 0 0;
+	background: linear-gradient(
+		90deg,
+		var(--acc-ink, var(--ga-cyan-ink)),
+		transparent 85%
+	);
+}
+
 .ga-card:hover {
-	border-color: var(--sl-color-accent);
-	box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.16), 0 14px 34px rgba(0, 0, 0, 0.35);
+	border-color: var(--acc-ink, var(--sl-color-accent));
+	box-shadow: 0 0 0 1px var(--acc-soft, rgba(34, 211, 238, 0.16)), 0 14px 34px rgba(0, 0, 0, 0.35);
 	transform: translateY(-2px);
 }
 
@@ -694,7 +923,7 @@ a.xref:hover {
 	font-family: var(--sl-font-display);
 	font-size: 0.82rem;
 	letter-spacing: 0.14em;
-	color: var(--sl-color-accent-high);
+	color: var(--acc-text, var(--sl-color-accent-high));
 }
 
 .ga-card h3 {
@@ -738,12 +967,13 @@ a.xref:hover {
 	align-items: center;
 	gap: 0.5rem;
 	padding: 0.65rem 1.15rem;
-	border: 1px solid var(--sl-color-accent);
+	border: 1px solid var(--ga-cyan-ink);
 	border-radius: 0.65rem;
 	background: linear-gradient(
-		180deg,
-		rgba(34, 211, 238, 0.2),
-		rgba(45, 212, 191, 0.07)
+		120deg,
+		var(--ga-cyan-soft),
+		var(--ga-spring-soft) 55%,
+		var(--ga-violet-soft)
 	);
 	color: var(--sl-color-gray-1);
 	font-weight: 600;

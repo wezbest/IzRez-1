@@ -21,6 +21,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { accentClass } from './accents.mjs';
 import { addSectionMap } from './section-map.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
@@ -269,7 +270,7 @@ description: "Build telemetry, token metrics and cost scenarios for this doksite
 ---
 
 <div class="sec-head">
-<span class="chip chip-kind">Engineering & Cost</span>
+<span class="chip chip-kind ${accentClass('Engineering & Cost')}">Engineering & Cost</span>
 <span class="chip">Section 14 of 14</span>
 <span class="chip">Build model: DeepSeek V4.1 Flash</span>
 <span class="chip">Baseline build cost ${usd(actualCost(baseline))}</span>

@@ -19,6 +19,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { accentClass, accentFor } from './accents.mjs';
 import { addSectionMap } from './section-map.mjs';
 import {
 	hostOf,
@@ -557,7 +558,7 @@ for (const section of SECTIONS) {
 		'---',
 		'',
 		'<div class="sec-head">',
-		`<span class="chip chip-kind">${section.kind}</span>`,
+		`<span class="chip chip-kind ${accentClass(section.kind)}">${section.kind}</span>`,
 		`<span class="chip">Section ${section.n} of 14</span>`,
 		`<span class="chip">${words.toLocaleString('en-US')} words</span>`,
 		`<span class="chip">${citeCount} cited sources</span>`,
@@ -637,7 +638,7 @@ description: "Every source behind this research — ${totalSources.toLocaleStrin
 ---
 
 <div class="sec-head">
-<span class="chip chip-kind">References</span>
+<span class="chip chip-kind ${accentClass('References')}">References</span>
 <span class="chip">Section 13 of 14</span>
 <span class="chip">${totalSources.toLocaleString('en-US')} unique sources</span>
 <span class="chip">${citations.size.toLocaleString('en-US')} cited by the research</span>
@@ -742,7 +743,7 @@ description: "The ${citedOnly.length} sources cited by the Islamic fintech resea
 ---
 
 <div class="sec-head">
-<span class="chip chip-kind">Additional Citations</span>
+<span class="chip chip-kind ${accentClass('Additional Citations')}">Additional Citations</span>
 <span class="chip">Section 13.3</span>
 <span class="chip">${citedOnly.length.toLocaleString('en-US')} unique sources</span>
 </div>
@@ -830,7 +831,7 @@ description: "The ${registryUnique.toLocaleString('en-US')} unique sources retri
 ---
 
 <div class="sec-head">
-<span class="chip chip-kind">Source Registry</span>
+<span class="chip chip-kind ${accentClass('Source Registry')}">Source Registry</span>
 <span class="chip">Section 13.2</span>
 <span class="chip">${registryUnique.toLocaleString('en-US')} unique sources</span>
 <span class="chip">${registryNumbers.toLocaleString('en-US')} registry numbers</span>
@@ -892,6 +893,7 @@ writeFile(
 			ref: String(s.n).padStart(2, '0'),
 			slug: s.slug,
 			kind: s.kind,
+			accent: accentFor(s.kind),
 			title: s.title,
 			headline: s.headline,
 			name: s.name || null,

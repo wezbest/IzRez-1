@@ -4,7 +4,7 @@ description: "Global Islamic fintech transaction volume reached approximately $1
 ---
 
 <div class="sec-head">
-<span class="chip chip-kind">Master Report</span>
+<span class="chip chip-kind acc-cyan">Master Report</span>
 <span class="chip">Section 1 of 14</span>
 <span class="chip">6,114 words</span>
 <span class="chip">89 cited sources</span>

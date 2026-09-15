@@ -4,7 +4,7 @@ description: "How this doksite is organised: reading order, the numbering scheme
 ---
 
 <div class="sec-head">
-<span class="chip chip-kind">Orientation</span>
+<span class="chip chip-kind acc-violet">Orientation</span>
 <span class="chip">Before section 1</span>
 <span class="chip">14 numbered sections</span>
 </div>

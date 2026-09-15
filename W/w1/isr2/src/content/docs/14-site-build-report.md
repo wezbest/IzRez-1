@@ -4,10 +4,10 @@ description: "Build telemetry, token metrics and cost scenarios for this doksite
 ---
 
 <div class="sec-head">
-<span class="chip chip-kind">Engineering & Cost</span>
+<span class="chip chip-kind acc-rose">Engineering & Cost</span>
 <span class="chip">Section 14 of 14</span>
 <span class="chip">Build model: DeepSeek V4.1 Flash</span>
-<span class="chip">Baseline build cost $1.60</span>
+<span class="chip">Baseline build cost $1.62</span>
 </div>
 
 <details class="ga-map" open>
@@ -67,18 +67,18 @@ This section documents what it took to engineer this documentation site: the res
 | Question | Answer |
 |---|---|
 | Research corpus ingested | **13 files · 695 KB · ~178k tokens** |
-| Content emitted by the pipeline | **21 files · 1648 KB · ~422k tokens** (deterministic transforms, not token-generated) |
-| Site source hand-authored | **22 files · 234 KB · ~60k tokens** |
+| Content emitted by the pipeline | **21 files · 1658 KB · ~424k tokens** (deterministic transforms, not token-generated) |
+| Site source hand-authored | **24 files · 251 KB · ~64k tokens** |
 | Image/font binary assets produced | **10 files · 186 KB** (favicon, PWA icons, 1200×630 OG card) |
-| Billable tokens (baseline scenario) | **4.36M in · 239k out · 4.60M total** |
-| Direct compute cost on the actual model | **$1.60** — with 70% cached input: **$0.70** |
-| Cheapest viable configuration | **$1.60** on DeepSeek V4.1 Flash (1.00× the actual model) |
-| Most expensive configuration | **$55.59** on Claude Fable 5 (34.83×) |
-| Spread, cheapest → priciest | **34.8×** |
-| US vs China median | **$27.79** vs **$5.66** — a **4.9×** premium on US rate cards |
+| Billable tokens (baseline scenario) | **4.38M in · 257k out · 4.64M total** |
+| Direct compute cost on the actual model | **$1.62** — with 70% cached input: **$0.72** |
+| Cheapest viable configuration | **$1.62** on DeepSeek V4.1 Flash (1.00× the actual model) |
+| Most expensive configuration | **$56.71** on Claude Fable 5 (34.92×) |
+| Spread, cheapest → priciest | **34.9×** |
+| US vs China median | **$28.36** vs **$5.75** — a **4.9×** premium on US rate cards |
 | Cost of not compacting context | **+$3.05** (2.9× the baseline) |
 
-**The three numbers that matter:** a build of this size is a **$1.60** job on the model it actually ran on, a **$1.60–$55.59** job depending on which frontier model you point it at, and a **$6.27** job when the workload is tier-routed (cheap readers, mid-tier structurers, flagship synthesis) instead of run end-to-end on one expensive model. Every one of those variances is a *model selection* decision, not an engineering-effort decision.
+**The three numbers that matter:** a build of this size is a **$1.62** job on the model it actually ran on, a **$1.62–$56.71** job depending on which frontier model you point it at, and a **$6.44** job when the workload is tier-routed (cheap readers, mid-tier structurers, flagship synthesis) instead of run end-to-end on one expensive model. Every one of those variances is a *model selection* decision, not an engineering-effort decision.
 
 <a id="s14-2" aria-hidden="true"></a>
 
@@ -89,12 +89,12 @@ These figures are measured on disk at build time — they are not estimates. `no
 | Surface | Files | Size | Est. tokens (chars ÷ 4) | Where it lives |
 |---|---|---|---|---|
 | Research corpus (read) | 13 | 695 KB | ~178k | `reports/**/*.md` |
-| Pipeline output (transformed) | 21 | 1648 KB | ~422k | `src/content/docs`, `src/data` |
-| Hand-authored site source | 22 | 234 KB | ~60k | `scripts/`, `src/styles`, `src/components`, `src/integrations`, config |
+| Pipeline output (transformed) | 21 | 1658 KB | ~424k | `src/content/docs`, `src/data` |
+| Hand-authored site source | 24 | 251 KB | ~64k | `scripts/`, `src/styles`, `src/components`, `src/integrations`, config |
 | Image & icon assets | 10 | 186 KB | — | `public/icons`, `public/og-image.png`, `src/assets` |
 
 :::note[Why the pipeline output is not counted as model output]
-21 of the files in this repository are produced by deterministic scripts that transform the research corpus into numbered Starlight content: heading renumbering, citation extraction, registry splitting and cross-link generation. Those bytes never pass through a language model, so counting them as "tokens written" would inflate the bill by roughly 7.1×. Only the hand-authored surface is treated as model output in the token model below.
+21 of the files in this repository are produced by deterministic scripts that transform the research corpus into numbered Starlight content: heading renumbering, citation extraction, registry splitting and cross-link generation. Those bytes never pass through a language model, so counting them as "tokens written" would inflate the bill by roughly 6.6×. Only the hand-authored surface is treated as model output in the token model below.
 :::
 
 <a id="s14-3" aria-hidden="true"></a>
@@ -107,18 +107,18 @@ The dominant variable in an agentic token bill is not the size of the output —
 flowchart LR
     A["Reading surface<br/>corpus + pipeline + authored"] --> B["× 1.3 tool output factor"]
     B --> C["× 2.4 read amplification<br/>(re-reads, windowed slices, logs)"]
-    C --> D["read tokens ≈ 2.06M"]
+    C --> D["read tokens ≈ 2.08M"]
     D --> E["+ 96 turns × mean context re-sent"]
     E --> F["input tokens per scenario"]
-    G["Hand-authored tokens<br/>~60k"] --> H["× output overhead<br/>(reasoning, tool calls, diffs)"]
+    G["Hand-authored tokens<br/>~64k"] --> H["× output overhead<br/>(reasoning, tool calls, diffs)"]
     H --> I["output tokens per scenario"]
 ```
 
 | Scenario | Mean context re-sent / turn | Input tokens | Output tokens | Total billable | Cost on build model | Cost, 70% cached input |
 |---|---|---|---|---|---|---|
-| **Lean (aggressive compaction)** | 6,000 | 2.63M | 156k | **2.79M** | $0.98 | $0.43 |
-| **Baseline (moderate compaction)** ★ | 24,000 | 4.36M | 239k | **4.60M** | $1.60 | $0.70 |
-| **Context-naive (no compaction)** | 130,000 | 14.54M | 239k | **14.78M** | $4.65 | $1.66 |
+| **Lean (aggressive compaction)** | 6,000 | 2.66M | 167k | **2.82M** | $1.00 | $0.45 |
+| **Baseline (moderate compaction)** ★ | 24,000 | 4.38M | 257k | **4.64M** | $1.62 | $0.72 |
+| **Context-naive (no compaction)** | 130,000 | 14.56M | 257k | **14.82M** | $4.68 | $1.68 |
 
 **Read amplification** is modelled at **2.4×** over the summed reading surface, with a **0.3×** allowance for directory listings, build logs, terminal output and diffs. **Output overhead** is modelled at **4×** the hand-authored tokens to cover reasoning tokens, tool-call arguments and rewrite diffs. Turn count is fixed at **96** agent turns. §14.13 states every assumption in one place.
 
@@ -170,38 +170,38 @@ Excluded from the ten because they carry no published paid rate on the registry 
 
 ## `14.6` What this build would have cost on every other frontier model
 
-Each row applies that model's published input/output rates to the **baseline scenario** token counts (4.36M in / 239k out), sorted cheapest first. The relative index is measured against the model that actually ran the build (★ = 1.00×).
+Each row applies that model's published input/output rates to the **baseline scenario** token counts (4.38M in / 257k out), sorted cheapest first. The relative index is measured against the model that actually ran the build (★ = 1.00×).
 
 | # | Origin | Model | In / Out per 1M | Output share of cost | Build cost | vs actual |
 |---|---|---|---|---|---|---|
-| **★** 1 | China (actual build model) | **DeepSeek V4.1 Flash** | $0.30 / $1.20 | 18% | **$1.60** | 1.00× |
-| 2 | China | **MiniMax M3** | $0.30 / $1.20 | 18% | **$1.60** | 1.00× |
-| 3 | China | **DeepSeek V4 Pro 0813** | $0.43 / $0.87 | 10% | **$2.08** | 1.31× |
-| 4 | United States | **Gemini 3.8 Flash** | $0.75 / $3.75 | 22% | **$4.17** | 2.61× |
-| 5 | China | **Kimi K2.7 Code** | $0.95 / $4.00 | 19% | **$5.10** | 3.20× |
-| 6 | China | **Kimi 2.6** | $0.95 / $4.00 | 19% | **$5.10** | 3.20× |
-| 7 | China | **GLM-5** | $1.00 / $3.20 | 15% | **$5.13** | 3.21× |
-| 8 | China | **GLM-5-Turbo** | $1.20 / $4.00 | 15% | **$6.19** | 3.88× |
-| 9 | United States | **Muse Spark 1.2** | $1.25 / $4.25 | 16% | **$6.47** | 4.05× |
-| 10 | China | **GLM-5.2** | $1.40 / $4.40 | 15% | **$7.16** | 4.49× |
-| 11 | China | **Qwen3.8 Max** | $2.00 / $6.00 | 14% | **$10.16** | 6.37× |
-| 12 | United States | **GPT-5.6 Terra** | $2.00 / $12.00 | 25% | **$11.60** | 7.27× |
-| 13 | China | **Qwen3.7 Max** | $2.50 / $7.50 | 14% | **$12.70** | 7.96× |
-| 14 | China | **Kimi K3** | $3.00 / $15.00 | 22% | **$16.68** | 10.45× |
-| 15 | United States | **GPT-5.6 Sol** | $4.00 / $20.00 | 22% | **$22.24** | 13.93× |
-| 16 | United States | **Claude Opus 5** | $5.00 / $25.00 | 22% | **$27.79** | 17.42× |
-| 17 | United States | **Claude Opus 4.8** | $5.00 / $25.00 | 22% | **$27.79** | 17.42× |
-| 18 | United States | **GPT-5.5** | $5.00 / $30.00 | 25% | **$28.99** | 18.17× |
-| 19 | United States | **GPT-6 Astra** | $10.00 / $50.00 | 22% | **$55.59** | 34.83× |
-| 20 | United States | **Claude Fable 5.1** | $10.00 / $50.00 | 22% | **$55.59** | 34.83× |
-| 21 | United States | **Claude Fable 5** | $10.00 / $50.00 | 22% | **$55.59** | 34.83× |
+| **★** 1 | China (actual build model) | **DeepSeek V4.1 Flash** | $0.30 / $1.20 | 19% | **$1.62** | 1.00× |
+| 2 | China | **MiniMax M3** | $0.30 / $1.20 | 19% | **$1.62** | 1.00× |
+| 3 | China | **DeepSeek V4 Pro 0813** | $0.43 / $0.87 | 11% | **$2.11** | 1.30× |
+| 4 | United States | **Gemini 3.8 Flash** | $0.75 / $3.75 | 23% | **$4.25** | 2.62× |
+| 5 | China | **Kimi K2.7 Code** | $0.95 / $4.00 | 20% | **$5.19** | 3.20× |
+| 6 | China | **Kimi 2.6** | $0.95 / $4.00 | 20% | **$5.19** | 3.20× |
+| 7 | China | **GLM-5** | $1.00 / $3.20 | 16% | **$5.21** | 3.21× |
+| 8 | China | **GLM-5-Turbo** | $1.20 / $4.00 | 16% | **$6.29** | 3.87× |
+| 9 | United States | **Muse Spark 1.2** | $1.25 / $4.25 | 17% | **$6.57** | 4.05× |
+| 10 | China | **GLM-5.2** | $1.40 / $4.40 | 16% | **$7.27** | 4.48× |
+| 11 | China | **Qwen3.8 Max** | $2.00 / $6.00 | 15% | **$10.31** | 6.35× |
+| 12 | United States | **GPT-5.6 Terra** | $2.00 / $12.00 | 26% | **$11.86** | 7.30× |
+| 13 | China | **Qwen3.7 Max** | $2.50 / $7.50 | 15% | **$12.89** | 7.94× |
+| 14 | China | **Kimi K3** | $3.00 / $15.00 | 23% | **$17.01** | 10.48× |
+| 15 | United States | **GPT-5.6 Sol** | $4.00 / $20.00 | 23% | **$22.68** | 13.97× |
+| 16 | United States | **Claude Opus 5** | $5.00 / $25.00 | 23% | **$28.36** | 17.46× |
+| 17 | United States | **Claude Opus 4.8** | $5.00 / $25.00 | 23% | **$28.36** | 17.46× |
+| 18 | United States | **GPT-5.5** | $5.00 / $30.00 | 26% | **$29.64** | 18.25× |
+| 19 | United States | **GPT-6 Astra** | $10.00 / $50.00 | 23% | **$56.71** | 34.92× |
+| 20 | United States | **Claude Fable 5.1** | $10.00 / $50.00 | 23% | **$56.71** | 34.92× |
+| 21 | United States | **Claude Fable 5** | $10.00 / $50.00 | 23% | **$56.71** | 34.92× |
 
 ```mermaid
 xychart-beta
     title "Baseline build cost by model (USD)"
     x-axis ["MiniMax M3", "DeepSeek V4 Pro", "GLM-5", "DeepSeek V4.1 Flash★", "Kimi K3", "Gemini 3.8 Flash", "GPT-5.6 Sol", "Claude Opus 5", "GPT-5.5", "Claude Fable 5.1"]
     y-axis "USD" 0 --> 60
-    bar [1.60, 2.08, 5.13, 1.60, 16.68, 4.17, 22.24, 27.79, 28.99, 55.59]
+    bar [1.62, 2.11, 5.21, 1.62, 17.01, 4.25, 22.68, 28.36, 29.64, 56.71]
 ```
 
 <a id="s14-7" aria-hidden="true"></a>
@@ -210,12 +210,12 @@ xychart-beta
 
 | Lever | Configuration | Build cost | vs baseline |
 |---|---|---|---|
-| **Baseline** (uncached) | DeepSeek V4.1 Flash, no cache, on-peak | $1.60 | 1.00× |
-| **KV-cache pinning** | 70% of input served from cache at $0.01/1M | $0.70 | 0.44× |
+| **Baseline** (uncached) | DeepSeek V4.1 Flash, no cache, on-peak | $1.62 | 1.00× |
+| **KV-cache pinning** | 70% of input served from cache at $0.01/1M | $0.72 | 0.44× |
 | **Off-peak batching** | DeepSeek off-peak window (50% off all rates) | $NaN | NaN× |
-| **Tier-routed** | DeepSeek V4.1 Flash readers → Gemini 3.8 Flash / Qwen structurers → Claude Opus 5 for 30% of synthesis | $6.27 | 3.93× |
-| **Frontier-only** | Every turn on Claude Fable 5.1 | $55.59 | 34.8× |
-| **Context-naive** | DeepSeek V4.1 Flash, no compaction | $4.65 | 2.91× |
+| **Tier-routed** | DeepSeek V4.1 Flash readers → Gemini 3.8 Flash / Qwen structurers → Claude Opus 5 for 30% of synthesis | $6.44 | 3.97× |
+| **Frontier-only** | Every turn on Claude Fable 5.1 | $56.71 | 34.9× |
+| **Context-naive** | DeepSeek V4.1 Flash, no compaction | $4.68 | 2.88× |
 
 The two levers compound: **cached off-peak baseline** lands at **$NaN**, NaN× the baseline, for identical output. That is a **NaN%** reduction achieved purely by changing *when* the work runs and *how* the prompt prefix is structured.
 
@@ -223,13 +223,13 @@ The two levers compound: **cached off-peak baseline** lands at **$NaN**, NaN× t
 
 ## `14.8` Insights
 
-1. **Model selection moves the bill 35×; engineering effort does not.** The same repository, the same tokens and the same output cost $1.60 on DeepSeek V4.1 Flash and $55.59 on Claude Fable 5. Any cost-control programme that does not start with model routing is optimising the wrong variable.
-2. **Output tokens carry the bill.** Output is only ~5% of the token count but 22%–18% of the cost, because every provider prices output 3.5×–5× above input. Verbosity is the most expensive habit in an agent loop.
-3. **Context compaction is worth more than a model downgrade.** Dropping from the baseline to the lean scenario saves $0.62 on the same model — comparable to the entire saving from switching that same baseline workload to a mid-tier model.
-4. **China rate cards remain 4.9× cheaper at the median** for this workload (US median $27.79 vs China median $5.66). The gap narrows as you move up the quality curve — Kimi K3 at 74.9 public score still undercuts every US model with a comparable score.
+1. **Model selection moves the bill 35×; engineering effort does not.** The same repository, the same tokens and the same output cost $1.62 on DeepSeek V4.1 Flash and $56.71 on Claude Fable 5. Any cost-control programme that does not start with model routing is optimising the wrong variable.
+2. **Output tokens carry the bill.** Output is only ~6% of the token count but 23%–19% of the cost, because every provider prices output 3.5×–5× above input. Verbosity is the most expensive habit in an agent loop.
+3. **Context compaction is worth more than a model downgrade.** Dropping from the baseline to the lean scenario saves $0.63 on the same model — comparable to the entire saving from switching that same baseline workload to a mid-tier model.
+4. **China rate cards remain 4.9× cheaper at the median** for this workload (US median $28.36 vs China median $5.75). The gap narrows as you move up the quality curve — Kimi K3 at 74.9 public score still undercuts every US model with a comparable score.
 5. **The registry's cheapest tier is not the cheap tier any more.** DeepSeek V4.1 Flash at $0.30/1M input buys 61.62 public score — within ~10 points of models costing 12× more per input token. For deterministic transformation work like this build's content pipeline, that is where the marginal dollar belongs.
-6. **Caching is a 4–8× lever on input, not a rounding error.** With 70% of input served from cache the input side of this build collapses from $1.31 to $0.41. Static system prompts, the source registry and previously read files must be cache-pinned by construction.
-7. **Rebuilds are nearly free; re-reading the corpus is not.** The corpus read is 712,137 bytes of the 2,639,152-byte total surface. Because the pipeline is deterministic, a rebuild of this site consumes no research tokens at all — only the ~60k tokens of source it has to re-emit.
+6. **Caching is a 4–8× lever on input, not a rounding error.** With 70% of input served from cache the input side of this build collapses from $1.32 to $0.41. Static system prompts, the source registry and previously read files must be cache-pinned by construction.
+7. **Rebuilds are nearly free; re-reading the corpus is not.** The corpus read is 712,137 bytes of the 2,666,895-byte total surface. Because the pipeline is deterministic, a rebuild of this site consumes no research tokens at all — only the ~64k tokens of source it has to re-emit.
 
 <a id="s14-9" aria-hidden="true"></a>
 
@@ -237,9 +237,9 @@ The two levers compound: **cached off-peak baseline** lands at **$NaN**, NaN× t
 
 **What was delivered.** A fourteen-section, fully numbered documentation site built from 13 research documents: 12 numbered research pages, a seven-category cross-linked source registry of 1,764 entries, a 226-entry de-duplicated citation index, and a build report. Wide tables and Mermaid diagrams scroll sideways instead of squeezing columns; every heading carries its section number into the right-pane contents list; every reference bullet links back to its index entry.
 
-**What it cost to run.** ~60k hand-authored tokens of output against a 712,137-byte corpus read, for $1.60 of direct compute across 96 turns. The pipeline (heading renumbering, citation extraction, registry splitting, cross-link generation, asset generation) is deterministic code, so a full rebuild costs **$0** in model tokens.
+**What it cost to run.** ~64k hand-authored tokens of output against a 712,137-byte corpus read, for $1.62 of direct compute across 96 turns. The pipeline (heading renumbering, citation extraction, registry splitting, cross-link generation, asset generation) is deterministic code, so a full rebuild costs **$0** in model tokens.
 
-**What to watch.** The build is a single-writer agent task with no parallelism requirement; it is therefore latency-tolerant and batchable. The only structural risk is transcript growth — the difference between the lean and context-naive scenarios is $3.67 on the same work.
+**What to watch.** The build is a single-writer agent task with no parallelism requirement; it is therefore latency-tolerant and batchable. The only structural risk is transcript growth — the difference between the lean and context-naive scenarios is $3.68 on the same work.
 
 <a id="s14-10" aria-hidden="true"></a>
 
@@ -247,13 +247,13 @@ The two levers compound: **cached off-peak baseline** lands at **$NaN**, NaN× t
 
 | Line item | Amount |
 |---|---|
-| Direct compute, this build (baseline scenario) | **$1.60** |
+| Direct compute, this build (baseline scenario) | **$1.62** |
 | Same build, cached + off-peak | **$NaN** |
-| Same build on a US frontier flagship | **$55.59** (34.8× baseline) |
-| Same build on the cheapest viable model | **$1.60** (1.00× baseline) |
-| Annualised, one rebuild per working day | **$398.96** baseline · **$NaN** optimised |
+| Same build on a US frontier flagship | **$56.71** (34.9× baseline) |
+| Same build on the cheapest viable model | **$1.62** (1.00× baseline) |
+| Annualised, one rebuild per working day | **$406.02** baseline · **$NaN** optimised |
 
-**The asymmetry to budget for:** a single frontier-model build of this site costs $55.59; the same work costs $1.60 on a model that produces a materially similar artefact. Setting an explicit model policy — ban flagships from deterministic transformation, allow them only for final synthesis — is the difference between a $398.96 and a $13,896.95 annual line. The CFO-facing control is not "how much can we reduce token spend" but "which model is allowed to touch which step".
+**The asymmetry to budget for:** a single frontier-model build of this site costs $56.71; the same work costs $1.62 on a model that produces a materially similar artefact. Setting an explicit model policy — ban flagships from deterministic transformation, allow them only for final synthesis — is the difference between a $406.02 and a $14,177.59 annual line. The CFO-facing control is not "how much can we reduce token spend" but "which model is allowed to touch which step".
 
 <a id="s14-11" aria-hidden="true"></a>
 
@@ -261,17 +261,17 @@ The two levers compound: **cached off-peak baseline** lands at **$NaN**, NaN× t
 
 - **Architecture shape.** Static Astro + Starlight build, fully pre-rendered, with a build-time content pipeline (`scripts/*.mjs`) that is the single source of truth for numbering, references and cross-links. The site is installable (PWA) with a versioned precache manifest generated after build, so offline integrity is enforced rather than hoped for.
 - **Cost surfaces you control.** (1) Model routing per pipeline stage; (2) prompt-prefix stability, which decides whether the cache hit rate is $0.01/1M or $0.30/1M; (3) transcript compaction, worth 2.9× end-to-end; (4) off-peak batching at NaN×.
-- **Where the leverage is.** The tier-routed configuration lands at $6.27 — 3.93× the single-model baseline — by keeping scouting on cheap models and reserving frontier synthesis for the 30% of output that needs it.
+- **Where the leverage is.** The tier-routed configuration lands at $6.44 — 3.97× the single-model baseline — by keeping scouting on cheap models and reserving frontier synthesis for the 30% of output that needs it.
 - **Instrumentation.** Billing must be attributed per pipeline stage, not per project, or none of the four levers above can be steered. The measurement code in this section is the template: measure the surface on disk, model the token flow, price it against every candidate rate card.
 
 <a id="s14-12" aria-hidden="true"></a>
 
 ## `14.12` Briefing for the CEO
 
-- **Strategic read.** The site you are reading cost **$1.60** in direct compute to produce, and the same work would have cost **$55.59** on the most expensive frontier configuration available today. The intelligence is no longer the scarce input — the *routing policy* is.
+- **Strategic read.** The site you are reading cost **$1.62** in direct compute to produce, and the same work would have cost **$56.71** on the most expensive frontier configuration available today. The intelligence is no longer the scarce input — the *routing policy* is.
 - **Why this scales.** The research corpus (712,137 bytes) is read once; every subsequent render, restyle, renumber or re-publication runs on deterministic code at zero marginal token cost. Documentation is now a capital asset with a one-time ingestion cost and near-zero marginal cost.
 - **What to fund.** Two capabilities: a governed model-routing policy (with a hard rule that deterministic transformation never touches a flagship) and instrumentation that attributes spend per pipeline stage. Everything else in this build is reproducible from source in minutes.
-- **What to stop doing.** Paying flagship rates for deterministic work. The spread between the cheapest and most expensive configuration here is **34.8×** for the same artefact — that is the size of the prize, and it requires no new engineering, only a policy.
+- **What to stop doing.** Paying flagship rates for deterministic work. The spread between the cheapest and most expensive configuration here is **34.9×** for the same artefact — that is the size of the prize, and it requires no new engineering, only a policy.
 
 <a id="s14-13" aria-hidden="true"></a>
 

@@ -4,7 +4,7 @@ description: "The 102 sources cited by the Islamic fintech research that the sou
 ---
 
 <div class="sec-head">
-<span class="chip chip-kind">Additional Citations</span>
+<span class="chip chip-kind acc-amber">Additional Citations</span>
 <span class="chip">Section 13.3</span>
 <span class="chip">102 unique sources</span>
 </div>

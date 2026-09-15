@@ -20,7 +20,8 @@ All commands run from this directory.
 | `bun run preview` | Preview the production build locally |
 | `bun run generate` | Regenerate content, assets and the build report only |
 | `bun run titles` | Re-fetch source page titles for §13 (resumable, cache-backed, never part of a build) |
-| `bun run check` | Audit the built site: every internal link, fragment and Mermaid diagram |
+| `bun run check` | Audit the built site: internal links, fragments, Mermaid, and every retired URL over HTTP |
+| `bun run check:redirects` | Just the retired-URL check: serves `dist/` and follows each old path |
 | `bun run audit` | Browser-free desktop + PWA layout audit over `dist/` (contrast, headings, overflow, pane maths, icons, precache, a11y) |
 | `bun run verify` | `check` then `audit` — the full pre-deploy gate |
 
@@ -40,6 +41,7 @@ public/                      favicon, PWA icons, OG card, service worker, offlin
 scripts/build-docs.mjs       research corpus → numbered docs + the §13 reference ledger
 scripts/build-report.mjs     measures the repo and writes section 14
 scripts/section-map.mjs      the numbered contents panel under every page header
+scripts/accents.mjs          which accent hue each section kind gets
 scripts/source-key.mjs       the one URL normaliser the pipeline and title fetcher share
 scripts/fetch-source-titles.mjs  fetches source page titles into a committed cache
 scripts/build-assets.mjs     favicon, icons and OG image from the theme palette
@@ -47,6 +49,7 @@ src/data/source-titles.json  cached page titles for 1,650 sources
 src/plugins/external-links.mjs   opens external links in a new window
 scripts/check-links.mjs      internal link + fragment audit over dist/
 scripts/check-diagrams.mjs   Mermaid syntax audit over the content tree
+scripts/check-redirects.mjs  serves dist/ and follows every retired URL over HTTP
 scripts/audit-layout.mjs     desktop + installed-PWA layout audit over dist/
 ```
 
@@ -104,31 +107,39 @@ listed under, its institutional category, and every section that cites it. The
 102 cited sources the registry never reached live in §13.3 instead of being
 duplicated across both.
 
-Titles come from `scripts/fetch-source-titles.mjs`, which reads them from the
-page itself — `og:title`, `twitter:title`, `<title>`, `<h1>` — then from PDF
-metadata (XMP `<dc:title>`, or the `/Info` dictionary via two range requests),
-and finally from the readable part of the URL path, which is all a journal
-download link or a JavaScript-rendered page has to offer. A site that answers
-the honest bot user-agent with a 403 gets one retry as a browser. The result is
-cached in `src/data/source-titles.json` and the build reads the cache, so
+`scripts/fetch-source-titles.mjs` resolves a name in five descending steps and
+caches it in `src/data/source-titles.json`. The build reads the cache, so
 building stays offline, fast and deterministic.
 
-**1,245 of the 1,548 registry rows**, and 102 of the 102 §13.3 citations, now
-print a real page title — 1,347 of the 1,650 sources. Anything generic —
-`Just a moment...`, `Home`, `Overview`, `Announcements`, `Press Release`,
-`404 Not Found` — is treated as no title at all, so such a row shows its domain
-instead of noise. The build re-validates every cached title **as it will be
-printed** (`DFSA | DFSA` only degrades to the two-word `DFSA DFSA` once the pipe
-is stripped for display), and a trailing colon is trimmed as the mark of a
-navigational label rather than a title (`Pakistan (SECP):` → `Pakistan (SECP)`).
+1. **The page's own metadata** — `citation_title` and Dublin Core first (journal
+   platforms put the article's verbatim name there), then `og:title`,
+   `twitter:title`, `<title>`, `<h1>`.
+2. **The sibling landing page**, when the URL is a download endpoint:
+   `/article/download/975/529` → `/article/view/975`. This is where an Open
+   Journal Systems install keeps the metadata that the download itself does not
+   carry, and it recovered 53 titles on its own.
+3. **PDF metadata** — XMP `<dc:title>` at the head, the `/Info` dictionary at the
+   tail, via two range requests (never the whole file).
+4. **The readable part of the URL path**, with a leading record id stripped
+   (`/publication/393602359_A_Proposed_…` → `A Proposed …`).
+5. **Citation context** — last resort, dropped when it does not read like a
+   title; the old list contained fragments such as `(excessive uncertainty) and`.
 
-Of the 303 sources still without one, **205 are journal `/article/download/`
-endpoints and bare PDFs** that carry no title to read, 45 answer a bot with a
-403, 33 close the socket, 20 time out and 12 are dead links — all re-tried on
-`bun run titles`, which is resumable and skips what is already cached.
-Citation-context titles are the last fallback and are dropped when they do not
-read like a title — the old list contained fragments such as
-`(excessive uncertainty) and`.
+A site that answers the honest bot user-agent with a 403/429/503 gets one retry
+as a browser. Anything generic — `Just a moment...`, `Home`, `Overview`,
+`Announcements`, `Press Release`, `404 Not Found` — counts as no title at all,
+so the row shows its domain instead of noise. The build re-validates every
+cached title **as it will be printed** (`DFSA | DFSA` only degrades to the
+two-word `DFSA DFSA` once the pipe is stripped for display) and trims a trailing
+colon as the mark of a navigational label (`Pakistan (SECP):` →
+`Pakistan (SECP)`).
+
+**1,295 of the 1,548 registry rows**, and 102 of the 102 §13.3 citations, now
+print a real page title — **1,397 of the 1,650 sources**. Of the 275 that remain
+untitled, 163 are download endpoints and bare PDFs with no title anywhere to
+read, 46 answer a bot with a 403, 33 close the socket, 13 are dead links, and the
+rest time out or have broken TLS. All of them are retried by `bun run titles`,
+which is resumable and skips whatever is already cached.
 
 Every external link opens in a new window (`target="_blank"` plus
 `rel="noopener noreferrer"`), so tapping a primary source in an installed PWA
@@ -167,7 +178,7 @@ assets are cache-first, and `/offline.html` is the last-resort fallback.
 
 The environment this was built in has no browser, so `bun run audit` verifies the
 properties that decide whether a layout holds up, straight from the emitted HTML,
-the theme CSS, the manifest and the generated precache list — 404 checks:
+the theme CSS, the manifest and the generated precache list — 431 checks:
 
 - **Palette contrast** — WCAG 2.1 ratios with real alpha compositing, for every
 text/background pair in both colour schemes, plus the Mermaid node palette.
@@ -201,29 +212,39 @@ text/background pair in both colour schemes, plus the Mermaid node palette.
 - **PWA / standalone** — icons at their declared pixel sizes, a 1200×630 social
   card, every precached URL resolves (a missing entry would break install), and
   safe-area/burger-menu rules exist for installed mode.
-- **Shipped CSS** — the layout, overflow and focus rules are re-checked against
-  the minified `dist/_astro/*.css`, since a source rule that never ships is not a
-  rule.
+- **Shipped CSS** — the layout, overflow, focus and accent rules are re-checked
+  against the minified `dist/_astro/*.css`, since a source rule that never ships
+  is not a rule.
+- **Accents** — every section-kind chip carries a hue, the theme defines an
+  `.acc-` class and all three colour roles (`ink`, `text`, `soft`) for each of
+  the five hues, and the accent rules survive minification into the shipped
+  bundle. A chip whose class does not exist renders as a plain grey pill, which
+  is exactly the regression this catches.
 
 ## Retired §13 URLs
 
 Section 13 used to be nine pages — a landing page, a collected citation index, a
 registry hub and one page per institutional category. Astro's `redirects` cannot
 send a wildcard to a fixed destination in a prerendered site, so
-`astro.config.mjs` lists every retired path explicitly and sends it to the page
-that replaced it:
+`astro.config.mjs` lists the shapes we have reason to believe existed and sends
+each to the page that replaced it:
 
 | Retired | Now |
 |---|---|
-| `/13-references/reference-index/`, `/13-references/collected-index/` | `/13-references/` |
-| `/13-references/registry/` | `/13-references/source-registry/` |
-| `/13-references/source-registry/<category>/` (13 slug shapes) | `/13-references/source-registry/` |
+| `/13-references/reference-index/` | `/13-references/` |
+| `/13-references/source-registry/<category>/` (7 slugs) | `/13-references/source-registry/` |
 
 Each becomes a small no-JS meta-refresh page carrying a real `<a>` and
 `rel=canonical`, so old links, bookmarks and crawlers all land somewhere sane,
 the redirects are precached by the service worker, and Pagefind leaves them out
-of the search index. They are inert if a path never existed — which is why each
-category is listed in both its short and parenthetical slug form.
+of the search index (18 indexed pages, 8 redirect pages).
+
+`bun run check:redirects` proves it over real HTTP rather than by trusting the
+files on disk: it stands up a static server on `dist/`, requests each old path,
+reads the destination out of the meta refresh, follows it, and fails if anything
+404s, chains through a second redirect, or lands somewhere other than the page
+named in the config. Astro emits redirects as a meta refresh rather than an HTTP
+3xx, so a plain `curl -L` would never notice a broken one.
 
 ## Deploying
 
@@ -253,3 +274,31 @@ its own width instead of growing to absorb the space a narrow centre pane leaves
 over, and the centre pane takes the remainder with the reading measure centred
 inside it. On a 1920px display that turns roughly 200px of empty contents pane
 into reading width.
+
+### Accents
+
+The palette is bluish-green at heart — cyan and spring green carry the structure
+— with three accent hues beside it (violet, amber, rose). Each **kind of
+section** owns one hue, assigned in `scripts/accents.mjs` so every generator
+agrees:
+
+| Hue | Section kind |
+|---|---|
+| cyan | the master report |
+| spring green | the ten gap blueprints |
+| violet | research cost intelligence |
+| amber | the reference ledger |
+| rose | the site build report |
+
+The hue is applied as `.acc-<name>`, which sets `--acc-ink` (borders and glow),
+`--acc-text` (the contrast-safe label colour) and `--acc-soft` (the wash behind
+it). The section chip, the home-page card's top hairline, its number, and the
+home-page stat numbers all read those three variables, so a section keeps the
+same colour wherever it appears. `theme.css` is the only place that knows the
+actual values, and the audit checks all ten label/ink pairs against the panel in
+both colour schemes for WCAG contrast.
+
+The rest of the spectrum is used sparingly: the `h2` underline, the `hr`, the
+top rule of every table and diagram panel, the primary button and the scrollbar
+thumb are accent sweeps, and the stat numbers on the home page cycle through all
+five hues.

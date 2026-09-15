@@ -37,33 +37,24 @@ const gapSections = sections.filter((s) => s.kind === 'Gap Blueprint');
    subsections with a single deduplicated ledger, so those old URLs would 404 for
    anyone holding an old link or bookmark. Astro's `redirects` cannot express a
    wildcard onto a fixed destination in a prerendered site, so the paths are
-   listed explicitly. Each one is inert if it never matched, which is why the
-   category slug is given in both the short and the parenthetical form — the two
-   shapes the old generator could plausibly have produced. */
-const RETIRED_REFERENCE_PATHS = {
-	'/13-references/reference-index': '/13-references/',
-	'/13-references/collected-index': '/13-references/',
-	'/13-references/registry': '/13-references/source-registry/',
-};
-const RETIRED_CATEGORY_SLUGS = [
-	'academic-journals-economic-research',
-	'multilateral-institutions-standard-setters',
-	'multilateral-institutions-standard-setters-aaoifi-ifsb-isdb-wb-bis-imf',
-	'regulators-central-banks',
-	'regulators-central-banks-bnm-sc-sama-cma-cbuae-dfsa-adgm-cbb-ojk-sbp-secp',
-	'credit-rating-agencies-global-benchmarks',
-	"credit-rating-agencies-global-benchmarks-fitch-s-p-moody-s-dinarstandard-lseg",
-	'islamic-financial-institutions-fintech-primaries',
-	'islamic-financial-institutions-fintech-primaries-banks-sukuk-scf-p2p-brokerage',
-	'ecosystem-hubs-accelerators-venture-capital',
-	'ecosystem-hubs-accelerators-venture-capital-hub71-difc-hive-bfb-svc-jada-hasan',
-	'frontier-ai-technology-infrastructure',
-	'frontier-ai-technology-infrastructure-openai-anthropic-google-deepseek-alibaba-etc',
-];
+   listed explicitly.
+
+   Only the shapes we have reason to believe existed are listed: the collected
+   citation index, and the category pages under the parenthetical-free slug of
+   each corpus heading. The registry hub itself keeps its URL, so it needs no
+   redirect. Anything here that never matched is simply an unused rule. */
 const redirects = {
-	...RETIRED_REFERENCE_PATHS,
+	'/13-references/reference-index': '/13-references/',
 	...Object.fromEntries(
-		RETIRED_CATEGORY_SLUGS.map((slug) => [
+		[
+			'academic-journals-economic-research',
+			'multilateral-institutions-standard-setters',
+			'regulators-central-banks',
+			'credit-rating-agencies-global-benchmarks',
+			'islamic-financial-institutions-fintech-primaries',
+			'ecosystem-hubs-accelerators-venture-capital',
+			'frontier-ai-technology-infrastructure',
+		].map((slug) => [
 			`/13-references/source-registry/${slug}`,
 			'/13-references/source-registry/',
 		])
