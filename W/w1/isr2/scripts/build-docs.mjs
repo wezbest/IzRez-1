@@ -20,23 +20,19 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { addSectionMap } from './section-map.mjs';
-import { hostOf, normUrl } from './source-key.mjs';
+import {
+	hostOf,
+	isUsableTitle,
+	normUrl,
+	TRAILING_LABEL_PUNCTUATION,
+	titleFromUrl,
+} from './source-key.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(HERE, '..');
 const REPORTS = path.resolve(SITE, '..', 'reports');
 const DOCS = path.join(SITE, 'src', 'content', 'docs');
 const DATA = path.join(SITE, 'src', 'data');
-
-/* Fetched page titles for the sources — written by scripts/fetch-source-titles.mjs
-   and committed, so the build itself never touches the network. */
-const SOURCE_TITLES = (() => {
-	try {
-		return JSON.parse(read(path.join(DATA, 'source-titles.json')));
-	} catch {
-		return {};
-	}
-})();
 
 /* Section 13 is one section with three subsections: 13.1 how the system works,
    13.2 the source registry by institutional category, and 13.3 the citations
@@ -126,9 +122,29 @@ const looksLikeTitle = (title) => {
 	return stop <= Math.max(2, Math.floor(words.length / 4));
 };
 
-/** Best available label for a source: fetched page title, else citation guess. */
-const sourceTitle = (key, guess = '') =>
-	SOURCE_TITLES[key]?.title || (looksLikeTitle(guess) ? guess : '');
+/**
+ * Best available label for a source, in order: the fetched page title, the
+ * readable part of the URL, then the citation-context guess.
+ *
+ * Every candidate has to survive `isUsableTitle` **as it will be printed**, so
+ * the check runs on the cleaned text rather than the raw cache value. A page
+ * whose title is `DFSA | DFSA` only degrades to the two-word `DFSA DFSA` once
+ * the pipe is stripped for display, and it is that string the reader sees.
+ *
+ * The cache also predates the rule itself: 37 of its entries still hold
+ * navigation strings — `Announcements`, `Services`, `Overview` — which identify
+ * nothing, so they fall through instead of labelling a source with the
+ * furniture of its own website.
+ */
+const sourceTitle = (key, guess = '', url = '') => {
+	const candidates = [SOURCE_TITLES[key]?.title, titleFromUrl(url), guess];
+	for (const candidate of candidates) {
+		// a trailing colon is the mark of a navigational label, not a title
+		const text = clean(candidate, 220).replace(TRAILING_LABEL_PUNCTUATION, '');
+		if (isUsableTitle(text)) return text;
+	}
+	return '';
+};
 
 /**
  * `[example.com]` — a registry row's link label.
@@ -141,6 +157,18 @@ const sourceTitle = (key, guess = '') =>
  * `www.` is never autolinked, and `\[` is a literal bracket rather than link
  * syntax.
  */
+/* Fetched page titles for the sources — written by scripts/fetch-source-titles.mjs,
+   which is not part of the build: the cache is committed, so building stays
+   offline and deterministic. Declared here rather than at the top of the file
+   because it reads through `read`/`DATA` above. */
+const SOURCE_TITLES = (() => {
+	try {
+		return JSON.parse(read(path.join(DATA, 'source-titles.json')));
+	} catch {
+		return {};
+	}
+})();
+
 const domainLabel = (domain, href) =>
 	`\\[${link(domain.replace(/^www\./i, ''), href)}\\]`;
 
@@ -585,6 +613,13 @@ const citedOnly = [...citations.values()]
 
 const totalSources = registryUnique + citedOnly.length;
 
+/* How many rows actually name their source. Titles come from the committed page
+   cache (`bun run titles`), so this is a property of the corpus, not of a run. */
+const titledRegistryRows = rows.filter((row) => sourceTitle(row.key, row.title, row.url))
+	.length;
+const titledCitedRows = citedOnly.filter((cite) => sourceTitle(cite.key, cite.title, cite.url))
+	.length;
+
 const citedInLabel = (list) =>
 	list
 		.map((c) => link(`§${anchorLabel(c.anchor)}`, `/${c.slug}/#${c.anchor}`))
@@ -644,7 +679,7 @@ graph LR
 | ${link('13.3 Sources cited outside the registry', CITED_URL)} | Citations the registry pass never picked up, by the section that cites them first | **${citedOnly.length.toLocaleString('en-US')}** |
 | | **Total unique sources** | **${totalSources.toLocaleString('en-US')}** |
 
-Registry numbers preserved from the corpus: **${registryNumbers.toLocaleString('en-US')}**, covering **${registryUnique.toLocaleString('en-US')}** URLs. Every external link in this section opens in a new window, so the page you are reading stays where it is.
+Registry numbers preserved from the corpus: **${registryNumbers.toLocaleString('en-US')}**, covering **${registryUnique.toLocaleString('en-US')}** URLs. **${titledRegistryRows.toLocaleString('en-US')}** of the ${registryUnique.toLocaleString('en-US')} registry rows and **${titledCitedRows}** of the ${citedOnly.length} citations in §13.3 name their source with its real page title, fetched once by \`bun run titles\` into a committed cache. Where a source has no title to read — a PDF download endpoint, a site that refuses automated requests — the row shows its domain instead of a guess. Every external link in this section opens in a new window, so the page you are reading stays where it is.
 
 ### <span class="sn">13.1.3</span> Section coverage
 
@@ -684,7 +719,7 @@ The collected citation index and the registry used to overlap: ${registryCited.t
 			const items = list
 				.map((cite) => {
 					const years = [...cite.years].sort().join(', ');
-					const title = sourceTitle(cite.key, cite.title);
+					const title = sourceTitle(cite.key, cite.title, cite.url);
 					const bits = [
 						`<a id="${refAnchor(cite.url)}" aria-hidden="true"></a>${link(title || cite.host, cite.url)}`,
 						years ? `\`${years}\`` : '',
@@ -747,7 +782,7 @@ ${blocks}
 		.map(({ cat, i, ref, mine, cross, cited }) => {
 			const items = mine
 				.map((row) => {
-					const title = sourceTitle(row.key, row.title);
+					const title = sourceTitle(row.key, row.title, row.url);
 				const bits = [
 					`<a id="r${row.n}" aria-hidden="true"></a><span class="reg-num">r${row.n}</span> ${domainLabel(hostOf(row.url) || row.domain, row.url)}`,
 					title ? `<em>${attr(clampText(clean(title), 150))}</em>` : '',

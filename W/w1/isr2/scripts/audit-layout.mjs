@@ -27,6 +27,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
+import { isUsableTitle } from './source-key.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(HERE, '..');
@@ -48,7 +49,15 @@ const check = (group, name, ok, detail = '') =>
 
 /* ------------------------------------------------------------ html helpers */
 
+/* Retired-URL redirects are real files in dist but not pages a reader lands on:
+   they are a meta refresh and nothing else. Layout checks do not apply to them,
+   and including them would fail every heading check by construction. */
+const isRedirectPage = (source) =>
+	/<meta http-equiv="refresh"/i.test(source) &&
+	/<meta name="robots" content="noindex"/i.test(source);
+
 const pages = [];
+const redirectPages = [];
 (function walk(dir) {
 	for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
 		const abs = path.join(dir, entry.name);
@@ -56,7 +65,8 @@ const pages = [];
 			if (entry.name === 'pagefind') continue;
 			walk(abs);
 		} else if (entry.name.endsWith('.html')) {
-			pages.push(abs);
+			if (isRedirectPage(fs.readFileSync(abs, 'utf8'))) redirectPages.push(abs);
+			else pages.push(abs);
 		}
 	}
 })(DIST);
@@ -436,6 +446,37 @@ const referencePages = ['13-references/index.html', '13-references/source-regist
 		rows.registry > 1500 && rows.cited > 90,
 		`${rows.registry} registry rows + ${rows.cited} cited-only rows = ${rows.registry + rows.cited} sources`
 	);
+
+	/* A reference a reader cannot identify is not a reference. The title cache
+	   predates the quality rules, so this guards against `Announcements`,
+	   `Services` or `Overview` reappearing as the name of a source. */
+	const registryRow = (page) =>
+		rel(page) === '13-references/source-registry/index.html';
+	const labels = [];
+	for (const page of pages) {
+		if (!registryRow(page)) continue;
+		// a row's title is the only <em> inside its own list item; matching whole
+		// items keeps prose italics elsewhere on the page out of the sample
+		const body = contentOf(html(page));
+		for (const [item] of body.matchAll(/<li>[\s\S]*?<\/li>/g)) {
+			if (!item.includes('class="reg-num"')) continue;
+			for (const [, label] of item.matchAll(/<em>([\s\S]{0,220}?)<\/em>/g))
+				labels.push(label.replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').trim());
+		}
+	}
+	const unusable = labels.filter((label) => !isUsableTitle(label));
+	check(
+		'references',
+		'every printed source title reads like a title',
+		unusable.length === 0,
+		unusable.slice(0, 5).map((label) => JSON.stringify(label)).join(', ')
+	);
+	check(
+		'references',
+		'titles name most of the registry (not just domains)',
+		labels.length / rows.registry > 0.75,
+		`${labels.length} titled rows of ${rows.registry} (${Math.round((labels.length / rows.registry) * 100)}%)`
+	);
 }
 
 /* every off-site link opens in a new window, wherever it came from */
@@ -454,6 +495,30 @@ const referencePages = ['13-references/index.html', '13-references/source-regist
 		'every external reference opens in a new window',
 		inPlace.length === 0,
 		`${external} external links, ${inPlace.length} would open in place${inPlace.length ? ` — e.g. ${inPlace[0]}` : ''}`
+	);
+}
+
+/* -------------------------- 2d. retired §13 URLs still land somewhere ------- */
+{
+	const broken = [];
+	for (const page of redirectPages) {
+		const target = html(page).match(
+			/<meta http-equiv="refresh" content="0;url=([^"]+)"/i
+		)?.[1];
+		if (!target) {
+			broken.push(`${rel(page)} → (no refresh target)`);
+			continue;
+		}
+		if (/^https?:/i.test(target)) continue;
+		const local = target.replace(/^\//, '').replace(/\/$/, '');
+		if (!fs.existsSync(path.join(DIST, local, 'index.html')) && !fs.existsSync(path.join(DIST, local)))
+			broken.push(`${rel(page)} → ${target}`);
+	}
+	check(
+		'references',
+		`every retired §13 URL redirects to a page that exists (${redirectPages.length} paths)`,
+		broken.length === 0,
+		broken.join(', ')
 	);
 }
 

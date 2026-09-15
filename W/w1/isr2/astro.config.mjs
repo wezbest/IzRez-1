@@ -30,6 +30,46 @@ const stats = readJson('./src/data/site-stats.json', {
 
 const gapSections = sections.filter((s) => s.kind === 'Gap Blueprint');
 
+/* Retired §13 paths.
+
+   Section 13 used to be nine pages: a landing page, a collected citation index,
+   a registry hub and one page per institutional category. It is now three
+   subsections with a single deduplicated ledger, so those old URLs would 404 for
+   anyone holding an old link or bookmark. Astro's `redirects` cannot express a
+   wildcard onto a fixed destination in a prerendered site, so the paths are
+   listed explicitly. Each one is inert if it never matched, which is why the
+   category slug is given in both the short and the parenthetical form — the two
+   shapes the old generator could plausibly have produced. */
+const RETIRED_REFERENCE_PATHS = {
+	'/13-references/reference-index': '/13-references/',
+	'/13-references/collected-index': '/13-references/',
+	'/13-references/registry': '/13-references/source-registry/',
+};
+const RETIRED_CATEGORY_SLUGS = [
+	'academic-journals-economic-research',
+	'multilateral-institutions-standard-setters',
+	'multilateral-institutions-standard-setters-aaoifi-ifsb-isdb-wb-bis-imf',
+	'regulators-central-banks',
+	'regulators-central-banks-bnm-sc-sama-cma-cbuae-dfsa-adgm-cbb-ojk-sbp-secp',
+	'credit-rating-agencies-global-benchmarks',
+	"credit-rating-agencies-global-benchmarks-fitch-s-p-moody-s-dinarstandard-lseg",
+	'islamic-financial-institutions-fintech-primaries',
+	'islamic-financial-institutions-fintech-primaries-banks-sukuk-scf-p2p-brokerage',
+	'ecosystem-hubs-accelerators-venture-capital',
+	'ecosystem-hubs-accelerators-venture-capital-hub71-difc-hive-bfb-svc-jada-hasan',
+	'frontier-ai-technology-infrastructure',
+	'frontier-ai-technology-infrastructure-openai-anthropic-google-deepseek-alibaba-etc',
+];
+const redirects = {
+	...RETIRED_REFERENCE_PATHS,
+	...Object.fromEntries(
+		RETIRED_CATEGORY_SLUGS.map((slug) => [
+			`/13-references/source-registry/${slug}`,
+			'/13-references/source-registry/',
+		])
+	),
+};
+
 const mermaidPalette = {
 	fontFamily: "'Space Grotesk Variable', ui-sans-serif, system-ui, sans-serif",
 	fontSize: '15px',
@@ -77,6 +117,7 @@ const mermaidPalette = {
 export default defineConfig({
 	site: SITE_URL,
 	trailingSlash: 'always',
+	redirects,
 	markdown: {
 		// the default processor, plus a hast visitor that opens every external
 		// reference in a new window

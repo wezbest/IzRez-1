@@ -69,7 +69,7 @@ graph LR
 | <a href="/13-references/cited-sources/">13.3 Sources cited outside the registry</a> | Citations the registry pass never picked up, by the section that cites them first | **102** |
 | | **Total unique sources** | **1,650** |
 
-Registry numbers preserved from the corpus: **1,764**, covering **1,548** URLs. Every external link in this section opens in a new window, so the page you are reading stays where it is.
+Registry numbers preserved from the corpus: **1,764**, covering **1,548** URLs. **1,245** of the 1,548 registry rows and **102** of the 102 citations in §13.3 name their source with its real page title, fetched once by `bun run titles` into a committed cache. Where a source has no title to read — a PDF download endpoint, a site that refuses automated requests — the row shows its domain instead of a guess. Every external link in this section opens in a new window, so the page you are reading stays where it is.
 
 <a id="s13-1-3" aria-hidden="true"></a>
 
