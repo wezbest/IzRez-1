@@ -13,13 +13,13 @@ description: "graph TD"
 
 <a id="s7-1" aria-hidden="true"></a>
 
-## <span class="sn">7.1</span> Gap Definition & Executive Thesis
+## `7.1` Gap Definition & Executive Thesis
 
 **Precise Formulation:** In Southeast Asia and the Middle East, over **60 million micro and small enterprises (MSMEs)** operate in the informal cash economy, representing over 97% of all commercial enterprises and 60% of national GDP [2025](https://openknowledge.worldbank.org/entities/publication/a6e99c26-ff4e-54cb-b3ca-77e33afc41f2). However, over 80% of these enterprises are completely "thin-file" borrowers: they lack audited financial statements, tax filings, and formal credit bureau histories (*Slik OJK* in Indonesia, *SIMAH* in Saudi Arabia). Conventional peer-to-peer (P2P) lending platforms rely on aggressive, high-interest consumer lending practices that trigger severe regulatory clampdowns (such as Indonesia's aggregate P2P 90-day default rate / TWP90 spiking to **4.33% in November 2025** on IDR 94.85 trillion in outstanding loans) [2025](https://en.tempo.co/read/2079233/indonesias-fintech-lending-reaches-rp94-85-trillion-as-default-rate-rises). Meanwhile, Islamic financial institutions refuse to finance thin-file MSMEs because they lack the technical capability to accurately underwrite risk without collateral, leaving an unaddressed **$230 billion MSME credit gap in Indonesia alone** [2026](https://www.ifc.org/en/pressroom/2024/ifc-s-landmark-investment-to-ramp-up-sustainable-finance-in-indo).
 
 **The Solution — AdlScore:** A two-sided, Shariah-compliant **SME Crowdfunding Marketplace & Alternative Credit Scoring (ACS) Engine**. AdlScore underwrites thin-file informal merchants (such as Indonesian FMCG retail stalls / *warungs*, community pharmacies, and agricultural traders) using a proprietary machine-learning credit scoring model that ingests consented, non-traditional alternative data: e-wallet cashflow velocity, telecom airtime top-up frequency, point-of-sale inventory turnover, and utility payment consistency. The platform packages verified working-capital needs into Shariah-compliant peer-to-peer investment notes structured under **Murabaha** (cost-plus sale), **Wakalah bil Istithmar** (investment agency), and **Musyarakah** (partnership profit-and-loss sharing), matching them with retail and institutional impact investors seeking ethical 11% to 15% annual yields.
 
-### <span class="sn">7.1.1</span> Systems Thinking: First-, Second-, and Third-Order Implications
+### `7.1.1` Systems Thinking: First-, Second-, and Third-Order Implications
 
 * **First-Order Implications (Direct & Immediate Impact):**
   - Thin-file warung merchants and informal micro-retailers obtain 30-day revolving inventory Murabaha financing in under 20 minutes without pledging real estate collateral.
@@ -39,7 +39,7 @@ description: "graph TD"
 
 <a id="s7-2" aria-hidden="true"></a>
 
-## <span class="sn">7.2</span> Root Causes & Structural Bottlenecks
+## `7.2` Root Causes & Structural Bottlenecks
 
 ```mermaid
 graph TD
@@ -64,7 +64,7 @@ graph TD
 
 <a id="s7-3" aria-hidden="true"></a>
 
-## <span class="sn">7.3</span> Why Incumbents Have Not Filled the Gap
+## `7.3` Why Incumbents Have Not Filled the Gap
 
 - **ALAMI / Hijra Bank Chose Commercial Banking:** ALAMI established a market-leading position in Indonesian Sharia P2P invoice financing with a reported TKB90 of 97.62% [2025](https://alamisharia.co.id/en/). However, following its acquisition and expansion of Hijra Bank (a licensed Sharia commercial bank), ALAMI shifted its corporate resources toward bank deposit gathering and residential home financing [2025](https://alamisharia.co.id/en/press/alami-raises-growth-investment-and-strengthens-its-senior-management-team/); it does not offer an open, portable Alternative Credit Scoring API for micro-merchants outside its private ecosystem.
 - **Ammana Stays Sub-Scale in Micro-Finance:** Ammana pioneered Sharia P2P in Indonesia, focusing on micro-loans distributed via Islamic cooperatives (BMT) and religious boarding schools (*pesantren*). However, its technical infrastructure remains legacy, relying on manual cooperative committees rather than automated machine-learning credit scoring.
@@ -75,23 +75,23 @@ graph TD
 
 <a id="s7-4" aria-hidden="true"></a>
 
-## <span class="sn">7.4</span> Feasibility Analysis: Technical, Shariah, Regulatory, Market
+## `7.4` Feasibility Analysis: Technical, Shariah, Regulatory, Market
 
-### <span class="sn">7.4.1</span> Technical Feasibility
+### `7.4.1` Technical Feasibility
 - **Alternative Feature Pipeline:** The scoring engine ingests consented, privacy-compliant data payloads:
   - *Cashflow Stability:* Coefficient of variation in daily e-wallet inflows (GoPay, OVO, Dana).
   - *Telecom Behavior:* Regularity of prepaid mobile data top-ups and daytime mobility radius.
   - *Commercial Relationships:* Order frequency and inventory restocking velocity from verified wholesale distributors.
 - **Machine Learning Architecture:** Uses a gradient-boosted decision tree model (LightGBM) trained on historical microfinance default datasets, paired with **SHAP (SHapley Additive exPlanations)** values. The SHAP integration is critical: it provides transparent, explainable reason codes for every credit decision, satisfying OJK’s statutory algorithmic fairness requirements under Regulation 29/2024.
 
-### <span class="sn">7.4.2</span> Shariah Feasibility
+### `7.4.2` Shariah Feasibility
 - **Multi-Contract Product Catalog:**
   - *Murabaha for Inventory:* Platform buys raw materials or inventory from the distributor and resells to the merchant on 30-day deferred terms with a disclosed markup.
   - *Wakalah bil Istithmar for Funders:* Retail investors appoint AdlScore as their investment agent (*Wakil*) to pool funds and execute the underlying Murabaha trades.
   - *Musyarakah for Revenue Expansion:* Capital is deployed into merchant inventory expansion with profits shared based on actual point-of-sale cashflow audits.
 - **Independent Shariah Supervisory Board (DPS):** Certified by the National Sharia Board (DSN-MUI) in Indonesia and compliant with AAOIFI standards.
 
-### <span class="sn">7.4.3</span> Regulatory Feasibility
+### `7.4.3` Regulatory Feasibility
 - **The "Partner-Rider" Licensing Strategy:** Launching as a de-novo P2P lending operator (LPBBTI) in Indonesia requires IDR 25 billion ($1.6M) in paid-up capital under POJK 40/2024. AdlScore legally bypasses this massive capital barrier by launching in **Phase 1 as a licensed Alternative Credit Scoring (ACS) provider** under OJK Regulation 29/2024 (requiring only IDR 5 billion capital) and partnering as an embedded technology and underwriting provider to existing licensed Sharia P2P operators and Islamic rural banks (BPR Syariah).
 - **Saudi Arabia (CMA):** Replicable under the CMA FinTech Lab framework for securities and debt crowdfunding, leveraging the precedent of Saudi platforms scaling past SAR 3.4 billion in sukuk crowdfunding [2025](https://www.spa.gov.sa/en/N2393257).
 
@@ -99,15 +99,15 @@ graph TD
 
 <a id="s7-5" aria-hidden="true"></a>
 
-## <span class="sn">7.5</span> Viability Analysis & Exhaustive Unit Economics
+## `7.5` Viability Analysis & Exhaustive Unit Economics
 
-### <span class="sn">7.5.1</span> Enterprise Revenue Architecture
+### `7.5.1` Enterprise Revenue Architecture
 1. **Borrower Origination Fee:** 2.5% to 3.5% of gross loan volume, deducted upon drawdown.
 2. **Platform Servicing Fee:** 1.0% to 1.5% per annum on active outstanding balances, deducted from monthly repayments.
 3. **Funder Wakalah Profit Share:** 12.5% to 15.0% performance cut on the net profit margin delivered to retail and institutional funders.
 4. **B2B Alternative Credit Scoring API:** $0.40 to $0.85 per API score query charged to third-party Islamic microfinance banks (BMTs, BPR Syariah) evaluating unbanked borrowers.
 
-### <span class="sn">7.5.2</span> Granular Financial Model (Per $10M in Annual Loan Origination)
+### `7.5.2` Granular Financial Model (Per $10M in Annual Loan Origination)
 
 | Metric / Financial Line Item | Benchmark Value | Operational Modeling Notes |
 |---|---|---|
@@ -132,17 +132,17 @@ pie title Gross Revenue Breakdown ($10M Originated Volume - $524.8k)
     "B2B Scoring API Fees" : 9000
 ```
 
-### <span class="sn">7.5.3</span> Capital Efficiency & Break-Even Math
+### `7.5.3` Capital Efficiency & Break-Even Math
 - **Borrower Acquisition Cost (CAC):** **$12.50 per merchant** (acquired through wholesale distributor partnerships and BMT microfinance networks).
 - **Borrower Lifetime Value (LTV):** **$315.00** (assuming an average merchant takes 6 revolving inventory loans over 2.5 years).
 - **LTV / CAC Ratio:** **25.2x** — indicating world-class lending unit economics driven by wholesale merchant lock-in.
 - **Cash Flow Break-Even:** Achieved at **Month 12** upon scaling to **$7.5M in cumulative loan volume**.
-### <span class="sn">7.5.4</span> Bottom-Up Market Sizing (TAM / SAM / SOM)
+### `7.5.4` Bottom-Up Market Sizing (TAM / SAM / SOM)
 * **Total Addressable Market (TAM):** **$230 Billion** — Total informal and thin-file MSME financing deficit across Indonesia and Southeast Asia [2026](https://www.ifc.org/en/pressroom/2024/ifc-s-landmark-investment-to-ramp-up-sustainable-finance-in-indo).
 * **Serviceable Addressable Market (SAM):** **$15 Billion** — The licensed Sharia digital lending and Islamic rural bank (BPR Syariah) addressable credit market in Indonesia.
 * **Serviceable Obtainable Market (SOM - Year 3):** **$180 Million** — Originating revolving micro-Murabaha inventory lines across 15,000 active retail merchants and 20 wholesale FMCG distribution hubs.
 
-### <span class="sn">7.5.5</span> Seed-to-Series A Financing Roadmap & Capital Allocation
+### `7.5.5` Seed-to-Series A Financing Roadmap & Capital Allocation
 * **Pre-Seed / Angel Round (Month 0–3):** $450,000 raised on an uncapped SAFE note with a $4,000,000 valuation cap to train the LightGBM machine learning scoring engine and secure OJK Regulation 29/2024 compliance.
 * **Seed Financing Round (Month 9–12):** **$1,800,000 USD** at a **$9,500,000 post-money valuation** (18.95% investor dilution).
   - *Lead Investor Profile:* Emerging-market fintech VCs (e.g., East Ventures, AC Ventures, Intudo Ventures, HASAN.VC) and regional microfinance impact funds.
@@ -158,21 +158,21 @@ pie title Gross Revenue Breakdown ($10M Originated Volume - $524.8k)
 
 <a id="s7-6" aria-hidden="true"></a>
 
-## <span class="sn">7.6</span> Survivability Analysis, Moats & Defensibility
+## `7.6` Survivability Analysis, Moats & Defensibility
 
 ```mermaid
 graph LR
     A[Proprietary Alternative Credit Data Models] --> B[Closed-Loop FMCG Distributor Dedication]
-    B --> C[OJK-Compliant Explainable AI (SHAP)]
+    B -->    C["OJK-Compliant Explainable AI (SHAP)"]
     C --> D[B2B Partner Rural Banking Integration]
     D --> E[Sustainable Multi-Year Moat]
 ```
 
-### <span class="sn">7.6.1</span> Defensible Moats
+### `7.6.1` Defensible Moats
 1. **The Closed-Loop Distributor Collection Moat:** Rather than disbursing unrestricted cash to a merchant's personal bank account, AdlScore disburses funds directly to the FMCG manufacturer (e.g., Unilever Indonesia or Indofood distribution agents) to fulfill the inventory order. When the merchant sells the inventory, customer digital payments flow through AdlScore’s partner QRIS settlement rails, automatically sweeping daily principal and Murabaha profit before releasing the remaining retail margin to the merchant. This closed-loop structural control keeps non-performing financing (NPF) below 1%, vastly outperforming conventional unsecured P2P platforms.
 2. **The Alternative Data Scoring IP:** As AdlScore processes tens of thousands of micro-transactions, its machine-learning model refines localized credit-risk correlations (e.g., the relationship between telecom airtime replenishment consistency and working-capital solvency) that conventional banks and general P2P platforms do not possess.
 3. **Regulatory Explainability Compliance:** OJK’s 2025 AI and credit-scoring guidelines mandate that algorithms must not operate as "black boxes." AdlScore’s native SHAP architecture produces human-readable regulatory compliance reports for every rejected or approved applicant, ensuring statutory protection against licensing revocation.
-### <span class="sn">7.6.2</span> Founding Team Archetype & Key Hires #1–5
+### `7.6.2` Founding Team Archetype & Key Hires #1–5
 * **Co-Founder & CEO (Merchant Fintech & Super-App Veteran):** Former Head of Merchant Lending or Alternative Credit at a leading Southeast Asian platform (GoTo Financial, Grab Financial, ShopeePay, or Kredivo). 10+ years scaling merchant working capital with personal relationships across FMCG principal distribution networks.
 * **Co-Founder & CTO (Machine Learning & Alternative Data Systems Architect):** Senior data systems engineer with 8+ years experience building real-time credit decision engines, feature stores (Feast), and explainable AI pipelines (SHAP). Expert in Python microservices, PostgreSQL, and high-throughput transaction scoring.
 * **Co-Founder & Chief Risk Officer (Indonesian Banking & OJK Specialist):** Former Credit Risk Director from an Indonesian commercial bank (BSI, Bank Mandiri, or BCA) with deep expertise in OJK regulatory compliance, field collection operations, and DSN-MUI fatwa governance.
@@ -187,7 +187,7 @@ graph LR
 
 <a id="s7-7" aria-hidden="true"></a>
 
-## <span class="sn">7.7</span> Comprehensive Competitor Mapping
+## `7.7` Comprehensive Competitor Mapping
 
 | Competitor Entity | Licensing & Model | Core Focus | Average Default Metric | Strategic Vulnerability / Limitation |
 |---|---|---|---|---|
@@ -201,7 +201,7 @@ graph LR
 
 <a id="s7-8" aria-hidden="true"></a>
 
-## <span class="sn">7.8</span> Critical Caveats, Legal Landmines & Operational Traps
+## `7.8` Critical Caveats, Legal Landmines & Operational Traps
 
 1. **The Default Contagion and Liquidity Run Landmine:** If macroeconomic conditions deteriorate (e.g., severe currency depreciation or consumer inflation), micro-merchant default rates can spike rapidly. On a P2P crowdfunding platform, if retail investors experience defaults on 3 consecutive loan notes, they frequently execute a complete liquidity run, refusing to fund new tranches and paralyzing platform origination. **Mitigation:** Implement a **Mandatory First-Loss Risk Reserve (*Tahawwut Fund*)**. Allocate 10% of the platform’s upfront Wakalah fees into an independent, Shariah-compliant reserve fund that automatically absorbs the first 3% of portfolio defaults, safeguarding retail investor capital and maintaining platform liquidity.
 2. **The "Disguised Riba" Markup Structuring Trap:** In conventional finance, lenders adjust interest rates based on credit risk (e.g., prime borrowers pay 8%, subprime pay 24%). In Islamic finance, Shariah scholars strictly forbid pricing a Murabaha markup purely on the basis of "credit risk," as this mimics conventional interest-rate usury. **Mitigation:** AdlScore structures all facilities with a **uniform, standardized profit markup (e.g., 1.25% per month)**, but utilizes its alternative credit score to dynamically adjust the **permitted loan tenure (15, 30, or 60 days) and maximum credit line ($500 to $5,000)**, maintaining absolute Shariah compliance while managing risk exposure.
@@ -211,7 +211,7 @@ graph LR
 
 <a id="s7-9" aria-hidden="true"></a>
 
-## <span class="sn">7.9</span> Zero/Near-Zero Cost MVP Architecture
+## `7.9` Zero/Near-Zero Cost MVP Architecture
 
 The entire MVP can be built, tested, and deployed across initial merchant cohorts utilizing free-tier developer services:
 
@@ -245,7 +245,7 @@ The entire MVP can be built, tested, and deployed across initial merchant cohort
 +-------------------------------------------------------------------------------+
 ```
 
-### <span class="sn">7.9.1</span> Complete Database Schema (Supabase / PostgreSQL)
+### `7.9.1` Complete Database Schema (Supabase / PostgreSQL)
 
 ```sql
 -- 1. Enrolled SME Merchants
@@ -301,7 +301,7 @@ CREATE TABLE p2p_loan_notes (
 );
 ```
 
-### <span class="sn">7.9.2</span> Complete Credit Scoring & SHAP Explainer Microservice (Python / FastAPI)
+### `7.9.2` Complete Credit Scoring & SHAP Explainer Microservice (Python / FastAPI)
 
 ```python
 from fastapi import FastAPI, HTTPException
@@ -381,7 +381,7 @@ async def score_merchant(payload: MerchantFeaturePayload):
 
 <a id="s7-10" aria-hidden="true"></a>
 
-## <span class="sn">7.10</span> MVP Presentation & Demonstration Strategy
+## `7.10` MVP Presentation & Demonstration Strategy
 
 1. **The Live "15-Minute Approval" Demonstration:**
    - *Phase 1 (The Merchant Experience):* Presenter opens the mobile PWA simulating an unbanked warung merchant in Surabaya. The merchant consents to link their digital payment history and uploads a photo of a wholesale instant noodle delivery bill.
@@ -395,7 +395,7 @@ async def score_merchant(payload: MerchantFeaturePayload):
 
 <a id="s7-11" aria-hidden="true"></a>
 
-## <span class="sn">7.11</span> 90-Day Tactical Go-To-Market (GTM) Plan
+## `7.11` 90-Day Tactical Go-To-Market (GTM) Plan
 
 ```mermaid
 gantt
@@ -426,7 +426,7 @@ gantt
 
 <a id="s7-12" aria-hidden="true"></a>
 
-## <span class="sn">7.12</span> Verified Contact Targets & Pipeline
+## `7.12` Verified Contact Targets & Pipeline
 
 - **Otoritas Jasa Keuangan (OJK Indonesia):** Directorate of Financial Sector Technology Innovation (ITSK) & Alternative Credit Scoring ([https://ojk.go.id/en/fungsi-utama/itsk/regulatory-sandbox/default.aspx](https://ojk.go.id/en/fungsi-utama/itsk/regulatory-sandbox/default.aspx)).
 - **Dewan Syariah Nasional - MUI (DSN-MUI):** Sharia Fintech Certification Committee ([https://dsnmui.or.id/](https://dsnmui.or.id/)).
@@ -437,7 +437,7 @@ gantt
 
 <a id="s7-13" aria-hidden="true"></a>
 
-## <span class="sn">7.13</span> Monetization Methods & Revenue Stacks
+## `7.13` Monetization Methods & Revenue Stacks
 
 1. **Borrower Upfront Origination Fee:** 3.0% deducted directly upon loan note disbursement.
 2. **Active Portfolio Servicing Fee:** 1.25% annualized fee deducted from monthly borrower repayments.
@@ -448,7 +448,7 @@ gantt
 
 <a id="s7-14" aria-hidden="true"></a>
 
-## <span class="sn">7.14</span> Pivot Playbooks & Failure Fallback Options
+## `7.14` Pivot Playbooks & Failure Fallback Options
 
 ```mermaid
 graph TD
@@ -467,14 +467,14 @@ graph TD
 
 <a id="s7-15" aria-hidden="true"></a>
 
-## <span class="sn">7.15</span> Acquisition Positioning & Salvage M&A Logic
+## `7.15` Acquisition Positioning & Salvage M&A Logic
 
-### <span class="sn">7.15.1</span> Strategic Acquirers
+### `7.15.1` Strategic Acquirers
 - **Regional Sharia Banking Groups (Bank Syariah Indonesia, Al Rajhi Bank, Maybank Islamic):** Seeking proprietary alternative credit underwriting algorithms to hit mandatory government SME lending quotas (e.g., Indonesia’s statutory 25% MSME lending target) without taking excessive default losses.
 - **Fintech Super-Apps & E-Commerce Giants (GoTo / Tokopedia, Shopee, Grab):** Looking to embed faith-compliant merchant cash advance facilities directly into their merchant seller portals.
 - **Regional P2P Consolidators (Modalku / Funding Societies, KoinWorks):** Seeking an established, regulatory-cleared Sharia business unit to capture Muslim-majority market share.
 
-### <span class="sn">7.15.2</span> Salvage M&A & Distressed Asset Recovery Logic
+### `7.15.2` Salvage M&A & Distressed Asset Recovery Logic
 - **If the Venture Faces Severe Credit Contagion:** In the event of a catastrophic macro default event that impairs the crowdfunding marketplace, the core intellectual property—specifically the **trained LightGBM alternative scoring model, the proprietary dataset of 50,000+ merchant cashflow behaviors, and the OJK-approved explainable AI compliance module**—retains immense commercial value.
 - **Salvage Valuation Benchmark:** The proprietary scoring IP, clean database, and regulatory sandbox status can be acquired in an asset-sale transaction by a licensed digital bank or regional credit bureau (such as Pefindo or Tongdun) for an estimated **$2.5M to $5.0M**, providing complete downside capital protection for early venture backers.
 
@@ -482,7 +482,7 @@ graph TD
 
 <a id="s7-16" aria-hidden="true"></a>
 
-## <span class="sn">7.16</span> Categorized Risk Register
+## `7.16` Categorized Risk Register
 
 | Risk Category | Inherent Risk Event | Likelihood | Impact | Concrete Mitigation Architecture |
 |---|---|---|---|---|
@@ -490,7 +490,7 @@ graph TD
 | **Regulatory Risk** | OJK revokes ACS registration or enforces unviable capital hikes. | Low | Critical | Launch as a certified technology partner to existing licensed Sharia financial institutions; maintain strict SHAP explainability. |
 | **Shariah Risk** | National Sharia Board rejects alternative scoring as a form of *Gharar*. | Moderate | High | Ensure that credit scores only govern facility tenure and size; maintain a flat, uniform Shariah profit markup across all tiers. |
 | **Data Privacy Risk** | Data breach exposes merchant personal identification or telco logs. | Low | Critical | Enforce field-level AES-256 encryption on all PII; store all sensitive datasets on local Indonesian servers compliant with Law UU PDP. |
-### <span class="sn">7.16.1</span> Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
+### `7.16.1` Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
 To enforce rigorous capital discipline and avoid funding a distressed credit book, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
 
 1. **The Regulatory Sandbox & Partner Deadlock (Month 6):** If the company fails to secure an Alternative Credit Scoring (ACS) sandbox permit or partnership agreement with an OJK-licensed Sharia P2P lender within 180 days, halt direct lending and execute Pivot Playbook B (POJK 40/2024 GRC Compliance SaaS).
@@ -502,7 +502,7 @@ To enforce rigorous capital discipline and avoid funding a distressed credit boo
 
 <a id="s7-17" aria-hidden="true"></a>
 
-## <span class="sn">7.17</span> Startup Name Rationale & Brand Architecture
+## `7.17` Startup Name Rationale & Brand Architecture
 
 **AdlScore**
 - **Etymology:** *Adl* (Arabic: عَدْل) is the foundational Islamic legal and ethical principle representing **absolute justice, fairness, balance, and equity**. In the Holy Qur'an, *Adl* commands fair dealing and the elimination of oppression (*Zulm*).
@@ -512,7 +512,7 @@ To enforce rigorous capital discipline and avoid funding a distressed credit boo
 
 <a id="s7-18" aria-hidden="true"></a>
 
-## <span class="sn">7.18</span> Quantitative Gating Scores
+## `7.18` Quantitative Gating Scores
 
 - **Monetization Clarity Score:** **8 / 10** — Validated by strong, multi-stream revenues (origination take-rates, funder wakalah cuts, and B2B API fees) proven across ALAMI (TKB90: 97.62%) and Beehive ($1B volume).
 - **Regulatory Friction Score:**
@@ -523,7 +523,7 @@ To enforce rigorous capital discipline and avoid funding a distressed credit boo
 
 <a id="s7-19" aria-hidden="true"></a>
 
-## <span class="sn">7.19</span> Master References
+## `7.19` Master References
 
 - Otoritas Jasa Keuangan (OJK): *Regulation POJK 40/2024 on Financial Sector Technological Innovation & Sharia P2P Lending* [2025](https://snlaw.id/insights/indonesia-digital-lending-compliance-2026) <a class="xref" href="/13-references/reference-index/#ref-j56tsa" title="Open this source in the collected reference index">index&nbsp;↗</a>
 - Otoritas Jasa Keuangan (OJK): *Circular SEOJK 19/2025 on Sharia Business Units in Digital Lending* [2025](https://ojk.go.id/id/regulasi/Pages/SEOJK-19-SEOJK06-2025-Penyelenggaraan-LPBBTI.aspx) <a class="xref" href="/13-references/reference-index/#ref-kl8ykf" title="Open this source in the collected reference index">index&nbsp;↗</a>

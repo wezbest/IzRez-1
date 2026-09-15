@@ -671,12 +671,7 @@ ${link('→ Jump to the collected reference index (§13.1)', REF_INDEX_URL)}
 			.join('\n');
 
 		writeFile(
-			path.join(
-				DOCS,
-				'13-references',
-				'source-registry',
-				`${String(i + 1).padStart(2, '0')}-${cat.slug}.md`
-			),
+			path.join(DOCS, '13-references', 'source-registry', `${cat.slug}.md`),
 			`---
 title: "13.2.${i + 1} · ${cat.title}"
 description: "Authoritative source registry, category ${i + 1} of 7 — ${cat.entries.length} entries across ${new Set(cat.entries.map((e) => e.domain)).size} domains."

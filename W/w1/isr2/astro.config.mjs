@@ -174,25 +174,7 @@ export default defineConfig({
 				{
 					label: '14 · Site Build Report',
 					badge: { text: 'new', variant: 'tip' },
-					items: [
-						{ label: '14 · Build report overview', slug: '14-site-build-report' },
-						{
-							label: '14.1 · Build telemetry & token metrics',
-							slug: '14-site-build-report/build-telemetry',
-						},
-						{
-							label: '14.2 · BenchLM model rate cards',
-							slug: '14-site-build-report/model-rate-cards',
-						},
-						{
-							label: '14.3 · Build cost scenarios',
-							slug: '14-site-build-report/build-cost-scenarios',
-						},
-						{
-							label: '14.4 · Executive briefing',
-							slug: '14-site-build-report/executive-briefing',
-						},
-					],
+					items: [{ slug: '14-site-build-report' }],
 				},
 			],
 		}),

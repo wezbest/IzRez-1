@@ -413,7 +413,7 @@ gantt
 graph TD
     A[Primary Model: Enterprise Islamic Bank GRC & Screening SaaS] -->|Failure Mode: Banking Sales Cycle > 12 Months| B[Pivot Option 1: Corporate Zakat & Dividend Purification SaaS]
     A -->|Failure Mode: Incumbent Core Vendor Lock-In| C[Pivot Option 2: Green Sukuk & ESG-Shariah Mapping Tool]
-    A -->|Failure Mode: Regulatory Reluctance on AI| D[Pivot Option 3: Retakaful Necessity Assessor (AAOIFI GS-25)]
+    A -->|Failure Mode: Regulatory Reluctance on AI| D["Pivot Option 3: Retakaful Necessity Assessor (AAOIFI GS-25)"]
     A -->|Failure Mode: Gulf Market Penetration Delay| E[Pivot Option 4: Indonesian DPS Continuing Education Platform]
 ```
 

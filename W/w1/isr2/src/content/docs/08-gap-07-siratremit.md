@@ -13,7 +13,7 @@ description: "graph TD"
 
 <a id="s8-1" aria-hidden="true"></a>
 
-## <span class="sn">8.1</span> Gap Definition & Executive Thesis
+## `8.1` Gap Definition & Executive Thesis
 
 **Precise Formulation:** The Gulf Cooperation Council (GCC) to South Asia remittance corridor (United Arab Emirates, Saudi Arabia, Qatar to India, Pakistan, Bangladesh, and Nepal) is one of the world's most concentrated migration flows, handling over **$130 billion in annual outward transfers** (with the GCC–India corridor alone exceeding $56 billion) [2026](https://www.allium.so/reports/stablecoins-cross-border-payments-2026). However, low-wage migrant workers sending home $200 monthly paychecks face exorbitant financial friction: according to the World Bank’s *Remittance Prices Worldwide* (RPW) benchmark, the global average remittance cost sits at **6.36%**, with traditional commercial bank channels averaging **14.99%** and legacy digital Money Transfer Operators (MTOs) averaging **3.54%** [2026](https://remittanceprices.worldbank.org/sites/default/files/2026-04/RPW_main_report_and_annex_Q325.pdf). Meanwhile, global on-chain cross-border stablecoin transfer volume surged **64% year-on-year to $135 billion in 2025** [2026](https://www.allium.so/reports/stablecoins-cross-border-payments-2026), proving that distributed ledgers can settle cross-border funds in minutes for under 1.0% total cost. Yet, no mass-market consumer remittance application provides an institutional, **Shariah-screened, fiat-abstracted remittance engine** backed by certified fatwas, reserve-riba firewalls, and automated purification receipts.
 
@@ -21,7 +21,7 @@ description: "graph TD"
 
 > **CONDITIONAL GATING DECLARATION:** Because regulatory friction scored **9 / 10** due to multi-jurisdictional virtual asset licensing perimeters (VARA in Dubai, CBB in Bahrain, PVARA in Pakistan) and conservative religious rulings in Southeast Asia (MUI Indonesia's ban on crypto as currency), SiratRemit is approved **strictly on a non-custodial, rented-rails model**. SiratRemit does not issue tokens, hold custody of funds, or operate de-novo exchange licenses; it operates purely as an API orchestration layer partnering with licensed VASPs and central-bank-authorized commercial banks.
 
-### <span class="sn">8.1.1</span> Systems Thinking: First-, Second-, and Third-Order Implications
+### `8.1.1` Systems Thinking: First-, Second-, and Third-Order Implications
 
 * **First-Order Implications (Direct & Immediate Impact):**
   - South Asian migrant workers in the Gulf send remittances home in under 10 minutes at an all-in cost of 0.95%, saving $10 to $20 per monthly $200 transfer compared to traditional MTOs.
@@ -41,7 +41,7 @@ description: "graph TD"
 
 <a id="s8-2" aria-hidden="true"></a>
 
-## <span class="sn">8.2</span> Root Causes & Structural Bottlenecks
+## `8.2` Root Causes & Structural Bottlenecks
 
 ```mermaid
 graph TD
@@ -65,7 +65,7 @@ graph TD
 
 <a id="s8-3" aria-hidden="true"></a>
 
-## <span class="sn">8.3</span> Why Incumbents Have Not Filled the Gap
+## `8.3` Why Incumbents Have Not Filled the Gap
 
 - **Endl is B2B and Enterprise-Facing:** Emerging-market stablecoin infrastructure platform Endl (alumni of 500 Global Sanabil Batch 9, securing a $1.5M pre-seed in early 2026) operates an impressive multi-currency payout rail across 160+ countries [2026](https://www.business-standard.com/content/press-releases-ani/fintech-platform-endl-secures-1-5-million-dollar-investment-to-scale-global-payment-infrastructure-126021300860_1.html). However, Endl is strictly an enterprise B2B platform selling corporate treasury cards and mass payroll disbursements to multinational corporations; it does not offer a consumer-facing retail mobile app for low-income migrant workers, nor does it provide an embedded Shariah compliance and purification layer.
 - **Fasset is an Investment Super-App, Not a Remittance Rail:** Fasset holds a Dubai VARA VASP license and a provisional Islamic banking license from Malaysia’s Labuan FSA [2025](https://thedigitalbanker.com/fasset-secures-provisional-banking-license-to-become-worlds-first-stablecoin-powered-islamic-bank/). However, Fasset’s product strategy is heavily weighted toward digital asset wealth management—enabling retail users to invest in tokenized US equities, physical gold, and Wakalah yield accounts linked to Fusang’s IILM sukuk [2025](https://fusang.co/sukuk). It has not optimized a low-cost, fiat-abstracted retail remittance rail between Gulf labour accommodations and South Asian villages.
@@ -75,22 +75,22 @@ graph TD
 
 <a id="s8-4" aria-hidden="true"></a>
 
-## <span class="sn">8.4</span> Feasibility Analysis: Technical, Shariah, Regulatory, Market
+## `8.4` Feasibility Analysis: Technical, Shariah, Regulatory, Market
 
-### <span class="sn">8.4.1</span> Technical Feasibility
+### `8.4.1` Technical Feasibility
 - **The "Fiat-Sandwich" Abstraction Engine:** The frontend interface completely hides all blockchain mechanics. The sender selects "Send 1,000 AED to Pakistan", the backend locks an instant exchange rate, ingests AED via local instant payment switches (e.g., UAE Aani / DuitNow), converts fiat to USDC via an authorized local institutional liquidity partner, settles the cross-border leg over low-fee Layer-1/Layer-2 networks (Stellar, XRPL, or Base) in under 15 seconds for less than $0.001 in network gas, and triggers an automated local fiat payout in Pakistan (PKR) via partner banking switches (1Link / Raast) directly into the recipient’s JazzCash wallet.
 - **Automated Shariah Screening Oracle:** A dedicated serverless microservice inspects every settlement transaction against an immutable token allowlist:
   - *Permissible:* 100% cash-and-treasury-backed single-currency fiat stablecoins (USDC) with published monthly independent reserve attestations.
   - *Strictly Blocked:* Algorithmic stablecoins (e.g., UST-type models), multi-asset collateralized debt positions (DAI-type models), and privacy-preserving anonymous tokens (Monero, Zcash).
 
-### <span class="sn">8.4.2</span> Shariah Feasibility
+### `8.4.2` Shariah Feasibility
 - **Medium-of-Exchange Fiqh Classification:** The underlying stablecoin is treated strictly as an ephemeral accounting medium (*Waseelat al-Muhasabah*), held for less than 180 seconds during the flight of the funds. The investor never holds the token as a store-of-value investment, avoiding exposure to the issuer’s interest-earning reserve assets.
 - **Automated Purification Calculator:** For the nominal seconds during which the stablecoin is in flight, the platform calculates an exact fractional purification obligation:
   $$\text{Purification Fee} = \text{Principal Amount} \times \text{Issuer Reserve Yield Rate} \times \left( \frac{\text{Flight Time in Seconds}}{31,536,000} \right)$$
   This tiny fraction of a cent (e.g., $0.0004 on a $200 transfer) is automatically aggregated and disbursed monthly to verified charitable endowments, providing an unassailable Shariah audit trail.
 - **Fatwa Alignment:** Validated against contemporary rulings by prominent jurists (including Mufti Faraz Adam and AAOIFI exposure drafts) and certified by an independent Shariah board.
 
-### <span class="sn">8.4.3</span> Regulatory Feasibility
+### `8.4.3` Regulatory Feasibility
 - **United Arab Emirates (Dubai VARA & CBUAE):** SiratRemit operates strictly as an **Unregulated Technology Orchestrator** partnering with an authorized Category-2 Virtual Asset Service Provider (VASP) licensed by the Virtual Assets Regulatory Authority (VARA) for the crypto on-ramp, while fiat payment collection is managed by an authorized CBUAE-licensed payment services partner [2026](https://cryptoslate.com/crypto-laws/vara-virtual-asset-issuance-rulebook/).
 - **Bahrain (CBB):** Highly compatible with Volume 6 (Capital Markets) Stablecoin Issuance and Offering (SIO) Module enacted in July 2025, which provides the GCC's clearest single-regulator guidelines for fiat-referenced tokens [2025](https://www.cbb.gov.bh/media-center/central-bank-of-bahrain-issues-framework-for-regulating-stablecoin-issuance/).
 - **Pakistan (PVARA & State Bank of Pakistan):** In April 2026, the State Bank of Pakistan issued formal circulars authorizing commercial banks to maintain non-interest Client Money Accounts (CMAs) for VASPs licensed under PVARA [2026](https://www.sbp.org.pk/circulars/bprd-circular-letter-no-10). SiratRemit routes all off-ramp settlement through licensed Pakistani Exchange Companies and microfinance banks utilizing the central bank’s instant payment system (Raast).
@@ -99,15 +99,15 @@ graph TD
 
 <a id="s8-5" aria-hidden="true"></a>
 
-## <span class="sn">8.5</span> Viability Analysis & Exhaustive Unit Economics
+## `8.5` Viability Analysis & Exhaustive Unit Economics
 
-### <span class="sn">8.5.1</span> Enterprise Revenue Architecture
+### `8.5.1` Enterprise Revenue Architecture
 1. **Flat Transaction Surcharge:** 0.70% of gross transfer volume, deducted from the principal send amount.
 2. **Foreign Exchange (FX) Micro-Spread:** 25 basis points (0.25%) earned on the wholesale-to-retail currency conversion spread (gross margin: 0.95% all-in to consumer).
 3. **B2B SME Cross-Border Contractor Payouts:** $5.00 flat fee + 0.50% volume fee charged to Gulf enterprises paying remote software developers and contractors in South Asia.
 4. **Shariah Screening & Reserve-Purification API:** $0.05 per transaction charged to external remittance houses licensing SiratRemit’s automated fatwa-compliance and purification engine.
 
-### <span class="sn">8.5.2</span> Granular Unit Economic Model (Per $200 Standard Remittance Transaction)
+### `8.5.2` Granular Unit Economic Model (Per $200 Standard Remittance Transaction)
 
 | Transaction Metric | Financial Line Item | Operational Economic Derivation |
 |---|---|---|
@@ -131,18 +131,18 @@ pie title Transaction Fee Distribution ($1.90 Revenue)
     "Charity Purification" : 0.01
 ```
 
-### <span class="sn">8.5.3</span> Capital Efficiency & Break-Even Math
+### `8.5.3` Capital Efficiency & Break-Even Math
 - **Customer Acquisition Cost (CAC):** **$6.20 per active migrant user** (achieved through grassroots field ambassadors in Gulf labour accommodations and mosque community referral networks).
 - **Transaction Frequency:** Average user sends 11 remittances per year ($2,200 annual volume).
 - **Annual Gross Profit per User:** 11 transfers × $0.85 = **$9.35 / year**.
 - **Payback Period:** **Under 8 Months** (1.3 years LTV = $28.05; LTV / CAC = **4.52x**).
 - **Cash Flow Break-Even:** Achieved at **Month 14** upon scaling to **12,000 monthly active users** generating $2.4M in monthly corridor volume ($28.8M annualized).
-### <span class="sn">8.5.4</span> Bottom-Up Market Sizing (TAM / SAM / SOM)
+### `8.5.4` Bottom-Up Market Sizing (TAM / SAM / SOM)
 * **Total Addressable Market (TAM):** **$130 Billion** — Total annual outward remittance flows departing from GCC economies [2026](https://www.allium.so/reports/stablecoins-cross-border-payments-2026).
 * **Serviceable Addressable Market (SAM):** **$28 Billion** — Outward blue-collar retail remittance flows specifically moving from the UAE and Saudi Arabia to Pakistan and Bangladesh.
 * **Serviceable Obtainable Market (SOM - Year 3):** **$650 Million** — Capturing ~2.3% of the target corridor volume, processing ~3,250,000 annual transfers averaging $200 each.
 
-### <span class="sn">8.5.5</span> Seed-to-Series A Financing Roadmap & Capital Allocation
+### `8.5.5` Seed-to-Series A Financing Roadmap & Capital Allocation
 * **Pre-Seed / Angel Round (Month 0–3):** $500,000 raised on an uncapped SAFE note with a $4,500,000 valuation cap to develop the fiat-abstraction orchestration engine and integrate with UAE VARA-licensed liquidity sandboxes.
 * **Seed Financing Round (Month 9–12):** **$2,250,000 USD** at an **$11,000,000 post-money valuation** (20.45% investor dilution).
   - *Lead Investor Profile:* Cross-border payment VCs, fintech syndicates (e.g., VentureSouq, Shorooq Partners, 500 Global MENA), and regional exchange house strategic venture funds.
@@ -158,7 +158,7 @@ pie title Transaction Fee Distribution ($1.90 Revenue)
 
 <a id="s8-6" aria-hidden="true"></a>
 
-## <span class="sn">8.6</span> Survivability Analysis, Moats & Defensibility
+## `8.6` Survivability Analysis, Moats & Defensibility
 
 ```mermaid
 graph LR
@@ -168,11 +168,11 @@ graph LR
     D --> E[Sustainable Defensive Moat]
 ```
 
-### <span class="sn">8.6.1</span> Defensible Moats
+### `8.6.1` Defensible Moats
 1. **The Theological Comfort Letter Moat:** Conventional remittance apps cannot overcome the deep religious skepticism of conservative Muslim diaspora workers who fear that crypto involves unlawful usury or gambling. SiratRemit's inclusion of an official, scholar-signed Shariah Certificate on every transaction receipt—complete with a verified purification deduction—creates an emotional and religious trust moat that Western competitors cannot match.
 2. **The "Rented-Rails" Regulatory Insulation:** By refusing to hold customer funds or operate de-novo crypto exchanges, SiratRemit remains insulated from regulatory enforcement actions. If a partner VASP faces regulatory scrutiny, SiratRemit simply reroutes its automated API webhooks to an alternative licensed liquidity provider, ensuring 100% operational uptime.
 3. **The Landed-Cost Pricing Wedge:** Operating at a 0.95% all-in fee structure gives SiratRemit an unassailable pricing advantage over legacy Western Union and bank channels (which must charge 5% to 15% to support physical real estate and agent networks), allowing the startup to acquire users purely on economic self-interest.
-### <span class="sn">8.6.2</span> Founding Team Archetype & Key Hires #1–5
+### `8.6.2` Founding Team Archetype & Key Hires #1–5
 * **Co-Founder & CEO (Cross-Border Remittance Veteran):** Former Head of Cross-Border Payments or Remittance Operations at a major money transfer operator or regional exchange house (Al Ansari Exchange, Western Union Middle East, Wise, or Careem Pay). 12+ years managing Gulf-South Asia corridors with personal relationships with exchange company chairmen and central bank payment regulators.
 * **Co-Founder & CTO (Payment Infrastructure & Stablecoin Architect):** Senior payment systems engineer with 8+ years experience integrating stablecoin liquidity rails (Stellar, Circle, Base), high-throughput banking payment switches (Raast, 1Link), and idempotent transaction routers.
 * **Co-Founder & Chief Compliance & AML Officer:** Former Head of Financial Crime / MLRO from a licensed UAE or UK money services business, expert in FATF Travel Rule compliance, chainalysis blockchain surveillance, and SBP foreign exchange regulations.
@@ -187,7 +187,7 @@ graph LR
 
 <a id="s8-7" aria-hidden="true"></a>
 
-## <span class="sn">8.7</span> Comprehensive Competitor Mapping
+## `8.7` Comprehensive Competitor Mapping
 
 | Competitor Entity | Operational Architecture | Pricing (All-In) | Speed of Settlement | Critical Vulnerability / Strategic Gap |
 |---|---|---|---|---|
@@ -201,7 +201,7 @@ graph LR
 
 <a id="s8-8" aria-hidden="true"></a>
 
-## <span class="sn">8.8</span> Critical Caveats, Legal Landmines & Operational Traps
+## `8.8` Critical Caveats, Legal Landmines & Operational Traps
 
 1. **The VASP Criminalization Landmine in Pakistan:** Under the newly enacted Pakistan Virtual Assets Act and Section 18 of the PVARA regulations, operating an unlicensed virtual asset business or facilitating unregistered crypto transfers carries **criminal penalties of up to 5 years imprisonment and fines up to PKR 50 million ($180,000)** [2026](https://www.frasatpartners.com/articles/pvara-pakistan-virtual-assets-regulatory-authority-complete-legal-guide-2026). **Operational Trap:** Direct-to-consumer crypto marketing inside Pakistan will trigger immediate regulatory enforcement. **Mitigation:** SiratRemit must strictly avoid marketing itself as a "crypto" service inside Pakistan. All domestic off-ramp disbursements must be executed exclusively through licensed local Exchange Companies and commercial banks maintaining authorized Client Money Accounts under SBP Circular Letter No. 10.
 2. **The "Reserve-Riba" Public Relations Disaster:** If investigative journalists or conservative scholars publish reports highlighting that USDC reserves are invested in US Treasury bills yielding 4.5% interest, users may accuse the platform of participating in *Riba*. **Mitigation:** Maintain aggressive, transparent communication: publish a dedicated "How We Handle Reserve Interest" portal, display the automated purification calculation down to the fractional cent on every receipt, and secure published endorsements from prominent scholars validating the transactional medium-of-exchange fiqh doctrine.
@@ -211,7 +211,7 @@ graph LR
 
 <a id="s8-9" aria-hidden="true"></a>
 
-## <span class="sn">8.9</span> Zero/Near-Zero Cost MVP Architecture
+## `8.9` Zero/Near-Zero Cost MVP Architecture
 
 The entire MVP can be built, tested, and deployed across initial test cohorts without spending server or blockchain infrastructure capital:
 
@@ -240,7 +240,7 @@ The entire MVP can be built, tested, and deployed across initial test cohorts wi
 +-------------------------------------------------------------------------------+
 ```
 
-### <span class="sn">8.9.1</span> Complete Database Schema (Supabase / PostgreSQL)
+### `8.9.1` Complete Database Schema (Supabase / PostgreSQL)
 
 ```sql
 -- 1. Verified Remittance Customers
@@ -297,7 +297,7 @@ CREATE TABLE shariah_token_allowlist (
 );
 ```
 
-### <span class="sn">8.9.2</span> Complete Screening & Purification Edge Function (TypeScript)
+### `8.9.2` Complete Screening & Purification Edge Function (TypeScript)
 
 ```typescript
 interface TransferPayload {
@@ -341,7 +341,7 @@ export function executeShariahVerification(payload: TransferPayload) {
 
 <a id="s8-10" aria-hidden="true"></a>
 
-## <span class="sn">8.10</span> MVP Presentation & Demonstration Strategy
+## `8.10` MVP Presentation & Demonstration Strategy
 
 1. **The Live "10-Minute Corridor Race" Demonstration:**
    - *Phase 1 (The Competitor Comparison):* Presenter pulls up Western Union’s live website, entering a 1,000 AED transfer to Pakistan. The screen reveals a total cost of 45 AED ($12.25) in fees and FX spreads, with a delivery estimate of "Next Day".
@@ -353,7 +353,7 @@ export function executeShariahVerification(payload: TransferPayload) {
 
 <a id="s8-11" aria-hidden="true"></a>
 
-## <span class="sn">8.11</span> 90-Day Tactical Go-To-Market (GTM) Plan
+## `8.11` 90-Day Tactical Go-To-Market (GTM) Plan
 
 ```mermaid
 gantt
@@ -384,7 +384,7 @@ gantt
 
 <a id="s8-12" aria-hidden="true"></a>
 
-## <span class="sn">8.12</span> Verified Contact Targets & Pipeline
+## `8.12` Verified Contact Targets & Pipeline
 
 - **Virtual Assets Regulatory Authority (VARA, Dubai):** Intermediary & Distribution Licensing Portal ([https://www.vara.ae/](https://www.vara.ae/)).
 - **Central Bank of Bahrain (CBB):** Stablecoin Supervisory Division ([https://www.cbb.gov.bh/fintech/](https://www.cbb.gov.bh/fintech/)).
@@ -396,7 +396,7 @@ gantt
 
 <a id="s8-13" aria-hidden="true"></a>
 
-## <span class="sn">8.13</span> Monetization Methods & Revenue Stacks
+## `8.13` Monetization Methods & Revenue Stacks
 
 1. **Transaction Surcharge:** 0.70% flat fee deducted from the gross send amount.
 2. **Wholesale FX Spread:** 0.25% earned on the institutional currency conversion spread between interbank rates and retail delivery rates.
@@ -407,7 +407,7 @@ gantt
 
 <a id="s8-14" aria-hidden="true"></a>
 
-## <span class="sn">8.14</span> Pivot Playbooks & Failure Fallback Options
+## `8.14` Pivot Playbooks & Failure Fallback Options
 
 ```mermaid
 graph TD
@@ -426,14 +426,14 @@ graph TD
 
 <a id="s8-15" aria-hidden="true"></a>
 
-## <span class="sn">8.15</span> Acquisition Positioning & Salvage M&A Logic
+## `8.15` Acquisition Positioning & Salvage M&A Logic
 
-### <span class="sn">8.15.1</span> Strategic Acquirers
+### `8.15.1` Strategic Acquirers
 - **Regional Exchange Houses (Al Ansari Exchange, LuLu Financial Group, Joyalukkas):** Brick-and-mortar exchange houses looking to rapidly modernize their digital infrastructure and defend remittance market share against fintech erosion.
 - **Islamic Digital Banking Platforms (Fasset, Ajman Bank Digital, DIB Digital):** Seeking an agile cross-border corridor settlement engine to integrate directly into their mobile banking applications.
 - **Global Stablecoin Infrastructure Giants (Circle, Paxos, Ripple):** Looking for an established, regulatory-compliant, faith-aligned distribution gateway into the multi-hundred-billion-dollar Muslim diaspora market.
 
-### <span class="sn">8.15.2</span> Salvage M&A & Distressed Asset Recovery Logic
+### `8.15.2` Salvage M&A & Distressed Asset Recovery Logic
 - **If Cross-Border Remittance Regulations are Completely Suspended:** In the event that regulatory hostility terminates the cross-border payment corridor, the startup's underlying assets—specifically the **multi-language mobile interface, the 10,000+ verified KYC user base, the automated KYC/AML screening pipeline, and the merchant integration rails**—retain immense value.
 - **Salvage Valuation Benchmark:** The platform software and active user registry can be acquired in an asset sale by a licensed regional payment aggregator or domestic digital wallet for an estimated **$1.5M to $3.0M**, ensuring downside capital recovery for investors.
 
@@ -441,7 +441,7 @@ graph TD
 
 <a id="s8-16" aria-hidden="true"></a>
 
-## <span class="sn">8.16</span> Categorized Risk Register
+## `8.16` Categorized Risk Register
 
 | Risk Category | Inherent Risk Event | Likelihood | Impact | Concrete Mitigation Architecture |
 |---|---|---|---|---|
@@ -449,7 +449,7 @@ graph TD
 | **Theological Risk** | Influential scholar issues a public fatwa declaring stablecoin remittance *Haram*. | Moderate | High | Restrict settlement strictly to 100% cash-backed USDC, publish automated purification proofs, and engage scholars proactively. |
 | **Counterparty Risk** | Rented VASP or wholesale on-ramp partner faces regulatory freezing. | Moderate | Critical | Maintain relationships with at least two independent licensed liquidity providers in different jurisdictions (Dubai VARA and Bahrain CBB). |
 | **Market Risk** | Stablecoin de-pegging event breaks the 1:1 parity during fund flight. | Low | Critical | Implement automated volatility oracles that pause settlement if stablecoin value drifts outside a $0.995–$1.005 trading band. |
-### <span class="sn">8.16.1</span> Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
+### `8.16.1` Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
 To enforce rigorous capital discipline and protect investor resources in a complex regulatory environment, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
 
 1. **The Rented-Rails Counterparty Impasse (Month 6):** If the company fails to execute a legally binding on-ramp partnership with a licensed UAE VASP and an authorized destination payout partner in Pakistan within 180 days, conclude that rented-rails counterparty friction is insurmountable; immediately halt remittance operations and execute Pivot Playbook B (Shariah Screening Oracle API for Exchanges).
@@ -461,7 +461,7 @@ To enforce rigorous capital discipline and protect investor resources in a compl
 
 <a id="s8-17" aria-hidden="true"></a>
 
-## <span class="sn">8.17</span> Startup Name Rationale & Brand Architecture
+## `8.17` Startup Name Rationale & Brand Architecture
 
 **SiratRemit**
 - **Etymology:** *Sirat* (Arabic: صِرَاط) translates directly to **"The Path"** or **"The Straight Way"** (as invoked in the Holy Qur'an: *Ihdinā al-Sirāt al-Mustaqīm* — "Guide us to the Straight Path").
@@ -471,7 +471,7 @@ To enforce rigorous capital discipline and protect investor resources in a compl
 
 <a id="s8-18" aria-hidden="true"></a>
 
-## <span class="sn">8.18</span> Quantitative Gating Scores & Gating Verdict
+## `8.18` Quantitative Gating Scores & Gating Verdict
 
 - **Monetization Clarity Score:** **7 / 10** — Backed by transparent, proven corridor math (0.70% fee + 0.25% FX spread) generating strong gross margins ($0.85 per $200 transfer). Deducted 3 points due to low ticket sizes requiring high transactional volume to cover corporate overhead.
 - **Regulatory Friction Score:** **9 / 10 (Critical / Severe)** — Driven by multi-jurisdictional licensing hurdles (VARA in UAE, PVARA in Pakistan, SBP capital controls) and Southeast Asian fatwa conflicts (+2 crypto ambiguity penalty).
@@ -481,7 +481,7 @@ To enforce rigorous capital discipline and protect investor resources in a compl
 
 <a id="s8-19" aria-hidden="true"></a>
 
-## <span class="sn">8.19</span> Master References
+## `8.19` Master References
 
 - World Bank: *Remittance Prices Worldwide (RPW) Quarterly Report* [2026](https://remittanceprices.worldbank.org/sites/default/files/2026-04/RPW_main_report_and_annex_Q325.pdf) <a class="xref" href="/13-references/reference-index/#ref-3g3xo8" title="Open this source in the collected reference index">index&nbsp;↗</a>
 - Allium Financial: *Stablecoins in Cross-Border Payments: Volume & Growth Metrics 2025/2026* [2026](https://www.allium.so/reports/stablecoins-cross-border-payments-2026) <a class="xref" href="/13-references/reference-index/#ref-h7zr02" title="Open this source in the collected reference index">index&nbsp;↗</a>

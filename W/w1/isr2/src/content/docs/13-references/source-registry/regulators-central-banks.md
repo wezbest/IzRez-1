@@ -11,7 +11,7 @@ description: "Authoritative source registry, category 3 of 7 — 319 entries acr
 
 <a href="/13-references/source-registry/">← Back to the registry overview</a>
 
-## <span class="sn">13.2.3.0</span> Regulators & Central Banks (BNM, SC, SAMA, CMA, CBUAE, DFSA, ADGM, CBB, OJK, SBP, SECP)
+## `13.2.3.0` Regulators & Central Banks (BNM, SC, SAMA, CMA, CBUAE, DFSA, ADGM, CBB, OJK, SBP, SECP)
 
 Entries are preserved in their original registry order and numbering. Registry numbers are stable and directly linkable, e.g. `#r749`.
 

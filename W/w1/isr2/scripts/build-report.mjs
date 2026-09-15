@@ -274,7 +274,7 @@ description: "Build telemetry, token metrics and cost scenarios for this doksite
 <span class="chip">Baseline build cost ${usd(actualCost(baseline))}</span>
 </div>
 
-${SN('14.1')} Executive summary — for the EM, CFO, CTO and CEO
+## ${SN('14.1')} Executive summary — for the EM, CFO, CTO and CEO
 
 This section documents what it took to engineer this documentation site: the research corpus that had to be read, the site source that had to be written, the tokens that flow through an agentic build like this one, and what that same build would have cost on every other frontier model on the market today.
 
@@ -294,7 +294,7 @@ This section documents what it took to engineer this documentation site: the res
 
 **The three numbers that matter:** a build of this size is a **${usd(actualCost(baseline))}** job on the model it actually ran on, a **${usd(cheapest.cost)}–${usd(priciest.cost)}** job depending on which frontier model you point it at, and a **${usd(router.cost)}** job when the workload is tier-routed (cheap readers, mid-tier structurers, flagship synthesis) instead of run end-to-end on one expensive model. Every one of those variances is a *model selection* decision, not an engineering-effort decision.
 
-${SN('14.2')} Measured build surface
+## ${SN('14.2')} Measured build surface
 
 These figures are measured on disk at build time — they are not estimates. \`node scripts/build-report.mjs\` walks the repository and reports exactly what it finds, which is why the numbers move a little every time the site is rebuilt.
 
@@ -309,7 +309,7 @@ These figures are measured on disk at build time — they are not estimates. \`n
 ${num(pipelineFiles.length)} of the files in this repository are produced by deterministic scripts that transform the research corpus into numbered Starlight content: heading renumbering, citation extraction, registry splitting and cross-link generation. Those bytes never pass through a language model, so counting them as "tokens written" would inflate the bill by roughly ${((pipeline.bytes / authored.bytes)).toFixed(1)}×. Only the hand-authored surface is treated as model output in the token model below.
 :::
 
-${SN('14.3')} Token metrics & billable token model
+## ${SN('14.3')} Token metrics & billable token model
 
 The dominant variable in an agentic token bill is not the size of the output — it is how much conversation context the harness re-sends on every turn. Three scenarios are modelled from the same measured surfaces so the sensitivity is visible rather than hidden.
 
@@ -330,7 +330,7 @@ ${scenarioRows}
 
 **Read amplification** is modelled at **${READ_AMPLIFICATION}×** over the summed reading surface, with a **${TOOL_OUTPUT_FACTOR}×** allowance for directory listings, build logs, terminal output and diffs. **Output overhead** is modelled at **${baseline.outputOverhead}×** the hand-authored tokens to cover reasoning tokens, tool-call arguments and rewrite diffs. Turn count is fixed at **${TURNS}** agent turns. §14.13 states every assumption in one place.
 
-${SN('14.4')} Rate cards — top 10 United States models
+## ${SN('14.4')} Rate cards — top 10 United States models
 
 Retrieved from **BenchLM's live pricing registry** ([benchlm.ai/llm-pricing](${BENCHLM}), registry last updated 2026-09-14, checked 2026-09-15) and cross-checked against each provider's own rate card. Selection rule: highest BenchLM public score among US-headquartered providers with a published paid API rate.
 
@@ -340,7 +340,7 @@ ${US_MODELS.map(rateRow).join('\n')}
 
 Runners-up just outside the ten: **Grok 4.6** (xAI, 70.16, \\$2.00 / \\$6.00), **Claude Opus 4.7** (70.36, \\$5.00 / \\$25.00) and **Gemini 3.1 Pro** (70.03, \\$2.00 / \\$12.00).
 
-${SN('14.5')} Rate cards — top 10 China models
+## ${SN('14.5')} Rate cards — top 10 China models
 
 Same registry, same retrieval date. Selection rule: highest BenchLM public score among China-headquartered providers with a published paid API rate; models BenchLM lists as free or without a published rate are excluded and named below the table.
 
@@ -352,7 +352,7 @@ ${CN_MODELS.map(rateRow).join('\n')}
 
 Excluded from the ten because they carry no published paid rate on the registry date: **GLM-5.3** and **GLM-5.3-Flash** (listed free), **MiMo-V2.5-Pro** (Xiaomi, not listed), **Hy4 preview** (Tencent, free), **Seed 1.6** (ByteDance, not listed) and **Qwen3.8-27B** (free).
 
-${SN('14.6')} What this build would have cost on every other frontier model
+## ${SN('14.6')} What this build would have cost on every other frontier model
 
 Each row applies that model's published input/output rates to the **baseline scenario** token counts (${tokens(baseline.inputTokens)} in / ${tokens(baseline.outputTokens)} out), sorted cheapest first. The relative index is measured against the model that actually ran the build (★ = 1.00×).
 
@@ -381,7 +381,7 @@ xychart-beta
 			.join(', ')}]
 \`\`\`
 
-${SN('14.7')} Sensitivity: caching, routing and off-peak windows
+## ${SN('14.7')} Sensitivity: caching, routing and off-peak windows
 
 | Lever | Configuration | Build cost | vs baseline |
 |---|---|---|---|
@@ -394,7 +394,7 @@ ${SN('14.7')} Sensitivity: caching, routing and off-peak windows
 
 The two levers compound: **cached off-peak baseline** lands at **${usd(actualCost(offPeak, { cachedShare: 0.7 }))}**, ${(actualCost(offPeak, { cachedShare: 0.7 }) / actualCost(baseline)).toFixed(2)}× the baseline, for identical output. That is a **${(100 - (actualCost(offPeak, { cachedShare: 0.7 }) / actualCost(baseline)) * 100).toFixed(1)}%** reduction achieved purely by changing *when* the work runs and *how* the prompt prefix is structured.
 
-${SN('14.8')} Insights
+## ${SN('14.8')} Insights
 
 1. **Model selection moves the bill ${(priciest.cost / cheapest.cost).toFixed(0)}×; engineering effort does not.** The same repository, the same tokens and the same output cost ${usd(cheapest.cost)} on ${cheapest.m} and ${usd(priciest.cost)} on ${priciest.m}. Any cost-control programme that does not start with model routing is optimising the wrong variable.
 2. **Output tokens carry the bill.** Output is only ~${((baseline.outputTokens / baseline.totalTokens) * 100).toFixed(0)}% of the token count but ${(
@@ -408,7 +408,7 @@ ${SN('14.8')} Insights
 6. **Caching is a 4–8× lever on input, not a rounding error.** With 70% of input served from cache the input side of this build collapses from ${usd((baseline.inputTokens * ACTUAL.i) / 1e6)} to ${usd((baseline.inputTokens * (0.3 * ACTUAL.i + 0.7 * ACTUAL.c)) / 1e6)}. Static system prompts, the source registry and previously read files must be cache-pinned by construction.
 7. **Rebuilds are nearly free; re-reading the corpus is not.** The corpus read is ${num(corpus.bytes)} bytes of the ${num(corpus.bytes + pipeline.bytes + authored.bytes)}-byte total surface. Because the pipeline is deterministic, a rebuild of this site consumes no research tokens at all — only the ~${tokens(authoredTokens)} tokens of source it has to re-emit.
 
-${SN('14.9')} Briefing for the Engineering Manager
+## ${SN('14.9')} Briefing for the Engineering Manager
 
 **What was delivered.** A fourteen-section, fully numbered documentation site built from ${num(corpus.files)} research documents: 12 numbered research pages, a seven-category cross-linked source registry of ${num(1764)} entries, a ${num(226)}-entry de-duplicated citation index, and a build report. Wide tables and Mermaid diagrams scroll sideways instead of squeezing columns; every heading carries its section number into the right-pane contents list; every reference bullet links back to its index entry.
 
@@ -416,7 +416,7 @@ ${SN('14.9')} Briefing for the Engineering Manager
 
 **What to watch.** The build is a single-writer agent task with no parallelism requirement; it is therefore latency-tolerant and batchable. The only structural risk is transcript growth — the difference between the lean and context-naive scenarios is ${usd(actualCost(scenarios[2]) - actualCost(scenarios[0]))} on the same work.
 
-${SN('14.10')} Briefing for the CFO
+## ${SN('14.10')} Briefing for the CFO
 
 | Line item | Amount |
 |---|---|
@@ -428,21 +428,21 @@ ${SN('14.10')} Briefing for the CFO
 
 **The asymmetry to budget for:** a single frontier-model build of this site costs ${usd(priciest.cost)}; the same work costs ${usd(cheapest.cost)} on a model that produces a materially similar artefact. Setting an explicit model policy — ban flagships from deterministic transformation, allow them only for final synthesis — is the difference between a ${usd(actualCost(baseline) * 250)} and a ${usd(priciest.cost * 250)} annual line. The CFO-facing control is not "how much can we reduce token spend" but "which model is allowed to touch which step".
 
-${SN('14.11')} Briefing for the CTO
+## ${SN('14.11')} Briefing for the CTO
 
 - **Architecture shape.** Static Astro + Starlight build, fully pre-rendered, with a build-time content pipeline (\`scripts/*.mjs\`) that is the single source of truth for numbering, references and cross-links. The site is installable (PWA) with a versioned precache manifest generated after build, so offline integrity is enforced rather than hoped for.
 - **Cost surfaces you control.** (1) Model routing per pipeline stage; (2) prompt-prefix stability, which decides whether the cache hit rate is ${usd(ACTUAL.c)}/1M or ${usd(ACTUAL.i)}/1M; (3) transcript compaction, worth ${(actualCost(scenarios[2]) / actualCost(baseline)).toFixed(1)}× end-to-end; (4) off-peak batching at ${(actualCost(offPeak) / actualCost(baseline)).toFixed(2)}×.
 - **Where the leverage is.** The tier-routed configuration lands at ${usd(router.cost)} — ${(router.cost / actualCost(baseline)).toFixed(2)}× the single-model baseline — by keeping scouting on cheap models and reserving frontier synthesis for the ${'30'}% of output that needs it.
 - **Instrumentation.** Billing must be attributed per pipeline stage, not per project, or none of the four levers above can be steered. The measurement code in this section is the template: measure the surface on disk, model the token flow, price it against every candidate rate card.
 
-${SN('14.12')} Briefing for the CEO
+## ${SN('14.12')} Briefing for the CEO
 
 - **Strategic read.** The site you are reading cost **${usd(actualCost(baseline))}** in direct compute to produce, and the same work would have cost **${usd(priciest.cost)}** on the most expensive frontier configuration available today. The intelligence is no longer the scarce input — the *routing policy* is.
 - **Why this scales.** The research corpus (${num(corpus.bytes)} bytes) is read once; every subsequent render, restyle, renumber or re-publication runs on deterministic code at zero marginal token cost. Documentation is now a capital asset with a one-time ingestion cost and near-zero marginal cost.
 - **What to fund.** Two capabilities: a governed model-routing policy (with a hard rule that deterministic transformation never touches a flagship) and instrumentation that attributes spend per pipeline stage. Everything else in this build is reproducible from source in minutes.
 - **What to stop doing.** Paying flagship rates for deterministic work. The spread between the cheapest and most expensive configuration here is **${(priciest.cost / cheapest.cost).toFixed(1)}×** for the same artefact — that is the size of the prize, and it requires no new engineering, only a policy.
 
-${SN('14.13')} Methodology, assumptions & sources
+## ${SN('14.13')} Methodology, assumptions & sources
 
 **Measurement (observed, not modelled)**
 

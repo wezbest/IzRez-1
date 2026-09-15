@@ -13,7 +13,7 @@ description: "graph TD"
 
 <a id="s11-1" aria-hidden="true"></a>
 
-## <span class="sn">11.1</span> Gap Definition & Executive Thesis
+## `11.1` Gap Definition & Executive Thesis
 
 **Precise Formulation:** Global Environmental, Social, and Governance (ESG) sukuk issuances surged past **$58 billion in outstanding volume at the end of 2025** (+30% year-on-year) and are projected by Fitch Ratings to cross **$60 billion by the end of 2026 with zero historical defaults** [2025](https://www.fitchratings.com/research/non-bank-financial-institutions/esg-sukuk-to-cross-usd50-billion-in-2025-key-esg-funding-role-in-emerging-markets-21-01-2025) [2025](https://www.fitchratings.com/research/islamic-finance/esg-sukuk-market-to-surpass-usd60-billion-by-end-2026-no-defaults-29-07-2025). High-profile sovereign and multilateral issuances—such as the Islamic Development Bank’s (IsDB) **€500 million Green Sukuk closing 5x oversubscribed** under its upgraded 2025 Sustainable Finance Framework [2025](https://www.isdb.org/news/isdb-issues-another-successful-green-sukuk-under-enhanced-sustainable-finance-framework)—demonstrate insatiable institutional appetite for AAA-rated Islamic climate assets. However, this market is almost **100% monopolized by sovereign and quasi-sovereign mega-entities**; small and medium-sized halal manufacturers (food processing, halal cosmetics, bio-agriculture, cold-chain logistics) are completely shut out of green capital markets. These halal SMEs face severe European and GCC supply-chain trickle-down pressure: large corporate off-takers and international banks are mandating verified carbon Scope 1-2-3 disclosures under CSRD/ESRS frameworks as a prerequisite for commercial vendor contracts [2025](https://verdeledger.eu/blog/sustainability-reporting-for-smes). Yet, halal SMEs lack the technical staff, software, or capital to generate verified carbon baselines or shoulder the $250,000+ legal and Second Party Opinion (SPO) costs required to issue standalone green bonds.
 
@@ -21,7 +21,7 @@ description: "graph TD"
 1. **Lightweight Halal-ESG MRV SaaS:** A low-touch web application that ingests utility bills, fuel invoices, and raw material delivery receipts, automatically calculating audited Scope 1, Scope 2, and spend-based Scope 3 emissions mapped directly to the **European EFRAG Voluntary SME (VSME) standard** and **AAOIFI ethical governance benchmarks** [2025](https://www.efrag.org/en/smes-and-sustainability-reporting), generating an instant, exportable "Halal-ESG Supplier Passport."
 2. **Programmatic Sukuk Pooling Engine:** Aggregates seasoned, verified halal SMEs into a single, bankruptcy-remote **Special Purpose Vehicle (SPV) Green Sukuk Tranche** (pooling 15 to 30 SMEs seeking RM 100k to RM 1M each into a unified RM 10M to RM 25M issuance). Structured under a classical *Wakala bi al-Istithmar* or *Ijara* equipment lease framework, the pooled debt is placed directly with ESG-mandated Islamic commercial banks and institutional impact funds at preferential green interest rates.
 
-### <span class="sn">11.1.1</span> Systems Thinking: First-, Second-, and Third-Order Implications
+### `11.1.1` Systems Thinking: First-, Second-, and Third-Order Implications
 
 * **First-Order Implications (Direct & Immediate Impact):**
   - Halal food, cosmetics, and manufacturing SMEs generate audited Scope 1, Scope 2, and spend-based Scope 3 emissions baselines in minutes from simple utility bill photographs, satisfying multinational buyer audit mandates.
@@ -41,7 +41,7 @@ description: "graph TD"
 
 <a id="s11-2" aria-hidden="true"></a>
 
-## <span class="sn">11.2</span> Root Causes & Structural Bottlenecks
+## `11.2` Root Causes & Structural Bottlenecks
 
 ```mermaid
 graph TD
@@ -62,7 +62,7 @@ graph TD
 
 <a id="s11-3" aria-hidden="true"></a>
 
-## <span class="sn">11.3</span> Why Incumbents Have Not Filled the Gap
+## `11.3` Why Incumbents Have Not Filled the Gap
 
 - **Retail Tokenisation Initiatives Focus Exclusively on Sovereign Debt:** The UAE Ministry of Finance Retail T-Sukuk program via ADIB and Emirates Islamic (permitting AED 4,000 fractional lots) [2025](https://www.adib.ae/en/news/2025/apr/abu-dhabi-islamic-bank-becomes-first-bank-to-offer-fractional-sukuk) and the Securities Commission Malaysia / Khazanah tokenisation pilot on Aeris Chain [2025](https://www.idnfinancials.com/news/56808/sc-and-khazanah-to-pilot-bond-and-sukuk-tokenisation-in-2025) are designed to democratize *buy-side investor access* to sovereign paper; they do not provide a sell-side origination or aggregation engine for private SMEs.
 - **Incumbent Accelerator Programs are Advisory, Not Transactional:** Initiatives like the Bank Negara Malaysia / MIFC **Global Impact Challenge (GIC 2025)**—which selected 4 winners including e-Wakalah, Gobarakah, Koha, and Bagh-e [2025](https://www.bnm.gov.my/-/mifcgic25)—and the **BNM Greening Halal Businesses (GHB)** hub [2025](https://www.bnm.gov.my/ghb) provide excellent educational masterclasses and transition guidance; however, they do not provide software platforms that pool balance sheets into securitized issuances.
@@ -73,21 +73,21 @@ graph TD
 
 <a id="s11-4" aria-hidden="true"></a>
 
-## <span class="sn">11.4</span> Feasibility Analysis: Technical, Shariah, Regulatory, Market
+## `11.4` Feasibility Analysis: Technical, Shariah, Regulatory, Market
 
-### <span class="sn">11.4.1</span> Technical Feasibility
+### `11.4.1` Technical Feasibility
 - **Automated Ingestion & GHG Conversion:** The platform ingests electricity bills, fuel receipts, and water meter logs via client-side OCR (Tesseract.js) and utility provider APIs. A deterministic emissions engine maps activity data to audited international emission factor databases (UK DEFRA, IPCC, and regional grid emission factors from Malaysia’s Suruhanjaya Tenaga and Saudi SEC), calculating Scope 1 (direct fuel combustion) and Scope 2 (grid electricity) emissions automatically.
 - **Cryptographic Merkle Audit Hash Chain:** Every raw utility bill upload, calculation step, and carbon reduction milestone is hashed (SHA-256) and chained within an immutable PostgreSQL audit ledger. Daily Merkle root hashes are committed to the Polygon Amoy testnet, providing third-party sustainability auditors with verifiable proof that emissions baselines have not been retroactively altered.
 - **Programmatic SPV Cap-Table Structuring:** A serverless module groups verified SMEs into an automated cap-table, calculating individual lease rental yields, amortization schedules, and pro-rata debt servicing reserves.
 
-### <span class="sn">11.4.2</span> Shariah Feasibility
+### `11.4.2` Shariah Feasibility
 - **Theological Foundation (*Halalan Tayyiban* & *Maqasid*):** Environmental protection, waste minimization (*anti-israf*), and ecological preservation are intrinsic theological mandates derived from the Quranic concept of man as a trustee (*Khalifah*) on earth.
 - **Contractual Structuring:** Structured under **Wakala bi al-Istithmar** (Investment Agency) or **Ijara Muntahia Bittamleek** (Lease Ending in Ownership):
   - *Underlying Tangible Assets:* The pooled sukuk is backed by tangible, productive green assets (rooftop commercial solar PV installations, industrial energy-efficient cold-storage compressors, wastewater treatment plants) owned by the participating SMEs.
   - *Per-SME Lease Schedule:* The SPV acquires the equipment and leases it back to the respective SME for fixed monthly lease rentals that service the coupon payments.
 - **Social Finance First-Loss Tranches:** In strict compliance with the World Bank–IsDB Climate Agenda blueprint [2025](https://openknowledge.worldbank.org/entities/publication/25a635f9-254e-4564-9fc7-e895b4918504), the structure permits blending philanthropic cash waqf or corporate zakat as a subordinated **first-loss guarantee tranche**, absorbing potential SME credit defaults and elevating the senior retail/institutional tranche to an investment-grade risk profile.
 
-### <span class="sn">11.4.3</span> Regulatory Feasibility
+### `11.4.3` Regulatory Feasibility
 - **Malaysia (Securities Commission & BNM):** Highly favorable. Governed under the SC’s Sustainable and Responsible Investment (SRI) Sukuk Framework and the BNM Greening Halal Businesses (GHB) initiative [2025](https://www.bnm.gov.my/ghb). Aggregated issuances can be executed through licensed Digital Asset Exchanges (DAX) or Registered Market Operators (RMO) under the SC’s digital-twin tokenization guidelines [2025](https://www.sc.com.my/api/documentms/download.ashx?id=5a9a10e2-5872-4b48-9ea3-5b9635cc5179).
 - **United Arab Emirates (CBUAE & ADGM):** Fully aligned with the **UAE Islamic Finance and Halal Industry Strategy 2025–2031** (approved by Cabinet in May 2025), which mandates central bank support for digital sukuk, halal supply-chain traceability, and green SME transition financing targeting AED 2.56 trillion in sector assets [2025](https://mediaoffice.ae/en/news/2025/may/06-05/uae-cabinet-approves-uae-strategy-for-islamic-finance-and-halal-industry).
 - **Cross-Border ICMA Harmonization:** The platform generates Second Party Opinion (SPO) audit packages formatted to comply with the **ICMA 2025 Green Bond Principles**, ensuring seamless distribution to international Western ESG asset managers [2025](https://www.isdb.org/news/isdb-issues-another-successful-green-sukuk-under-enhanced-sustainable-finance-framework).
@@ -96,9 +96,9 @@ graph TD
 
 <a id="s11-5" aria-hidden="true"></a>
 
-## <span class="sn">11.5</span> Viability Analysis & Exhaustive Unit Economics
+## `11.5` Viability Analysis & Exhaustive Unit Economics
 
-### <span class="sn">11.5.1</span> Enterprise Revenue Architecture
+### `11.5.1` Enterprise Revenue Architecture
 TayyibLedger operates a diversified, recurring enterprise business model:
 1. **Halal-ESG MRV SaaS Subscriptions:** Tiered monthly software fees charged to SME manufacturers:
    - *Starter (Single Site / Micro):* RM 149 / month ($35/mo).
@@ -107,7 +107,7 @@ TayyibLedger operates a diversified, recurring enterprise business model:
 3. **Ongoing SPV Administration & MRV Surveillance:** 15 to 20 basis points (0.15%–0.20%) per annum on outstanding pooled debt for ongoing carbon reduction verification, coupon escrow management, and trustee reporting.
 4. **Buyer & Bank Enterprise Verification API:** $2,500 to $6,000 per month charged to multinational corporations (Nestlé, Unilever, regional supermarket chains) and commercial banks querying verified scope-3 supplier emissions.
 
-### <span class="sn">11.5.2</span> Granular Financial Model (Per Aggregated RM 15,000,000 Green Sukuk Tranche)
+### `11.5.2` Granular Financial Model (Per Aggregated RM 15,000,000 Green Sukuk Tranche)
 
 | Operational Financial Line Item | Benchmark Value | Economic Derivation & Modeling Notes |
 |---|---|---|
@@ -130,17 +130,17 @@ pie title Year-1 Revenue Composition (RM 15M Pooled Tranche - RM 343.3k)
     "Annual SPV Servicing Fee (0.15%)" : 22500
 ```
 
-### <span class="sn">11.5.3</span> Capital Efficiency & Break-Even Math
+### `11.5.3` Capital Efficiency & Break-Even Math
 - **Customer Acquisition Cost (CAC) per SME:** **RM 1,200 ($270)** (achieved through industrial estate workshops, Halal Development Corporation seminars, and export trade federations).
 - **SME Customer Lifetime Value (LTV):** **RM 22,500 ($5,100)** (incorporating 3 years of MRV SaaS fees plus allocated origination fees).
 - **LTV / CAC Ratio:** **18.75x** — demonstrating exceptional capital efficiency.
 - **Cash Flow Break-Even:** Achieved at **Month 11** with **85 active SaaS subscribers** and one executed RM 10M pooled sukuk tranche.
-### <span class="sn">11.5.4</span> Bottom-Up Market Sizing (TAM / SAM / SOM)
+### `11.5.4` Bottom-Up Market Sizing (TAM / SAM / SOM)
 * **Total Addressable Market (TAM):** **$60 Billion** — Global green and ESG sukuk issuance volume projected by Fitch Ratings [2025](https://www.fitchratings.com/research/islamic-finance/esg-sukuk-market-to-surpass-usd60-billion-by-end-2026-no-defaults-29-07-2025).
 * **Serviceable Addressable Market (SAM):** **$8.2 Billion** — Halal manufacturing, food processing, cosmetics, and cold-chain logistics SME decarbonisation and equipment financing across primary target markets (Malaysia, the UAE, and Saudi Arabia).
 * **Serviceable Obtainable Market (SOM - Year 3):** **$150 Million** — Aggregated green SME SPV sukuk issuances originated across 180 enrolled halal manufacturing enterprises.
 
-### <span class="sn">11.5.5</span> Seed-to-Series A Financing Roadmap & Capital Allocation
+### `11.5.5` Seed-to-Series A Financing Roadmap & Capital Allocation
 * **Pre-Seed / Angel Round (Month 0–3):** $450,000 raised on an uncapped SAFE note with a $4,000,000 valuation cap to develop the deterministic GHG calculation engine, client-side OCR bill parser, and execute the pilot with Malaysian Halal Development Corporation (HDC) exporters.
 * **Seed Financing Round (Month 9–12):** **$1,800,000 USD** at a **$9,500,000 post-money valuation** (18.95% investor dilution).
   - *Lead Investor Profile:* ClimateTech VCs, sustainable finance funds (e.g., BlueOrchard, InsuResilience, VentureSouq ClimateTech), and regional Islamic banking venture desks.
@@ -156,7 +156,7 @@ pie title Year-1 Revenue Composition (RM 15M Pooled Tranche - RM 343.3k)
 
 <a id="s11-6" aria-hidden="true"></a>
 
-## <span class="sn">11.6</span> Survivability Analysis, Moats & Defensibility
+## `11.6` Survivability Analysis, Moats & Defensibility
 
 ```mermaid
 graph LR
@@ -166,11 +166,11 @@ graph LR
     D --> E[Permanent Enterprise Market Moat]
 ```
 
-### <span class="sn">11.6.1</span> Defensible Moats
+### `11.6.1` Defensible Moats
 1. **The Dual Halal-ESG Data Model Moat:** Conventional carbon accounting platforms do not understand the Halal Assurance System (HAS). TayyibLedger’s proprietary data schema links raw halal ingredient traceability directly to scope-3 carbon conversion factors. An SME managing halal certification and carbon reporting inside a single interface will not switch to a generic Western tool that requires double data entry.
 2. **Pre-Structured Capital Market Shelves:** Structuring a multi-tenant SPV sukuk requires complex legal choreography (bankruptcy-remote cross-guarantees, asset substitution mechanisms). TayyibLedger’s pre-cleared, standardized master trust documentation cuts deal structuring lead time from 6 months to 3 weeks, creating an insurmountable speed moat against traditional investment banks.
 3. **Bank Preferential Green Capital Integration:** By partnering with Islamic commercial banks under Bank Negara Malaysia's Greening Halal Businesses (GHB) framework, TayyibLedger becomes the exclusive digital verification channel unlocking 50 to 100 bps discounts on bank loan markups, creating permanent client retention.
-### <span class="sn">11.6.2</span> Founding Team Archetype & Key Hires #1–5
+### `11.6.2` Founding Team Archetype & Key Hires #1–5
 * **Co-Founder & CEO (Sustainable Finance & Sukuk Structuring Veteran):** Former Head of Sustainable Finance or Sukuk Structuring at a regional Islamic bank (CIMB Islamic, Dubai Islamic Bank, Maybank Islamic) or former Sustainability Director at an industrial manufacturing conglomerate. 12+ years in capital markets and environmental governance with personal relationships with institutional green bond investors.
 * **Co-Founder & CTO (Environmental Data Systems & Climate Architect):** Senior environmental data systems engineer with 8+ years experience building GHG calculation pipelines, utility bill OCR parsers, and cryptographic audit hash ledgers. Expert in Python, Next.js, and EFRAG/GHG Protocol data taxonomies.
 * **Co-Founder & Head of ESG Assurance & Shariah Governance:** Dual-qualified environmental auditor (Lead GHG Verifier) and Islamic jurisprudence advisor (CSAA), expert in ICMA Green Bond Principles, Second Party Opinion (SPO) methodologies, and AAOIFI Standard No. 17.
@@ -185,7 +185,7 @@ graph LR
 
 <a id="s11-7" aria-hidden="true"></a>
 
-## <span class="sn">11.7</span> Comprehensive Competitor Mapping
+## `11.7` Comprehensive Competitor Mapping
 
 | Competitor Entity | Geographic Focus | Core Model | Target Client Base | Critical Strategic Limitation / Vulnerability |
 |---|---|---|---|---|
@@ -199,7 +199,7 @@ graph LR
 
 <a id="s11-8" aria-hidden="true"></a>
 
-## <span class="sn">11.8</span> Critical Caveats, Legal Landmines & Operational Traps
+## `11.8` Critical Caveats, Legal Landmines & Operational Traps
 
 1. **The SPV Cross-Default Contagion Landmine:** In a pooled financing structure where 20 SMEs participate in a single RM 15M sukuk issuance, if 2 SMEs default on their monthly lease rentals, how is the shortfall absorbed? **Operational Trap:** If a single SME default triggers a full coupon default on the entire sovereign-listed sukuk, the platform’s reputation is destroyed. **Mitigation:** Implement a **Three-Tier Credit Enhancement Structure**:
    - *Tier A (Individual Over-Collateralization):* Each SME pledges underlying equipment at 120% of its facility value.
@@ -212,7 +212,7 @@ graph LR
 
 <a id="s11-9" aria-hidden="true"></a>
 
-## <span class="sn">11.9</span> Zero/Near-Zero Cost MVP Architecture
+## `11.9` Zero/Near-Zero Cost MVP Architecture
 
 The entire MVP can be built, hosted, and operated across initial pilot cohorts without cloud infrastructure costs:
 
@@ -240,7 +240,7 @@ The entire MVP can be built, hosted, and operated across initial pilot cohorts w
 +-------------------------------------------------------------------------------+
 ```
 
-### <span class="sn">11.9.1</span> Complete Database Schema (Supabase / PostgreSQL)
+### `11.9.1` Complete Database Schema (Supabase / PostgreSQL)
 
 ```sql
 -- 1. Enrolled Halal SME Enterprises
@@ -311,7 +311,7 @@ CREATE TABLE spv_sme_participations (
 );
 ```
 
-### <span class="sn">11.9.2</span> Complete Deterministic Carbon Calculation Engine (TypeScript / Edge Function)
+### `11.9.2` Complete Deterministic Carbon Calculation Engine (TypeScript / Edge Function)
 
 ```typescript
 interface UtilityActivity {
@@ -360,7 +360,7 @@ export function calculateEnterpriseCarbonEmissions(data: UtilityActivity) {
 
 <a id="s11-10" aria-hidden="true"></a>
 
-## <span class="sn">11.10</span> MVP Presentation & Demonstration Strategy
+## `11.10` MVP Presentation & Demonstration Strategy
 
 1. **The Live "Bill-to-Sukuk" Demonstration:**
    - *Phase 1 (The 60-Second SME Onboarding):* The presenter acts as the managing director of a halal frozen food exporter in Selangor, Malaysia. Using a smartphone, the presenter takes a photograph of a monthly electricity bill (RM 18,400) and uploads it. The in-browser Tesseract.js OCR extracts the kWh consumption (31,500 kWh) with zero manual typing.
@@ -374,7 +374,7 @@ export function calculateEnterpriseCarbonEmissions(data: UtilityActivity) {
 
 <a id="s11-11" aria-hidden="true"></a>
 
-## <span class="sn">11.11</span> 90-Day Tactical Go-To-Market (GTM) Plan
+## `11.11` 90-Day Tactical Go-To-Market (GTM) Plan
 
 ```mermaid
 gantt
@@ -405,7 +405,7 @@ gantt
 
 <a id="s11-12" aria-hidden="true"></a>
 
-## <span class="sn">11.12</span> Verified Contact Targets & Pipeline
+## `11.12` Verified Contact Targets & Pipeline
 
 - **Bank Negara Malaysia:** Greening Halal Businesses (GHB) Secretariat ([https://www.bnm.gov.my/ghb](https://www.bnm.gov.my/ghb)).
 - **Halal Development Corporation (HDC, Malaysia):** Commercial Halal Integrity Division ([https://www.hdcglobal.com/](https://www.hdcglobal.com/)).
@@ -417,7 +417,7 @@ gantt
 
 <a id="s11-13" aria-hidden="true"></a>
 
-## <span class="sn">11.13</span> Monetization Methods & Revenue Stacks
+## `11.13` Monetization Methods & Revenue Stacks
 
 1. **Halal-ESG MRV SaaS:** RM 149 to RM 399/month per SME for continuous carbon accounting and automated export passport generation.
 2. **Aggregated Sukuk Origination Take-Rate:** 1.50% deducted from the gross face value of the syndicated debt facility upon deal closing.
@@ -428,14 +428,14 @@ gantt
 
 <a id="s11-14" aria-hidden="true"></a>
 
-## <span class="sn">11.14</span> Pivot Playbooks & Failure Fallback Options
+## `11.14` Pivot Playbooks & Failure Fallback Options
 
 ```mermaid
 graph TD
     A[Primary Model: Pooled Green Sukuk Capital Markets SPV] -->|Failure Mode: SPV Securities Syndication Delay| B[Pivot Option 1: Pure Halal-ESG Supplier Passport SaaS]
     A -->|Failure Mode: Institutional Bookrunner Reluctance| C[Pivot Option 2: White-Label Bank Financed-Emissions Engine]
     A -->|Failure Mode: Capital Markets Volatility / High Rates| D[Pivot Option 3: Blended Zakat-Waqf Micro-Equipment Facility]
-    A -->|Failure Mode: Cross-Border Regulatory Tax Friction| E[Pivot Option 4: Energy Performance Contracting (EPC) Leasing]
+    A -->|Failure Mode: Cross-Border Regulatory Tax Friction| E["Pivot Option 4: Energy Performance Contracting (EPC) Leasing"]
 ```
 
 - **Pivot Playbook A (Pure B2B Halal-ESG Supplier Passport SaaS):** If capital market securities syndication faces regulatory delays, terminate the sukuk origination arm immediately and pivot into a pure **B2B Sustainability Compliance SaaS**. Sell the automated MRV and supplier-passport generation software directly to food and consumer goods exporters who need to submit audited Scope 1-2 carbon disclosures to European retail buyers (Tesco, Carrefour) to maintain their export contracts, charging $99 to $299/month, carrying zero capital market risk.
@@ -447,14 +447,14 @@ graph TD
 
 <a id="s11-15" aria-hidden="true"></a>
 
-## <span class="sn">11.15</span> Acquisition Positioning & Salvage M&A Logic
+## `11.15` Acquisition Positioning & Salvage M&A Logic
 
-### <span class="sn">11.15.1</span> Strategic Acquirers
+### `11.15.1` Strategic Acquirers
 - **Leading Islamic Commercial Banking Groups (CIMB Islamic, Dubai Islamic Bank, Al Rajhi Bank):** Seeking proprietary software rails to originate high-margin sustainable SME financing assets to satisfy mandatory central bank green portfolio targets.
 - **Global Financial Information & Rating Giants (LSEG, S&P Global, Morningstar / Sustainalytics):** Seeking an established, ground-level private market data asset that captures verified carbon emissions from emerging-market industrial supply chains.
 - **Enterprise Halal Logistics & Inspection Conglomerates (SGS, Bureau Veritas, Intertek):** Looking to bundle automated digital carbon passports into their existing commercial halal inspection and certification services.
 
-### <span class="sn">11.15.2</span> Salvage M&A & Distressed Asset Recovery Logic
+### `11.15.2` Salvage M&A & Distressed Asset Recovery Logic
 - **If Pooled Sukuk Issuances Fail to Scale:** In the event that capital market conditions freeze, the startup’s underlying intellectual property—specifically the **proprietary deterministic carbon calculation codebase, the verified emission factor database for ASEAN/GCC grids, the automated OCR parsing engine, and the active database of 150+ audited manufacturing plants**—retains high commercial salvage value.
 - **Salvage Valuation Benchmark:** The software platform, IP patents, and enterprise client contracts can be acquired in an asset purchase by an established ESG advisory firm or regional commercial bank for an estimated **$2.0M to $3.5M**, providing complete capital recovery for early venture investors.
 
@@ -462,7 +462,7 @@ graph TD
 
 <a id="s11-16" aria-hidden="true"></a>
 
-## <span class="sn">11.16</span> Categorized Risk Register
+## `11.16` Categorized Risk Register
 
 | Risk Category | Inherent Risk Event | Likelihood | Impact | Concrete Mitigation Architecture |
 |---|---|---|---|---|
@@ -470,7 +470,7 @@ graph TD
 | **Greenwashing Risk** | SME manipulates utility bill OCR scans to claim fraudulent carbon reductions. | Moderate | Critical | Implement tamper-evident cryptographic hashing on original raw bill images; enforce mandatory spot-checks by partner sustainability auditors. |
 | **Regulatory Risk** | Capital market authority delays multi-tenant SPV prospectus approvals. | High | Moderate | Launch via established securities crowdfunding / RMO platforms (CapBay / Ethis rails) rather than waiting for public debt listings. |
 | **Adoption Risk** | SME factory managers resist entering manual data into software. | High | Moderate | Eliminate manual data entry completely: implement 1-click WhatsApp photo bill ingestion and automated utility API pulls. |
-### <span class="sn">11.16.1</span> Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
+### `11.16.1` Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
 To enforce rigorous capital discipline and avoid sustaining an unviable capital markets aggregation model, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
 
 1. **The SME Onboarding Adoption Failure (Month 6):** If the company fails to onboard at least **10 halal manufacturing SMEs** to upload live utility bills within 180 days, conclude that industrial SME owners are unwilling to adopt digital carbon tracking; immediately halt direct SME sales and execute Pivot Playbook B (White-Label Bank Financed-Emissions Engine).
@@ -482,7 +482,7 @@ To enforce rigorous capital discipline and avoid sustaining an unviable capital 
 
 <a id="s11-17" aria-hidden="true"></a>
 
-## <span class="sn">11.17</span> Startup Name Rationale & Brand Architecture
+## `11.17` Startup Name Rationale & Brand Architecture
 
 **TayyibLedger**
 - **Etymology:** *Tayyib* (Arabic: طَيِّب) is the profound Quranic companion concept to *Halal* (as in *Halalan Tayyiban* — lawful and wholesome). While *Halal* denotes minimum statutory legal compliance, *Tayyib* represents **wholesomeness, ethical purity, environmental sustainability, and holistic goodness**.
@@ -492,7 +492,7 @@ To enforce rigorous capital discipline and avoid sustaining an unviable capital 
 
 <a id="s11-18" aria-hidden="true"></a>
 
-## <span class="sn">11.18</span> Quantitative Gating Scores
+## `11.18` Quantitative Gating Scores
 
 - **Monetization Clarity Score:** **7 / 10** — Backed by transparent, multi-stream revenue engines (MRV SaaS fees + 1.50% syndication take-rates + annual servicing bps), validated by corporate scope-3 compliance demands. Deducted 3 points due to syndication lead-time dependency.
 - **Regulatory Friction Score:**
@@ -504,7 +504,7 @@ To enforce rigorous capital discipline and avoid sustaining an unviable capital 
 
 <a id="s11-19" aria-hidden="true"></a>
 
-## <span class="sn">11.19</span> Master References
+## `11.19` Master References
 
 - Fitch Ratings: *ESG Sukuk to Cross USD 50 Billion in 2025: Key ESG Funding Role in Emerging Markets* [2025](https://www.fitchratings.com/research/non-bank-financial-institutions/esg-sukuk-to-cross-usd50-billion-in-2025-key-esg-funding-role-in-emerging-markets-21-01-2025) <a class="xref" href="/13-references/reference-index/#ref-nng0gq" title="Open this source in the collected reference index">index&nbsp;↗</a>
 - Fitch Ratings: *ESG Sukuk Market to Surpass USD 60 Billion by End-2026: Zero Historical Defaults* [2025](https://www.fitchratings.com/research/islamic-finance/esg-sukuk-market-to-surpass-usd60-billion-by-end-2026-no-defaults-29-07-2025) <a class="xref" href="/13-references/reference-index/#ref-czlv5c" title="Open this source in the collected reference index">index&nbsp;↗</a>

@@ -13,7 +13,7 @@ description: "graph TD"
 
 <a id="s10-1" aria-hidden="true"></a>
 
-## <span class="sn">10.1</span> Gap Definition & Executive Thesis
+## `10.1` Gap Definition & Executive Thesis
 
 **Precise Formulation:** In the Gulf Cooperation Council (GCC) and Western Muslim diaspora markets (specifically the United Kingdom, home to over 4 million Muslims), consumer credit is bifurcated between high-velocity retail checkout and large-ticket vehicle acquisition. In the GCC, Buy-Now-Pay-Later (BNPL) credit volumes have surged past **$20.5 billion**, expanding at **19% to 30% annually** [2025](https://synapse-analytics.io/blog/bnpl-in-mena-gcc-growth-drivers-market-dynamics-and-the-road-ahead). However, in Western markets like the UK, Muslim consumers face acute religious exclusion: over **82% of UK Muslim drivers actively seek Shariah-compliant financing**, yet the **£20 billion+ used car finance market** is dominated almost exclusively by conventional Personal Contract Purchase (PCP) and Hire Purchase (HP) agreements [2025](https://www.kandoo.co.uk/guides/no-interest-car-finance-for-muslims). PCP/HP agreements charge compounding annual percentage rates (APR) on money lent, representing unequivocal *Riba*. Conservative consumers are forced into "cash-or-nothing" decisions, draining emergency savings to buy depreciating vehicles. Furthermore, existing GCC BNPL giants focus strictly on low-ticket retail checkout (sub-$300 fashion and cosmetics), failing to provide a unified financial gateway that extends into high-ticket asset ownership.
 
@@ -21,7 +21,7 @@ description: "graph TD"
 1. **Low-Ticket Halal BNPL:** 3-to-4 interest-free installment plans at online checkout, structured under certified commodity **Murabaha** (cost-plus sale with zero compounding interest and zero profit from late fees), certified by the Shariyah Review Bureau (SRB).
 2. **High-Ticket Auto & Asset Ijara Leasing:** A digital vehicle financing marketplace structured on **Ijara wa Iqtina** (lease-to-own). QistHalal partners with institutional warehouse liquidity providers (such as Triple Point) and certified automotive dealers: the funder buys the car, takes legal ownership risk, leases it to the consumer for a fixed monthly rental, and transfers title via a separate gift or nominal sale (*Hibah*) at the end of the term.
 3. **The Scholar Transparency Ledger:** A mobile interface that displays the complete Shariah paper trail for every transaction—including the commodity purchase confirmation and a real-time charity purification log—restoring public faith in modern Islamic consumer finance.
-### <span class="sn">10.1.1</span> Systems Thinking: First-, Second-, and Third-Order Implications
+### `10.1.1` Systems Thinking: First-, Second-, and Third-Order Implications
 
 * **First-Order Implications (Direct & Immediate Impact):**
   - Muslim consumers in the UK and GCC access 100% interest-free vehicle lease-to-own agreements (*Ijara wa Iqtina*) and retail 4-pay checkouts (*Murabaha*) without paying compounding *Riba*.
@@ -42,7 +42,7 @@ description: "graph TD"
 
 <a id="s10-2" aria-hidden="true"></a>
 
-## <span class="sn">10.2</span> Root Causes & Structural Bottlenecks
+## `10.2` Root Causes & Structural Bottlenecks
 
 ```mermaid
 graph TD
@@ -65,7 +65,7 @@ graph TD
 
 <a id="s10-3" aria-hidden="true"></a>
 
-## <span class="sn">10.3</span> Why Incumbents Have Not Filled the Gap
+## `10.3` Why Incumbents Have Not Filled the Gap
 
 - **Tabby Focuses on Retail Checkout and Digital Wallets:** Tabby has achieved monumental scale, raising a **$233M Series F at a $6.5B valuation** in September 2026 across 25 million users and 70,000 merchants [2026](https://tabby.ai/en-AE/newsroom/series-f) [2026](https://fintech.global/2026/09/14/tabby-raises-233m-at-6-5bn-valuation/). However, Tabby’s business is optimized for fast checkout turnover (4-month installments) and digital wallet services (Tabby Cash); it does not originate 36-to-48-month vehicle lease-to-own contracts, nor does it serve the UK diaspora.
 - **Tamara is Anchored Domestically in Saudi Arabia:** Tamara secured an immense **$2.4B Shariah-compliant debt facility** from Goldman Sachs, Citi, and Apollo [2025](https://tamara.co/en-sa/blog-post/tamara-secures-up-to-2-4-billion-dollar-facility). However, Tamara's commercial focus is concentrated almost entirely on the Saudi domestic retail market under its SAMA consumer finance license; it has zero operational presence in Europe.
@@ -76,21 +76,21 @@ graph TD
 
 <a id="s10-4" aria-hidden="true"></a>
 
-## <span class="sn">10.4</span> Feasibility Analysis: Technical, Shariah, Regulatory, Market
+## `10.4` Feasibility Analysis: Technical, Shariah, Regulatory, Market
 
-### <span class="sn">10.4.1</span> Technical Feasibility
+### `10.4.1` Technical Feasibility
 - **Unified Credit Engine:** Ingests applicant data via open banking APIs (TrueLayer in the UK, BenefitPay in Bahrain, Lean Technologies in Saudi Arabia), automatically analyzing 90-day bank transaction feeds to compute disposable income, recurring expenditure, and creditworthiness.
 - **Automated Murabaha & Ijara Document Generator:** Generates legally binding, AAOIFI-compliant contract documents within 10 seconds:
   - For BNPL: Digital agency appointment (*Wakalah*) + commodity sale confirmation.
   - For Vehicle Finance: Master lease agreement (*Ijara*) + independent unilateral undertaking (*Wa'ad*) guaranteeing title transfer upon completion of all rental payments.
 - **Charity Purification Automation:** System calculates late-payment collection fees and programmatically routes all penalty funds above direct collection costs into an audited charitable foundation pool.
 
-### <span class="sn">10.4.2</span> Shariah Feasibility
+### `10.4.2` Shariah Feasibility
 - **True Ownership Risk in Ijara:** In strict compliance with AAOIFI Standard No. 9 (*Ijara and Ijara Muntahia Bittamleek*), the funder retains ownership of the vehicle and is responsible for major structural maintenance and total-loss insurance (Takaful). If the vehicle is completely destroyed in an accident without customer negligence, lease rentals immediately cease, eliminating the unjust risk-shifting characteristic of conventional finance.
 - **Prohibition of Compounding Interest:** If a customer defaults on an installment, no compounding interest is ever added. Late fees are strictly capped at actual administrative recovery expenses, with any punitive excess routed to charity.
 - **Certified Governance:** Backed by independent Shariah supervisory boards certified by the Shariyah Review Bureau (SRB) or Dar Al Marajaa.
 
-### <span class="sn">10.4.3</span> Regulatory Feasibility
+### `10.4.3` Regulatory Feasibility
 - **The "Broker-First" Regulatory Architecture:** To launch immediately without waiting 18 months for de-novo credit licenses, QistHalal launches as an **Authorized Credit Broker / Appointed Representative (AR)** in the UK, and as an authorized fintech intermediary partnering with SAMA/CBUAE-licensed finance companies in the GCC. The carrying partner holds the balance-sheet receivables; QistHalal captures software SaaS and origination brokerage commissions.
 - **UK FCA DPC Compliance (PS26/1):** The platform is natively architected to comply with the 15 July 2026 DPC mandates: full affordability assessments via open banking, transparent pre-contractual credit disclosures, and Consumer Duty vulnerable-customer forbearance scripts [2026](https://www.fca.org.uk/publications/policy-statements/ps26-1-regulation-deferred-payment-credit).
 
@@ -98,15 +98,15 @@ graph TD
 
 <a id="s10-5" aria-hidden="true"></a>
 
-## <span class="sn">10.5</span> Viability Analysis & Exhaustive Unit Economics
+## `10.5` Viability Analysis & Exhaustive Unit Economics
 
-### <span class="sn">10.5.1</span> Enterprise Revenue Architecture
+### `10.5.1` Enterprise Revenue Architecture
 1. **Merchant Discount Rate (BNPL Checkout):** 3.0% to 5.0% charged to e-commerce merchants upon checkout transaction settlement.
 2. **Auto Lease Origination Commission:** 1.5% to 2.5% one-off brokerage fee paid by the institutional liquidity provider upon vehicle delivery (averaging $450 to $750 on a $30,000 vehicle).
 3. **Ancillary Takaful & Warranty Attach (AyanCare Model):** $250 to $600 margin on bundled Islamic vehicle gap-takaful, breakdown assistance, and extended mechanical warranties.
 4. **Merchant Integration SaaS:** $49 to $149/month charged to e-commerce merchants for the branded Halal Checkout plugin and automated Shariah audit logging.
 
-### <span class="sn">10.5.2</span> Granular Financial Model (Per Combined Cohort: 10,000 BNPL Orders + 100 Auto Leases)
+### `10.5.2` Granular Financial Model (Per Combined Cohort: 10,000 BNPL Orders + 100 Auto Leases)
 
 | Product Segment | Transaction / Facility Metrics | Derived Gross Platform Revenue |
 |---|---|---|
@@ -129,18 +129,18 @@ pie title Revenue Composition ($275.3k Cohort Revenue)
     "Ancillary Takaful Attach Margins" : 22750
 ```
 
-### <span class="sn">10.5.3</span> Capital Efficiency & Break-Even Math
+### `10.5.3` Capital Efficiency & Break-Even Math
 - **Blended CAC per BNPL User:** **$8.50** (driven by merchant checkout conversion).
 - **Blended CAC per Auto Lease Customer:** **$220.00** (acquired via participating halal used-car dealerships and mosque taxi associations).
 - **Auto Lease Customer Lifetime Value (LTV):** **$1,025.00** ($600 origination + $350 warranty + $75 repeat servicing).
 - **LTV / CAC Ratio (Auto Leasing):** **4.65x**.
 - **Cash Flow Break-Even:** Achieved at **Month 12** upon sustaining **80 funded vehicle leases and 2,500 monthly BNPL checkouts**.
-### <span class="sn">10.5.4</span> Bottom-Up Market Sizing (TAM / SAM / SOM)
+### `10.5.4` Bottom-Up Market Sizing (TAM / SAM / SOM)
 * **Total Addressable Market (TAM):** **$40.5 Billion** — Consolidated $20.5 Billion GCC Buy-Now-Pay-Later market [2025](https://synapse-analytics.io/blog/bnpl-in-mena-gcc-growth-drivers-market-dynamics-and-the-road-ahead) plus the £20 Billion (~$25 Billion) UK used-car motor finance market.
 * **Serviceable Addressable Market (SAM):** **$8.5 Billion** — UK Muslim diaspora automotive financing demand (£3.5B) combined with Saudi Arabia and UAE faith-conscious retail installment checkout ($5.0B).
 * **Serviceable Obtainable Market (SOM - Year 3):** **$220 Million** — Financed auto leasing volume and retail BNPL gross merchandise value captured across 15,000 active consumer accounts.
 
-### <span class="sn">10.5.5</span> Seed-to-Series A Financing Roadmap & Capital Allocation
+### `10.5.5` Seed-to-Series A Financing Roadmap & Capital Allocation
 * **Pre-Seed / Angel Round (Month 0–3):** $500,000 raised on an uncapped SAFE note with a $4,500,000 valuation cap to develop the dealer point-of-sale PWA, open-banking affordability engine, and secure FCA Appointed Representative status.
 * **Seed Financing Round (Month 9–12):** **$2,000,000 USD** at a **$10,500,000 post-money valuation** (19.05% investor dilution).
   - *Lead Investor Profile:* Consumer fintech and alternative credit VCs (e.g., Shorooq Partners, VentureSouq, Global Ventures, Triple Point private credit network).
@@ -156,21 +156,21 @@ pie title Revenue Composition ($275.3k Cohort Revenue)
 
 <a id="s10-6" aria-hidden="true"></a>
 
-## <span class="sn">10.6</span> Survivability Analysis, Moats & Defensibility
+## `10.6` Survivability Analysis, Moats & Defensibility
 
 ```mermaid
 graph LR
-    A[Broker-First Insulation (Zero Balance-Sheet Risk)] --> B[Pre-Cleared Warehouse Credit Facilities]
+    A["Broker-First Insulation (Zero Balance-Sheet Risk)"] --> B[Pre-Cleared Warehouse Credit Facilities]
     B --> C[Closed-Loop Halal Dealership Network]
     C --> D[Verified Shariah Audit Transparency]
     D --> E[Sustainable Multi-Year Moat]
 ```
 
-### <span class="sn">10.6.1</span> Defensible Moats
+### `10.6.1` Defensible Moats
 1. **The Broker-First Insolvency Shield:** Lending startups that hold assets on their own balance sheet face existential risk when interest rates spike or credit losses rise. QistHalal operates as an asset-light technology broker; institutional credit funds (Triple Point, Shorooq) absorb the balance-sheet capital risk, insulating QistHalal’s software business.
 2. **The Halal Dealer Exclusivity Network:** Halal used-car dealers in the UK (Birmingham, East London, Bradford) and private-hire taxi cooperatives have established deep trust with local Muslim communities. Contracting these dealerships as exclusive QistHalal integration partners locks up retail acquisition channels that conventional lenders (Klarna, MotoNovo) cannot penetrate.
 3. **The Published Commodity Paper Trail:** Conventional BNPL providers cannot provide verified certificates proving that underlying trades are asset-backed and free of *Riba*. QistHalal’s automated publication of commodity tickets and charity purification logs provides immutable theological defensibility.
-### <span class="sn">10.6.2</span> Founding Team Archetype & Key Hires #1–5
+### `10.6.2` Founding Team Archetype & Key Hires #1–5
 * **Co-Founder & CEO (Motor Finance & Credit Distribution Executive):** Former Commercial Director or Head of Motor Finance at a prominent UK or GCC consumer lender (MotoNovo, Black Horse, Tabby, or Tamara). 12+ years in automotive credit distribution with deep, established personal relationships with regional dealership networks and broker channels.
 * **Co-Founder & CTO (Consumer Fintech & Point-of-Sale Systems Architect):** Senior software engineer with 8+ years experience building point-of-sale checkout widgets, mobile onboarding funnels, and open-banking affordability engines (TrueLayer, BenefitPay). Expert in React Native, Node.js, and banking API integrations.
 * **Co-Founder & Head of Underwriting & Credit Risk:** Former Senior Credit Risk Officer from an automotive asset finance lender, expert in UK Consumer Credit Act regulations, FCA Consumer Duty compliance, and asset repossession procedures.
@@ -185,7 +185,7 @@ graph LR
 
 <a id="s10-7" aria-hidden="true"></a>
 
-## <span class="sn">10.7</span> Comprehensive Competitor Mapping
+## `10.7` Comprehensive Competitor Mapping
 
 | Competitor Entity | Geographic Focus | Core Product | Financing Scale | Vulnerability / Strategic Gap |
 |---|---|---|---|---|
@@ -199,7 +199,7 @@ graph LR
 
 <a id="s10-8" aria-hidden="true"></a>
 
-## <span class="sn">10.8</span> Critical Caveats, Legal Landmines & Operational Traps
+## `10.8` Critical Caveats, Legal Landmines & Operational Traps
 
 1. **The UK FCA Section 75 Joint Liability Trap:** Under Section 75 of the UK Consumer Credit Act (which takes full effect for Deferred Payment Credit under PS26/1 on **15 July 2026**), credit providers are held **jointly and severally liable with the merchant** for breach of contract or misrepresentation for goods valued between £100 and £30,000 [2026](https://www.fca.org.uk/publications/policy-statements/ps26-1-regulation-deferred-payment-credit). **Operational Trap:** If a consumer finances a £20,000 used car through the platform and the independent car dealer goes bankrupt while the vehicle suffers catastrophic engine failure, the credit platform can be held legally liable to refund the full purchase price. **Mitigation:** Partner exclusively with vetted, AA-approved dealership networks; mandate independent mechanical inspections before disbursal; enforce mandatory mechanical warranty attach on every funded vehicle.
 2. **The "Disguised Interest" Scholar Condemnation:** If an Islamic fintech charges customer late fees that flow directly into operational earnings, prominent scholars will issue public warnings condemning the platform as "riba in disguise." **Mitigation:** Enforce strict automated charity routing: 100% of punitive late fees must be programmatically transferred to an independent Waqf account audited by the Shariah Supervisory Board, with public charity donation receipts accessible on the user dashboard.
@@ -209,7 +209,7 @@ graph LR
 
 <a id="s10-9" aria-hidden="true"></a>
 
-## <span class="sn">10.9</span> Zero/Near-Zero Cost MVP Architecture
+## `10.9` Zero/Near-Zero Cost MVP Architecture
 
 The entire MVP can be launched and tested across initial dealer cohorts using free developer tiers:
 
@@ -238,7 +238,7 @@ The entire MVP can be launched and tested across initial dealer cohorts using fr
 +-------------------------------------------------------------------------------+
 ```
 
-### <span class="sn">10.9.1</span> Complete Database Schema (Supabase / PostgreSQL)
+### `10.9.1` Complete Database Schema (Supabase / PostgreSQL)
 
 ```sql
 -- 1. Merchant Partners & Dealerships
@@ -312,7 +312,7 @@ CREATE TABLE charity_purification_events (
 
 <a id="s10-10" aria-hidden="true"></a>
 
-## <span class="sn">10.10</span> MVP Presentation & Demonstration Strategy
+## `10.10` MVP Presentation & Demonstration Strategy
 
 1. **The Live "PCP vs. Halal Ijara" Comparison:**
    - *Phase 1 (The Trap):* Presenter pulls up a conventional UK car finance quote for a £25,000 Toyota hybrid. The screen highlights the 11.9% APR, the £6,000 interest surcharge, and the predatory £8,000 optional final balloon payment (*Riba*).
@@ -326,7 +326,7 @@ CREATE TABLE charity_purification_events (
 
 <a id="s10-11" aria-hidden="true"></a>
 
-## <span class="sn">10.11</span> 90-Day Tactical Go-To-Market (GTM) Plan
+## `10.11` 90-Day Tactical Go-To-Market (GTM) Plan
 
 ```mermaid
 gantt
@@ -358,7 +358,7 @@ gantt
 
 <a id="s10-12" aria-hidden="true"></a>
 
-## <span class="sn">10.12</span> Verified Contact Targets & Pipeline
+## `10.12` Verified Contact Targets & Pipeline
 
 - **Financial Conduct Authority (FCA, UK):** Consumer Credit & DPC Supervision Division ([https://www.fca.org.uk/](https://www.fca.org.uk/)).
 - **Saudi Central Bank (SAMA):** Consumer Finance Licensing Department ([https://www.sama.gov.sa/](https://www.sama.gov.sa/)).
@@ -370,7 +370,7 @@ gantt
 
 <a id="s10-13" aria-hidden="true"></a>
 
-## <span class="sn">10.13</span> Monetization Methods & Revenue Stacks
+## `10.13` Monetization Methods & Revenue Stacks
 
 1. **E-Commerce Merchant Discount Rate (BNPL):** 3.8% flat merchant fee deducted upon checkout transaction settlement.
 2. **Auto Lease Origination Brokerage Commission:** 2.0% one-off fee paid by the institutional funder upon vehicle delivery ($600 per $30,000 vehicle).
@@ -381,7 +381,7 @@ gantt
 
 <a id="s10-14" aria-hidden="true"></a>
 
-## <span class="sn">10.14</span> Pivot Playbooks & Failure Fallback Options
+## `10.14` Pivot Playbooks & Failure Fallback Options
 
 ```mermaid
 graph TD
@@ -400,14 +400,14 @@ graph TD
 
 <a id="s10-15" aria-hidden="true"></a>
 
-## <span class="sn">10.15</span> Acquisition Positioning & Salvage M&A Logic
+## `10.15` Acquisition Positioning & Salvage M&A Logic
 
-### <span class="sn">10.15.1</span> Strategic Acquirers
+### `10.15.1` Strategic Acquirers
 - **GCC Consumer Credit Giants (Tabby, Tamara):** Seeking to expand beyond retail e-commerce into high-ticket automotive financing and establish an immediate regulatory and dealer footprint in the UK and European diaspora.
 - **Specialized UK Islamic Lenders (Ayan Capital, Al Rayan Bank, Gatehouse Bank):** Looking to acquire an agile mobile origination engine and retail checkout customer acquisition funnel.
 - **Automotive Marketplace Platforms (Auto Trader UK, Syarah in Saudi Arabia):** Seeking to embed a proprietary, certified faith-based financing module to capture the high-margin Muslim car-buying demographic.
 
-### <span class="sn">10.15.2</span> Salvage M&A & Distressed Asset Recovery Logic
+### `10.15.2` Salvage M&A & Distressed Asset Recovery Logic
 - **If Warehouse Capital or Credit Operations Stall:** In the event that credit market liquidity freezes, the startup’s core intellectual property—specifically the **proprietary dealer point-of-sale software, the pre-cleared AAOIFI-compliant Ijara contract templates, the open-banking affordability algorithms, and the active registry of 15,000+ verified Muslim borrowers**—retains significant commercial value.
 - **Salvage Valuation Benchmark:** The software codebase, dealer network contracts, and customer database can be acquired in an asset purchase by an established Islamic bank or regional motor finance brokerage for an estimated **$2.5M to $4.5M**, providing substantial capital recovery for early investors.
 
@@ -415,7 +415,7 @@ graph TD
 
 <a id="s10-16" aria-hidden="true"></a>
 
-## <span class="sn">10.16</span> Categorized Risk Register
+## `10.16` Categorized Risk Register
 
 | Risk Category | Inherent Risk Event | Likelihood | Impact | Concrete Mitigation Architecture |
 |---|---|---|---|---|
@@ -423,7 +423,7 @@ graph TD
 | **Credit Risk** | Macroeconomic inflation leads to consumer auto lease defaults. | Moderate | Critical | Enforce strict open-banking debt-burden caps (<40%); maintain remote vehicle immobilizer technology for repossession. |
 | **Shariah Risk** | Scholar disputes the independence of the terminal gift (*Hibah*) undertaking. | Low | High | Utilize standardized AAOIFI Standard No. 9 legal contracts verified by the Shariyah Review Bureau. |
 | **Merchant Risk** | E-commerce merchants abandon platform due to checkout friction. | Moderate | Moderate | Optimize checkout conversion with 1-click mobile verification, keeping checkout completion under 20 seconds. |
-### <span class="sn">10.16.1</span> Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
+### `10.16.1` Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
 To ensure disciplined capital stewardship and avoid sustaining an unviable credit portfolio, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
 
 1. **The Dealership Onboarding Impasse (Month 6):** If the company fails to onboard at least **8 independent halal automotive dealerships** submitting active loan applications within 180 days, conclude that physical dealer sales cycles are too friction-heavy; halt automotive sales hiring and execute Pivot Playbook D (Merchant-Own DPC Enablement SaaS).
@@ -435,7 +435,7 @@ To ensure disciplined capital stewardship and avoid sustaining an unviable credi
 
 <a id="s10-17" aria-hidden="true"></a>
 
-## <span class="sn">10.17</span> Startup Name Rationale & Brand Architecture
+## `10.17` Startup Name Rationale & Brand Architecture
 
 **QistHalal**
 - **Etymology:** *Qist* (Arabic/Urdu: قِسْط) is the classical term universally used across the Middle East, South Asia, and diaspora communities to denote an **installment, allotment, or equitable share**. Furthermore, *Qist* shares the same linguistic root as *justice and equity*.
@@ -445,7 +445,7 @@ To ensure disciplined capital stewardship and avoid sustaining an unviable credi
 
 <a id="s10-18" aria-hidden="true"></a>
 
-## <span class="sn">10.18</span> Quantitative Gating Scores
+## `10.18` Quantitative Gating Scores
 
 - **Monetization Clarity Score:** **8 / 10** — Demonstrated by immense, profitable comparables (Tabby profitable with $18B volume; Ayan securing £75M institutional debt; high auto lease brokerage fees).
 - **Regulatory Friction Score:**
@@ -457,7 +457,7 @@ To ensure disciplined capital stewardship and avoid sustaining an unviable credi
 
 <a id="s10-19" aria-hidden="true"></a>
 
-## <span class="sn">10.19</span> Master References
+## `10.19` Master References
 
 - Synapse Analytics: *Buy-Now-Pay-Later in MENA & GCC: Market Dynamics & Growth Drivers* [2025](https://synapse-analytics.io/blog/bnpl-in-mena-gcc-growth-drivers-market-dynamics-and-the-road-ahead) <a class="xref" href="/13-references/reference-index/#ref-9daxmc" title="Open this source in the collected reference index">index&nbsp;↗</a>
 - Financial Conduct Authority (FCA, UK): *Policy Statement PS26/1: Regulation of Deferred Payment Credit (DPC)* [2026](https://www.fca.org.uk/publications/policy-statements/ps26-1-regulation-deferred-payment-credit) <a class="xref" href="/13-references/reference-index/#ref-i4o8zp" title="Open this source in the collected reference index">index&nbsp;↗</a>

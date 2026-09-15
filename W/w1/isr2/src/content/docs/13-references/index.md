@@ -10,7 +10,7 @@ description: "Every source cited in this research, collected into one cross-link
 <span class="chip">1,764 registry entries</span>
 </div>
 
-## <span class="sn">13.1</span> How this reference system works
+## `13.1` How this reference system works
 
 Every empirical claim in this doksite is traceable to a live-retrieved primary source. To keep that traceability usable rather than decorative, all citations were lifted out of the twelve research documents and re-assembled here as three linked layers:
 
@@ -28,7 +28,7 @@ graph LR
     C -->|external link| E["Primary source<br/>on the open web"]
 ```
 
-### <span class="sn">13.1.1</span> Citation vocabulary used across the site
+### `13.1.1` Citation vocabulary used across the site
 
 | Marker | Meaning |
 |---|---|
@@ -37,7 +37,7 @@ graph LR
 | `cited in §1.16` | Sits on an index entry and jumps back to the citing section |
 | `registry ↗` | Shown when a cited URL also exists as an entry in §13.2 |
 
-### <span class="sn">13.1.2</span> Section coverage
+### `13.1.2` Section coverage
 
 | Section | Document | Unique cited sources |
 |---|---|---|
@@ -54,7 +54,7 @@ graph LR
 | 11 | <a href="/11-gap-10-tayyibledger/">Gap 10 — TayyibLedger</a> | 19 |
 | 12 | <a href="/12-llm-usage-and-cost-analysis/">LLM Usage &amp; Cost Intelligence — Research Pipeline Telemetry, Rate Cards &amp; CFO Briefing</a> | 11 |
 
-## <span class="sn">13.2</span> Reference collections
+## `13.2` Reference collections
 
 | Ref | Collection | Entries | Domains | Cross-linked |
 |---|---|---|---|---|

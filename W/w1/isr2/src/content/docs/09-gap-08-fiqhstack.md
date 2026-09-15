@@ -13,7 +13,7 @@ description: "graph TD"
 
 <a id="s9-1" aria-hidden="true"></a>
 
-## <span class="sn">9.1</span> Gap Definition & Executive Thesis
+## `9.1` Gap Definition & Executive Thesis
 
 **Precise Formulation:** The global Islamic financial services industry encompasses over **$5.98 trillion in assets across 1,600+ institutions** in 140 countries [2025](https://www.lseg.com/en/data-analytics/islamic-finance/islamic-market-intelligence/islamic-finance-development-report-2025). Every Islamic commercial bank, digital window, asset manager, and takaful operator is legally mandated by statutory prudential standards (such as Bank Negara Malaysia’s *Shariah Governance Policy Document / SGPD*, the UAE Central Bank’s *Higher Shariah Authority Standards*, and Indonesian *DSN-MUI Regulations*) to maintain an independent **Shariah Supervisory Board (SSB)**. However, Shariah governance remains cripplingly manual: field research reveals that **40% to 60% of Shariah officers' and scholars' time is consumed by manual administrative labor**—cross-referencing historical fatwa precedents across fragmented AAOIFI PDF volumes, assembling compliance checklists, manually verifying quarterly financial ratios on spreadsheets, and tracking Shariah Non-Compliance (SNC) operational incidents [2025](https://blog.zeroh.io/the-shariah-compliance-bottleneck-nobody-talks-about-and-how-to-fix-it/). Because the global pool of accredited *Fiqh al-Muamalat* scholars is small and heavily overbooked, product approval cycles for new digital banking features stretch to **3 to 9 months**, paralyzing fintech innovation.
 
@@ -21,7 +21,7 @@ description: "graph TD"
 1. **Multi-Standard Developer API:** Provides instantaneous programmatic screening of global equities, ETFs, and sukuk tranches across versioned standards (AAOIFI Standard No. 21, S&P Shariah, Dow Jones Islamic Market, and Securities Commission Malaysia), calculating exact non-permissible income ratios and automated dividend purification amounts via a single REST/GraphQL endpoint.
 2. **SSB Workflow & Precedent Retrieval (RAG):** An AI-augmented Governance, Risk, and Compliance (GRC) workspace that ingests proposed financial product documentation, queries an authoritative vector database of public statutory fatwas and standard-setting rulings, automatically flags potential non-compliance risks (e.g., hidden interest clauses, improper *Inah* sale sequencing, or ambiguous risk transfer), generates pre-populated Shariah audit packs, and tracks operational SNC events in real time.
 
-### <span class="sn">9.1.1</span> Systems Thinking: First-, Second-, and Third-Order Implications
+### `9.1.1` Systems Thinking: First-, Second-, and Third-Order Implications
 
 * **First-Order Implications (Direct & Immediate Impact):**
   - Shariah board approval cycles for new digital banking products drop from 3–9 months to under 14 days, eliminating the primary bottleneck in Islamic fintech innovation.
@@ -41,7 +41,7 @@ description: "graph TD"
 
 <a id="s9-2" aria-hidden="true"></a>
 
-## <span class="sn">9.2</span> Root Causes & Structural Bottlenecks
+## `9.2` Root Causes & Structural Bottlenecks
 
 ```mermaid
 graph TD
@@ -64,7 +64,7 @@ graph TD
 
 <a id="s9-3" aria-hidden="true"></a>
 
-## <span class="sn">9.3</span> Why Incumbents Have Not Filled the Gap
+## `9.3` Why Incumbents Have Not Filled the Gap
 
 - **IdealRatings / LSEG Target Institutional Asset Managers:** IdealRatings (now partnered with Bloomberg and FTSE Russell) provides excellent institutional Shariah screening data for global index funds and large asset managers [2025](https://www.idealratings.com/islamic-finance-solutions/) [2025](https://www.bloomberg.com/company/press/bloomberg-and-idealratings-announce-sharia-compliant-indicator-for-sukuk-on-bloomberg-terminal/). However, its business model is built around expensive terminal licenses ($25k–$50k/year) and quarterly batch rebalancing for listed equities; it does not offer an interactive SSB workflow tool, an automated fatwa precedent search engine, or an operational compliance tracker for retail banking products.
 - **Zoya and Musaffa are Consumer-Facing Apps:** Zoya and Musaffa offer developer APIs [2025](https://zoya.finance/api) [2025](https://musaffa.com/for-business/); however, their software is designed to power consumer stock-trading interfaces. They do not provide enterprise GRC capabilities, bank core integration adapters, or automated Shariah Supervisory Board audit submission documentation.
@@ -75,18 +75,18 @@ graph TD
 
 <a id="s9-4" aria-hidden="true"></a>
 
-## <span class="sn">9.4</span> Feasibility Analysis: Technical, Shariah, Regulatory, Market
+## `9.4` Feasibility Analysis: Technical, Shariah, Regulatory, Market
 
-### <span class="sn">9.4.1</span> Technical Feasibility
+### `9.4.1` Technical Feasibility
 - **Retrieval-Augmented Generation (RAG) Architecture:** Utilizes an open-source sentence-transformer embedding model (`bge-large-en-v1.5` or `text-embedding-3-small`) paired with **pgvector in PostgreSQL** to vectorize public Shariah standards, central bank policy documents, and published fatwa compendiums. When a product manager uploads a new product term sheet, the RAG engine retrieves the exact relevant standards (with paragraph citations) and evaluates potential compliance breaches in under 3 seconds.
 - **Multi-Standard Rules-as-Code Engine:** Translates quantitative screening thresholds (AAOIFI Standard 21, S&P, DJIM, SC-Malaysia) into deterministic, unit-tested TypeScript logic. The engine ingests SEC EDGAR XBRL filings, calculates financial ratios down to 4 decimal places, and emits transparent, reproducible pass/fail verdicts.
 - **Cryptographic Audit Log:** Every screening query, fatwa search, and scholar approval sign-off is hashed and stored in an immutable audit ledger, providing bank compliance officers with an instantly exportable statutory audit trail for central bank inspectors.
 
-### <span class="sn">9.4.2</span> Shariah Feasibility
+### `9.4.2` Shariah Feasibility
 - **The "Assistive-Only" Theological Posture:** FiqhStack is intentionally designed as an **augmented decision-support tool (*Adāt al-Tas'hīl*)**, never as an autonomous automated mufti. The software explicitly states that it does not issue religious fatwas; it synthesizes historical precedents, verifies mathematical financial ratios, and formats submission packs for the human scholars of the institution’s appointed Shariah Supervisory Board, preserving scholar primacy and religious legitimacy.
 - **Purification Transparency:** The engine automatically outputs exact mathematical dividend purification fractions, displaying the calculation formula on-screen and logging the required charitable purging amount.
 
-### <span class="sn">9.4.3</span> Regulatory Feasibility
+### `9.4.3` Regulatory Feasibility
 - **Premier Regulatory Posture (Friction Score: 4 / 10):** FiqhStack is the lowest-friction venture in the entire portfolio. Under the **UAE Central Bank Law (Federal Decree-Law No. 6 of 2025)** and official regulatory guidance, pure B2B software and technology infrastructure vendors supplying services exclusively to licensed financial institutions are **explicitly exempt from central bank licensing** [2025](https://www.pinsentmasons.com/out-law/news/cbuae-guidance-technology-firms-regulation-shift). The statutory compliance and prudential risk remains with the licensed bank purchasing the software.
 - **Explainable AI Compliance:** FiqhStack’s native deterministic logic and cited RAG citations comply directly with the CBUAE’s February 2026 AI Model Risk Guidelines, avoiding the unexplainable "black-box" generative AI traps that regulators penalize [2026](https://www.yuverse.ai/resources/posts/cbuae-ai-guidance-financial-institutions-explained).
 
@@ -94,15 +94,15 @@ graph TD
 
 <a id="s9-5" aria-hidden="true"></a>
 
-## <span class="sn">9.5</span> Viability Analysis & Exhaustive Unit Economics
+## `9.5` Viability Analysis & Exhaustive Unit Economics
 
-### <span class="sn">9.5.1</span> Enterprise Revenue Architecture
+### `9.5.1` Enterprise Revenue Architecture
 1. **Tier 1 — Developer Screening API:** $99 to $499 per month base subscription + $0.02 per query for fintech neobanks, screeners, and wealth managers embedding automated Shariah stock/ETF screening.
 2. **Tier 2 — Institutional GRC Workflow Workspace:** $1,500 to $4,500 per month charged to Islamic commercial banks, takaful operators, and asset management firms for multi-seat Shariah department licenses, automated fatwa RAG, and live SNC event logging.
 3. **Tier 3 — Annual SSB Statutory Audit Pack:** $10,000 to $25,000 annual recurring license per institution for generating automated central bank compliance packages (pre-formatted for BNM SGPD or CBUAE HSA statutory audits).
 4. **Custom Standard Configuration Fees:** $5,000 to $15,000 one-off setup fee for programming bespoke institutional screening criteria for sovereign wealth funds and private family offices.
 
-### <span class="sn">9.5.2</span> Unit Economics Per Enterprise Client Cohort (25 Mid-Tier Islamic Banks)
+### `9.5.2` Unit Economics Per Enterprise Client Cohort (25 Mid-Tier Islamic Banks)
 
 | Operational Financial Line Item | Benchmark Value | Economic Derivation & Notes |
 |---|---|---|
@@ -123,17 +123,17 @@ pie title Gross Revenue Breakdown ($1.02M ARR)
     "Developer Screening API (50 Fintechs)" : 120000
 ```
 
-### <span class="sn">9.5.3</span> Capital Efficiency & Payback Period
+### `9.5.3` Capital Efficiency & Payback Period
 - **Customer Acquisition Cost (CAC) per Bank:** **$14,500** (comprising 4 months of B2B sales cycles, executive demos to Shariah department heads, and legal security reviews).
 - **Enterprise Lifetime Value (LTV):** **$144,000** (assuming a conservative 4-year banking software contract retention and $36,000 ACV).
 - **LTV / CAC Ratio:** **9.93x** — exceptional capital efficiency characteristic of enterprise GRC software.
 - **Cash Flow Break-Even:** Achieved at **Month 8** upon signing **8 enterprise banking clients** and 20 developer API subscriptions.
-### <span class="sn">9.5.4</span> Bottom-Up Market Sizing (TAM / SAM / SOM)
+### `9.5.4` Bottom-Up Market Sizing (TAM / SAM / SOM)
 * **Total Addressable Market (TAM):** **$5.98 Trillion** — Total asset base of the global Islamic financial services industry across 1,600+ institutions [2025](https://www.lseg.com/en/data-analytics/islamic-finance/islamic-market-intelligence/islamic-finance-development-report-2025).
 * **Serviceable Addressable Market (SAM):** **$420 Million** — Annual addressable software spend on Governance, Risk & Compliance (GRC), Shariah audit software, and equity screening data feeds across Islamic banks, windows, and funds.
 * **Serviceable Obtainable Market (SOM - Year 3):** **$18 Million** — Capturing 4.3% of the target SAM across 120 institutional bank, takaful, and asset management clients averaging $150,000 in Annual Contract Value (ACV).
 
-### <span class="sn">9.5.5</span> Seed-to-Series A Financing Roadmap & Capital Allocation
+### `9.5.5` Seed-to-Series A Financing Roadmap & Capital Allocation
 * **Pre-Seed / Angel Round (Month 0–3):** $400,000 raised on an uncapped SAFE note with a $4,000,000 valuation cap to vectorize public AAOIFI standards and SC-SAC resolutions and build the Next.js GRC terminal.
 * **Seed Financing Round (Month 9–12):** **$1,500,000 USD** at an **$8,500,000 post-money valuation** (17.65% investor dilution).
   - *Lead Investor Profile:* Enterprise B2B SaaS and RegTech VCs (e.g., VentureSouq, Shorooq Partners, Outliers VC, Seedstars).
@@ -149,7 +149,7 @@ pie title Gross Revenue Breakdown ($1.02M ARR)
 
 <a id="s9-6" aria-hidden="true"></a>
 
-## <span class="sn">9.6</span> Survivability Analysis, Moats & Defensibility
+## `9.6` Survivability Analysis, Moats & Defensibility
 
 ```mermaid
 graph LR
@@ -159,11 +159,11 @@ graph LR
     D --> E[Permanent Enterprise SaaS Moat]
 ```
 
-### <span class="sn">9.6.1</span> Defensible Moats
+### `9.6.1` Defensible Moats
 1. **The Statutory Audit Trail Switching Moat:** Once an Islamic bank's Shariah department utilizes FiqhStack to log compliance reviews, product approvals, and SNC incident records for 18 months, switching to another vendor creates severe regulatory audit exposure. Central bank inspectors evaluate historical continuity; abandoning the platform means breaking the digital chain of custody of Shariah governance.
 2. **The Vectorized Multilingual Fiqh Corpus:** FiqhStack’s proprietary vector database indexes thousands of historical fatwas, regulatory circulars, and scholarly journal pronouncements in classical Arabic, English, and Bahasa Malaysia. Replicating this domain-specific knowledge graph requires thousands of hours of specialized legal engineering that generic enterprise GRC platforms (ServiceNow, MetricStream) cannot justify.
 3. **Regulatory Co-Creation Credibility:** Participating directly in regulatory innovation sandboxes (such as the Securities Commission Malaysia’s FIKRALab) embeds FiqhStack’s reporting formats as the de-facto standard for statutory capital market submissions.
-### <span class="sn">9.6.2</span> Founding Team Archetype & Key Hires #1–5
+### `9.6.2` Founding Team Archetype & Key Hires #1–5
 * **Co-Founder & CEO (Islamic Banking Compliance & Innovation Veteran):** Former Head of Shariah Audit, GRC Director, or FinTech Innovation Lead at a prominent Islamic commercial bank (Al Rajhi Bank, Dubai Islamic Bank, Bank Islam, or Standard Chartered Saadiq). 10+ years inside commercial bank compliance workflows with deep credibility among senior Shariah board scholars.
 * **Co-Founder & CTO (Natural Language Processing & RAG Systems Architect):** Senior AI systems engineer with 8+ years experience in domain-specific RAG pipelines, vector databases (pgvector), and enterprise SOC2 compliance. Expert in Python, LangChain/LlamaIndex, PostgreSQL, and on-premise private cloud deployments.
 * **Co-Founder & Chief Shariah Officer (Accredited Jurist & Scholar):** Prominent AAOIFI Certified Shariah Adviser & Auditor (CSAA) with an established academic publishing record in Islamic commercial law (*Fiqh al-Muamalat*) and active observer status on regional standard-setting committees.
@@ -178,7 +178,7 @@ graph LR
 
 <a id="s9-7" aria-hidden="true"></a>
 
-## <span class="sn">9.7</span> Comprehensive Competitor Mapping
+## `9.7` Comprehensive Competitor Mapping
 
 | Competitor Entity | Primary Target Market | Core Offering | Software Delivery | Critical Vulnerability / Strategic Gap |
 |---|---|---|---|---|
@@ -192,7 +192,7 @@ graph LR
 
 <a id="s9-8" aria-hidden="true"></a>
 
-## <span class="sn">9.8</span> Critical Caveats, Legal Landmines & Operational Traps
+## `9.8` Critical Caveats, Legal Landmines & Operational Traps
 
 1. **The "Autonomous Fatwa" Liability Landmine:** If marketing materials or user interfaces state that "FiqhStack's AI certifies financial products as halal," conservative religious councils and statutory central banks will immediately launch regulatory inquiries, and the platform will face existential legal liability if an institution relies on an automated verdict that is subsequently ruled non-compliant. **Mitigation:** Enforce strict contractual disclaimers and UI guardrails: every screen and export must display the statutory disclaimer: *"FiqhStack is an automated decision-support research tool for Shariah compliance teams. Final religious and legal pronouncements must be formally executed by the institution's appointed Shariah Supervisory Board."*
 2. **AAOIFI Paywalled Content Copyright Landmines:** AAOIFI’s official Shariah and Governance Standards are proprietary, copyright-protected texts distributed via their subscription-gated digital standards portal [2025](https://aaoifi.com/shariah-standards-3/?lang=en). Scraping full standard texts and redistributing raw copyrighted paragraphs directly via public LLM prompts triggers severe copyright infringement exposure. **Mitigation:** Practice strict **Rules-as-Code and Index-Referencing**. Encode quantitative ratios (e.g., 30% debt thresholds) as independent software algorithms, and format RAG responses to provide statutory chapter and clause citations with public URL links directly to AAOIFI’s official portal rather than reproducing full proprietary texts.
@@ -202,7 +202,7 @@ graph LR
 
 <a id="s9-9" aria-hidden="true"></a>
 
-## <span class="sn">9.9</span> Zero/Near-Zero Cost MVP Architecture
+## `9.9` Zero/Near-Zero Cost MVP Architecture
 
 The entire MVP can be built, hosted, and operated across initial beta pilots without incurring software licensing expenses:
 
@@ -232,7 +232,7 @@ The entire MVP can be built, hosted, and operated across initial beta pilots wit
 +-------------------------------------------------------------------------------+
 ```
 
-### <span class="sn">9.9.1</span> Complete Database Schema (Supabase / PostgreSQL with pgvector)
+### `9.9.1` Complete Database Schema (Supabase / PostgreSQL with pgvector)
 
 ```sql
 -- Enable the vector extension for semantic fatwa search
@@ -302,7 +302,7 @@ CREATE TABLE snc_incident_ledger (
 );
 ```
 
-### <span class="sn">9.9.2</span> Complete Fatwa Precedent Semantic Search Function (TypeScript / Supabase Edge)
+### `9.9.2` Complete Fatwa Precedent Semantic Search Function (TypeScript / Supabase Edge)
 
 ```typescript
 import { createClient } from "@supabase/supabase-js";
@@ -354,7 +354,7 @@ export async function searchShariahPrecedents(payload: QueryPayload, supabase: a
 
 <a id="s9-10" aria-hidden="true"></a>
 
-## <span class="sn">9.10</span> MVP Presentation & Demonstration Strategy
+## `9.10` MVP Presentation & Demonstration Strategy
 
 1. **The Live "10-Second Shariah Audit" Demonstration:**
    - *Phase 1 (The Upload):* The presenter acts as a product manager at an Islamic bank in Dubai, uploading a draft 6-page term sheet for an automated "Digital Commodity Murabaha Auto Facility."
@@ -368,7 +368,7 @@ export async function searchShariahPrecedents(payload: QueryPayload, supabase: a
 
 <a id="s9-11" aria-hidden="true"></a>
 
-## <span class="sn">9.11</span> 90-Day Tactical Go-To-Market (GTM) Plan
+## `9.11` 90-Day Tactical Go-To-Market (GTM) Plan
 
 ```mermaid
 gantt
@@ -399,7 +399,7 @@ gantt
 
 <a id="s9-12" aria-hidden="true"></a>
 
-## <span class="sn">9.12</span> Verified Contact Targets & Pipeline
+## `9.12` Verified Contact Targets & Pipeline
 
 - **Securities Commission Malaysia (SC):** Islamic Capital Market Development & FIKRALab Team ([https://www.sc.com.my/fikra-ace](https://www.sc.com.my/fikra-ace)).
 - **Bank Negara Malaysia:** Islamic Banking and Takaful Department ([https://www.bnm.gov.my/](https://www.bnm.gov.my/)).
@@ -411,7 +411,7 @@ gantt
 
 <a id="s9-13" aria-hidden="true"></a>
 
-## <span class="sn">9.13</span> Monetization Methods & Revenue Stacks
+## `9.13` Monetization Methods & Revenue Stacks
 
 1. **Developer API Subscription:** $99 to $499/month + $0.02/call for real-time stock and ETF screening.
 2. **Enterprise GRC SaaS:** $1,500 to $4,500/month per financial institution for full-seat Shariah department compliance workflows.
@@ -422,13 +422,13 @@ gantt
 
 <a id="s9-14" aria-hidden="true"></a>
 
-## <span class="sn">9.14</span> Pivot Playbooks & Failure Fallback Options
+## `9.14` Pivot Playbooks & Failure Fallback Options
 
 ```mermaid
 graph TD
     A[Primary Model: Enterprise Islamic Bank GRC & Screening SaaS] -->|Failure Mode: Banking Sales Cycle > 12 Months| B[Pivot Option 1: Corporate Zakat & Dividend Purification SaaS]
     A -->|Failure Mode: Incumbent Core Vendor Lock-In| C[Pivot Option 2: Green Sukuk & ESG-Shariah Mapping Tool]
-    A -->|Failure Mode: Regulatory Reluctance on AI| D[Pivot Option 3: Retakaful Necessity Assessor (AAOIFI GS-25)]
+    A -->|Failure Mode: Regulatory Reluctance on AI| D["Pivot Option 3: Retakaful Necessity Assessor (AAOIFI GS-25)"]
     A -->|Failure Mode: Gulf Market Penetration Delay| E[Pivot Option 4: Indonesian DPS Continuing Education Platform]
 ```
 
@@ -441,14 +441,14 @@ graph TD
 
 <a id="s9-15" aria-hidden="true"></a>
 
-## <span class="sn">9.15</span> Acquisition Positioning & Salvage M&A Logic
+## `9.15` Acquisition Positioning & Salvage M&A Logic
 
-### <span class="sn">9.15.1</span> Strategic Acquirers
+### `9.15.1` Strategic Acquirers
 - **Global Financial Information Providers (LSEG, Bloomberg, S&P Global):** Seeking to acquire an agile Islamic screening and governance software engine to expand their high-margin terminal subscriptions across the GCC and Southeast Asia.
 - **Core Banking Giants (Temenos, Finastra, Intellect Design):** Looking to absorb a pre-built Shariah GRC sidecar to bundle into their multi-million-dollar core banking transformation contracts.
 - **Big-4 Accounting & Advisory Networks (PwC, EY, Deloitte, KPMG):** Looking to automate their internal Islamic financial advisory practices and deliver digital compliance audits to bank clients.
 
-### <span class="sn">9.15.2</span> Salvage M&A & Distressed Asset Recovery Logic
+### `9.15.2` Salvage M&A & Distressed Asset Recovery Logic
 - **If Enterprise Direct Sales Stall:** In the event that startup sales fail to achieve venture velocity, the underlying assets—specifically the **vectorized database of 10,000+ cleaned Islamic finance precedents, the deterministic multi-standard financial screening codebase, and the SC-Malaysia/AAOIFI compliance pipelines**—hold immediate commercial value.
 - **Salvage Valuation Benchmark:** The intellectual property and code repository can be acquired in an asset purchase by an established Islamic finance consultancy, rating agency, or regional software house for an estimated **$2.0M to $4.5M**, providing downside capital protection.
 
@@ -456,7 +456,7 @@ graph TD
 
 <a id="s9-16" aria-hidden="true"></a>
 
-## <span class="sn">9.16</span> Categorized Risk Register
+## `9.16` Categorized Risk Register
 
 | Risk Category | Inherent Risk Event | Likelihood | Impact | Concrete Mitigation Architecture |
 |---|---|---|---|---|
@@ -464,7 +464,7 @@ graph TD
 | **Intellectual Property Risk**| AAOIFI files copyright claim regarding standards ingestion. | Moderate | High | Ingest only public summaries, standard names, and quantitative ratios; reference official subscription URLs rather than redistributing full texts. |
 | **Model Drift Risk** | Statutory regulator updates screening ratios, causing false positive audits. | Moderate | High | Implement automated snapshot versioning for all rulebooks; execute bi-weekly automated scraping of central bank policy registries. |
 | **Procurement Risk** | Bank enterprise IT departments stall integration with security reviews. | High | Moderate | Offer lightweight, non-intrusive SaaS deployment requiring zero core banking database hooks; operate via secure PDF/CSV file uploads. |
-### <span class="sn">9.16.1</span> Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
+### `9.16.1` Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
 To ensure disciplined capital management and protect investor resources against enterprise sales stagnation, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
 
 1. **The Bank Procurement Conversion Deadlock (Month 6):** If the company fails to secure at least **2 paid pilot letters of intent (LOIs)** with Islamic commercial banks or takaful operators within 180 days, conclude that banking procurement cycles are too rigid for an early-stage startup; immediately halt direct enterprise banking sales and execute Pivot Playbook A (Corporate Zakat & Dividend Purification SaaS).
@@ -476,7 +476,7 @@ To ensure disciplined capital management and protect investor resources against 
 
 <a id="s9-17" aria-hidden="true"></a>
 
-## <span class="sn">9.17</span> Startup Name Rationale & Brand Architecture
+## `9.17` Startup Name Rationale & Brand Architecture
 
 **FiqhStack**
 - **Etymology:** A synthesis of **Fiqh** (Islamic legal jurisprudence and understanding) and **Stack** (the modern engineering term for a unified software infrastructure suite).
@@ -486,7 +486,7 @@ To ensure disciplined capital management and protect investor resources against 
 
 <a id="s9-18" aria-hidden="true"></a>
 
-## <span class="sn">9.18</span> Quantitative Gating Scores
+## `9.18` Quantitative Gating Scores
 
 - **Monetization Clarity Score:** **8 / 10** — Backed by established, recurring enterprise B2B SaaS budgets (bank GRC software, annual external Shariah audit retainers, and developer API fees) with high price elasticity.
 - **Regulatory Friction Score:** **4 / 10 (Premier Rating)** — Operates with the lowest regulatory friction in the entire blueprint portfolio. Explicitly exempt from central bank licensing under UAE Federal Decree-Law No. 6 of 2025 as a pure B2B software vendor; prudential balance-sheet exposure remains 100% with the client bank.
@@ -495,7 +495,7 @@ To ensure disciplined capital management and protect investor resources against 
 
 <a id="s9-19" aria-hidden="true"></a>
 
-## <span class="sn">9.19</span> Master References
+## `9.19` Master References
 
 - LSEG & ICD: *Islamic Finance Development Indicator (IFDI) 2025 Report* [2025](https://www.lseg.com/en/data-analytics/islamic-finance/islamic-market-intelligence/islamic-finance-development-report-2025) <a class="xref" href="/13-references/reference-index/#ref-h93f7w" title="Open this source in the collected reference index">index&nbsp;↗</a>
 - Zeroh Research: *The Shariah Compliance Bottleneck Nobody Talks About and How to Fix It* [2025](https://blog.zeroh.io/the-shariah-compliance-bottleneck-nobody-talks-about-and-how-to-fix-it/) <a class="xref" href="/13-references/reference-index/#ref-o9o3v5" title="Open this source in the collected reference index">index&nbsp;↗</a>

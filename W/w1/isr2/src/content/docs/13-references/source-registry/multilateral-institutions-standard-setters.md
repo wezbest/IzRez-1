@@ -11,7 +11,7 @@ description: "Authoritative source registry, category 2 of 7 — 407 entries acr
 
 <a href="/13-references/source-registry/">← Back to the registry overview</a>
 
-## <span class="sn">13.2.2.0</span> Multilateral Institutions & Standard-Setters (AAOIFI, IFSB, IsDB, WB, BIS, IMF)
+## `13.2.2.0` Multilateral Institutions & Standard-Setters (AAOIFI, IFSB, IsDB, WB, BIS, IMF)
 
 Entries are preserved in their original registry order and numbering. Registry numbers are stable and directly linkable, e.g. `#r342`.
 

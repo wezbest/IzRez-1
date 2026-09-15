@@ -420,7 +420,7 @@ graph TD
     A[Primary Model: Pooled Green Sukuk Capital Markets SPV] -->|Failure Mode: SPV Securities Syndication Delay| B[Pivot Option 1: Pure Halal-ESG Supplier Passport SaaS]
     A -->|Failure Mode: Institutional Bookrunner Reluctance| C[Pivot Option 2: White-Label Bank Financed-Emissions Engine]
     A -->|Failure Mode: Capital Markets Volatility / High Rates| D[Pivot Option 3: Blended Zakat-Waqf Micro-Equipment Facility]
-    A -->|Failure Mode: Cross-Border Regulatory Tax Friction| E[Pivot Option 4: Energy Performance Contracting (EPC) Leasing]
+    A -->|Failure Mode: Cross-Border Regulatory Tax Friction| E["Pivot Option 4: Energy Performance Contracting (EPC) Leasing"]
 ```
 
 - **Pivot Playbook A (Pure B2B Halal-ESG Supplier Passport SaaS):** If capital market securities syndication faces regulatory delays, terminate the sukuk origination arm immediately and pivot into a pure **B2B Sustainability Compliance SaaS**. Sell the automated MRV and supplier-passport generation software directly to food and consumer goods exporters who need to submit audited Scope 1-2 carbon disclosures to European retail buyers (Tesco, Carrefour) to maintain their export contracts, charging $99 to $299/month, carrying zero capital market risk.

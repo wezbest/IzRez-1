@@ -11,7 +11,7 @@ description: "Authoritative source registry, category 4 of 7 — 126 entries acr
 
 <a href="/13-references/source-registry/">← Back to the registry overview</a>
 
-## <span class="sn">13.2.4.0</span> Credit Rating Agencies & Global Benchmarks (Fitch, S&P, Moody's, DinarStandard, LSEG)
+## `13.2.4.0` Credit Rating Agencies & Global Benchmarks (Fitch, S&P, Moody's, DinarStandard, LSEG)
 
 Entries are preserved in their original registry order and numbering. Registry numbers are stable and directly linkable, e.g. `#r1068`.
 

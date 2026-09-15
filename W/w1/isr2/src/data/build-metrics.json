@@ -1,0 +1,62 @@
+{
+	"generatedAt": "2026-09-15",
+	"buildModel": "DeepSeek DeepSeek V4.1 Flash",
+	"corpus": {
+		"files": 13,
+		"bytes": 712137,
+		"tokens": 178034
+	},
+	"pipeline": {
+		"files": 27,
+		"bytes": 1034595,
+		"tokens": 258649
+	},
+	"authored": {
+		"files": 19,
+		"bytes": 182138,
+		"tokens": 45535
+	},
+	"assets": {
+		"files": 10,
+		"bytes": 190110
+	},
+	"scenarios": [
+		{
+			"key": "lean",
+			"name": "Lean (aggressive compaction)",
+			"inputTokens": 2080520,
+			"outputTokens": 118391,
+			"totalTokens": 2198911,
+			"costActualModel": 0.7662
+		},
+		{
+			"key": "baseline",
+			"name": "Baseline (moderate compaction)",
+			"inputTokens": 3808520,
+			"outputTokens": 182140,
+			"totalTokens": 3990660,
+			"costActualModel": 1.3611
+		},
+		{
+			"key": "naive",
+			"name": "Context-naive (no compaction)",
+			"inputTokens": 13984520,
+			"outputTokens": 182140,
+			"totalTokens": 14166660,
+			"costActualModel": 4.4139
+		}
+	],
+	"baselineCost": 1.3611,
+	"bounds": {
+		"cheapest": {
+			"model": "DeepSeek V4.1 Flash",
+			"cost": 1.3611
+		},
+		"priciest": {
+			"model": "Claude Fable 5",
+			"cost": 47.1922
+		},
+		"usMedian": 23.5961,
+		"chinaMedian": 4.8451
+	}
+}

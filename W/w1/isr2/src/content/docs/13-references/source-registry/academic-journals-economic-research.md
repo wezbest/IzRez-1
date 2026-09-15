@@ -11,7 +11,7 @@ description: "Authoritative source registry, category 1 of 7 — 341 entries acr
 
 <a href="/13-references/source-registry/">← Back to the registry overview</a>
 
-## <span class="sn">13.2.1.0</span> Academic Journals & Economic Research
+## `13.2.1.0` Academic Journals & Economic Research
 
 Entries are preserved in their original registry order and numbering. Registry numbers are stable and directly linkable, e.g. `#r1`.
 

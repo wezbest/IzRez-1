@@ -324,9 +324,9 @@ Founders must preserve equity across funding rounds to maintain long-term operat
 
 ```mermaid
 graph LR
-    A[Inception: Founders 100%] --> B[Pre-Seed / Angel: $500k @ $4M Post<br/>Founders: 87.5% | Angels: 12.5%]
-    B --> C[Seed Round: $1.5M @ $10M Post + 12% ESOP<br/>Founders: 61.6% | Investors: 26.4% | ESOP: 12.0%]
-    C --> D[Series A: $8.0M @ $36M Post<br/>Founders: 47.9% | VCs: 42.8% | ESOP: 9.3%]
+    A[Inception: Founders 100%] --> B["Pre-Seed / Angel: $500k @ $4M Post<br/>Founders: 87.5% | Angels: 12.5%"]
+    B --> C["Seed Round: $1.5M @ $10M Post + 12% ESOP<br/>Founders: 61.6% | Investors: 26.4% | ESOP: 12.0%"]
+    C --> D["Series A: $8.0M @ $36M Post<br/>Founders: 47.9% | VCs: 42.8% | ESOP: 9.3%"]
 ```
 
 ### E. Cross-Portfolio Network Effects & Unfair Advantages

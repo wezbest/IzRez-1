@@ -161,7 +161,7 @@ pie title Revenue Composition ($275.3k Cohort Revenue)
 
 ```mermaid
 graph LR
-    A[Broker-First Insulation (Zero Balance-Sheet Risk)] --> B[Pre-Cleared Warehouse Credit Facilities]
+    A["Broker-First Insulation (Zero Balance-Sheet Risk)"] --> B[Pre-Cleared Warehouse Credit Facilities]
     B --> C[Closed-Loop Halal Dealership Network]
     C --> D[Verified Shariah Audit Transparency]
     D --> E[Sustainable Multi-Year Moat]

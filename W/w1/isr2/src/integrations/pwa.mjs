@@ -38,14 +38,9 @@ export function pwa({ offlinePage = '/offline.html' } = {}) {
 				const outDir = fileURLToPath(dir);
 				const urls = new Set(['/']);
 
-				// `pages` lists built routes; register both the file path and, for
-				// directory indexes, the clean URL a navigation actually requests.
-				for (const page of pages) {
-					const rel = `/${String(page.pathname).replace(/^\/+/, '')}`;
-					urls.add(rel);
-					if (rel.endsWith('/index.html')) urls.add(rel.slice(0, -'index.html'.length));
-				}
-
+				/* Derive the list from what is actually on disk, so every entry is
+				   guaranteed to resolve during the service worker install. Each
+				   `index.html` also contributes the clean URL a navigation asks for. */
 				const walk = (dirPath) => {
 					for (const entry of fs.readdirSync(dirPath, { withFileTypes: true })) {
 						const abs = path.join(dirPath, entry.name);
@@ -57,9 +52,21 @@ export function pwa({ offlinePage = '/offline.html' } = {}) {
 						if (!PRECACHE_EXT.has(path.extname(rel))) continue;
 						if (SKIP.some((re) => re.test(rel))) continue;
 						urls.add(rel);
+						if (rel.endsWith('/index.html')) {
+							urls.add(rel.slice(0, -'index.html'.length));
+						}
 					}
 				};
 				walk(outDir);
+
+				// routes Astro reports as bare paths (e.g. the 404) still have to map
+				// onto a real file
+				for (const page of pages) {
+					const rel = `/${String(page.pathname).replace(/^\/+/, '')}`;
+					if (rel.endsWith('/')) continue; // covered by the index.html walk
+					const abs = path.join(outDir, rel);
+					if (fs.existsSync(abs) && fs.statSync(abs).isFile()) urls.add(rel);
+				}
 
 				const precache = [...urls].sort();
 				if (!precache.includes(offlinePage)) precache.push(offlinePage);

@@ -164,7 +164,7 @@ pie title Gross Revenue Breakdown ($10M Originated Volume - $524.8k)
 ```mermaid
 graph LR
     A[Proprietary Alternative Credit Data Models] --> B[Closed-Loop FMCG Distributor Dedication]
-    B --> C[OJK-Compliant Explainable AI (SHAP)]
+    B -->    C["OJK-Compliant Explainable AI (SHAP)"]
     C --> D[B2B Partner Rural Banking Integration]
     D --> E[Sustainable Multi-Year Moat]
 ```
