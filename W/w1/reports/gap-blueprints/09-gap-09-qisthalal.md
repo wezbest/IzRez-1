@@ -32,6 +32,22 @@
 1. **Low-Ticket Halal BNPL:** 3-to-4 interest-free installment plans at online checkout, structured under certified commodity **Murabaha** (cost-plus sale with zero compounding interest and zero profit from late fees), certified by the Shariyah Review Bureau (SRB).
 2. **High-Ticket Auto & Asset Ijara Leasing:** A digital vehicle financing marketplace structured on **Ijara wa Iqtina** (lease-to-own). QistHalal partners with institutional warehouse liquidity providers (such as Triple Point) and certified automotive dealers: the funder buys the car, takes legal ownership risk, leases it to the consumer for a fixed monthly rental, and transfers title via a separate gift or nominal sale (*Hibah*) at the end of the term.
 3. **The Scholar Transparency Ledger:** A mobile interface that displays the complete Shariah paper trail for every transaction—including the commodity purchase confirmation and a real-time charity purification log—restoring public faith in modern Islamic consumer finance.
+### Systems Thinking: First-, Second-, and Third-Order Implications
+
+* **First-Order Implications (Direct & Immediate Impact):**
+  - Muslim consumers in the UK and GCC access 100% interest-free vehicle lease-to-own agreements (*Ijara wa Iqtina*) and retail 4-pay checkouts (*Murabaha*) without paying compounding *Riba*.
+  - Cash-strapped diaspora families avoid draining emergency household liquid reserves to buy automobiles for employment or private-hire taxi work.
+  - Punitively structured late payment charges are completely purged, with 100% of excess fees routed automatically to verified community charities.
+
+* **Second-Order Implications (Market & Ecosystem Repercussions):**
+  - *Commercial Uplift for Halal Dealerships:* Independent used-car dealers partnering with QistHalal experience a 25% to 40% sales conversion uplift by capturing customers who walk away from conventional interest-bearing PCP finance.
+  - *Market Share Losses for Predatory Subprime Lenders:* Conventional motor finance lenders (MotoNovo, Startline) lose substantial market share across major UK urban centers (Birmingham, East London, Manchester, Bradford).
+  - *Institutional Debt Securitization Growth:* Private credit managers (Triple Point, Shorooq) establish dedicated, high-yield Shariah-compliant asset-backed securitization vehicles, proving that Islamic consumer credit yields can match or exceed conventional credit paper.
+
+* **Third-Order Implications (Systemic & Macroeconomic Transformations):**
+  - *Long-Term Wealth Accumulation in Western Diaspora Communities:* Eliminating compounding interest payments on high-ticket vehicle depreciating assets preserves hundreds of millions of pounds in generational diaspora capital, accelerating homeownership and asset building.
+  - *Regulatory Maturation of Ethical Consumer Credit:* QistHalal’s transparent, fee-capped Murabaha model serves as an empirical case study for regulatory bodies (such as the UK FCA), demonstrating that consumer installment credit can thrive without predatory default fee traps.
+  - *Establishment of an Integrated Muslim Financial Identity:* A consumer who builds an impeccable 24-month repayment history on QistHalal auto leasing establishes an auditable Islamic credit profile that seamlessly unlocks downstream Islamic mortgage facilities (*Diminishing Musharakah*).
 
 ---
 
@@ -122,6 +138,22 @@ pie title Revenue Composition ($275.3k Cohort Revenue)
 - **Auto Lease Customer Lifetime Value (LTV):** **$1,025.00** ($600 origination + $350 warranty + $75 repeat servicing).
 - **LTV / CAC Ratio (Auto Leasing):** **4.65x**.
 - **Cash Flow Break-Even:** Achieved at **Month 12** upon sustaining **80 funded vehicle leases and 2,500 monthly BNPL checkouts**.
+### Bottom-Up Market Sizing (TAM / SAM / SOM)
+* **Total Addressable Market (TAM):** **$40.5 Billion** — Consolidated $20.5 Billion GCC Buy-Now-Pay-Later market [2025](https://synapse-analytics.io/blog/bnpl-in-mena-gcc-growth-drivers-market-dynamics-and-the-road-ahead) plus the £20 Billion (~$25 Billion) UK used-car motor finance market.
+* **Serviceable Addressable Market (SAM):** **$8.5 Billion** — UK Muslim diaspora automotive financing demand (£3.5B) combined with Saudi Arabia and UAE faith-conscious retail installment checkout ($5.0B).
+* **Serviceable Obtainable Market (SOM - Year 3):** **$220 Million** — Financed auto leasing volume and retail BNPL gross merchandise value captured across 15,000 active consumer accounts.
+
+### Seed-to-Series A Financing Roadmap & Capital Allocation
+* **Pre-Seed / Angel Round (Month 0–3):** $500,000 raised on an uncapped SAFE note with a $4,500,000 valuation cap to develop the dealer point-of-sale PWA, open-banking affordability engine, and secure FCA Appointed Representative status.
+* **Seed Financing Round (Month 9–12):** **$2,000,000 USD** at a **$10,500,000 post-money valuation** (19.05% investor dilution).
+  - *Lead Investor Profile:* Consumer fintech and alternative credit VCs (e.g., Shorooq Partners, VentureSouq, Global Ventures, Triple Point private credit network).
+  - *18-Month Burn Rate:* $95,000 / month gross burn; $60,000 / month net burn post dealer origination brokerage commissions and merchant SaaS fees.
+  - *Budget Allocation:* 40% Dealer POS, Mobile Checkout & Open Banking Engineering (4 developers); 30% Automotive Dealership Network Acquisition & Field Sales; 20% Regulatory Legal Compliance & FCA Consumer Credit Application; 10% Shariah Advisory Board Retainers.
+* **Milestones Required to Unlock Series A ($35M–$50M Valuation):**
+  1. Scale to **>150 funded vehicle leases per month** (>£4.5M monthly lease origination volume).
+  2. Process **>15,000 monthly retail BNPL checkouts** across at least 150 integrated e-commerce merchants.
+  3. Maintain 30-day delinquency rates strictly **under 2.2%** across the auto leasing portfolio.
+  4. Achieve Annual Net Revenue run-rate exceeding **$1,800,000** (blended origination commissions + merchant discount fees + ancillary warranties).
 
 ---
 
@@ -139,6 +171,16 @@ graph LR
 1. **The Broker-First Insolvency Shield:** Lending startups that hold assets on their own balance sheet face existential risk when interest rates spike or credit losses rise. QistHalal operates as an asset-light technology broker; institutional credit funds (Triple Point, Shorooq) absorb the balance-sheet capital risk, insulating QistHalal’s software business.
 2. **The Halal Dealer Exclusivity Network:** Halal used-car dealers in the UK (Birmingham, East London, Bradford) and private-hire taxi cooperatives have established deep trust with local Muslim communities. Contracting these dealerships as exclusive QistHalal integration partners locks up retail acquisition channels that conventional lenders (Klarna, MotoNovo) cannot penetrate.
 3. **The Published Commodity Paper Trail:** Conventional BNPL providers cannot provide verified certificates proving that underlying trades are asset-backed and free of *Riba*. QistHalal’s automated publication of commodity tickets and charity purification logs provides immutable theological defensibility.
+### Founding Team Archetype & Key Hires #1–5
+* **Co-Founder & CEO (Motor Finance & Credit Distribution Executive):** Former Commercial Director or Head of Motor Finance at a prominent UK or GCC consumer lender (MotoNovo, Black Horse, Tabby, or Tamara). 12+ years in automotive credit distribution with deep, established personal relationships with regional dealership networks and broker channels.
+* **Co-Founder & CTO (Consumer Fintech & Point-of-Sale Systems Architect):** Senior software engineer with 8+ years experience building point-of-sale checkout widgets, mobile onboarding funnels, and open-banking affordability engines (TrueLayer, BenefitPay). Expert in React Native, Node.js, and banking API integrations.
+* **Co-Founder & Head of Underwriting & Credit Risk:** Former Senior Credit Risk Officer from an automotive asset finance lender, expert in UK Consumer Credit Act regulations, FCA Consumer Duty compliance, and asset repossession procedures.
+* **Critical Key Hires #1–5 (12.0% ESOP Pool Allocated):**
+  1. *Director of Automotive Dealer Network Partnerships (1.50% ESOP):* Senior commercial negotiator onboarding regional used-car dealership groups in the West Midlands and London.
+  2. *Senior Open Banking & Decisioning Engineer (0.75% ESOP):* Systems engineer optimizing real-time bank statement parsing and automated debt-burden calculations.
+  3. *E-Commerce Merchant Integration Lead (Shopify / WooCommerce) (0.75% ESOP):* Frontend engineer optimizing 1-click checkout conversion plugins for retail merchants.
+  4. *Collections, Forbearance & Vulnerable Customer Lead (0.50% ESOP):* Operational specialist managing automated WhatsApp payment reminders and FCA-compliant hardship payment plans.
+  5. *Shariah Governance & Contract Automation Counsel (0.50% ESOP):* In-house Islamic legal counsel managing Shariyah Review Bureau certifications, commodity Murabaha tickets, and charity purification logs.
 
 ---
 
@@ -362,6 +404,13 @@ graph TD
 | **Credit Risk** | Macroeconomic inflation leads to consumer auto lease defaults. | Moderate | Critical | Enforce strict open-banking debt-burden caps (<40%); maintain remote vehicle immobilizer technology for repossession. |
 | **Shariah Risk** | Scholar disputes the independence of the terminal gift (*Hibah*) undertaking. | Low | High | Utilize standardized AAOIFI Standard No. 9 legal contracts verified by the Shariyah Review Bureau. |
 | **Merchant Risk** | E-commerce merchants abandon platform due to checkout friction. | Moderate | Moderate | Optimize checkout conversion with 1-click mobile verification, keeping checkout completion under 20 seconds. |
+### Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
+To ensure disciplined capital stewardship and avoid sustaining an unviable credit portfolio, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
+
+1. **The Dealership Onboarding Impasse (Month 6):** If the company fails to onboard at least **8 independent halal automotive dealerships** submitting active loan applications within 180 days, conclude that physical dealer sales cycles are too friction-heavy; halt automotive sales hiring and execute Pivot Playbook D (Merchant-Own DPC Enablement SaaS).
+2. **The Early BNPL Delinquency Warning (Month 9):** If early 30-day delinquency rates on retail BNPL checkout orders exceed **4.5%**, halt uncollateralized checkout credit originations immediately; mandate open banking verification on all transactions above £50.
+3. **The Warehouse Debt Freezing Trigger (Month 12):** If institutional warehouse debt providers (e.g., Triple Point or private credit funds) freeze capital drawdowns or increase cost-of-funds margins above **SONIA + 6.0%** (rendering retail lease pricing uncompetitive against conventional PCP), halt balance-sheet expansion immediately and execute Pivot Playbook A (Pure Shariah Compliance SaaS for Brokers).
+4. **The Regulatory Authorization Veto (Month 12):** If the UK Financial Conduct Authority (FCA) formally rejects the company’s full Consumer Credit permissions application post-Regulation Day (15 July 2026), immediately terminate direct consumer lending and restructure operations strictly as an introducer/broker.
 
 ---
 

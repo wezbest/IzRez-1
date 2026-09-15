@@ -426,14 +426,6 @@ graph TD
     D[White-Label Arranger SaaS: $4.5k-$9k/mo] --> B
     E[Secondary Trading & Repo: 10 bps Settlement Fee] --> B
 ```
-### Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
-To ensure disciplined capital stewardship and avoid funding a "zombie" infrastructure platform, founders and VC investors must commit to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
-
-1. **The Sandbox Stalling Trigger (Month 6):** If the Central Bank of Bahrain (CBB) or Securities Commission Malaysia (SC) has not approved sandbox admission or issued a formal Letter of Authority within 180 days of formal submission, halt direct retail issuance operations immediately and pivot 100% to Pivot Playbook A (Pure B2B Software Provider to already-licensed investment banks).
-2. **The Arranger Pipeline Deadlock (Month 9):** If the venture fails to secure at least **1 signed Letter of Intent (LOI) or pilot agreement with an investment bank or corporate issuer managing >$20M in sukuk pipeline** after pitching 20 regional debt capital market desks, conclude that mid-market issuers are unwilling to adopt third-party digital tokenization rails; terminate issuance operations and execute Pivot Playbook B (Interbank Repo Collateral Management).
-3. **The Retail Liquidity Desert (Month 12):** If the secondary trading turnover on pilot fractional tranches is **< 2.0% of total issued volume after 90 days of live listing**, and retail user acquisition cost (CAC) exceeds $120 per active investor, terminate consumer-facing retail portal operations; re-position exclusively as an institutional private-placement syndication rail.
-4. **The Shariah Supervisory Board Impasse (Month 6):** If two independent accredited Shariah Supervisory Boards formally reject the ERC-3643 smart-contract logic as an invalid legal representation of *Milkiyyah Shā'i'ah* (beneficial ownership), pull the plug on blockchain tokenization entirely and re-architect the backend as an un-tokenized web2 debt-crowdfunding ledger (the Tarmeez Capital model).
-
 1. **Origination Fee (Cashflow at Issuance):** Deducted directly from gross issuance proceeds at deal settlement (0.45% average).
 2. **Servicing & Asset Surveillance Retainer:** Paid semi-annually by the issuer for continuous tangibility monitoring, investor portal hosting, and tax/zakat withholding computation (0.12% annual rate).
 3. **Enterprise Platform Licensing:** Tiered monthly subscription charged to financial institutions white-labeling the investment engine under their own commercial identity ($4,500/mo base; $9,000/mo enterprise).
@@ -468,6 +460,13 @@ To ensure disciplined capital stewardship and avoid funding a "zombie" infrastru
 | **Technical Risk** | Smart contract vulnerability or private key compromise in multi-sig. | Low | Critical | Implement audited OpenZeppelin / ERC-3643 battle-tested contracts; enforce 3-of-5 multi-sig hardware key management. |
 | **Market Risk** | Lack of secondary market liquidity leads to retail investor dissatisfaction. | High | Moderate | Structure early tranches primarily as short-tenure (6–12 months) hold-to-maturity instruments offering high recurring yield. |
 | **Liquidity Risk** | Underlying corporate obligor defaults on lease rental payments. | Moderate | Critical | Enforce strict credit underwriting (minimum investment-grade or verified government contract receivables) and reserve sinking funds. |
+### Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
+To ensure disciplined capital stewardship and avoid funding a "zombie" infrastructure platform, founders and VC investors must commit to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
+
+1. **The Sandbox Stalling Trigger (Month 6):** If the Central Bank of Bahrain (CBB) or Securities Commission Malaysia (SC) has not approved sandbox admission or issued a formal Letter of Authority within 180 days of formal submission, halt direct retail issuance operations immediately and pivot 100% to Pivot Playbook A (Pure B2B Software Provider to already-licensed investment banks).
+2. **The Arranger Pipeline Deadlock (Month 9):** If the venture fails to secure at least **1 signed Letter of Intent (LOI) or pilot agreement with an investment bank or corporate issuer managing >$20M in sukuk pipeline** after pitching 20 regional debt capital market desks, conclude that mid-market issuers are unwilling to adopt third-party digital tokenization rails; terminate issuance operations and execute Pivot Playbook B (Interbank Repo Collateral Management).
+3. **The Retail Liquidity Desert (Month 12):** If the secondary trading turnover on pilot fractional tranches is **< 2.0% of total issued volume after 90 days of live listing**, and retail user acquisition cost (CAC) exceeds $120 per active investor, terminate consumer-facing retail portal operations; re-position exclusively as an institutional private-placement syndication rail.
+4. **The Shariah Supervisory Board Impasse (Month 6):** If two independent accredited Shariah Supervisory Boards formally reject the ERC-3643 smart-contract logic as an invalid legal representation of *Milkiyyah Shā'i'ah* (beneficial ownership), pull the plug on blockchain tokenization entirely and re-architect the backend as an un-tokenized web2 debt-crowdfunding ledger (the Tarmeez Capital model).
 
 ---
 

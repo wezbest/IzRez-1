@@ -32,6 +32,22 @@
 
 > **CONDITIONAL GATING DECLARATION:** Because regulatory friction scored **9 / 10** due to multi-jurisdictional virtual asset licensing perimeters (VARA in Dubai, CBB in Bahrain, PVARA in Pakistan) and conservative religious rulings in Southeast Asia (MUI Indonesia's ban on crypto as currency), SiratRemit is approved **strictly on a non-custodial, rented-rails model**. SiratRemit does not issue tokens, hold custody of funds, or operate de-novo exchange licenses; it operates purely as an API orchestration layer partnering with licensed VASPs and central-bank-authorized commercial banks.
 
+### Systems Thinking: First-, Second-, and Third-Order Implications
+
+* **First-Order Implications (Direct & Immediate Impact):**
+  - South Asian migrant workers in the Gulf send remittances home in under 10 minutes at an all-in cost of 0.95%, saving $10 to $20 per monthly $200 transfer compared to traditional MTOs.
+  - All complex blockchain mechanics (gas fees, hex addresses, private keys) are 100% abstracted into a familiar, localized mobile interface (Urdu, Hindi, Bengali).
+  - Every transaction generates an automated Shariah compliance certificate displaying the exact holding-period purification fraction routed to verified charities.
+
+* **Second-Order Implications (Market & Ecosystem Repercussions):**
+  - *Margin Compression for Legacy MTOs:* High-fee money transfer operators (Western Union, MoneyGram) and physical Gulf exchange houses face severe retail volume erosion in core high-volume corridors.
+  - *Inward Volume Surge for South Asian Digital Wallets:* Mobile wallets in destination countries (JazzCash, Easypaisa, bKash) experience massive inward international remittance inflows, expanding their deposit bases.
+  - *Mainstream Crypto Exchanges Adopt Shariah Filters:* Seeing SiratRemit capture conservative Muslim market share, regional crypto exchanges (Rain, CoinMENA) are forced to launch certified Islamic screening and purification windows.
+
+* **Third-Order Implications (Systemic & Macroeconomic Transformations):**
+  - *Eradication of Informal Hawala Networks:* Fast, ultra-low-cost, and compliant digital stablecoin rails undercut unregulated black-market hawala operators, reducing illegal capital flight across South Asia.
+  - *Stabilization of Developing Sovereign FX Reserves:* Inward remittances flow directly through central-bank-monitored payment switches (such as Pakistan's Raast), increasing official foreign exchange reserves.
+  - *Acceleration of OIC Inter-State Digital Trade:* Proves the commercial viability of asset-backed digital currency settlement between GCC capital centers and emerging Asian economies, laying the technical foundation for non-dollar OIC bilateral trade settlement.
 ---
 
 ## 2. Root Causes & Structural Bottlenecks
@@ -124,6 +140,22 @@ pie title Transaction Fee Distribution ($1.90 Revenue)
 - **Annual Gross Profit per User:** 11 transfers × $0.85 = **$9.35 / year**.
 - **Payback Period:** **Under 8 Months** (1.3 years LTV = $28.05; LTV / CAC = **4.52x**).
 - **Cash Flow Break-Even:** Achieved at **Month 14** upon scaling to **12,000 monthly active users** generating $2.4M in monthly corridor volume ($28.8M annualized).
+### Bottom-Up Market Sizing (TAM / SAM / SOM)
+* **Total Addressable Market (TAM):** **$130 Billion** — Total annual outward remittance flows departing from GCC economies [2026](https://www.allium.so/reports/stablecoins-cross-border-payments-2026).
+* **Serviceable Addressable Market (SAM):** **$28 Billion** — Outward blue-collar retail remittance flows specifically moving from the UAE and Saudi Arabia to Pakistan and Bangladesh.
+* **Serviceable Obtainable Market (SOM - Year 3):** **$650 Million** — Capturing ~2.3% of the target corridor volume, processing ~3,250,000 annual transfers averaging $200 each.
+
+### Seed-to-Series A Financing Roadmap & Capital Allocation
+* **Pre-Seed / Angel Round (Month 0–3):** $500,000 raised on an uncapped SAFE note with a $4,500,000 valuation cap to develop the fiat-abstraction orchestration engine and integrate with UAE VARA-licensed liquidity sandboxes.
+* **Seed Financing Round (Month 9–12):** **$2,250,000 USD** at an **$11,000,000 post-money valuation** (20.45% investor dilution).
+  - *Lead Investor Profile:* Cross-border payment VCs, fintech syndicates (e.g., VentureSouq, Shorooq Partners, 500 Global MENA), and regional exchange house strategic venture funds.
+  - *18-Month Burn Rate:* $105,000 / month gross burn; $68,000 / month net burn post transaction surcharge and FX spread revenues.
+  - *Budget Allocation:* 40% Cross-Border Payment Rail & Mobile PWA Engineering (4 developers); 30% Grassroots Migrant Community Acquisition & Ambassador Networks; 20% Partner VASP / Exchange Escrow Liquidity Reserves; 10% Shariah Governance & External Audits.
+* **Milestones Required to Unlock Series A ($35M–$55M Valuation):**
+  1. Scale to **>60,000 monthly active remitters** across the UAE $\rightarrow$ Pakistan/Bangladesh corridors.
+  2. Process **>$15,000,000 in monthly gross remittance volume** ($180M annualized run-rate).
+  3. Maintain transaction failure rates strictly **under 0.5%** with zero regulatory AML/CFT sanctions.
+  4. Achieve Net Revenue run-rate exceeding **$1,600,000** (blended 0.95% take-rate).
 
 ---
 
@@ -141,6 +173,16 @@ graph LR
 1. **The Theological Comfort Letter Moat:** Conventional remittance apps cannot overcome the deep religious skepticism of conservative Muslim diaspora workers who fear that crypto involves unlawful usury or gambling. SiratRemit's inclusion of an official, scholar-signed Shariah Certificate on every transaction receipt—complete with a verified purification deduction—creates an emotional and religious trust moat that Western competitors cannot match.
 2. **The "Rented-Rails" Regulatory Insulation:** By refusing to hold customer funds or operate de-novo crypto exchanges, SiratRemit remains insulated from regulatory enforcement actions. If a partner VASP faces regulatory scrutiny, SiratRemit simply reroutes its automated API webhooks to an alternative licensed liquidity provider, ensuring 100% operational uptime.
 3. **The Landed-Cost Pricing Wedge:** Operating at a 0.95% all-in fee structure gives SiratRemit an unassailable pricing advantage over legacy Western Union and bank channels (which must charge 5% to 15% to support physical real estate and agent networks), allowing the startup to acquire users purely on economic self-interest.
+### Founding Team Archetype & Key Hires #1–5
+* **Co-Founder & CEO (Cross-Border Remittance Veteran):** Former Head of Cross-Border Payments or Remittance Operations at a major money transfer operator or regional exchange house (Al Ansari Exchange, Western Union Middle East, Wise, or Careem Pay). 12+ years managing Gulf-South Asia corridors with personal relationships with exchange company chairmen and central bank payment regulators.
+* **Co-Founder & CTO (Payment Infrastructure & Stablecoin Architect):** Senior payment systems engineer with 8+ years experience integrating stablecoin liquidity rails (Stellar, Circle, Base), high-throughput banking payment switches (Raast, 1Link), and idempotent transaction routers.
+* **Co-Founder & Chief Compliance & AML Officer:** Former Head of Financial Crime / MLRO from a licensed UAE or UK money services business, expert in FATF Travel Rule compliance, chainalysis blockchain surveillance, and SBP foreign exchange regulations.
+* **Critical Key Hires #1–5 (12.0% ESOP Pool Allocated):**
+  1. *Lead Cross-Border Payment Orchestration Engineer (1.00% ESOP):* Systems engineer optimizing multi-hop fiat-to-stablecoin execution pipelines.
+  2. *Director of South Asian Corridor Partnerships (1.25% ESOP):* Senior commercial negotiator managing relationships with Pakistani/Bangladeshi exchange houses and wallet providers.
+  3. *Senior Mobile UX / Frontend Engineer (Urdu/Hindi/Bengali localization) (0.75% ESOP):* Frontend developer building an ultra-simple, culturally intuitive smartphone interface.
+  4. *Grassroots Field Acquisition & Labour Ambassador Manager (0.75% ESOP):* Community operations lead building ambassador networks in Gulf industrial labor accommodations.
+  5. *Shariah Screening & Charity Purification Compliance Officer (0.50% ESOP):* In-house Islamic finance compliance officer supervising daily automated purification disbursements.
 
 ---
 
@@ -388,6 +430,13 @@ graph TD
 | **Theological Risk** | Influential scholar issues a public fatwa declaring stablecoin remittance *Haram*. | Moderate | High | Restrict settlement strictly to 100% cash-backed USDC, publish automated purification proofs, and engage scholars proactively. |
 | **Counterparty Risk** | Rented VASP or wholesale on-ramp partner faces regulatory freezing. | Moderate | Critical | Maintain relationships with at least two independent licensed liquidity providers in different jurisdictions (Dubai VARA and Bahrain CBB). |
 | **Market Risk** | Stablecoin de-pegging event breaks the 1:1 parity during fund flight. | Low | Critical | Implement automated volatility oracles that pause settlement if stablecoin value drifts outside a $0.995–$1.005 trading band. |
+### Founder & VC "Kill Criteria" (Fail-Fast Metric Triggers)
+To enforce rigorous capital discipline and protect investor resources in a complex regulatory environment, the board commits to the following objective, non-negotiable **Kill Triggers** evaluated at Month 6 and Month 12:
+
+1. **The Rented-Rails Counterparty Impasse (Month 6):** If the company fails to execute a legally binding on-ramp partnership with a licensed UAE VASP and an authorized destination payout partner in Pakistan within 180 days, conclude that rented-rails counterparty friction is insurmountable; immediately halt remittance operations and execute Pivot Playbook B (Shariah Screening Oracle API for Exchanges).
+2. **The Acquisition CAC Inflation Danger (Month 9):** If customer acquisition cost (CAC) through grassroots migrant labor ambassadors exceeds **$18.00 per active user** (destroying payback unit economics on $200 transactions), halt direct field marketing and pivot exclusively to B2B employer payroll partnerships (Pivot Playbook A).
+3. **The Central Bank Capital Account Ban (Month 12):** If regulatory authorities in the destination market (e.g., Pakistan PVARA or SBP) issue formal circulars banning commercial bank settlement for stablecoin-orchestrated remittances, halt cross-border consumer cash transfers immediately and execute Pivot Playbook D (Closed-Loop Diaspora Utility Vouchers).
+4. **The Net Margin Compression Trigger (Month 12):** If stablecoin conversion slippage and destination banking off-ramp fees exceed **0.75% of transaction value**, compressing platform net contribution margin below 0.20%, freeze marketing expansion until higher-volume institutional liquidity tiers are negotiated.
 
 ---
 
