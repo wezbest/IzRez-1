@@ -28,6 +28,16 @@ const REPORTS = path.resolve(SITE, '..', 'reports');
 const DOCS = path.join(SITE, 'src', 'content', 'docs');
 const DATA = path.join(SITE, 'src', 'data');
 
+/* Fetched page titles for the sources — written by scripts/fetch-source-titles.mjs
+   and committed, so the build itself never touches the network. */
+const SOURCE_TITLES = (() => {
+	try {
+		return JSON.parse(read(path.join(DATA, 'source-titles.json')));
+	} catch {
+		return {};
+	}
+})();
+
 /* Section 13 is one section with three subsections: 13.1 how the system works,
    13.2 the source registry by institutional category, and 13.3 the citations
    that fall outside the registry. Every source is listed exactly once across the
@@ -96,6 +106,43 @@ const attr = (text) =>
  */
 const link = (text, href) =>
 	`<a href="${attr(href)}"${/^https?:\/\//i.test(href) ? ' target="_blank" rel="noopener noreferrer"' : ''}>${attr(text)}</a>`;
+
+/**
+ * Citation-context titles are a guess: they are the italicised or bold lead-in
+ * of the line that cited a source, and when a line has neither, the guess can be
+ * a fragment of prose — `(excessive uncertainty) and`. A title that does not
+ * read like one is dropped in favour of the domain, and a fetched page title
+ * always wins over both.
+ */
+const STOPWORDS = /\b(and|or|the|of|in|to|for|with|that|is|are|was|were|by|as|at|from|on)\b/gi;
+const looksLikeTitle = (title) => {
+	const text = String(title ?? '').trim();
+	if (!text) return false;
+	if (!/^[A-Z0-9]/.test(text)) return false;
+	if (/(\band|\bof|\bto|\bfor|\bwith|\bthe|\ba|\ban|,|\(|-)$/i.test(text)) return false;
+	const words = text.split(/\s+/);
+	if (words.length < 3 && text.length < 24) return false;
+	const stop = (text.match(STOPWORDS) ?? []).length;
+	return stop <= Math.max(2, Math.floor(words.length / 4));
+};
+
+/** Best available label for a source: fetched page title, else citation guess. */
+const sourceTitle = (key, guess = '') =>
+	SOURCE_TITLES[key]?.title || (looksLikeTitle(guess) ? guess : '');
+
+/**
+ * `[example.com]` — a registry row's link label.
+ *
+ * Two details are load-bearing. The www prefix is dropped, and the brackets are
+ * escaped. GFM autolinks a bare `www.example.com` wherever it appears in text
+ * — including as the label of an anchor written as raw HTML — which nests a
+ * second anchor inside the row's own anchor: invalid HTML that browsers
+ * re-parent, silently re-pointing the row at the site root. A domain without
+ * `www.` is never autolinked, and `\[` is a literal bracket rather than link
+ * syntax.
+ */
+const domainLabel = (domain, href) =>
+	`\\[${link(domain.replace(/^www\./i, ''), href)}\\]`;
 
 /** Section anchor label, e.g. s1-16 -> 1.16 */
 const anchorLabel = (anchor) => anchor.replace(/^s(\d+)-(\d+)$/, '$1.$2');
@@ -637,8 +684,9 @@ The collected citation index and the registry used to overlap: ${registryCited.t
 			const items = list
 				.map((cite) => {
 					const years = [...cite.years].sort().join(', ');
+					const title = sourceTitle(cite.key, cite.title);
 					const bits = [
-						`<a id="${refAnchor(cite.url)}" aria-hidden="true"></a>${link(cite.title || cite.host, cite.url)}`,
+						`<a id="${refAnchor(cite.url)}" aria-hidden="true"></a>${link(title || cite.host, cite.url)}`,
 						years ? `\`${years}\`` : '',
 						`\`${cite.host}\``,
 						cite.citedIn.length ? `cited in ${citedInLabel(cite.citedIn)}` : '',
@@ -699,9 +747,10 @@ ${blocks}
 		.map(({ cat, i, ref, mine, cross, cited }) => {
 			const items = mine
 				.map((row) => {
-					const bits = [
-						`<a id="r${row.n}" aria-hidden="true"></a><span class="reg-num">r${row.n}</span> ${link(`[${row.domain}]`, row.url)}`,
-						row.title ? `<em>${attr(clampText(clean(row.title), 150))}</em>` : '',
+					const title = sourceTitle(row.key, row.title);
+				const bits = [
+					`<a id="r${row.n}" aria-hidden="true"></a><span class="reg-num">r${row.n}</span> ${domainLabel(hostOf(row.url) || row.domain, row.url)}`,
+					title ? `<em>${attr(clampText(clean(title), 150))}</em>` : '',
 						row.years.size ? `\`${[...row.years].sort().join(', ')}\`` : '',
 						row.cited.length ? `cited in ${citedInLabel(row.cited)}` : '',
 						row.cats.length > 1

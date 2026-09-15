@@ -369,6 +369,94 @@ for (const page of CONTENT_PAGES) {
 	);
 }
 
+/* ------------------------------------------------- 2c. the reference ledger
+   Consolidating §13 is only worth anything if it stays consolidated: one row
+   per unique source, and nothing off-site that opens in place. */
+
+const normLink = (url) =>
+	String(url)
+		.replace(/&amp;/g, '&')
+		.trim()
+		.replace(/#.*$/, '')
+		.replace(/^https?:\/\//i, '')
+		.replace(/^www\./i, '')
+		.replace(/\/+$/, '')
+		.replace(/[.,;]+$/, '')
+		.toLowerCase();
+
+const referencePages = ['13-references/index.html', '13-references/source-registry/index.html', '13-references/cited-sources/index.html'];
+
+{
+	const missing = referencePages.filter((page) => !pages.some((p) => rel(p) === page));
+	check('references', 'the three §13 subsections exist', missing.length === 0, missing.join(', '));
+
+	const listed = new Map(); // normalised url -> [page, ...]
+	const rows = { registry: 0, cited: 0 };
+
+	for (const page of pages) {
+		const name = rel(page);
+		if (!referencePages.includes(name)) continue;
+		const source = html(page);
+		const body = contentOf(source);
+
+		for (const [, href] of body.matchAll(/<a\b[^>]*href="(https?:\/\/[^"]+)"/g)) {
+			if (name.endsWith('index.html') && name.startsWith('13-references/') && !name.includes('/source-registry/') && !name.includes('/cited-sources/')) {
+				continue; // the landing page links out to the two collections
+			}
+			const key = normLink(href);
+			if (!listed.has(key)) listed.set(key, [name]);
+			else if (!listed.get(key).includes(name)) listed.get(key).push(name);
+		}
+
+		rows.registry += (source.match(/class="reg-num"/g) || []).length;
+		rows.cited += (source.match(/<a id="ref-[^"+]+" aria-hidden="true"><\/a>/g) || []).length;
+	}
+
+	const duplicates = [...listed.entries()].filter(([, where]) => where.length > 1);
+	// a nested anchor is invalid HTML and silently re-points the row at the wrong
+	// URL — the reason every registry label escapes its brackets
+	const nested = pages
+		.filter((page) => referencePages.includes(rel(page)))
+		.filter((page) => /<a\b[^>]*>\s*\[[^\]]*<a\b/.test(contentOf(html(page))));
+	check(
+		'references',
+		'no anchor is nested inside another anchor',
+		nested.length === 0,
+		nested.map((page) => rel(page)).join(', ')
+	);
+	check(
+		'references',
+		'no source is listed twice — anywhere in §13',
+		duplicates.length === 0,
+		`${duplicates.length} duplicated: ${duplicates.slice(0, 4).map(([url, where]) => `${url} in ${where.join(' & ')}`).join(' | ')}`
+	);
+	check(
+		'references',
+		'the ledger covers every cited source',
+		rows.registry > 1500 && rows.cited > 90,
+		`${rows.registry} registry rows + ${rows.cited} cited-only rows = ${rows.registry + rows.cited} sources`
+	);
+}
+
+/* every off-site link opens in a new window, wherever it came from */
+{
+	let external = 0;
+	const inPlace = [];
+	for (const page of pages) {
+		for (const [tag] of html(page).matchAll(/<a\b[^>]*href="https?:\/\/[^"]*"[^>]*>/g)) {
+			external += 1;
+			if (!/\starget="_blank"/.test(tag) || !/\srel="[^"]*noopener/.test(tag))
+				inPlace.push(`${rel(page)} → ${tag.slice(0, 90)}`);
+		}
+	}
+	check(
+		'references',
+		'every external reference opens in a new window',
+		inPlace.length === 0,
+		`${external} external links, ${inPlace.length} would open in place${inPlace.length ? ` — e.g. ${inPlace[0]}` : ''}`
+	);
+}
+
 /* ---------------------------------------------------- 3. overflow discipline */
 
 const cssHas = (pattern, target = themeCss) => pattern.test(target);
@@ -740,6 +828,7 @@ const GROUPS = [
 	'contrast (diagrams)',
 	'headings',
 	'section map',
+	'references',
 	'overflow',
 	'layout',
 	'pwa',

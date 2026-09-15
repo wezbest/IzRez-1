@@ -544,11 +544,10 @@
 		"fetchedAt": "2026-09-15"
 	},
 	"logec.repec.org/scripts/seriesstat.pl?item=repec:abd:kauiea": {
-		"title": "",
+		"title": "LogEc Toplisting",
 		"url": "http://logec.repec.org/scripts/seriesstat.pl?item=repec:abd:kauiea",
 		"host": "logec.repec.org",
-		"status": 429,
-		"error": "http 429",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"alumni.pide.org.pk": {
@@ -567,11 +566,10 @@
 		"fetchedAt": "2026-09-15"
 	},
 	"logec.repec.org/scripts/seriesstat.pl?item=repec:eme:imefmp": {
-		"title": "",
+		"title": "LogEc Toplisting",
 		"url": "http://logec.repec.org/scripts/seriesstat.pl?item=repec:eme:imefmp",
 		"host": "logec.repec.org",
-		"status": 429,
-		"error": "http 429",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"doi.org/10.21098/jimf.v11i2.2437": {
@@ -625,11 +623,10 @@
 		"fetchedAt": "2026-09-15"
 	},
 	"logec.repec.org/scripts/seriesstat.pl?item=repec:eme:jiabrp": {
-		"title": "",
+		"title": "LogEc Toplisting",
 		"url": "http://logec.repec.org/scripts/seriesstat.pl?item=repec:eme:jiabrp",
 		"host": "logec.repec.org",
-		"status": 429,
-		"error": "http 429",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"doi.org/10.21098/jimf.v12i2.3476": {
@@ -707,11 +704,10 @@
 		"fetchedAt": "2026-09-15"
 	},
 	"logec.repec.org/scripts/seriesstat.pl?item=repec:idn:jimfjn": {
-		"title": "",
+		"title": "LogEc Toplisting",
 		"url": "http://logec.repec.org/scripts/seriesstat.pl?item=repec:idn:jimfjn",
 		"host": "logec.repec.org",
-		"status": 429,
-		"error": "http 429",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"ejournal.um.edu.my/index.php/ojimf/article/download/43382/15617/109316": {
@@ -1163,11 +1159,10 @@
 		"fetchedAt": "2026-09-15"
 	},
 	"doi.org/10.1596/43986": {
-		"title": "",
+		"title": "Open Knowledge Repository",
 		"url": "https://doi.org/10.1596/43986",
 		"host": "doi.org",
-		"status": 0,
-		"error": "timeout",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"journal.inceif.edu.my/index.php/ijif/article/download/210/182": {
@@ -2420,8 +2415,8 @@
 		"title": "",
 		"url": "https://blogs.isdbinstitute.org",
 		"host": "blogs.isdbinstitute.org",
-		"status": 202,
-		"error": "http 202",
+		"status": 403,
+		"error": "http 403",
 		"fetchedAt": "2026-09-15"
 	},
 	"blogs.isdbinstitute.org/islamic-finance-compliance-to-impact": {
@@ -2444,16 +2439,16 @@
 		"title": "",
 		"url": "https://blogs.isdbinstitute.org/islamic-finance-sustainable-development-journal-success",
 		"host": "blogs.isdbinstitute.org",
-		"status": 202,
-		"error": "http 202",
+		"status": 403,
+		"error": "http 403",
 		"fetchedAt": "2026-09-15"
 	},
 	"blogs.isdbinstitute.org/takaful-ai-blockchain": {
 		"title": "",
 		"url": "https://blogs.isdbinstitute.org/takaful-ai-blockchain",
 		"host": "blogs.isdbinstitute.org",
-		"status": 202,
-		"error": "http 202",
+		"status": 403,
+		"error": "http 403",
 		"fetchedAt": "2026-09-15"
 	},
 	"blogs.worldbank.org/en/developmenttalk/does-index-insurance-really-work-for-smallholder-farmers-": {
@@ -2799,16 +2794,16 @@
 		"title": "",
 		"url": "https://isdbinstitute.org",
 		"host": "isdbinstitute.org",
-		"status": 403,
-		"error": "http 403",
+		"status": 202,
+		"error": "http 202",
 		"fetchedAt": "2026-09-15"
 	},
 	"isdbinstitute.org/ebook-reader-application": {
 		"title": "",
 		"url": "https://isdbinstitute.org/ebook-reader-application",
 		"host": "isdbinstitute.org",
-		"status": 403,
-		"error": "http 403",
+		"status": 202,
+		"error": "http 202",
 		"fetchedAt": "2026-09-15"
 	},
 	"isdbinstitute.org/events-2": {
@@ -2831,8 +2826,8 @@
 		"title": "",
 		"url": "https://isdbinstitute.org/20th-aaoifi-isdb-islamic-finance-conference",
 		"host": "isdbinstitute.org",
-		"status": 403,
-		"error": "http 403",
+		"status": 202,
+		"error": "http 202",
 		"fetchedAt": "2026-09-15"
 	},
 	"isdbinstitute.org/awards": {
@@ -3791,8 +3786,8 @@
 		"title": "",
 		"url": "https://isdbinstitute.org/wp-content/uploads/2019/07/358.jpg",
 		"host": "isdbinstitute.org",
-		"status": 202,
-		"error": "http 202",
+		"status": 200,
+		"error": "image/jpeg",
 		"fetchedAt": "2026-09-15"
 	},
 	"isdbinstitute.org/wp-content/uploads/2019/07/364.jpg": {
@@ -4066,35 +4061,32 @@
 		"fetchedAt": "2026-09-15"
 	},
 	"bis.org/review/r240527b.pdf": {
-		"title": "",
+		"title": "Welcoming remarks — Islamic Development Bank-Malaysia's Islamic Financial Markets Subcommittee Roundtable Discussion 2024 — Bank for International Settlements",
 		"url": "https://www.bis.org/review/r240527b.pdf",
 		"host": "www.bis.org",
-		"status": 503,
-		"error": "http 503",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"bis.org/speeches/20080717-challenges-islamic-finance.pdf": {
 		"title": "",
 		"url": "https://www.bis.org/speeches/20080717-challenges-islamic-finance.pdf",
 		"host": "www.bis.org",
-		"status": 503,
-		"error": "http 503",
+		"status": 200,
+		"error": "application/pdf",
 		"fetchedAt": "2026-09-15"
 	},
 	"bis.org/speeches/20131129-islamic-finance-financial-stability-economic-growth-and-development": {
-		"title": "",
+		"title": "Islamic finance — financial stability, economic growth and development — Bank for International Settlements",
 		"url": "https://www.bis.org/speeches/20131129-islamic-finance-financial-stability-economic-growth-and-development",
 		"host": "www.bis.org",
-		"status": 503,
-		"error": "http 503",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"bis.org/speeches/20140422-sukuk-viable-fund-raising-and-investment-instrument": {
-		"title": "",
+		"title": "Sukuk as a viable fund-raising and investment instrument — Bank for International Settlements",
 		"url": "https://www.bis.org/speeches/20140422-sukuk-viable-fund-raising-and-investment-instrument",
 		"host": "www.bis.org",
-		"status": 503,
-		"error": "http 503",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"aaoifi.com": {
@@ -4108,16 +4100,15 @@
 		"title": "",
 		"url": "https://www.bis.org/speeches/20140425-sukuk-viable-fund-raising-and-investment-instrument.pdf",
 		"host": "www.bis.org",
-		"status": 503,
-		"error": "http 503",
+		"status": 200,
+		"error": "application/pdf",
 		"fetchedAt": "2026-09-15"
 	},
 	"bis.org/speeches/20141029-sukuk-development-and-financial-stability": {
-		"title": "",
+		"title": "Sukuk development and financial stability — Bank for International Settlements",
 		"url": "https://www.bis.org/speeches/20141029-sukuk-development-and-financial-stability",
 		"host": "www.bis.org",
-		"status": 503,
-		"error": "http 503",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"openknowledge.worldbank.org/entities/publication/6951bef5-c4f7-5d94-b6e1-6f305dee52f9": {
@@ -4128,11 +4119,10 @@
 		"fetchedAt": "2026-09-15"
 	},
 	"bis.org/speeches/20251205-strengthening-financial-resilience-and-driving-sustainable-growth": {
-		"title": "",
+		"title": "Strengthening financial resilience and driving sustainable growth — Bank for International Settlements",
 		"url": "https://www.bis.org/speeches/20251205-strengthening-financial-resilience-and-driving-sustainable-growth",
 		"host": "www.bis.org",
-		"status": 503,
-		"error": "http 503",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"bis.org/speeches/20251205-strengthening-financial-resilience-and-driving-sustainable-growth.pdf": {
@@ -4144,19 +4134,18 @@
 		"fetchedAt": "2026-09-15"
 	},
 	"bis.org/speeches/20260218-bridging-divide-islamic-finance-catalyst-global-climate-resilience": {
-		"title": "",
+		"title": "Bridging the divide — Islamic finance as a catalyst for global climate resilience — Bank for International Settlements",
 		"url": "https://www.bis.org/speeches/20260218-bridging-divide-islamic-finance-catalyst-global-climate-resilience",
 		"host": "www.bis.org",
-		"status": 503,
-		"error": "http 503",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"bis.org/speeches/20260218-bridging-divide-islamic-finance-catalyst-global-climate-resilience.pdf": {
 		"title": "",
 		"url": "https://www.bis.org/speeches/20260218-bridging-divide-islamic-finance-catalyst-global-climate-resilience.pdf",
 		"host": "www.bis.org",
-		"status": 503,
-		"error": "http 503",
+		"status": 200,
+		"error": "application/pdf",
 		"fetchedAt": "2026-09-15"
 	},
 	"bis.org/speeches/20260914-keynote-address-global-islamic-financial-institutions-forum-2026": {
@@ -4220,11 +4209,10 @@
 		"fetchedAt": "2026-09-15"
 	},
 	"openknowledge.worldbank.org/entities/publication/7a4b4f63-9821-566f-9bda-609c8fcd5ddb": {
-		"title": "",
+		"title": "Open Knowledge Repository",
 		"url": "https://openknowledge.worldbank.org/entities/publication/7a4b4f63-9821-566f-9bda-609c8fcd5ddb",
 		"host": "openknowledge.worldbank.org",
-		"status": 0,
-		"error": "timeout",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"openknowledge.worldbank.org/entities/publication/8aeaa9ea-436e-5036-ba89-2f0aff06c3e3": {
@@ -4236,11 +4224,10 @@
 		"fetchedAt": "2026-09-15"
 	},
 	"openknowledge.worldbank.org/entities/publication/a6e99c26-ff4e-54cb-b3ca-77e33afc41f2": {
-		"title": "",
+		"title": "Open Knowledge Repository",
 		"url": "https://openknowledge.worldbank.org/entities/publication/a6e99c26-ff4e-54cb-b3ca-77e33afc41f2",
 		"host": "openknowledge.worldbank.org",
-		"status": 0,
-		"error": "timeout",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"openknowledge.worldbank.org/entities/publication/dad871ae-d8b4-5076-b3a7-21cee1d3f1de": {
@@ -4266,11 +4253,10 @@
 		"fetchedAt": "2026-09-15"
 	},
 	"bis.org/review/r110419k.pdf": {
-		"title": "",
+		"title": "Managing liquidity in the Islamic financial services industry — Bank for International Settlements",
 		"url": "https://www.bis.org/review/r110419k.pdf",
 		"host": "www.bis.org",
-		"status": 0,
-		"error": "timeout",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"ifsb.org/capacity-building": {
@@ -4291,8 +4277,8 @@
 		"title": "",
 		"url": "https://www.ifsb.org/digitalisation-platform",
 		"host": "www.ifsb.org",
-		"status": 404,
-		"error": "http 404",
+		"status": 0,
+		"error": "timeout",
 		"fetchedAt": "2026-09-15"
 	},
 	"ifsb.org/core-principles": {
@@ -4303,19 +4289,17 @@
 		"fetchedAt": "2026-09-15"
 	},
 	"bis.org/speeches/20140425-sukuk-viable-fund-raising-and-investment-instrument": {
-		"title": "",
+		"title": "Sukuk as a viable fund-raising and investment instrument — Bank for International Settlements",
 		"url": "https://www.bis.org/speeches/20140425-sukuk-viable-fund-raising-and-investment-instrument",
 		"host": "www.bis.org",
-		"status": 0,
-		"error": "timeout",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"bis.org/speeches/20221115-challenge-convene-collaborate-and-create": {
-		"title": "",
+		"title": "Challenge, convene, collaborate and create — Bank for International Settlements",
 		"url": "https://www.bis.org/speeches/20221115-challenge-convene-collaborate-and-create",
 		"host": "www.bis.org",
-		"status": 0,
-		"error": "timeout",
+		"status": 200,
 		"fetchedAt": "2026-09-15"
 	},
 	"ifsb.org/consultation": {
@@ -4357,8 +4341,8 @@
 		"title": "",
 		"url": "https://www.ifsb.org/e-learning",
 		"host": "www.ifsb.org",
-		"status": 404,
-		"error": "http 404",
+		"status": 0,
+		"error": "timeout",
 		"fetchedAt": "2026-09-15"
 	},
 	"ifsb.org/events/category/meetings": {
@@ -4473,6 +4457,879 @@
 	"ifsb.org/publication": {
 		"title": "",
 		"url": "https://www.ifsb.org/publication",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/publication/?_sft_publications_category=islamic-financial-stability-forum": {
+		"title": "",
+		"url": "https://www.ifsb.org/publication/?_sft_publications_category=islamic-financial-stability-forum",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/publication/?_sft_publications_category=islamic-financial-stability-report": {
+		"title": "",
+		"url": "https://www.ifsb.org/publication/?_sft_publications_category=islamic-financial-stability-report",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/wp-content/uploads/2023/10/group-252.svg": {
+		"title": "",
+		"url": "https://www.ifsb.org/wp-content/uploads/2023/10/Group-252.svg",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"error": "image/svg+xml",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/wp-content/uploads/2023/10/group-253.svg": {
+		"title": "",
+		"url": "https://www.ifsb.org/wp-content/uploads/2023/10/Group-253.svg",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"error": "image/svg+xml",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/publication/?_sft_publications_category=proceedings": {
+		"title": "",
+		"url": "https://www.ifsb.org/publication/?_sft_publications_category=proceedings",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/publication/?_sft_publications_category=public-lecture-series": {
+		"title": "",
+		"url": "https://www.ifsb.org/publication/?_sft_publications_category=public-lecture-series",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/publication/?_sft_publications_category=reports": {
+		"title": "",
+		"url": "https://www.ifsb.org/publication/?_sft_publications_category=reports",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/wp-content/uploads/2025/05/1-211x300.jpg": {
+		"title": "",
+		"url": "https://www.ifsb.org/wp-content/uploads/2025/05/1-211x300.jpg",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"error": "image/jpeg",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/wp-content/uploads/2023/12/cropped-whatsapp-image-2023-12-21-at-14.28.14_af5cbdc3-270x270.jpg": {
+		"title": "",
+		"url": "https://www.ifsb.org/wp-content/uploads/2023/12/cropped-WhatsApp-Image-2023-12-21-at-14.28.14_af5cbdc3-270x270.jpg",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"error": "image/jpeg",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/wp-content/uploads/2023/10/gn-8_en.pdf": {
+		"title": "",
+		"url": "https://www.ifsb.org/wp-content/uploads/2023/10/GN-8_En.pdf",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/publication/?_sft_publications_category=research": {
+		"title": "",
+		"url": "https://www.ifsb.org/publication/?_sft_publications_category=research",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/wp-content/uploads/2025/05/1.jpg": {
+		"title": "",
+		"url": "https://www.ifsb.org/wp-content/uploads/2025/05/1.jpg",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"error": "image/jpeg",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/wp-content/uploads/2025/05/ifsi-stability-report-may-2025.pdf": {
+		"title": "",
+		"url": "https://www.ifsb.org/wp-content/uploads/2025/05/IFSI-Stability-Report-May-2025.pdf",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/wp-content/uploads/2025/07/strategic-plan-2025-27-public-version.pdf": {
+		"title": "",
+		"url": "https://www.ifsb.org/wp-content/uploads/2025/07/Strategic-Plan-2025-27-public-version.pdf",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/wp-content/uploads/2026/05/islamic-financial-stability-report-ifsr-2026.pdf": {
+		"title": "",
+		"url": "https://www.ifsb.org/wp-content/uploads/2026/05/Islamic-Financial-Stability-Report-IFSR-2026.pdf",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/publication/?_sft_publications_category=the-ifsb-bulletin": {
+		"title": "",
+		"url": "https://www.ifsb.org/publication/?_sft_publications_category=the-ifsb-bulletin",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/assets/img/iifm-logo.png": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/assets/img/iifm-logo.png",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/assets/img/sticky-logo.png": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/assets/img/sticky-logo.png",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/02b43f812d4bcee22e8aac71428e3da01635237715.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/02b43f812d4bcee22e8aac71428e3da01635237715.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/0842b3e4ecac2f78c7251cc811afdeba1635243207.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/0842b3e4ecac2f78c7251cc811afdeba1635243207.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net": {
+		"title": "Home — International Islamic Financial Market",
+		"url": "https://www.iifm.net",
+		"host": "www.iifm.net",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/61b62b8779cbce687eac670ce915a3b31732169124.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/61b62b8779cbce687eac670ce915a3b31732169124.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/ba5d1b9f6017d56fb5e9b7e43dfe0f2a1764143300.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/ba5d1b9f6017d56fb5e9b7e43dfe0f2a1764143300.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/8016a9e439814b84dc11b77dfa2f75c61634814285.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/8016a9e439814b84dc11b77dfa2f75c61634814285.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/aff1d5aefa1ad077dd4b492376d635381635237485.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/aff1d5aefa1ad077dd4b492376d635381635237485.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/b387b56a6a4c664ff1fa2bc16f2ef1be1662443654.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/b387b56a6a4c664ff1fa2bc16f2ef1be1662443654.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/ed8fcc286f7b3fe2635d53512a9d47811634814398.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/ed8fcc286f7b3fe2635d53512a9d47811634814398.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/b9f97a5295d601a56600f090c0178af61635237632.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/b9f97a5295d601a56600f090c0178af61635237632.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/bb676e86bd089c016b9d937badcce1881635251491.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/bb676e86bd089c016b9d937badcce1881635251491.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/bcd691cfb4233fb37d783550210103921635251580.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/bcd691cfb4233fb37d783550210103921635251580.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/c0078ee6d25576babe86b38d773fcacf1635237567.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/c0078ee6d25576babe86b38d773fcacf1635237567.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/eb50837911aa9d0756d8e79dfccc47d51635242697.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/eb50837911aa9d0756d8e79dfccc47d51635242697.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"imf.org": {
+		"title": "",
+		"url": "https://www.imf.org",
+		"host": "www.imf.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/eea641cd4e5e3d5faf8a676f28ee92ab1789457731.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/eea641cd4e5e3d5faf8a676f28ee92ab1789457731.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ilo.org/sites/default/files/2026-09/ppp%20to%20strengthen%20smallholder%20resilience%20-%20design%20file%20final_1.pdf": {
+		"title": "",
+		"url": "https://www.ilo.org/sites/default/files/2026-09/PPP%20to%20strengthen%20smallholder%20resilience%20-%20Design%20file%20final_1.pdf",
+		"host": "www.ilo.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/frontend/general-documents/f0a12d4a6880f8e3bc23a23a03baa8e61693983390.pdf": {
+		"title": "",
+		"url": "https://www.iifm.net/frontend/general-documents/f0a12d4a6880f8e3bc23a23a03baa8e61693983390.pdf",
+		"host": "www.iifm.net",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ilo.org/sites/default/files/wcmsp5/groups/public/%40ed_emp/documents/genericdocument/wcms_800332.pdf": {
+		"title": "",
+		"url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40ed_emp/documents/genericdocument/wcms_800332.pdf",
+		"host": "www.ilo.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"imf.org/en/blogs/articles/2025/12/04/how-stablecoins-can-improve-payments-and-global-finance": {
+		"title": "",
+		"url": "https://www.imf.org/en/blogs/articles/2025/12/04/how-stablecoins-can-improve-payments-and-global-finance",
+		"host": "www.imf.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"imf.org/en/capacity-development/training/icdtc/schedule/ce/2025/isibce25-22": {
+		"title": "",
+		"url": "https://www.imf.org/en/capacity-development/training/icdtc/schedule/ce/2025/isibce25-22",
+		"host": "www.imf.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/login": {
+		"title": "International Islamic Financial Market",
+		"url": "https://www.iifm.net/login",
+		"host": "www.iifm.net",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/public/standards/published-standards/sukuk-standards/iifm-sukuk-al-ijarah-template-prospectus": {
+		"title": "Prospectus — International Islamic Financial Market",
+		"url": "https://www.iifm.net/public/standards/published-standards/sukuk-standards/iifm-sukuk-al-ijarah-template-prospectus",
+		"host": "www.iifm.net",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"imf.org/en/data/statistics/bpm/iftt": {
+		"title": "",
+		"url": "https://www.imf.org/en/data/statistics/bpm/iftt",
+		"host": "www.imf.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"imf.org/-/media/files/data/statistics/bmp7/chapters/ao-sna-ch-26-bpm-ch-17.ashx": {
+		"title": "",
+		"url": "https://www.imf.org/-/media/Files/Data/Statistics/BMP7/Chapters/ao-sna-ch-26-bpm-ch-17.ashx",
+		"host": "www.imf.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"imf.org/en/publications/wp/issues/2016/12/31/an-overview-of-islamic-finance-42976": {
+		"title": "",
+		"url": "https://www.imf.org/en/publications/wp/issues/2016/12/31/an-overview-of-islamic-finance-42976",
+		"host": "www.imf.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"imf.org/-/media/files/publications/wp/2025/english/wpiea2025052-print-pdf.ashx": {
+		"title": "",
+		"url": "https://www.imf.org/-/media/Files/Publications/WP/2025/English/wpiea2025052-print-pdf.ashx",
+		"host": "www.imf.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"imf.org/-/media/files/publications/pp/2018/pp040618the-core-principles-for-islamic-finance-regulations.pdf": {
+		"title": "",
+		"url": "https://www.imf.org/-/media/files/publications/pp/2018/pp040618the-core-principles-for-islamic-finance-regulations.pdf",
+		"host": "www.imf.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"imf.org/-/media/files/publications/pp/pp-ensuring-financial-stability-in-countries-with-islamic-banking.pdf": {
+		"title": "",
+		"url": "https://www.imf.org/-/media/files/publications/pp/pp-ensuring-financial-stability-in-countries-with-islamic-banking.pdf",
+		"host": "www.imf.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"imf.org/external/themes/islamicfinance": {
+		"title": "The IMF and Islamic Finance",
+		"url": "https://www.imf.org/external/themes/islamicfinance",
+		"host": "www.imf.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/sukuk-reports": {
+		"title": "Sukuk Report — International Islamic Financial Market",
+		"url": "https://www.iifm.net/sukuk-reports",
+		"host": "www.iifm.net",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"isdb.org/project-procurement/tenders/2025/eoi/establishment-enabling-environment-introduction-sukuk-azerbaijan-reoi": {
+		"title": "The Establishment of an Enabling Environment for Introduction of Sukuk in Azerbaijan — REOI",
+		"url": "https://www.isdb.org/project-procurement/tenders/2025/eoi/establishment-enabling-environment-introduction-sukuk-azerbaijan-reoi",
+		"host": "www.isdb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ilo.org/list-impact-insurance-working-papers": {
+		"title": "List of Impact Insurance Working Papers",
+		"url": "https://www.ilo.org/list-impact-insurance-working-papers",
+		"host": "www.ilo.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"isdb.org/sites/default/files/media/documents/2024-05/annual%20development%20effectiveness%20report%202023.pdf": {
+		"title": "",
+		"url": "https://www.isdb.org/sites/default/files/media/documents/2024-05/Annual%20Development%20Effectiveness%20Report%202023.pdf",
+		"host": "www.isdb.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdb.org/sites/default/files/media/documents/2025-06/isdb%20ader%202024%20%28english%29.pdf": {
+		"title": "",
+		"url": "https://www.isdb.org/sites/default/files/media/documents/2025-06/IsDB%20ADER%202024%20%28ENGLISH%29.pdf",
+		"host": "www.isdb.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdb.org/sites/default/files/media/documents/2026-06/isdb_ar25_en_web_compressed.pdf": {
+		"title": "",
+		"url": "https://www.isdb.org/sites/default/files/media/documents/2026-06/IsDB_AR25_EN_WEB_compressed.pdf",
+		"host": "www.isdb.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"undp.org/indonesia/press-releases/baznas-bsi-and-undp-officially-launch-green-zakat-framework-build-resilient-communities-and-tackle-climate-change": {
+		"title": "",
+		"url": "https://www.undp.org/indonesia/press-releases/baznas-bsi-and-undp-officially-launch-green-zakat-framework-build-resilient-communities-and-tackle-climate-change",
+		"host": "www.undp.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"undp.org/indonesia/press-releases/undp-baznas-and-bank-syariah-indonesia-join-forces-pioneer-green-zakat-framework": {
+		"title": "",
+		"url": "https://www.undp.org/indonesia/press-releases/undp-baznas-and-bank-syariah-indonesia-join-forces-pioneer-green-zakat-framework",
+		"host": "www.undp.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"undp.org/indonesia/publications/green-zakat-framework": {
+		"title": "",
+		"url": "https://www.undp.org/indonesia/publications/green-zakat-framework",
+		"host": "www.undp.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"undp.org/publications/potential-growth-and-future-trends-green-sukuk-tool-sustainable-financing": {
+		"title": "",
+		"url": "https://www.undp.org/publications/potential-growth-and-future-trends-green-sukuk-tool-sustainable-financing",
+		"host": "www.undp.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"undp.org/saudi-arabia/press-releases/consultation-and-validation-workshop-awqaf-excellence-index-held-riyadh": {
+		"title": "",
+		"url": "https://www.undp.org/saudi-arabia/press-releases/consultation-and-validation-workshop-awqaf-excellence-index-held-riyadh",
+		"host": "www.undp.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"undp.org/saudi-arabia/press-releases/saudi-arabia-and-undp-advance-global-dialogue-unlocking-potential-awqaf-sustainable-development": {
+		"title": "",
+		"url": "https://www.undp.org/saudi-arabia/press-releases/saudi-arabia-and-undp-advance-global-dialogue-unlocking-potential-awqaf-sustainable-development",
+		"host": "www.undp.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"undp.org/speeches/unlocking-islamic-social-finance-help-communities-address-vulnerability-and-inequality": {
+		"title": "",
+		"url": "https://www.undp.org/speeches/unlocking-islamic-social-finance-help-communities-address-vulnerability-and-inequality",
+		"host": "www.undp.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"worldbank.org": {
+		"title": "World Bank Group — International Development, Poverty and Sustainability",
+		"url": "https://www.worldbank.org",
+		"host": "www.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"worldbank.org/en/country/malaysia/publication/islamic-finance-and-climate-agenda": {
+		"title": "Islamic Finance and Climate Agenda: From Green Sukuk Innovation to Greener Halal Value Chains",
+		"url": "https://www.worldbank.org/en/country/malaysia/publication/islamic-finance-and-climate-agenda",
+		"host": "www.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"isdb.org/news/global-sukuk-summit-2025-explores-pathways-to-accelerate-sustainable-finance-and-expand-islamic-capital-markets": {
+		"title": "Global Sukuk Summit 2025 Explores Pathways to Accelerate Sustainable Finance and Expand Islamic Capital Markets",
+		"url": "https://www.isdb.org/news/global-sukuk-summit-2025-explores-pathways-to-accelerate-sustainable-finance-and-expand-islamic-capital-markets",
+		"host": "www.isdb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"isdb.org/publications/isdb-sustainable-finance-framework-july-2025": {
+		"title": "IsDB Sustainable Finance Framework (July 2025)",
+		"url": "https://www.isdb.org/publications/isdb-sustainable-finance-framework-july-2025",
+		"host": "www.isdb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"isdb.org/publications/annual-report-2025": {
+		"title": "Annual Report 2025",
+		"url": "https://www.isdb.org/publications/annual-report-2025",
+		"host": "www.isdb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"isdb.org/news/isdb-issues-another-successful-green-sukuk-under-enhanced-sustainable-finance-framework": {
+		"title": "IsDB issues another successful Green Sukuk under enhanced Sustainable Finance Framework",
+		"url": "https://www.isdb.org/news/isdb-issues-another-successful-green-sukuk-under-enhanced-sustainable-finance-framework",
+		"host": "www.isdb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"isdb.org/news/multilateral-development-banks-increase-climate-finance-to-record-163-billion-in-2025-supporting-climate-resilient-and-sustainable-growth": {
+		"title": "Multilateral development banks increase climate finance to record $163 billion in 2025, supporting climate-resilient and sustainable growth",
+		"url": "https://www.isdb.org/news/multilateral-development-banks-increase-climate-finance-to-record-163-billion-in-2025-supporting-climate-resilient-and-sustainable-growth",
+		"host": "www.isdb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"isdb.org/news/isdb-group-chairman-opens-market-at-the-london-stock-exchange-to-celebrate-eu500-million-green-sukuk-listing": {
+		"title": "IsDB Group Chairman Opens Market at the London Stock Exchange to Celebrate €500 Million Green Sukuk Listing",
+		"url": "https://www.isdb.org/news/isdb-group-chairman-opens-market-at-the-london-stock-exchange-to-celebrate-eu500-million-green-sukuk-listing",
+		"host": "www.isdb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"isdb.org/events/isdb-ilo-youth-green-skills-accelerator-challenge-call-announcement-of-winners": {
+		"title": "Announcement of Winners",
+		"url": "https://www.isdb.org/events/isdb-ilo-youth-green-skills-accelerator-challenge-call-announcement-of-winners",
+		"host": "www.isdb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"isdb.org/isdb-ilo-youth-green-skills-accelerator-challenge-call-2023": {
+		"title": "IsDB-ILO Youth Green Skills Accelerator Challenge Call 2023",
+		"url": "https://www.isdb.org/isdb-ilo-youth-green-skills-accelerator-challenge-call-2023",
+		"host": "www.isdb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"sama.gov.sa/en-us/mediacenter/news/pages/news-1073.aspx": {
+		"title": "SAMA Permits 4 FinTech Startups to Operate Under Regulatory Sandbox",
+		"url": "http://sama.gov.sa/en-US/MediaCenter/News/pages/news-1073.aspx",
+		"host": "sama.gov.sa",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"sama.gov.sa/en-us/mediacenter/news/pages/news-1104.aspx": {
+		"title": "SAMA Permits 2 Fintech Innovators to Join its Regulatory Sandbox",
+		"url": "http://sama.gov.sa/en-US/MediaCenter/News/pages/news-1104.aspx",
+		"host": "sama.gov.sa",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"sama.gov.sa/en-us/mediacenter/news/pages/news-1154.aspx": {
+		"title": "SAMA Launches Enhanced Regulatory Sandbox Service on Website",
+		"url": "http://sama.gov.sa/en-US/MediaCenter/News/pages/news-1154.aspx",
+		"host": "sama.gov.sa",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"sama.gov.sa/en-us/mediacenter/news/pages/news-554.aspx": {
+		"title": "SAMA launches a 95% guaranteed financing program in cooperation with Kafala",
+		"url": "http://sama.gov.sa/en-US/MediaCenter/News/pages/news-554.aspx",
+		"host": "sama.gov.sa",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"sama.gov.sa/en-us/mediacenter/news/pages/news-811.aspx": {
+		"title": "Saudi Central Bank Licenses Two FinTech Companies Specialized in Debt-Based Crowdfunding",
+		"url": "http://sama.gov.sa/en-US/MediaCenter/News/pages/news-811.aspx",
+		"host": "sama.gov.sa",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"sama.gov.sa/en-us/publications/economicreports/pages/annualreport.aspx": {
+		"title": "Annual Report",
+		"url": "http://sama.gov.sa/en-US/Publications/EconomicReports/pages/annualreport.aspx",
+		"host": "sama.gov.sa",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"sama.gov.sa/en-us/supervision/sandbox/pages/default.aspx": {
+		"title": "Overview",
+		"url": "http://sama.gov.sa/en-US/Supervision/SandBox/Pages/default.aspx",
+		"host": "sama.gov.sa",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"sama.gov.sa:80/en-us/mediacenter/news/pages/news-585.aspx": {
+		"title": "SAMA proposes a draft of",
+		"url": "http://sama.gov.sa:80/en-US/MediaCenter/News/pages/news-585.aspx",
+		"host": "sama.gov.sa:80",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/publications": {
+		"title": "",
+		"url": "https://www.ifsb.org/publications",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"centralbank.ae/en/legislation": {
+		"title": "",
+		"url": "https://centralbank.ae/en/legislation",
+		"host": "centralbank.ae",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"centralbank.ae/en/our-operations/fintech-digital-transformation": {
+		"title": "",
+		"url": "https://centralbank.ae/en/our-operations/fintech-digital-transformation",
+		"host": "centralbank.ae",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"centralbank.ae/en/our-operations/islamic-finance/shariah": {
+		"title": "",
+		"url": "https://centralbank.ae/en/our-operations/islamic-finance/shariah",
+		"host": "centralbank.ae",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"centralbank.ae/en/our-operations/fintech-digital-transformation/sandbox-initiatives": {
+		"title": "",
+		"url": "https://centralbank.ae/en/our-operations/fintech-digital-transformation/sandbox-initiatives",
+		"host": "centralbank.ae",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"centralbank.ae/en/our-operations/islamic-finance": {
+		"title": "",
+		"url": "https://centralbank.ae/en/our-operations/islamic-finance",
+		"host": "centralbank.ae",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"centralbank.ae/media/44ianby2/financial-stability-report-en-2025.pdf": {
+		"title": "",
+		"url": "https://centralbank.ae/media/44ianby2/financial-stability-report-en-2025.pdf",
+		"host": "centralbank.ae",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"sama.gov.sa/en-us/publications/financereports/pages/annualfintechreport.aspx": {
+		"title": "Annual Fintech Report",
+		"url": "http://sama.gov.sa/en-US/Publications/FinanceReports/Pages/AnnualFintechReport.aspx",
+		"host": "sama.gov.sa",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"centralbank.ae/media/n3ydh0pa/cbuae-sharia-booklet_e-3.pdf": {
+		"title": "",
+		"url": "https://centralbank.ae/media/n3ydh0pa/cbuae-sharia-booklet_e-3.pdf",
+		"host": "centralbank.ae",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"academy.adgm.com": {
+		"title": "Adgm Academy",
+		"url": "https://academy.adgm.com",
+		"host": "academy.adgm.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf": {
+		"title": "",
+		"url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+		"host": "centralbank.ae",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"cma.gov.sa/en/aboutcma/researchandreports/documents/the_document_for_the_strategic_directions_to_develop_sukuk_and_debt_capital_market_en.pdf": {
+		"title": "",
+		"url": "https://cma.gov.sa/en/AboutCMA/ResearchAndReports/Documents/The_Document_for_the_Strategic_Directions_to_Develop_Sukuk_and_Debt_Capital_Market_EN.pdf",
+		"host": "cma.gov.sa",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"cma.gov.sa/en/market/fintech/pages/default.aspx": {
+		"title": "FinTech Lab",
+		"url": "https://cma.gov.sa/en/Market/fintech/Pages/default.aspx",
+		"host": "cma.gov.sa",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"cma.gov.sa/en/mediacenter/pr/pages/the_document_for_the_strategic_directions_to_develop_sukuk_and_debt_capital_market.aspx": {
+		"title": "CMA: The Corporate Sukuk and Debt Capital Market Growth Exceeds SAR 30 Billion since 2019",
+		"url": "https://cma.gov.sa/en/MediaCenter/PR/Pages/The_Document_for_the_Strategic_Directions_to_Develop_Sukuk_and_Debt_Capital_Market.aspx",
+		"host": "cma.gov.sa",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"disputeresolution.adgm.com": {
+		"title": "ADGM, Abu Dhabi&#x27;s International Financial Centre",
+		"url": "https://disputeresolution.adgm.com",
+		"host": "disputeresolution.adgm.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"eportal.dfsa.ae/eportal": {
+		"title": "Access: App Launcher",
+		"url": "https://eportal.dfsa.ae/eportal",
+		"host": "eportal.dfsa.ae",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/secretariat": {
+		"title": "",
+		"url": "https://www.ifsb.org/secretariat",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/sharing-of-experience": {
+		"title": "",
+		"url": "https://www.ifsb.org/sharing-of-experience",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/speeches": {
+		"title": "",
+		"url": "https://www.ifsb.org/speeches",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/standards-page": {
+		"title": "",
+		"url": "https://www.ifsb.org/standards-page",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/task-forces": {
+		"title": "",
+		"url": "https://www.ifsb.org/task-forces",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/technical-assistance": {
+		"title": "",
+		"url": "https://www.ifsb.org/technical-assistance",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/technical-assistance-policy-advice": {
+		"title": "",
+		"url": "https://www.ifsb.org/technical-assistance-policy-advice",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/technical-notes": {
+		"title": "",
+		"url": "https://www.ifsb.org/technical-notes",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"financialmarkets.bnm.gov.my/transition-roadmap*": {
+		"title": "",
+		"url": "https://financialmarkets.bnm.gov.my/transition-roadmap*",
+		"host": "financialmarkets.bnm.gov.my",
+		"status": 404,
+		"error": "http 404",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/training-of-trainers-programme": {
+		"title": "",
+		"url": "https://www.ifsb.org/training-of-trainers-programme",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"my.bursamalaysia.com/learn/knowledge/explorer/blockchain-enabled-zakat-strengthening-transparency-governance-and-trust-islamic-capital-market": {
+		"title": "",
+		"url": "https://my.bursamalaysia.com/learn/knowledge/explorer/blockchain-enabled-zakat-strengthening-transparency-governance-and-trust-islamic-capital-market",
+		"host": "my.bursamalaysia.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"my.bursamalaysia.com/learn/knowledge/explorer/maqasid-al-shariah-guidance-securities-commission-malaysia-elevating-malaysias-islamic-capital": {
+		"title": "",
+		"url": "https://my.bursamalaysia.com/learn/knowledge/explorer/maqasid-al-shariah-guidance-securities-commission-malaysia-elevating-malaysias-islamic-capital",
+		"host": "my.bursamalaysia.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"my.bursamalaysia.com/learn/knowledge/explorer/maqasid-al-shariah-guidance-securities-commission-malaysia-elevating-malaysias-islamic-capital-market-products": {
+		"title": "",
+		"url": "https://my.bursamalaysia.com/learn/knowledge/explorer/maqasid-al-shariah-guidance-securities-commission-malaysia-elevating-malaysias-islamic-capital-market-products",
+		"host": "my.bursamalaysia.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"my.bursamalaysia.com/learn/knowledge/explorer/blockchain-and-smart-sukuk-malaysia-new-era-islamic-capital-markets": {
+		"title": "",
+		"url": "https://my.bursamalaysia.com/learn/knowledge/explorer/blockchain-and-smart-sukuk-malaysia-new-era-islamic-capital-markets",
+		"host": "my.bursamalaysia.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"my.bursamalaysia.com/learn/knowledge/explorer/revision-quantitative-approach-shariah-screening-methodology": {
+		"title": "",
+		"url": "https://my.bursamalaysia.com/learn/knowledge/explorer/revision-quantitative-approach-shariah-screening-methodology",
+		"host": "my.bursamalaysia.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"cma.gov.sa/en/market/reports/documents/cma_report_2025.pdf": {
+		"title": "",
+		"url": "https://cma.gov.sa/en/Market/Reports/Documents/CMA_Report_2025.pdf",
+		"host": "cma.gov.sa",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/upcoming-programme": {
+		"title": "",
+		"url": "https://www.ifsb.org/upcoming-programme",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/video-gallery": {
+		"title": "",
+		"url": "https://www.ifsb.org/video-gallery",
 		"host": "www.ifsb.org",
 		"status": 0,
 		"error": "timeout",

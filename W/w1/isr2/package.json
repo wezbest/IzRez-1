@@ -9,8 +9,8 @@
     "start": "bun run generate && astro dev",
     "build": "bun run generate && astro build",
     "preview": "astro preview",
-    "check": "bun scripts/check-links.mjs && bun scripts/check-diagrams.mjs",
-    "audit": "bun scripts/audit-layout.mjs",
+    "check": "bun scripts/check-links.mjs && bun scripts/check-diagrams.mjs",		"titles": "bun scripts/fetch-source-titles.mjs",
+		"audit": "bun scripts/audit-layout.mjs",
     "verify": "bun run check && bun run audit",
     "astro": "astro"
   },
