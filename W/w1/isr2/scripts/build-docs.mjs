@@ -20,6 +20,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { addSectionMap } from './section-map.mjs';
+import { hostOf, normUrl } from './source-key.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(HERE, '..');
@@ -60,29 +61,8 @@ const yaml = (v) => JSON.stringify(v);
 /* numAnchor / mapLabel / addSectionMap live in section-map.mjs because section
    14 is written by build-report.mjs and needs the very same panel. */
 
-/** Collapse the same source cited twice (trailing slash, protocol, www, #). */
-function normUrl(raw) {
-	return String(raw)
-		.trim()
-		.replace(/\\+$/, '')
-		.replace(/&amp;/g, '&')
-		.replace(/#.*$/, '')
-		.replace(/^https?:\/\//i, '')
-		.replace(/^www\./i, '')
-		.replace(/\/+$/, '')
-		.replace(/[.,;]+$/, '')
-		.toLowerCase();
-}
-
-function hostOf(raw) {
-	try {
-		return new URL(String(raw).trim()).hostname.replace(/^www\./, '');
-	} catch {
-		return String(raw)
-			.replace(/^https?:\/\//i, '')
-			.split('/')[0];
-	}
-}
+/* normUrl / hostOf live in source-key.mjs: the title fetcher has to key sources
+   exactly the way this pipeline does, or a reference loses its title. */
 
 function shortHash(input) {
 	let h = 5381;

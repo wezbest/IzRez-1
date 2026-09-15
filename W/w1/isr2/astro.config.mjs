@@ -5,7 +5,8 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import mermaid from 'astro-mermaid';
 import { pwa } from './src/integrations/pwa.mjs';
-import { rehypeExternalLinks } from './src/plugins/rehype-external-links.mjs';
+import { satteri } from '@astrojs/markdown-satteri';
+import { externalLinks } from './src/plugins/external-links.mjs';
 
 /** Canonical site URL — used for canonical/OG tags and to tell our own links apart. */
 const SITE_URL = 'https://gap-atlas-2026.pages.dev';
@@ -77,8 +78,11 @@ export default defineConfig({
 	site: SITE_URL,
 	trailingSlash: 'always',
 	markdown: {
-		// every external reference opens in a new window
-		rehypePlugins: [[rehypeExternalLinks, { site: SITE_URL }]],
+		// the default processor, plus a hast visitor that opens every external
+		// reference in a new window
+		processor: satteri({
+			hastPlugins: [externalLinks({ site: SITE_URL })],
+		}),
 	},
 	integrations: [
 		// must be registered before Starlight so it hooks the markdown pipeline

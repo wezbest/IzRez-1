@@ -1,0 +1,4481 @@
+{
+	"blog.repec.org": {
+		"title": "The RePEc Blog",
+		"url": "http://blog.repec.org",
+		"host": "blog.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/rss.pl?h=repec:eme:imefmp:imefm-01-2024-0011": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/rss.pl?h=RePEc:eme:imefmp:imefm-01-2024-0011",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org": {
+		"title": "",
+		"url": "http://citec.repec.org",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/rss.pl?h=repec:eme:imefmp:imefm-08-2024-0408": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/rss.pl?h=RePEc:eme:imefmp:imefm-08-2024-0408",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/rss.pl?h=repec:eme:imefmp:imefm-07-2024-0328": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/rss.pl?h=RePEc:eme:imefmp:imefm-07-2024-0328",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/rss.pl?h=repec:idn:jimfjn:v:11:y:2025:i:1d:p:63-90": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/rss.pl?h=RePEc:idn:jimfjn:v:11:y:2025:i:1d:p:63-90",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/rss.pl?h=repec:eme:imefmp:imefm-09-2024-0453": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/rss.pl?h=RePEc:eme:imefmp:imefm-09-2024-0453",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/rss.pl?h=repec:eme:imefmp:imefm-08-2024-0380": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/rss.pl?h=RePEc:eme:imefmp:imefm-08-2024-0380",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/rss.pl?h=repec:abd:kauiea": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/rss.pl?h=repec:abd:kauiea",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:eme:imefmp:imefm-01-2024-0011": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:eme:imefmp:imefm-01-2024-0011",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/rss.pl?h=repec:eme:imefmp": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/rss.pl?h=repec:eme:imefmp",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/rss.pl?h=repec:eme:jiabrp": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/rss.pl?h=repec:eme:jiabrp",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/rss.pl?h=repec:idn:jimfjn": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/rss.pl?h=repec:idn:jimfjn",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:eme:imefmp:imefm-02-2024-0100": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:eme:imefmp:imefm-02-2024-0100",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:eme:imefmp:imefm-03-2024-0146": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:eme:imefmp:imefm-03-2024-0146",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:eme:imefmp:imefm-04-2024-0198": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:eme:imefmp:imefm-04-2024-0198",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:eme:imefmp:imefm-05-2024-0219": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:eme:imefmp:imefm-05-2024-0219",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:eme:imefmp:imefm-08-2024-0408": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:eme:imefmp:imefm-08-2024-0408",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:eme:imefmp:imefm-07-2024-0343": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:eme:imefmp:imefm-07-2024-0343",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:eme:imefmp:imefm-08-2024-0380": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:eme:imefmp:imefm-08-2024-0380",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:eme:imefmp:imefm-08-2023-0310": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:eme:imefmp:imefm-08-2023-0310",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:eme:imefmp:imefm-07-2024-0328": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:eme:imefmp:imefm-07-2024-0328",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:eme:imefmp:imefm-09-2024-0453": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:eme:imefmp:imefm-09-2024-0453",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:eme:imefmp:imefm-12-2023-0479": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:eme:imefmp:imefm-12-2023-0479",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:idn:jimfjn:v:11:y:2025:i:1c:p:35-62": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:idn:jimfjn:v:11:y:2025:i:1c:p:35-62",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:idn:jimfjn:v:11:y:2025:i:2c:p:269-306": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:idn:jimfjn:v:11:y:2025:i:2c:p:269-306",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:idn:jimfjn:v:11:y:2025:i:2g:p:385-418": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:idn:jimfjn:v:11:y:2025:i:2g:p:385-418",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:idn:jimfjn:v:11:y:2025:i:1d:p:63-90": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:idn:jimfjn:v:11:y:2025:i:1d:p:63-90",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:idn:jimfjn:v:11:y:2025:i:3c:p:511-534": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:idn:jimfjn:v:11:y:2025:i:3c:p:511-534",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:idn:jimfjn:v:11:y:2025:i:4d:p:779-806": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:idn:jimfjn:v:11:y:2025:i:4d:p:779-806",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:idn:jimfjn:v:12:y:2026:i:1c:p:35-58": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:idn:jimfjn:v:12:y:2026:i:1c:p:35-58",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:idn:jimfjn:v:12:y:2026:i:1f:p:107-132": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:idn:jimfjn:v:12:y:2026:i:1f:p:107-132",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:idn:jimfjn:v:12:y:2026:i:2d:p:303-326": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:idn:jimfjn:v:12:y:2026:i:2d:p:303-326",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"citec.repec.org/cgi-bin/subref.pl?h=repec:idn:jimfjn:v:12:y:2026:i:2e:p:327-350": {
+		"title": "",
+		"url": "http://citec.repec.org/cgi-bin/subRef.pl?h=RePEc:idn:jimfjn:v:12:y:2026:i:2e:p:327-350",
+		"host": "citec.repec.org",
+		"status": 0,
+		"error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+		"fetchedAt": "2026-09-15"
+	},
+	"biblio.repec.org": {
+		"title": "RePEc Biblio",
+		"url": "http://biblio.repec.org",
+		"host": "biblio.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"authors.repec.org": {
+		"title": "RePEc Author Service",
+		"url": "http://authors.repec.org",
+		"host": "authors.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal-index.org/index.php/asi/article/view/26361": {
+		"title": "Advanced Science Index",
+		"url": "http://journal-index.org/index.php/asi/article/view/26361",
+		"host": "journal-index.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:eme:imefmp:imefm-04-2024-0198": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:eme:imefmp:imefm-04-2024-0198",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:eme:imefmp:imefm-01-2024-0011": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:eme:imefmp:imefm-01-2024-0011",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:eme:imefmp:imefm-03-2024-0146": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:eme:imefmp:imefm-03-2024-0146",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:eme:imefmp:imefm-02-2024-0100": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:eme:imefmp:imefm-02-2024-0100",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"genealogy.repec.org": {
+		"title": "RePEc Genealogy",
+		"url": "http://genealogy.repec.org",
+		"host": "genealogy.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:eme:imefmp:imefm-05-2024-0219": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:eme:imefmp:imefm-05-2024-0219",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:eme:imefmp:imefm-08-2024-0380": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:eme:imefmp:imefm-08-2024-0380",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:eme:imefmp:imefm-07-2024-0328": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:eme:imefmp:imefm-07-2024-0328",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:eme:imefmp:imefm-08-2023-0310": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:eme:imefmp:imefm-08-2023-0310",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:eme:imefmp:imefm-07-2024-0343": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:eme:imefmp:imefm-07-2024-0343",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:eme:imefmp:imefm-08-2024-0408": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:eme:imefmp:imefm-08-2024-0408",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:eme:imefmp:imefm-12-2023-0479": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:eme:imefmp:imefm-12-2023-0479",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:eme:imefmp:imefm-09-2024-0453": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:eme:imefmp:imefm-09-2024-0453",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/top": {
+		"title": "Economics Rankings",
+		"url": "http://ideas.repec.org/top",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ejournal.stitbima.ac.id/index.php/fitua/article/download/975/529": {
+		"title": "",
+		"url": "http://ejournal.stitbima.ac.id/index.php/fitua/article/download/975/529",
+		"host": "ejournal.stitbima.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:idn:jimfjn:v:11:y:2025:i:1c:p:35-62": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:idn:jimfjn:v:11:y:2025:i:1c:p:35-62",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:idn:jimfjn:v:11:y:2025:i:1d:p:63-90": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:idn:jimfjn:v:11:y:2025:i:1d:p:63-90",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:idn:jimfjn:v:11:y:2025:i:2c:p:269-306": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:idn:jimfjn:v:11:y:2025:i:2c:p:269-306",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:idn:jimfjn:v:11:y:2025:i:2g:p:385-418": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:idn:jimfjn:v:11:y:2025:i:2g:p:385-418",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal.uinsyahada.ac.id/index.php/jiftech/pages/view/editorial-team": {
+		"title": "JIFTECH : Journal Of Islamic Financial Technology",
+		"url": "http://jurnal.uinsyahada.ac.id/index.php/jiftech/pages/view/Editorial-team",
+		"host": "jurnal.uinsyahada.ac.id",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:idn:jimfjn:v:11:y:2025:i:3c:p:511-534": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:idn:jimfjn:v:11:y:2025:i:3c:p:511-534",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:idn:jimfjn:v:12:y:2026:i:1c:p:35-58": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:idn:jimfjn:v:12:y:2026:i:1c:p:35-58",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:idn:jimfjn:v:12:y:2026:i:1f:p:107-132": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:idn:jimfjn:v:12:y:2026:i:1f:p:107-132",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:idn:jimfjn:v:11:y:2025:i:4d:p:779-806": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:idn:jimfjn:v:11:y:2025:i:4d:p:779-806",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:idn:jimfjn:v:12:y:2026:i:2d:p:303-326": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:idn:jimfjn:v:12:y:2026:i:2d:p:303-326",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/paperstat.pl?h=repec:idn:jimfjn:v:12:y:2026:i:2e:p:327-350": {
+		"title": "LogEc: Access Statistics",
+		"url": "http://logec.repec.org/scripts/paperstat.pl?h=RePEc:idn:jimfjn:v:12:y:2026:i:2e:p:327-350",
+		"host": "logec.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ajee-journal.com/upload/attaches/att_1686918377.pdf": {
+		"title": "",
+		"url": "https://ajee-journal.com/upload/attaches/att_1686918377.pdf",
+		"host": "ajee-journal.com",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"repec.org": {
+		"title": "RePEc: Research Papers in Economics",
+		"url": "http://repec.org",
+		"host": "repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"nep.repec.org": {
+		"title": "NEP: New Economics Papers",
+		"url": "http://nep.repec.org",
+		"host": "nep.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"authors.repec.org/new-user": {
+		"title": "",
+		"url": "https://authors.repec.org/new-user",
+		"host": "authors.repec.org",
+		"status": 404,
+		"error": "http 404",
+		"fetchedAt": "2026-09-15"
+	},
+	"ejournal.mdresearchcenter.id/index.php/ajmpce/article/download/14/6": {
+		"title": "",
+		"url": "http://ejournal.mdresearchcenter.id/index.php/ajmpce/article/download/14/6",
+		"host": "ejournal.mdresearchcenter.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"plagiarism.repec.org": {
+		"title": "RePEc plagiarism page",
+		"url": "http://plagiarism.repec.org",
+		"host": "plagiarism.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"doi.org/10.1596/43986`": {
+		"title": "",
+		"url": "https://doi.org/10.1596/43986`",
+		"host": "doi.org",
+		"status": 404,
+		"error": "http 404",
+		"fetchedAt": "2026-09-15"
+	},
+	"doi.org/10.21098//jimf.v12i1.3300": {
+		"title": "",
+		"url": "https://doi.org/10.21098//jimf.v12i1.3300",
+		"host": "doi.org",
+		"status": 404,
+		"error": "http 404",
+		"fetchedAt": "2026-09-15"
+	},
+	"doi.org/10.21098//jimf.v12i1.3328": {
+		"title": "",
+		"url": "https://doi.org/10.21098//jimf.v12i1.3328",
+		"host": "doi.org",
+		"status": 404,
+		"error": "http 404",
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/seriesstat.pl?item=repec:abd:kauiea": {
+		"title": "",
+		"url": "http://logec.repec.org/scripts/seriesstat.pl?item=repec:abd:kauiea",
+		"host": "logec.repec.org",
+		"status": 429,
+		"error": "http 429",
+		"fetchedAt": "2026-09-15"
+	},
+	"alumni.pide.org.pk": {
+		"title": "We Connect!",
+		"url": "https://alumni.pide.org.pk",
+		"host": "alumni.pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"abjournals.org/article-pdf/ajensr_5t5eaw3k.pdf": {
+		"title": "",
+		"url": "https://abjournals.org/article-pdf/AJENSR_5T5EAW3K.pdf",
+		"host": "abjournals.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/seriesstat.pl?item=repec:eme:imefmp": {
+		"title": "",
+		"url": "http://logec.repec.org/scripts/seriesstat.pl?item=repec:eme:imefmp",
+		"host": "logec.repec.org",
+		"status": 429,
+		"error": "http 429",
+		"fetchedAt": "2026-09-15"
+	},
+	"doi.org/10.21098/jimf.v11i2.2437": {
+		"title": "Weathering the Storm: Shariah Compliance, Digital Innovation, and Stock Performance during COVID-19 — Journal of Islamic Monetary Economics and Finance",
+		"url": "https://doi.org/10.21098/jimf.v11i2.2437",
+		"host": "doi.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"doi.org/10.21098/jimf.v11i2.2771": {
+		"title": "Risk-Adjusted Returns and Spillover Dynamics among Emerging Digital Currencies — Journal of Islamic Monetary Economics and Finance",
+		"url": "https://doi.org/10.21098/jimf.v11i2.2771",
+		"host": "doi.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"e-journal.uingusdur.ac.id/ijibec": {
+		"title": "",
+		"url": "https://e-journal.uingusdur.ac.id/Ijibec",
+		"host": "e-journal.uingusdur.ac.id",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"doi.org/10.21098/jimf.v11i3.2340": {
+		"title": "Does Digital Financial Inclusion Impact ESG Performance in Islamic and Conventional Financial Institutions? A Global Evidence — Journal of Islamic Monetary Economics and Finance",
+		"url": "https://doi.org/10.21098/jimf.v11i3.2340",
+		"host": "doi.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"doi.org/10.21098/jimf.v11i1.2650": {
+		"title": "Digital Financial Inclusion and Bank Stability in a Dual Banking System: Does Financial Literacy Matter? — Journal of Islamic Monetary Economics and Finance",
+		"url": "https://doi.org/10.21098/jimf.v11i1.2650",
+		"host": "doi.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"doi.org/10.21098/jimf.v11i4.2341": {
+		"title": "Islamic Fintech Financing Adoption Amongst Asnaf Micro Entrepreneurs in Malaysia: Extended UTAUT2 — Journal of Islamic Monetary Economics and Finance",
+		"url": "https://doi.org/10.21098/jimf.v11i4.2341",
+		"host": "doi.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"doi.org/10.21098/jimf.v12i2.3242": {
+		"title": "A Framework of Zakat on Digital Assets in Malaysia: Perspectives of Millennials — Journal of Islamic Monetary Economics and Finance",
+		"url": "https://doi.org/10.21098/jimf.v12i2.3242",
+		"host": "doi.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/seriesstat.pl?item=repec:eme:jiabrp": {
+		"title": "",
+		"url": "http://logec.repec.org/scripts/seriesstat.pl?item=repec:eme:jiabrp",
+		"host": "logec.repec.org",
+		"status": 429,
+		"error": "http 429",
+		"fetchedAt": "2026-09-15"
+	},
+	"doi.org/10.21098/jimf.v12i2.3476": {
+		"title": "Does Cybersecurity Influence the Impact of AI on Bank Risk-Taking? Evidence from Dual-Banking Countries — Journal of Islamic Monetary Economics and Finance",
+		"url": "https://doi.org/10.21098/jimf.v12i2.3476",
+		"host": "doi.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"doi.org/10.21098/jimf.v11i1.2035": {
+		"title": "Consumers' Behavioural Intention to Adopt Shari’ah-Compliant Digital Gold Platform in Malaysia: Extension of UTAUT Model — Journal of Islamic Monetary Economics and Finance",
+		"url": "https://doi.org/10.21098/jimf.v11i1.2035",
+		"host": "doi.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"econpapers.repec.org/repec:spr:sprbok:978-3-030-76016-8": {
+		"title": "EconPapers: Islamic Finance and Sustainable Development",
+		"url": "https://econpapers.repec.org/RePEc:spr:sprbok:978-3-030-76016-8",
+		"host": "econpapers.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"edirc.repec.org/data/bigovid.html": {
+		"title": "Bank Indonesia",
+		"url": "https://edirc.repec.org/data/bigovid.html",
+		"host": "edirc.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"edirc.repec.org/data/cikausa.html": {
+		"title": "Islamic Economics Institute, King Abdulaziz University",
+		"url": "https://edirc.repec.org/data/cikausa.html",
+		"host": "edirc.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ejournal.uinib.ac.id/fasya/index.php/ijtihad/article/viewfile/906/486": {
+		"title": "",
+		"url": "https://ejournal.uinib.ac.id/fasya/index.php/ijtihad/article/viewFile/906/486",
+		"host": "ejournal.uinib.ac.id",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"e-journalbarokahpublisher.com/index.php/jmbs/article/download/260/217": {
+		"title": "",
+		"url": "https://e-journalbarokahpublisher.com/index.php/JMBS/article/download/260/217",
+		"host": "e-journalbarokahpublisher.com",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"e-journal.unair.ac.id/jebis/article/view/24818": {
+		"title": "CASH WAQF LINKED SUKUK: ISSUES, CHALLENGES AND FUTURE DIRECTION IN INDONESIA — Jurnal Ekonomi dan Bisnis Islam (Journal of Islamic Economics and Business)",
+		"url": "https://e-journal.unair.ac.id/JEBIS/article/view/24818",
+		"host": "e-journal.unair.ac.id",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"e-journal.unair.ac.id/baki/article/download/82850/36873/501295": {
+		"title": "",
+		"url": "https://e-journal.unair.ac.id/BAKI/article/download/82850/36873/501295",
+		"host": "e-journal.unair.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ejournal.seaninstitute.or.id/index.php/ekonomi/article/download/2207/1682": {
+		"title": "",
+		"url": "https://ejournal.seaninstitute.or.id/index.php/Ekonomi/article/download/2207/1682",
+		"host": "ejournal.seaninstitute.or.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"logec.repec.org/scripts/seriesstat.pl?item=repec:idn:jimfjn": {
+		"title": "",
+		"url": "http://logec.repec.org/scripts/seriesstat.pl?item=repec:idn:jimfjn",
+		"host": "logec.repec.org",
+		"status": 429,
+		"error": "http 429",
+		"fetchedAt": "2026-09-15"
+	},
+	"ejournal.um.edu.my/index.php/ojimf/article/download/43382/15617/109316": {
+		"title": "",
+		"url": "https://ejournal.um.edu.my/index.php/OJIMF/article/download/43382/15617/109316",
+		"host": "ejournal.um.edu.my",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ejournal.umm.ac.id/index.php/jes/article/download/37160/15712": {
+		"title": "",
+		"url": "https://ejournal.umm.ac.id/index.php/JES/article/download/37160/15712",
+		"host": "ejournal.umm.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ejournal.mannawasalwa.ac.id/index.php/elkahfi/article/download/573/235": {
+		"title": "",
+		"url": "https://ejournal.mannawasalwa.ac.id/index.php/elkahfi/article/download/573/235",
+		"host": "ejournal.mannawasalwa.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"file.pide.org.pk/uploads/discourse-2025-04-03-parametric-insurance-transforming-the-insurance-landscape-in-pakistan-featured-150x150.jpg": {
+		"title": "",
+		"url": "https://file.pide.org.pk/uploads/discourse-2025-04-03-parametric-insurance-transforming-the-insurance-landscape-in-pakistan-featured-150x150.jpg",
+		"host": "file.pide.org.pk",
+		"status": 200,
+		"error": "image/jpeg",
+		"fetchedAt": "2026-09-15"
+	},
+	"ejournal.gomit.id/ijfis/article/download/536/374/7226": {
+		"title": "",
+		"url": "https://ejournal.gomit.id/ijfis/article/download/536/374/7226",
+		"host": "ejournal.gomit.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"file.pide.org.pk/pdfpideresearch/discourse-2025-04-03-parametric-insurance-transforming-the-insurance-landscape-in-pakistan.pdf": {
+		"title": "",
+		"url": "https://file.pide.org.pk/pdfpideresearch/discourse-2025-04-03-parametric-insurance-transforming-the-insurance-landscape-in-pakistan.pdf",
+		"host": "file.pide.org.pk",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ejournal.univbhaktiasih.ac.id/index.php/mass/article/download/144/95/1198": {
+		"title": "",
+		"url": "https://ejournal.univbhaktiasih.ac.id/index.php/mass/article/download/144/95/1198",
+		"host": "ejournal.univbhaktiasih.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org": {
+		"title": "Economics and Finance Research",
+		"url": "https://ideas.repec.org",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"file.pide.org.pk/uploads/discourse-2025-04-03-parametric-insurance-transforming-the-insurance-landscape-in-pakistan-featured.jpg": {
+		"title": "",
+		"url": "https://file.pide.org.pk/uploads/discourse-2025-04-03-parametric-insurance-transforming-the-insurance-landscape-in-pakistan-featured.jpg",
+		"host": "file.pide.org.pk",
+		"status": 200,
+		"error": "image/jpeg",
+		"fetchedAt": "2026-09-15"
+	},
+	"file.pide.org.pk/uploads/pide-logo-green.png": {
+		"title": "",
+		"url": "https://file.pide.org.pk/uploads/pide-logo-green.png",
+		"host": "file.pide.org.pk",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"ejournal.unsuda.ac.id/index.php/ekis/article/view/612": {
+		"title": "Legalitas Cryptocurrency: Tinjauan terhadap Fatwa-Fatwa Institusi dan Personal — Al-Muzdahir : Jurnal Ekonomi Syariah",
+		"url": "https://ejournal.unsuda.ac.id/index.php/ekis/article/view/612",
+		"host": "ejournal.unsuda.ac.id",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/bcp/journl/v9y2025issue-5p4704-4714.html": {
+		"title": "Reimagining Waqf in the Digital Age: A Framework for Smart W",
+		"url": "https://ideas.repec.org/a/bcp/journl/v9y2025issue-5p4704-4714.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"file.pide.org.pk/uploads/pide_fav_icon.png": {
+		"title": "",
+		"url": "https://file.pide.org.pk/uploads/pide_fav_icon.png",
+		"host": "file.pide.org.pk",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/eme/imefmp/imefm-02-2024-0100.html": {
+		"title": "The role of Islamic FinTech in digital financial inclusion a",
+		"url": "https://ideas.repec.org/a/eme/imefmp/imefm-02-2024-0100.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/eme/imefmp/imefm-04-2024-0198.html": {
+		"title": "Constructing Sukuk-linked Awqaf (endowment) model",
+		"url": "https://ideas.repec.org/a/eme/imefmp/imefm-04-2024-0198.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/aip/access/v6y2025i1p184-201.html": {
+		"title": "Transforming Islamic finance: the impact of blockchain and S",
+		"url": "https://ideas.repec.org/a/aip/access/v6y2025i1p184-201.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/eme/imefmp/imefm-05-2024-0219.html": {
+		"title": "Sustainable and responsible investment (SRI) Sukuk: lessons",
+		"url": "https://ideas.repec.org/a/eme/imefmp/imefm-05-2024-0219.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/eme/imefmp/imefm-07-2024-0328.html": {
+		"title": "Exploring the safe haven properties of sukuk: a machine lear",
+		"url": "https://ideas.repec.org/a/eme/imefmp/imefm-07-2024-0328.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/bcp/journl/v9y2025issue-6p2208-2222.html": {
+		"title": "Integrating Waqf and Islamic Social Finance for Inclusive De",
+		"url": "https://ideas.repec.org/a/bcp/journl/v9y2025issue-6p2208-2222.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/eme/imefmp/imefm-01-2024-0011.html": {
+		"title": "Social influence or religiosity? New factors determining the",
+		"url": "https://ideas.repec.org/a/eme/imefmp/imefm-01-2024-0011.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/eme/imefmp/imefm-07-2024-0343.html": {
+		"title": "Development of a comprehensive sustainability performance in",
+		"url": "https://ideas.repec.org/a/eme/imefmp/imefm-07-2024-0343.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/eme/imefmp/imefm-03-2024-0146.html": {
+		"title": "How do crowd investors prioritize evaluation criteria for eq",
+		"url": "https://ideas.repec.org/a/eme/imefmp/imefm-03-2024-0146.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/eme/imefmp/imefm-08-2023-0310.html": {
+		"title": "Do Islamic fintech lending promote microenterprises performa",
+		"url": "https://ideas.repec.org/a/eme/imefmp/imefm-08-2023-0310.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/eee/riibaf/v81y2026ics0275531925004143.html": {
+		"title": "The impact of sukuk issuances on liquidity, profitability, a",
+		"url": "https://ideas.repec.org/a/eee/riibaf/v81y2026ics0275531925004143.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/eme/imefmp/imefm-08-2024-0408.html": {
+		"title": "A proposed zakat model for digital assets from the Shariah p",
+		"url": "https://ideas.repec.org/a/eme/imefmp/imefm-08-2024-0408.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/eme/imefmp/imefm-08-2024-0380.html": {
+		"title": "The integration of Maqasid Shariah in evaluating stablecoins",
+		"url": "https://ideas.repec.org/a/eme/imefmp/imefm-08-2024-0380.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/eme/imefmp/imefm-12-2023-0479.html": {
+		"title": "Application of tàawun (mutual assistance) in cross-subsidisa",
+		"url": "https://ideas.repec.org/a/eme/imefmp/imefm-12-2023-0479.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/eme/imefmp/imefm-09-2024-0453.html": {
+		"title": "An analysis of extreme risk spillover effects and their dete",
+		"url": "https://ideas.repec.org/a/eme/imefmp/imefm-09-2024-0453.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/gam/jjrfmx/v17y2024i6p236-d1410093.html": {
+		"title": "Does Islamic Sustainable Finance Support Sustainable Develop",
+		"url": "https://ideas.repec.org/a/gam/jjrfmx/v17y2024i6p236-d1410093.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/idn/jimfjn/v10y2024i1bp5-34.html": {
+		"title": "The Impacts Of Cash Waqf Linked Sukuk Empowerment Programs:",
+		"url": "https://ideas.repec.org/a/idn/jimfjn/v10y2024i1bp5-34.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/idn/jimfjn/v11y2025i1cp35-62.html": {
+		"title": "Consumersâ€™ Behavioural Intention To Adopt Shariâ€™Ah-Compl",
+		"url": "https://ideas.repec.org/a/idn/jimfjn/v11y2025i1cp35-62.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/idn/jimfjn/v11y2025i1dp63-90.html": {
+		"title": "Digital Financial Inclusion And Bank Stability In A Dual Ban",
+		"url": "https://ideas.repec.org/a/idn/jimfjn/v11y2025i1dp63-90.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/idn/jimfjn/v11y2025i2cp269-306.html": {
+		"title": "Risk-Adjusted Returns And Spillover Dynamics Among Emerging",
+		"url": "https://ideas.repec.org/a/idn/jimfjn/v11y2025i2cp269-306.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/idn/jimfjn/v11y2025i2gp385-418.html": {
+		"title": "Weathering The Storm: Shariah Compliance, Digital Innovation",
+		"url": "https://ideas.repec.org/a/idn/jimfjn/v11y2025i2gp385-418.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/idn/jimfjn/v11y2025i3cp511-534.html": {
+		"title": "Does Digital Financial Inclusion Impact Esg Performance In I",
+		"url": "https://ideas.repec.org/a/idn/jimfjn/v11y2025i3cp511-534.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/idn/jimfjn/v12y2026i1cp35-58.html": {
+		"title": "Reassessing Attention to Fintech: Spillover Effects on Conve",
+		"url": "https://ideas.repec.org/a/idn/jimfjn/v12y2026i1cp35-58.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/idn/jimfjn/v11y2025i4dp779-806.html": {
+		"title": "Islamic Fintech Financing Adoption Amongst Asnaf Micro Entre",
+		"url": "https://ideas.repec.org/a/idn/jimfjn/v11y2025i4dp779-806.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/idn/jimfjn/v12y2026i1fp107-132.html": {
+		"title": "Shariâ€™ah Analytics of Arabic Currency Terms and Implicatio",
+		"url": "https://ideas.repec.org/a/idn/jimfjn/v12y2026i1fp107-132.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/idn/jimfjn/v12y2026i2dp303-326.html": {
+		"title": "Does Cybersecurity Influence the Impact of AI on Bank Risk-T",
+		"url": "https://ideas.repec.org/a/idn/jimfjn/v12y2026i2dp303-326.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/a/idn/jimfjn/v12y2026i2ep327-350.html": {
+		"title": "A Framework of Zakat on Digital Assets in Malaysia: Perspect",
+		"url": "https://ideas.repec.org/a/idn/jimfjn/v12y2026i2ep327-350.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/h/spr/sprchp/978-3-031-00925-9_7.html": {
+		"title": "The Challenges of Islamic Trade Finance in Promoting SMEs in",
+		"url": "https://ideas.repec.org/h/spr/sprchp/978-3-031-00925-9_7.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/privacy.html": {
+		"title": "",
+		"url": "https://ideas.repec.org/privacy.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"error": "http 200",
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/p/awl/finbri/11.html": {
+		"title": "Islamic Fintech: Nascent and on the Rise",
+		"url": "https://ideas.repec.org/p/awl/finbri/11.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/s/abd/kauiea.html": {
+		"title": "Journal of King Abdulaziz University: Islamic Economics, King Abdulaziz University, Islamic Economics Institute.",
+		"url": "https://ideas.repec.org/s/abd/kauiea.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/s/eme/imefmp.html": {
+		"title": "International Journal of Islamic and Middle Eastern Finance and Management, Emerald Group Publishing Limited",
+		"url": "https://ideas.repec.org/s/eme/imefmp.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/s/eme/jiabrp2.html": {
+		"title": "Journal of Islamic Accounting and Business Research, Emerald Group Publishing Limited",
+		"url": "https://ideas.repec.org/s/eme/jiabrp2.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ideas.repec.org/s/idn/jimfjn.html": {
+		"title": "Journal of Islamic Monetary Economics and Finance, Bank Indonesia",
+		"url": "https://ideas.repec.org/s/idn/jimfjn.html",
+		"host": "ideas.repec.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ejurnal.iaiyasnibungo.ac.id/index.php/istikhlaf/article/download/1505/727": {
+		"title": "",
+		"url": "https://ejurnal.iaiyasnibungo.ac.id/index.php/istikhlaf/article/download/1505/727",
+		"host": "ejurnal.iaiyasnibungo.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ejournal.bacadulu.net/index.php/ecif/article/view/143": {
+		"title": "",
+		"url": "https://ejournal.bacadulu.net/index.php/ecif/article/view/143",
+		"host": "ejournal.bacadulu.net",
+		"status": 500,
+		"error": "http 500",
+		"fetchedAt": "2026-09-15"
+	},
+	"ijiefer.uis.edu.my.kuisjournal.com/ircief/article/download/244/165": {
+		"title": "",
+		"url": "https://ijiefer.uis.edu.my.kuisjournal.com/ircief/article/download/244/165",
+		"host": "ijiefer.uis.edu.my.kuisjournal.com",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.abdurraufinstitute.org/index.php/iqtishadmashlahah/article/view/472": {
+		"title": "Green Halal Business: A Sustainable Model for Islamic Entrepreneurship",
+		"url": "https://journal.abdurraufinstitute.org/index.php/iqtishadmashlahah/article/view/472",
+		"host": "journal.abdurraufinstitute.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"iktisab.journal.unida.gontor.ac.id/index.php/aliktisab/article/download/35/13": {
+		"title": "",
+		"url": "https://iktisab.journal.unida.gontor.ac.id/index.php/aliktisab/article/download/35/13",
+		"host": "iktisab.journal.unida.gontor.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iktisab.journal.unida.gontor.ac.id/index.php/aliktisab/article/download/17/10": {
+		"title": "",
+		"url": "https://iktisab.journal.unida.gontor.ac.id/index.php/aliktisab/article/download/17/10",
+		"host": "iktisab.journal.unida.gontor.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"ejurnal.ung.ac.id/index.php/jalrev/article/download/15225/5902": {
+		"title": "",
+		"url": "https://ejurnal.ung.ac.id/index.php/jalrev/article/download/15225/5902",
+		"host": "ejurnal.ung.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iktisab.journal.unida.gontor.ac.id/index.php/aliktisab/article/download/35/13/283": {
+		"title": "",
+		"url": "https://iktisab.journal.unida.gontor.ac.id/index.php/aliktisab/article/download/35/13/283",
+		"host": "iktisab.journal.unida.gontor.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.iaisambas.ac.id/index.php/sajgibe/article/download/5097/3714": {
+		"title": "",
+		"url": "https://journal.iaisambas.ac.id/index.php/SAJGIBE/article/download/5097/3714",
+		"host": "journal.iaisambas.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.ar-raniry.ac.id/index.php/icosopp/article/download/10153/3791": {
+		"title": "",
+		"url": "https://journal.ar-raniry.ac.id/index.php/ICOSOPP/article/download/10153/3791",
+		"host": "journal.ar-raniry.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.ilmudata.co.id/index.php/riggs/article/download/11133/7728/67561": {
+		"title": "",
+		"url": "https://journal.ilmudata.co.id/index.php/RIGGS/article/download/11133/7728/67561",
+		"host": "journal.ilmudata.co.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.iaincurup.ac.id/index.php/alfalah/article/view/14703": {
+		"title": "Formalization of DSN-MUI Fatwa No. 28/DSN-MUI/III/2002 in Electronic Money Transactions",
+		"url": "https://journal.iaincurup.ac.id/index.php/alfalah/article/view/14703",
+		"host": "journal.iaincurup.ac.id",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal-ikadi.com/ojs/index.php/assyirkah/article/view/603": {
+		"title": "Analisis Implementasi Pembiayaan Murabahah Berdasarkan Fatwa DSN-MUI pada PT. Bank Syariah Indonesia Tbk Periode 2023-2025 — As-Syirkah: Islamic Economic & Financial Journal",
+		"url": "https://journal-ikadi.com/ojs/index.php/assyirkah/article/view/603",
+		"host": "journal-ikadi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.iou.edu.gm/jis/article/view/65": {
+		"title": "IMPLEMENTATION OF THE FATWÁ OF INDONESIAN ULEMA COUNCIL ON SHARĪ’AH-COMPLIANT FINANCIAL TECHNOLOGY SERVICE PRODUCTS IN INDONESIA",
+		"url": "https://journal.iou.edu.gm/jis/article/view/65",
+		"host": "journal.iou.edu.gm",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"doi.org/10.1596/43986": {
+		"title": "",
+		"url": "https://doi.org/10.1596/43986",
+		"host": "doi.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.inceif.edu.my/index.php/ijif/article/download/210/182": {
+		"title": "",
+		"url": "https://journal.inceif.edu.my/index.php/ijif/article/download/210/182",
+		"host": "journal.inceif.edu.my",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.isnu-sumut.org/index.php/jcisnu/article/download/948/583/4985": {
+		"title": "",
+		"url": "https://journal.isnu-sumut.org/index.php/jcisnu/article/download/948/583/4985",
+		"host": "journal.isnu-sumut.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.inceif.edu.my/index.php/ijifsd/article/download/970/542/4522": {
+		"title": "",
+		"url": "https://journal.inceif.edu.my/index.php/ijifsd/article/download/970/542/4522",
+		"host": "journal.inceif.edu.my",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.jcarm.in/index.php/home/article/view/169": {
+		"title": "Journal of Contemporary Academic Research and Methodologies (JCARM)",
+		"url": "https://journal.jcarm.in/index.php/home/article/view/169",
+		"host": "journal.jcarm.in",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.ipb.ac.id/jalmuzaraah/article/download/71681/33830": {
+		"title": "",
+		"url": "https://journal.ipb.ac.id/jalmuzaraah/article/download/71681/33830",
+		"host": "journal.ipb.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.inceif.edu.my": {
+		"title": "ISRA International Journal for Islamic Finance",
+		"url": "https://journal.inceif.edu.my",
+		"host": "journal.inceif.edu.my",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.jibep.org": {
+		"title": "Journal of Islamic Banking Economics and Policy",
+		"url": "https://journal.jibep.org",
+		"host": "journal.jibep.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.jibep.org/index.php/jibep/about": {
+		"title": "About the Journal | Journal of Islamic Banking Economics and Policy",
+		"url": "https://journal.jibep.org/index.php/jibep/about",
+		"host": "journal.jibep.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.jibep.org/index.php/jibep/article/view/15": {
+		"title": "FinTech Innovation and Islamic Finance: A Thematic Literature Review",
+		"url": "https://journal.jibep.org/index.php/jibep/article/view/15",
+		"host": "journal.jibep.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.uii.ac.id/jielariba/article/download/40613/18548": {
+		"title": "",
+		"url": "https://journal.uii.ac.id/JIELariba/article/download/40613/18548",
+		"host": "journal.uii.ac.id",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.uii.ac.id/jildeb/article/download/42046/18721/147891": {
+		"title": "",
+		"url": "https://journal.uii.ac.id/JILDEB/article/download/42046/18721/147891",
+		"host": "journal.uii.ac.id",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.uii.ac.id/risfe/article/view/47441": {
+		"title": "",
+		"url": "https://journal.uii.ac.id/RISFE/article/view/47441",
+		"host": "journal.uii.ac.id",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.takaza.id/index.php/alurwah/article/download/373/163": {
+		"title": "",
+		"url": "https://journal.takaza.id/index.php/alurwah/article/download/373/163",
+		"host": "journal.takaza.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.inceif.edu.my/index.php/ijifsd/announcement": {
+		"title": "Announcements",
+		"url": "https://journal.inceif.edu.my/index.php/ijifsd/announcement",
+		"host": "journal.inceif.edu.my",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.lembagakita.com/ijmsit/article/download/7646/4897/27965": {
+		"title": "",
+		"url": "https://journal.lembagakita.com/ijmsit/article/download/7646/4897/27965",
+		"host": "journal.lembagakita.com",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.nubaninstitute.org/index.php/jidef/about": {
+		"title": "About the Journal | Journal of Islamic Digital Economic and Finance",
+		"url": "https://journal.nubaninstitute.org/index.php/jidef/about",
+		"host": "journal.nubaninstitute.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.nubaninstitute.org/index.php/jidef": {
+		"title": "Journal of Islamic Digital Economic and Finance",
+		"url": "https://journal.nubaninstitute.org/index.php/jidef",
+		"host": "journal.nubaninstitute.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.uinsgd.ac.id/index.php/jieb/home": {
+		"title": "",
+		"url": "https://journal.uinsgd.ac.id/index.php/jieb/home",
+		"host": "journal.uinsgd.ac.id",
+		"status": 200,
+		"error": "http 200",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.inceif.edu.my/index.php/ijifsd/issue/archive": {
+		"title": "Archives",
+		"url": "https://journal.inceif.edu.my/index.php/ijifsd/issue/archive",
+		"host": "journal.inceif.edu.my",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.uiii.ac.id/index.php/mber/article/download/391/354": {
+		"title": "",
+		"url": "https://journal.uiii.ac.id/index.php/mber/article/download/391/354",
+		"host": "journal.uiii.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.uir.ac.id/index.php/syarikat/article/download/22238/8376/83325": {
+		"title": "",
+		"url": "https://journal.uir.ac.id/index.php/syarikat/article/download/22238/8376/83325",
+		"host": "journal.uir.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.uir.ac.id/index.php/tabarru/article/download/8375/3766/28937": {
+		"title": "",
+		"url": "https://journal.uir.ac.id/index.php/tabarru/article/download/8375/3766/28937",
+		"host": "journal.uir.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.um-surabaya.ac.id/sociolegal/article/download/30663/11218": {
+		"title": "",
+		"url": "https://journal.um-surabaya.ac.id/sociolegal/article/download/30663/11218",
+		"host": "journal.um-surabaya.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.inceif.edu.my/ijif": {
+		"title": "ISRA International Journal of Islamic Finance",
+		"url": "https://journal.inceif.edu.my/ijif",
+		"host": "journal.inceif.edu.my",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal1.uinssc.ac.id/index.php/al-mustashfa/article/download/21909/7663/64924": {
+		"title": "",
+		"url": "https://journal1.uinssc.ac.id/index.php/al-mustashfa/article/download/21909/7663/64924",
+		"host": "journal1.uinssc.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.unismuh.ac.id/index.php/profitability/article/view/19141/10612": {
+		"title": "",
+		"url": "https://journal.unismuh.ac.id/index.php/profitability/article/view/19141/10612",
+		"host": "journal.unismuh.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.inceif.edu.my/ijifsd": {
+		"title": "International Journal of Islamic Finance and Sustainable Development",
+		"url": "https://journal.inceif.edu.my/ijifsd",
+		"host": "journal.inceif.edu.my",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journals.goodwoodpub.com/index.php/bukhori/article/download/4637/1449/30588": {
+		"title": "",
+		"url": "https://journals.goodwoodpub.com/index.php/Bukhori/article/download/4637/1449/30588",
+		"host": "journals.goodwoodpub.com",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.walisongo.ac.id/index.php/economica/article/view/27880": {
+		"title": "Economica: Jurnal Ekonomi Islam",
+		"url": "https://journal.walisongo.ac.id/index.php/economica/article/view/27880",
+		"host": "journal.walisongo.ac.id",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.walisongo.ac.id/index.php/jiemb/article/view/26286/7142": {
+		"title": "",
+		"url": "https://journal.walisongo.ac.id/index.php/JIEMB/article/view/26286/7142",
+		"host": "journal.walisongo.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journals.iium.edu.my/jisf/index.php/iiibf/article/download/48/36/421": {
+		"title": "",
+		"url": "https://journals.iium.edu.my/jisf/index.php/iiibf/article/download/48/36/421",
+		"host": "journals.iium.edu.my",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal.mediaakademik.com/index.php/jma/article/view/6892": {
+		"title": "",
+		"url": "https://jurnal.mediaakademik.com/index.php/jma/article/view/6892",
+		"host": "jurnal.mediaakademik.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"journal.inceif.edu.my/index.php/ijifsd/issue/current": {
+		"title": "Vol. 18 No. 2 (2026)",
+		"url": "https://journal.inceif.edu.my/index.php/ijifsd/issue/current",
+		"host": "journal.inceif.edu.my",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"journals2.ums.ac.id/jisel/article/download/9364/2771": {
+		"title": "",
+		"url": "https://journals2.ums.ac.id/jisel/article/download/9364/2771",
+		"host": "journals2.ums.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journalweb.org/ojs/index.php/basira/article/download/880/213/2457": {
+		"title": "",
+		"url": "https://journalweb.org/ojs/index.php/BASIRA/article/download/880/213/2457",
+		"host": "journalweb.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"journals.iium.edu.my/jisf/index.php/iiibf/article/download/15/9/102": {
+		"title": "",
+		"url": "https://journals.iium.edu.my/jisf/index.php/iiibf/article/download/15/9/102",
+		"host": "journals.iium.edu.my",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal.uinsyahada.ac.id/index.php/jiftech": {
+		"title": "",
+		"url": "https://jurnal.uinsyahada.ac.id/index.php/jiftech",
+		"host": "jurnal.uinsyahada.ac.id",
+		"status": 0,
+		"error": "unable to verify the first certificate",
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal-jams.or.id/index.php/jams/article/download/75/77/300": {
+		"title": "",
+		"url": "https://jurnal-jams.or.id/index.php/JAMS/article/download/75/77/300",
+		"host": "jurnal-jams.or.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal.uin-antasari.ac.id/index.php/syariah/article/download/16641/4612": {
+		"title": "",
+		"url": "https://jurnal.uin-antasari.ac.id/index.php/syariah/article/download/16641/4612",
+		"host": "jurnal.uin-antasari.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal.raudhatunajah.com/index.php/widad/article/download/75/34": {
+		"title": "",
+		"url": "https://jurnal.raudhatunajah.com/index.php/widad/article/download/75/34",
+		"host": "jurnal.raudhatunajah.com",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal.stie-aas.ac.id/index.php/jei/article/download/10269/4531/36108": {
+		"title": "",
+		"url": "https://jurnal.stie-aas.ac.id/index.php/jei/article/download/10269/4531/36108",
+		"host": "jurnal.stie-aas.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal.stie-aas.ac.id/index.php/jie/article/download/17870/7607": {
+		"title": "",
+		"url": "https://jurnal.stie-aas.ac.id/index.php/jie/article/download/17870/7607",
+		"host": "jurnal.stie-aas.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal.staim-probolinggo.ac.id/usrah/article/view/2218/1790": {
+		"title": "",
+		"url": "https://jurnal.staim-probolinggo.ac.id/USRAH/article/view/2218/1790",
+		"host": "jurnal.staim-probolinggo.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal.sinesia.id/index.php/benefits-jet/article/download/619/220/4562": {
+		"title": "",
+		"url": "https://jurnal.sinesia.id/index.php/Benefits-JET/article/download/619/220/4562",
+		"host": "jurnal.sinesia.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal.stain-madina.ac.id/index.php/almanaj/article/download/3132/1861": {
+		"title": "",
+		"url": "https://jurnal.stain-madina.ac.id/index.php/almanaj/article/download/3132/1861",
+		"host": "jurnal.stain-madina.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnalfebi.uinsa.ac.id/index.php/mazawa/article/view/2261": {
+		"title": "",
+		"url": "https://jurnalfebi.uinsa.ac.id/index.php/MAZAWA/article/view/2261",
+		"host": "jurnalfebi.uinsa.ac.id",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk": {
+		"title": "Pakistan Institute of Development Economics — Think Tank",
+		"url": "https://pide.org.pk",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal.ulb.ac.id/index.php/sinergitek/article/download/9003/pdf": {
+		"title": "",
+		"url": "https://jurnal.ulb.ac.id/index.php/sinergitek/article/download/9003/pdf",
+		"host": "jurnal.ulb.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal.uic.ac.id/al-musyarakah/article/download/388/252/854": {
+		"title": "",
+		"url": "https://jurnal.uic.ac.id/Al-Musyarakah/article/download/388/252/854",
+		"host": "jurnal.uic.ac.id",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/professional-departm/oric-introduction": {
+		"title": "ORIC Introduction",
+		"url": "https://pide.org.pk/professional-departm/oric-introduction",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/pide-home-landing": {
+		"title": "Pakistan Institute of Development Economics — Think Tank",
+		"url": "https://pide.org.pk/pide-home-landing",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/contact": {
+		"title": "",
+		"url": "https://pide.org.pk/contact",
+		"host": "pide.org.pk",
+		"status": 200,
+		"error": "http 200",
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/download-application-forms": {
+		"title": "Download Application Forms",
+		"url": "https://pide.org.pk/download-application-forms",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/jobs": {
+		"title": "Jobs at PIDE",
+		"url": "https://pide.org.pk/jobs",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/pide-staff-directory": {
+		"title": "PIDE Staff Directory",
+		"url": "https://pide.org.pk/pide-staff-directory",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/ict-division-pide": {
+		"title": "ICT Division PIDE",
+		"url": "https://pide.org.pk/ict-division-pide",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/pide-edc-2": {
+		"title": "PIDE EDC",
+		"url": "https://pide.org.pk/pide-edc-2",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/pide-committees": {
+		"title": "PIDE Committees",
+		"url": "https://pide.org.pk/pide-committees",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"sjournals.sdl.edu.sa/journals/detail-journal-scope/33815260": {
+		"title": "",
+		"url": "https://sjournals.sdl.edu.sa/Journals/detail-journal-scope/33815260",
+		"host": "sjournals.sdl.edu.sa",
+		"status": 0,
+		"error": "unable to verify the first certificate",
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/professional-departm/about-library": {
+		"title": "About Library",
+		"url": "https://pide.org.pk/professional-departm/about-library",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"sjournals.sdl.edu.sa/journals/detail-journal/33815260": {
+		"title": "",
+		"url": "https://sjournals.sdl.edu.sa/Journals/detail-journal/33815260",
+		"host": "sjournals.sdl.edu.sa",
+		"status": 0,
+		"error": "unable to verify the first certificate",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchjournalrank.com/journal/journal-of-islamic-monetary-economics-and-finance": {
+		"title": "Journal of Islamic Monetary Economics and Finance — SJR 0.360, Q2, H-Index 18 — Research Journal Rank",
+		"url": "https://researchjournalrank.com/journal/journal-of-islamic-monetary-economics-and-finance",
+		"host": "researchjournalrank.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"wos-journal.info/journalid/16683": {
+		"title": "",
+		"url": "https://wos-journal.info/journalid/16683",
+		"host": "wos-journal.info",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"wos-journal.info/journalid/4383": {
+		"title": "",
+		"url": "https://wos-journal.info/journalid/4383",
+		"host": "wos-journal.info",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"emerald.com/emjb/article/doi/10.1108/emjb-01-2025-0009/1278096/adoption-of-islamic-fintech-exploring-influential": {
+		"title": "",
+		"url": "https://www.emerald.com/emjb/article/doi/10.1108/EMJB-01-2025-0009/1278096/Adoption-of-Islamic-Fintech-exploring-influential",
+		"host": "www.emerald.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"emerald.com/ijif/article/10/2/122/274189/editorial": {
+		"title": "",
+		"url": "https://www.emerald.com/ijif/article/10/2/122/274189/Editorial",
+		"host": "www.emerald.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"emerald.com/imefm/article/17/6/1065/1214284/sustainable-and-responsible-investment-sri-sukuk": {
+		"title": "",
+		"url": "https://www.emerald.com/imefm/article/17/6/1065/1214284/Sustainable-and-responsible-investment-SRI-Sukuk",
+		"host": "www.emerald.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"emerald.com/imefm/article/18/3/649/1246836/the-role-of-islamic-fintech-in-digital-financial": {
+		"title": "",
+		"url": "https://www.emerald.com/imefm/article/18/3/649/1246836/The-role-of-Islamic-FinTech-in-digital-financial",
+		"host": "www.emerald.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"emerald.com/jiabr": {
+		"title": "",
+		"url": "https://www.emerald.com/jiabr",
+		"host": "www.emerald.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"emerald.com/jiabr/article/16/7/1265/1257341/digital-risks-and-islamic-fintech-a-road-map-to": {
+		"title": "",
+		"url": "https://www.emerald.com/jiabr/article/16/7/1265/1257341/Digital-risks-and-Islamic-FinTech-a-road-map-to",
+		"host": "www.emerald.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"emerald.com/jiabr/article/doi/10.1108/jiabr-09-2024-0330/1321961/the-effect-of-fintech-innovation-on-islamic-bank": {
+		"title": "",
+		"url": "https://www.emerald.com/jiabr/article/doi/10.1108/JIABR-09-2024-0330/1321961/The-effect-of-Fintech-innovation-on-Islamic-bank",
+		"host": "www.emerald.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"emerald.com/jiabr/article/doi/10.1108/jiabr-10-2024-0435/1351844/blockchain-technology-in-zakat-management-system": {
+		"title": "",
+		"url": "https://www.emerald.com/jiabr/article/doi/10.1108/JIABR-10-2024-0435/1351844/Blockchain-technology-in-zakat-management-system",
+		"host": "www.emerald.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"emerald.com/jiabr/issue/browse-by-year": {
+		"title": "",
+		"url": "https://www.emerald.com/jiabr/issue/browse-by-year",
+		"host": "www.emerald.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"emerald.com/jima/article/16/6/1742/1263945/islamic-fintech-navigating-the-regulatory": {
+		"title": "",
+		"url": "https://www.emerald.com/jima/article/16/6/1742/1263945/Islamic-fintech-navigating-the-regulatory",
+		"host": "www.emerald.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"emerald.com/jima/article/17/2/677/1257270/intention-to-adopt-blockchain-technology-for-zakat": {
+		"title": "",
+		"url": "https://www.emerald.com/jima/article/17/2/677/1257270/Intention-to-adopt-blockchain-technology-for-zakat",
+		"host": "www.emerald.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/professional-departm/qec-introduction": {
+		"title": "QEC Introduction",
+		"url": "https://pide.org.pk/professional-departm/qec-introduction",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"emerald.com/jima/article/doi/10.1108/jima-10-2025-0662/1350899/islamic-fintech-a-systematic-literature-review-of": {
+		"title": "",
+		"url": "https://www.emerald.com/jima/article/doi/10.1108/JIMA-10-2025-0662/1350899/Islamic-FinTech-a-systematic-literature-review-of",
+		"host": "www.emerald.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"emerald.com/qrfm/article/17/4/849/1257289/critical-assessment-on-cash-waqf-linked-sukuk-in": {
+		"title": "",
+		"url": "https://www.emerald.com/qrfm/article/17/4/849/1257289/Critical-assessment-on-cash-waqf-linked-sukuk-in",
+		"host": "www.emerald.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"sukukjournal.org.uk/index.php/sukuk/article/view/85": {
+		"title": "Integrating Tokenisation into the Islamic Business and Finance Ecosystem — SUKUK: INTERNATIONAL JOURNAL OF BANKING, FINANCE, MANAGEMENT AND BUSINESS",
+		"url": "https://sukukjournal.org.uk/index.php/sukuk/article/view/85",
+		"host": "sukukjournal.org.uk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"emeraldgrouppublishing.com/journal/jiabr": {
+		"title": "",
+		"url": "https://www.emeraldgrouppublishing.com/journal/jiabr",
+		"host": "www.emeraldgrouppublishing.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"emeraldgrouppublishing.com/journal/imefm": {
+		"title": "",
+		"url": "https://www.emeraldgrouppublishing.com/journal/imefm",
+		"host": "www.emeraldgrouppublishing.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"mdpi.com/1911-8074/18/11/651": {
+		"title": "",
+		"url": "https://www.mdpi.com/1911-8074/18/11/651",
+		"host": "www.mdpi.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"mdpi.com/1911-8074/18/8/442": {
+		"title": "",
+		"url": "https://www.mdpi.com/1911-8074/18/8/442",
+		"host": "www.mdpi.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"mdpi.com/1911-8074/19/6/416": {
+		"title": "",
+		"url": "https://www.mdpi.com/1911-8074/19/6/416",
+		"host": "www.mdpi.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"mdpi.com/2071-1050/17/9/3805": {
+		"title": "",
+		"url": "https://www.mdpi.com/2071-1050/17/9/3805",
+		"host": "www.mdpi.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"mdpi.com/2071-1050/18/2/557": {
+		"title": "",
+		"url": "https://www.mdpi.com/2071-1050/18/2/557",
+		"host": "www.mdpi.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"mdpi.com/2077-1444/17/1/78": {
+		"title": "",
+		"url": "https://www.mdpi.com/2077-1444/17/1/78",
+		"host": "www.mdpi.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/research-author/alishba-khan": {
+		"title": "Alishba Khan",
+		"url": "https://pide.org.pk/research-author/alishba-khan",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"mdpi.com/2227-7099/11/3/79": {
+		"title": "",
+		"url": "https://www.mdpi.com/2227-7099/11/3/79",
+		"host": "www.mdpi.com",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/figure/evolution-of-cwls-series-in-indonesia-2018-2025_tbl1_412324960": {
+		"title": "",
+		"url": "https://www.researchgate.net/figure/Evolution-of-CWLS-Series-in-Indonesia-2018-2025_tbl1_412324960",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/269928092_the_comparison_of_shariah_screening_methodology_for_stocks_between_malaysia_security_commission_criteria_and_dow_jones_method_a_critical_assessment": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/269928092_THE_COMPARISON_OF_SHARIAH_SCREENING_METHODOLOGY_FOR_STOCKS_BETWEEN_MALAYSIA_SECURITY_COMMISSION_CRITERIA_AND_DOW_JONES_METHOD_A_CRITICAL_ASSESSMENT",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/270284881_challenges_and_opportunities_in_developing_microtakaful_in_muslim_majority_country_a_case_study_of_indonesia": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/270284881_Challenges_and_Opportunities_in_Developing_Microtakaful_in_Muslim_Majority_Country_A_Case_Study_of_Indonesia",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/283854956_world_bank_islamic_development_bank_policy_report_leveraging_islamic_finance_for_small_and_medium_enterprises_smes": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/283854956_World_Bank_Islamic_Development_Bank_Policy_Report_Leveraging_Islamic_Finance_for_Small_and_Medium_Enterprises_SMEs",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/347222049_the_application_of_fintech_in_microtakaful_as_a_means_of_digital_financial_inclusion_insights_from_the_gcc": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/347222049_The_Application_of_Fintech_in_Microtakaful_as_a_Means_of_Digital_Financial_Inclusion_Insights_from_the_GCC",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/figure/sustainable-halal-value-chain-framework_fig1_408477590": {
+		"title": "",
+		"url": "https://www.researchgate.net/figure/Sustainable-Halal-Value-Chain-Framework_fig1_408477590",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/347415725_the_dsn-mui_fatwa_related_to_fintech_applications_in_islamic_financial_institutions_review": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/347415725_THE_DSN-MUI_FATWA_RELATED_TO_FINTECH_APPLICATIONS_IN_ISLAMIC_FINANCIAL_INSTITUTIONS_REVIEW",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/353082919_cash_waqf_as_source_of_funding_for_financial_technology_startups": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/353082919_Cash_Waqf_As_Source_Of_Funding_For_Financial_Technology_Startups",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/348676844_adoption_of_shariah_compliant_financing_based_crowdfunding_platform_by_smes_a_case_study_on_beehive": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/348676844_Adoption_of_Shariah_Compliant_Financing_Based_Crowdfunding_Platform_by_SMEs_A_Case_Study_on_Beehive",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/361699528_digitalisation_of_zakat_management_system_in_malaysia_potential_and_challenges": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/361699528_Digitalisation_of_Zakat_Management_System_in_Malaysia_Potential_and_Challenges",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/367023933_standardization_efforts_in_islamic_finance": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/367023933_Standardization_Efforts_in_Islamic_Finance",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/371237555_factors_influencing_the_success_of_retail_cash_waqf_linked_sukuk_cwls_issuance_a_lesson_from_indonesia": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/371237555_Factors_Influencing_the_Success_of_Retail_Cash_Waqf_Linked_Sukuk_CWLS_Issuance_A_Lesson_from_Indonesia",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/363838214_the_financial_stability_of_islamic_banks_and_sukuk_market_development_is_the_effect_complementary_or_competitive": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/363838214_The_financial_stability_of_Islamic_banks_and_sukuk_market_development_Is_the_effect_complementary_or_competitive",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/378208493_development_of_islamic_fintech_in_supporting_the_growth_of_the_halal_industry": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/378208493_Development_of_Islamic_Fintech_in_Supporting_the_Growth_of_the_Halal_Industry",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/385094996_analysis_of_transparency_index_measurement_of_amil_zakat_institutions_in_indonesia": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/385094996_Analysis_of_Transparency_Index_Measurement_of_Amil_Zakat_Institutions_in_Indonesia",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/380876423_islamic_financial_institutions_and_stability_an_empirical_analysis": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/380876423_Islamic_Financial_Institutions_and_Stability_An_Empirical_Analysis",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/387986464_transforming_islamic_finance_the_impact_of_blockchain_and_smart_sukuk": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/387986464_Transforming_Islamic_finance_the_impact_of_blockchain_and_Smart_Sukuk",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/388268181_the_potential_for_parametric_insurance_solutions_to_build_resilience_for_smallholder_farmers_in_zimbabwe": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/388268181_The_Potential_for_Parametric_Insurance_Solutions_to_Build_Resilience_for_Smallholder_Farmers_in_Zimbabwe",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/388191344_the_integration_of_maqasid_shariah_in_evaluating_stablecoins_and_traditional_cryptocurrencies_for_islamic_portfolios_diversification": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/388191344_The_integration_of_Maqasid_Shariah_in_evaluating_stablecoins_and_traditional_cryptocurrencies_for_Islamic_portfolios_diversification",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/388700903_an_analysis_of_cash_waqf_linked_sukuk_for_socially_impactful_sustainable_projects_in_indonesia": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/388700903_An_Analysis_of_Cash_Waqf_Linked_Sukuk_for_Socially_Impactful_Sustainable_Projects_in_Indonesia",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/388680342_the_role_of_islamic_fintech_in_digital_financial_inclusion_and_sustainable_development_post_covid-19_cross-country_analysis": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/388680342_The_role_of_Islamic_FinTech_in_digital_financial_inclusion_and_sustainable_development_post_covid-19_cross-country_analysis",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/392783387_analysis_of_sharia_compliance_in_the_presentation_of_islamic_bank_financial_reports": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/392783387_Analysis_of_Sharia_Compliance_in_the_Presentation_of_Islamic_Bank_Financial_Reports",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/392566003_fatwa_on_cryptocurrency_as_digital_assets_an_islamic_perspective_amidst_indonesia": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/392566003_Fatwa_on_Cryptocurrency_as_Digital_Assets_An_Islamic_Perspective_Amidst_Indonesia",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/393017634_aligning_halal_supply_chain_management_improvements_with_global_sustainability_standards_a_dematel-based_analysis": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/393017634_Aligning_Halal_Supply_Chain_Management_Improvements_with_Global_Sustainability_Standards_A_DEMATEL-Based_Analysis",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/393416314_the_impact_of_digitalization_on_the_optimization_of_zakat_fund_collection_at_baznas_republic_of_indonesia": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/393416314_The_Impact_of_Digitalization_on_the_Optimization_of_Zakat_Fund_Collection_at_Baznas_Republic_of_Indonesia",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/393521450_islamic_banking_spin-off_policy_transition_from_mandate_to_choice": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/393521450_Islamic_banking_spin-off_policy_Transition_from_mandate_to_choice",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/393602359_a_proposed_financial_inclusion_model_integrating_zakat_waqf_and_islamic_crowdfunding_for_sustainable_poverty_alleviation_in_supporting_ekonomi_madani": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/393602359_A_Proposed_Financial_Inclusion_Model_Integrating_Zakat_Waqf_and_Islamic_Crowdfunding_for_Sustainable_Poverty_Alleviation_in_Supporting_Ekonomi_MADANI",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/393730573_impact_of_green_finance_and_esg_on_the_sustainable_performance_of_islamic_banks": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/393730573_Impact_of_Green_Finance_and_ESG_on_the_Sustainable_Performance_of_Islamic_Banks",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/393869423_exploring_the_role_of_islamic_finance_in_supporting_sme_growth_a_review_study": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/393869423_Exploring_the_Role_of_Islamic_Finance_in_Supporting_SME_Growth_A_Review_Study",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/394545077_bridging_the_sme_financing_gap_in_pakistan_through_islamic_finance_a_policy_review": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/394545077_Bridging_the_SME_Financing_Gap_in_Pakistan_through_Islamic_Finance_A_Policy_Review",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/396901319_asset_tokenization_in_islamic_finance_historical_perspectives_sukuk_innovations_and_the_shariah_compliant_blockchain": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/396901319_Asset_Tokenization_in_Islamic_Finance_Historical_Perspectives_Sukuk_Innovations_and_the_Shariah_Compliant_Blockchain",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/397545799_the_future_of_islamic_finance_in_the_era_of_digital_transformation_opportunities_and_shariah_challenges": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/397545799_The_Future_of_Islamic_Finance_in_the_Era_of_Digital_Transformation_Opportunities_and_Shariah_Challenges",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"insurancejournal.com/news/international/2026/08/18/881981.htm": {
+		"title": "Munich Re, Lloyd's Top List of 50 Largest Global Reinsurers: AM Best",
+		"url": "https://www.insurancejournal.com/news/international/2026/08/18/881981.htm",
+		"host": "www.insurancejournal.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/398884059_operationalising_green_sukuk_within_the_world_bank_environmental_and_social_framework": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/398884059_Operationalising_Green_Sukuk_within_the_World_Bank_environmental_and_social_framework",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/396792544_islamic_fintech_and_digital_transformation_opportunities_and_shariah_governance_challenges": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/396792544_Islamic_Fintech_and_Digital_Transformation_Opportunities_and_Shariah_Governance_Challenges",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/399433058_legal_certainty_and_financial_inclusion_effects_of_pojk_292024_on_innovative_credit_scoring": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/399433058_Legal_Certainty_and_Financial_Inclusion_Effects_of_POJK_292024_on_Innovative_Credit_Scoring",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/399675438_the_impact_of_zakat_digitalization_on_increasing_zakat_collection_in_indonesia": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/399675438_THE_IMPACT_OF_ZAKAT_DIGITALIZATION_ON_INCREASING_ZAKAT_COLLECTION_IN_INDONESIA",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/400446888_digital_zakat_in_the_dynamics_of_national_zakat_fund_collection_in_indonesia": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/400446888_DIGITAL_ZAKAT_IN_THE_DYNAMICS_OF_NATIONAL_ZAKAT_FUND_COLLECTION_IN_INDONESIA",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/400835218_bislamic_banking_and_finance_promoting_inclusive_development_through_sustainable_practices_and_trade_facilitation_b": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/400835218_bIslamic_Banking_and_Finance_Promoting_Inclusive_Development_Through_Sustainable_Practices_and_Trade_Facilitation_b",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/399739694_shariah_governance_standards_in_malaysia_a_systematic_policy_content_analysis_of_sgpd_2019_gp28_and_aaoifi": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/399739694_Shariah_Governance_Standards_in_Malaysia_A_Systematic_Policy_Content_Analysis_of_SGPD_2019_GP28_and_AAOIFI",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/402524479_green_sukuk_issuance_and_sustainable_development_goals_achievement_in_asean": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/402524479_GREEN_SUKUK_ISSUANCE_AND_SUSTAINABLE_DEVELOPMENT_GOALS_ACHIEVEMENT_IN_ASEAN",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/404029870_msme_financing_gap_the_evolving_role_of_microfinance": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/404029870_MSME_FINANCING_GAP_THE_EVOLVING_ROLE_OF_MICROFINANCE",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/404297820_nigerian_insurance_industry_reform_act_2025_implications_on_insurance_businesses": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/404297820_NIGERIAN_INSURANCE_INDUSTRY_REFORM_ACT_2025_IMPLICATIONS_ON_INSURANCE_BUSINESSES",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/400180257_analisis_komparatif_perkembangan_islamic_finance_di_malaysia_arab_saudi_dan_indonesia_perspektif_sgie_20242025": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/400180257_ANALISIS_KOMPARATIF_PERKEMBANGAN_ISLAMIC_FINANCE_DI_MALAYSIA_ARAB_SAUDI_DAN_INDONESIA_PERSPEKTIF_SGIE_20242025",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/407550469_regulatory_challenges_of_islamic_fintech_in_indonesia_a_policy_analysis_of_the_harmonization_of_sharia_principles_and_technological_innovation": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/407550469_Regulatory_Challenges_of_Islamic_Fintech_in_Indonesia_A_Policy_Analysis_of_the_Harmonization_of_Sharia_Principles_and_Technological_Innovation",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/410940977_islamic_financial_technology_fintech_development_in_saudi_arabia_and_egypt_a_comparative_institutional_and_sharia-compliance_analysis": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/410940977_Islamic_Financial_Technology_FinTech_Development_in_Saudi_Arabia_and_Egypt_A_Comparative_Institutional_and_Sharia-Compliance_Analysis",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/412043589_cash_waqf_linked_sukuk_cwls_in_indonesia_a_sentiment_analysis": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/412043589_Cash_Waqf_Linked_Sukuk_CWLS_In_Indonesia_A_Sentiment_Analysis",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"researchgate.net/publication/404692119_profile_and_financing_access_gaps_of_msmes_in_indonesia_evidence_from_adb_asia_sme_monitor_2024": {
+		"title": "",
+		"url": "https://www.researchgate.net/publication/404692119_Profile_and_Financing_Access_Gaps_of_MSMEs_in_Indonesia_evidence_from_ADB_Asia_SME_Monitor_2024",
+		"host": "www.researchgate.net",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"sdgprivatefinance.undp.org/leveraging-capital/sdg-investor-platform/business-case-studies/acre-africa-provides-micro-insurance": {
+		"title": "ACRE Africa provides micro-insurance products to strengthen farmer resilience — Private Finance for the SDGs",
+		"url": "http://sdgprivatefinance.undp.org/leveraging-capital/sdg-investor-platform/business-case-studies/acre-africa-provides-micro-insurance",
+		"host": "sdgprivatefinance.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"jurnal.bwi.go.id/index.php/awqaf/article/view/580": {
+		"title": "Integrated Cash Waqf-Linked Sukuk (CWLS) Models: Islamic Blended Finance Framework for Waste-to- Alternative Energy Projects in Indonesia",
+		"url": "https://www.jurnal.bwi.go.id/index.php/awqaf/article/view/580",
+		"host": "www.jurnal.bwi.go.id",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/research/parametric-insurance-transforming-the-insurance-landscape-in-pakistan": {
+		"title": "Parametric Insurance: Transforming the Insurance Landscape in Pakistan",
+		"url": "https://pide.org.pk/research/parametric-insurance-transforming-the-insurance-landscape-in-pakistan",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/research-year/2025": {
+		"title": "",
+		"url": "https://pide.org.pk/research-year/2025",
+		"host": "pide.org.pk",
+		"status": 200,
+		"error": "http 200",
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/tenders-and-advertisements": {
+		"title": "Tenders and Advertisements",
+		"url": "https://pide.org.pk/tenders-and-advertisements",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"2025.ar.isdb.org": {
+		"title": "<span class=\"hidden\">IsDB</span>Annual Report<br /> <em>2025</em>",
+		"url": "https://2025.ar.isdb.org",
+		"host": "2025.ar.isdb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/standards/published-standards/sukuk-standards/iifm-sukuk-al-mudarabah-tier1-template-master-mudarabah-agreement": {
+		"title": "Master Mudarabah Agreement — International Islamic Financial Market",
+		"url": "http://www.iifm.net/standards/published-standards/sukuk-standards/iifm-sukuk-al-mudarabah-tier1-template-master-mudarabah-agreement",
+		"host": "www.iifm.net",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/events/deep-dive-into-sukuk-launch-of-the-14th-annual-iifm-sukuk-report/66": {
+		"title": "International Islamic Financial Market",
+		"url": "http://www.iifm.net/events/deep-dive-into-sukuk-launch-of-the-14th-annual-iifm-sukuk-report/66",
+		"host": "www.iifm.net",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/bitstreams/7ba0c502-878b-4e2b-8064-1480c8823b7f/download": {
+		"title": "",
+		"url": "http://openknowledge.worldbank.org/bitstreams/7ba0c502-878b-4e2b-8064-1480c8823b7f/download",
+		"host": "openknowledge.worldbank.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/20th-aaoifi-isdb-conference-is-set-to-convene-on-2-3-november-2025-crowne-plaza-kingdom-of-bahrain/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/20th-aaoifi-isdb-conference-is-set-to-convene-on-2-3-november-2025-crowne-plaza-kingdom-of-bahrain/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/aaoifi-governance-and-ethics-board-ageb-approves-in-principle-the-issuance-of-the-governance-standard-gs-25-principles-of-assessment-of-necessity-for-obtaining-conventional-reinsurance/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/aaoifi-governance-and-ethics-board-ageb-approves-in-principle-the-issuance-of-the-governance-standard-gs-25-principles-of-assessment-of-necessity-for-obtaining-conventional-reinsurance/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/research-sub-category/discourse-2025-04": {
+		"title": "Discourse 2025-04",
+		"url": "https://pide.org.pk/research-sub-category/discourse-2025-04",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/aaoifi-convenes-2nd-international-conference-on-partnership-finance-in-kazan-in-partnership-with-ministry-of-economy-of-republic-of-tatarstan-and-sberbank/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/aaoifi-convenes-2nd-international-conference-on-partnership-finance-in-kazan-in-partnership-with-ministry-of-economy-of-republic-of-tatarstan-and-sberbank/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/aaoifi-accounting-board-issues-its-statement-1-2025-withdrawing-fas-26-investment-in-real-estate/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/aaoifi-accounting-board-issues-its-statement-1-2025-withdrawing-fas-26-investment-in-real-estate/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"pide.org.pk/research-sub-category/policy-and-research": {
+		"title": "Policy and Research",
+		"url": "https://pide.org.pk/research-sub-category/policy-and-research",
+		"host": "pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/aaoifi-governance-and-ethics-board-ageb-approves-in-principle-the-issuance-of-the-governance-standard-gs-25-principles-of-assessment-of-necessity-for-obtaining-conventi…": {
+		"title": "",
+		"url": "https://aaoifi.com/announcement/aaoifi-governance-and-ethics-board-ageb-approves-in-principle-the-issuance-of-the-governance-standard-gs-25-principles-of-assessment-of-necessity-for-obtaining-conventi…",
+		"host": "aaoifi.com",
+		"status": 404,
+		"error": "http 404",
+		"fetchedAt": "2026-09-15"
+	},
+	"theta.pide.org.pk/copyright-public-notice": {
+		"title": "COPYRIGHT PUBLIC NOTICE",
+		"url": "https://theta.pide.org.pk/copyright-public-notice",
+		"host": "theta.pide.org.pk",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/aaoifi-governance-and-ethics-board-ageb-approves-in-principle-two-exposure-drafts-of-governance-standards-on-conversion-of-a-conventional-financial-institution-into-an-islamic-financial-i/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/aaoifi-governance-and-ethics-board-ageb-approves-in-principle-two-exposure-drafts-of-governance-standards-on-conversion-of-a-conventional-financial-institution-into-an-islamic-financial-i/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/aaoifi-governance-and-ethics-board-ageb-in-its-43rd-meeting-approves-in-principle-the-governance-standard-on-governance-and-management-of-investment-accounts/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/aaoifi-governance-and-ethics-board-ageb-in-its-43rd-meeting-approves-in-principle-the-governance-standard-on-governance-and-management-of-investment-accounts/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/entities/publication/25a635f9-254e-4564-9fc7-e895b4918504": {
+		"title": "Open Knowledge Repository",
+		"url": "http://openknowledge.worldbank.org/entities/publication/25a635f9-254e-4564-9fc7-e895b4918504",
+		"host": "openknowledge.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/aaoifi-governance-and-ethics-board-issues-its-statement-1-2025-aaoifi-governance-standard-gs-1-revised-2024-shariah-governance-framework-external-shari/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/aaoifi-governance-and-ethics-board-issues-its-statement-1-2025-aaoifi-governance-standard-gs-1-revised-2024-shariah-governance-framework-external-shari/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/aaoifi-grants-compatibility-of-compliance-certificate-to-imal-islamic-financial-software-of-path-solution/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/aaoifi-grants-compatibility-of-compliance-certificate-to-imal-islamic-financial-software-of-path-solution/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/aaoifi-makes-all-its-standards-accessible-on-its-website-on-a-complimentary-basis/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/aaoifi-makes-all-its-standards-accessible-on-its-website-on-a-complimentary-basis/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/aaoifi-officially-issues-exposure-draft-of-financial-accounting-standard-fas-control-of-assets-and-business/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/aaoifi-officially-issues-exposure-draft-of-financial-accounting-standard-fas-control-of-assets-and-business/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"blogs.isdbinstitute.org": {
+		"title": "",
+		"url": "https://blogs.isdbinstitute.org",
+		"host": "blogs.isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"blogs.isdbinstitute.org/islamic-finance-compliance-to-impact": {
+		"title": "",
+		"url": "https://blogs.isdbinstitute.org/islamic-finance-compliance-to-impact",
+		"host": "blogs.isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"blogs.isdbinstitute.org/islamic-finance-middle-income-trap": {
+		"title": "",
+		"url": "https://blogs.isdbinstitute.org/islamic-finance-middle-income-trap",
+		"host": "blogs.isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"blogs.isdbinstitute.org/islamic-finance-sustainable-development-journal-success": {
+		"title": "",
+		"url": "https://blogs.isdbinstitute.org/islamic-finance-sustainable-development-journal-success",
+		"host": "blogs.isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"blogs.isdbinstitute.org/takaful-ai-blockchain": {
+		"title": "",
+		"url": "https://blogs.isdbinstitute.org/takaful-ai-blockchain",
+		"host": "blogs.isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"blogs.worldbank.org/en/developmenttalk/does-index-insurance-really-work-for-smallholder-farmers-": {
+		"title": "Does index insurance really work for smallholder farmers?",
+		"url": "https://blogs.worldbank.org/en/developmenttalk/does-index-insurance-really-work-for-smallholder-farmers-",
+		"host": "blogs.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"blogs.worldbank.org/en/peoplemove/2025--will-remittances-decrease--will-it-be-the-year-of-diaspora": {
+		"title": "2025: Will remittances decrease? Will it be the year of diaspora bonds?",
+		"url": "https://blogs.worldbank.org/en/peoplemove/2025--will-remittances-decrease--will-it-be-the-year-of-diaspora",
+		"host": "blogs.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/the-aaoifi-governance-and-ethics-board-ageb-issues-the-exposure-draft-of-a-governance-standard-gs-on-principles-of-assessment-of-necessity-for-obtaining-conventional-reinsurance-by-takafu/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/the-aaoifi-governance-and-ethics-board-ageb-issues-the-exposure-draft-of-a-governance-standard-gs-on-principles-of-assessment-of-necessity-for-obtaining-conventional-reinsurance-by-takafu/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/draft-english-translation-of-aaoifi-shariah-standards-1-61/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/draft-english-translation-of-aaoifi-shariah-standards-1-61/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"data.ifsb.org": {
+		"title": "An error has occurred :-(",
+		"url": "https://data.ifsb.org",
+		"host": "data.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/the-aaoifi-governance-and-ethics-board-ageb-issues-the-exposure-draft-of-governance-standard-gs-__-governance-and-management-of-investment-accounts/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/the-aaoifi-governance-and-ethics-board-ageb-issues-the-exposure-draft-of-governance-standard-gs-__-governance-and-management-of-investment-accounts/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"databank.worldbank.org/source/remittance-prices-worldwide-": {
+		"title": "DataBank Error Page",
+		"url": "https://databank.worldbank.org/source/remittance-prices-worldwide-",
+		"host": "databank.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"documents.worldbank.org/en/publication/documents-reports/documentdetail/099111425065521240": {
+		"title": "Islamic Finance and Climate Agenda : From Green Sukuk Innovation to Greener Halal Value Chains",
+		"url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099111425065521240",
+		"host": "documents.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"documents1.worldbank.org/curated/en/099011124112021299/pdf/p171151117b571003182b81b4c9d2d91025.pdf": {
+		"title": "",
+		"url": "https://documents1.worldbank.org/curated/en/099011124112021299/pdf/P171151117b571003182b81b4c9d2d91025.pdf",
+		"host": "documents1.worldbank.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"documents1.worldbank.org/curated/en/099111425065521240/pdf/p179601-72d2f911-ceff-4d69-9425-91da2517bbcb.pdf": {
+		"title": "",
+		"url": "https://documents1.worldbank.org/curated/en/099111425065521240/pdf/P179601-72d2f911-ceff-4d69-9425-91da2517bbcb.pdf",
+		"host": "documents1.worldbank.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"documents1.worldbank.org/curated/en/384361600877094703/pdf/leveraging-islamic-fintech-to-improve-financial-inclusion.pdf": {
+		"title": "",
+		"url": "https://documents1.worldbank.org/curated/en/384361600877094703/pdf/Leveraging-Islamic-Fintech-to-Improve-Financial-Inclusion.pdf",
+		"host": "documents1.worldbank.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"documents1.worldbank.org/curated/en/099740408142422676/pdf/idu-84dfd61b-e135-4242-a202-3728b2e8fa86.pdf": {
+		"title": "",
+		"url": "https://documents1.worldbank.org/curated/en/099740408142422676/pdf/IDU-84dfd61b-e135-4242-a202-3728b2e8fa86.pdf",
+		"host": "documents1.worldbank.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"documents1.worldbank.org/curated/en/997581487153582013/pdf/112821-wp-mna-islamic-banking-executive-summary-public.pdf": {
+		"title": "",
+		"url": "https://documents1.worldbank.org/curated/en/997581487153582013/pdf/112821-WP-MNA-Islamic-Banking-Executive-Summary-PUBLIC.pdf",
+		"host": "documents1.worldbank.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"gifiip.org/wp-content/uploads/2025/09/fintech-report-2024-v9-2.pdf": {
+		"title": "",
+		"url": "https://gifiip.org/wp-content/uploads/2025/09/FINTECH-Report-2024-v9-2.pdf",
+		"host": "gifiip.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/the-aaoifi-governance-and-ethics-board-ageb-reissues-the-exposure-draft-of-governance-standard-gs_-development-and-governance-of-shariah-compliant-benchmark-rates-to-inc/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/the-aaoifi-governance-and-ethics-board-ageb-reissues-the-exposure-draft-of-governance-standard-gs_-development-and-governance-of-shariah-compliant-benchmark-rates-to-inc/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"iciec.isdb.org/wp-content/uploads/2025/10/sukuk-book-2025.pdf": {
+		"title": "",
+		"url": "https://iciec.isdb.org/wp-content/uploads/2025/10/sukuk-book-2025.pdf",
+		"host": "iciec.isdb.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"iifm.net/standards/published-standards/sukuk-standards": {
+		"title": "International Islamic Financial Market",
+		"url": "https://iifm.net/standards/published-standards/sukuk-standards",
+		"host": "iifm.net",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/article/global-takaful-alliance-build-financial-resilience": {
+		"title": "A Global Takaful Alliance to Build Financial Resilience",
+		"url": "https://irff.undp.org/article/global-takaful-alliance-build-financial-resilience",
+		"host": "irff.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/article/takaful-delivering-financial-resilience-100-million-people": {
+		"title": "Takaful — Delivering Financial Resilience to 100 million people by 2030",
+		"url": "https://irff.undp.org/article/takaful-delivering-financial-resilience-100-million-people",
+		"host": "irff.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/e-standards/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/e-standards/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/announcement/the-accounting-and-auditing-organization-for-islamic-financial-institutions-aaoifi-announces-the-24th-annual-shariah-boards-conference-scheduled-to-be-held-on-11-12-october-2026/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/announcement/the-accounting-and-auditing-organization-for-islamic-financial-institutions-aaoifi-announces-the-24th-annual-shariah-boards-conference-scheduled-to-be-held-on-11-12-october-2026/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/exposure-drafts/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/exposure-drafts/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"gifiip.org": {
+		"title": "",
+		"url": "https://gifiip.org",
+		"host": "gifiip.org",
+		"status": 200,
+		"error": "http 200",
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/blog/zambias-digital-approach-crop-index-insurance-and-mobile-payouts": {
+		"title": "Zambia’s digital approach to crop index insurance and mobile payouts",
+		"url": "https://irff.undp.org/blog/zambias-digital-approach-crop-index-insurance-and-mobile-payouts",
+		"host": "irff.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/press-releases/colombia-strengthens-climate-resilience-parametric-insurance-14402-smallholder": {
+		"title": "Colombia strengthens climate resilience with parametric insurance for 14,402 smallholder farmers",
+		"url": "https://irff.undp.org/press-releases/colombia-strengthens-climate-resilience-parametric-insurance-14402-smallholder",
+		"host": "irff.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/navigator": {
+		"title": "The Inclusive Insurance Navigator 2023",
+		"url": "https://irff.undp.org/navigator",
+		"host": "irff.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/shariah-standards-3/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/shariah-standards-3/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com/issued-standards-2/?lang=en": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://aaoifi.com/issued-standards-2/?lang=en",
+		"host": "aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/events/global-takaful-alliance-vision-deliver-financial-resilience": {
+		"title": "The Global Takaful Alliance — A Vision to Deliver Financial Resilience",
+		"url": "https://irff.undp.org/events/global-takaful-alliance-vision-deliver-financial-resilience",
+		"host": "irff.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/projects/financial-resilience-through-takaful": {
+		"title": "Financial Resilience Through Takaful",
+		"url": "https://irff.undp.org/projects/financial-resilience-through-takaful",
+		"host": "irff.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/publications/parametric-…": {
+		"title": "",
+		"url": "https://irff.undp.org/publications/parametric-…",
+		"host": "irff.undp.org",
+		"status": 404,
+		"error": "http 404",
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/sites/default/files/2024/nov/inclusive-insurance-navigator-undp.pdf": {
+		"title": "",
+		"url": "https://irff.undp.org/sites/default/files/2024/Nov/inclusive-insurance-navigator-undp.pdf",
+		"host": "irff.undp.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/report/undp-insurance-and-risk-finance-facility-annual-report-2025": {
+		"title": "UNDP Insurance and Risk Finance Facility Annual Report 2025",
+		"url": "https://irff.undp.org/report/undp-insurance-and-risk-finance-facility-annual-report-2025",
+		"host": "irff.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/sites/default/files/2024/nov/undp-irff-the-global-takaful-alliance-concept-note_0.pdf": {
+		"title": "",
+		"url": "https://irff.undp.org/sites/default/files/2024/Nov/undp-irff-the-global-takaful-alliance-concept-note_0.pdf",
+		"host": "irff.undp.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"gifiip.org/service/massive-open-online-course": {
+		"title": "Massive Open Online Course",
+		"url": "https://gifiip.org/service/massive-open-online-course",
+		"host": "gifiip.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/sites/default/files/2025/dec/global-insurance-innovators-community-parametric-insurance-for-climate-action.pdf.pdf": {
+		"title": "",
+		"url": "https://irff.undp.org/sites/default/files/2025/Dec/Global-Insurance-Innovators-Community-Parametric-Insurance-for-Climate-Action.pdf.pdf",
+		"host": "irff.undp.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/sites/default/files/2025/sep/undp-irff-annual-report-2024-pdf.pdf": {
+		"title": "",
+		"url": "https://irff.undp.org/sites/default/files/2025/Sep/UNDP-IRFF-Annual-Report-2024-pdf.pdf",
+		"host": "irff.undp.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/press-releases/ecuador-contracts-first-parametric-insurance-climate-vulnerable-farmers-germany-undp": {
+		"title": "Ecuador contracts first parametric insurance for climate-vulnerable farmers, with Germany, UNDP, ISF and IDF support",
+		"url": "https://irff.undp.org/press-releases/ecuador-contracts-first-parametric-insurance-climate-vulnerable-farmers-germany-undp",
+		"host": "irff.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/sites/default/files/styles/facebook_linkedin_image/public/2024/nov/cover-page_0.png?itok=fl96s-eh": {
+		"title": "",
+		"url": "https://irff.undp.org/sites/default/files/styles/facebook_linkedin_image/public/2024/Nov/cover-page_0.png?itok=fl96S-eh",
+		"host": "irff.undp.org",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/report/parametric-insurance-build-financial-resilience": {
+		"title": "Parametric Insurance to Build Financial Resilience",
+		"url": "https://irff.undp.org/report/parametric-insurance-build-financial-resilience",
+		"host": "irff.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/sites/default/files/styles/facebook_linkedin_image/public/2025/dec/1764777585547-97c15a9f-8661-48a0-a678-3fbc9e8d0221_1_1.jpg?itok=kik7jgrm": {
+		"title": "",
+		"url": "https://irff.undp.org/sites/default/files/styles/facebook_linkedin_image/public/2025/Dec/1764777585547-97c15a9f-8661-48a0-a678-3fbc9e8d0221_1_1.jpg?itok=Kik7Jgrm",
+		"host": "irff.undp.org",
+		"status": 200,
+		"error": "image/jpeg",
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/publications/parametric-insurance-build-financial-resilience": {
+		"title": "Parametric Insurance to Build Financial Resilience",
+		"url": "https://irff.undp.org/publications/parametric-insurance-build-financial-resilience",
+		"host": "irff.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/sites/default/files/styles/social_media_crop/public/2025/dec/1764777585547-97c15a9f-8661-48a0-a678-3fbc9e8d0221_1_1.jpg?itok=d_p1sqkn": {
+		"title": "",
+		"url": "https://irff.undp.org/sites/default/files/styles/social_media_crop/public/2025/Dec/1764777585547-97c15a9f-8661-48a0-a678-3fbc9e8d0221_1_1.jpg?itok=d_p1sqKN",
+		"host": "irff.undp.org",
+		"status": 200,
+		"error": "image/jpeg",
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/sites/default/files/styles/social_media_crop/public/2024/nov/cover-page_0.png?itok=6buxxwbd": {
+		"title": "",
+		"url": "https://irff.undp.org/sites/default/files/styles/social_media_crop/public/2024/Nov/cover-page_0.png?itok=6bUxxwbd",
+		"host": "irff.undp.org",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/training/inclusive-insurance-navigator": {
+		"title": "The Inclusive Insurance Navigator",
+		"url": "https://irff.undp.org/training/inclusive-insurance-navigator",
+		"host": "irff.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"irff.undp.org/projects/financial-resilience-agriculture": {
+		"title": "Financial Resilience in Agriculture",
+		"url": "https://irff.undp.org/projects/financial-resilience-agriculture",
+		"host": "irff.undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org": {
+		"title": "",
+		"url": "https://isdbinstitute.org",
+		"host": "isdbinstitute.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/ebook-reader-application": {
+		"title": "",
+		"url": "https://isdbinstitute.org/ebook-reader-application",
+		"host": "isdbinstitute.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/events-2": {
+		"title": "",
+		"url": "https://isdbinstitute.org/events-2",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/about-us": {
+		"title": "",
+		"url": "https://isdbinstitute.org/about-us",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/20th-aaoifi-isdb-islamic-finance-conference": {
+		"title": "",
+		"url": "https://isdbinstitute.org/20th-aaoifi-isdb-islamic-finance-conference",
+		"host": "isdbinstitute.org",
+		"status": 403,
+		"error": "http 403",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/awards": {
+		"title": "",
+		"url": "https://isdbinstitute.org/awards",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/board-of-trustees": {
+		"title": "",
+		"url": "https://isdbinstitute.org/board-of-trustees",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/capacity-development": {
+		"title": "",
+		"url": "https://isdbinstitute.org/capacity-development",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/contact-us": {
+		"title": "",
+		"url": "https://isdbinstitute.org/contact-us",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/corporate-performance": {
+		"title": "",
+		"url": "https://isdbinstitute.org/corporate-performance",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/financial-product-development-center": {
+		"title": "",
+		"url": "https://isdbinstitute.org/financial-product-development-center",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/cart": {
+		"title": "",
+		"url": "https://isdbinstitute.org/cart",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/isdbi-applied-ai-islamic-finance-winners": {
+		"title": "",
+		"url": "https://isdbinstitute.org/isdbi-applied-ai-islamic-finance-winners",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/isdbi-and-inceif-university-launch-groundbreaking-journal-bridging-islamic-finance-and-sustainable-development": {
+		"title": "",
+		"url": "https://isdbinstitute.org/isdbi-and-inceif-university-launch-groundbreaking-journal-bridging-islamic-finance-and-sustainable-development",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/isdbi-adbi-sukuk-mechanism-sme-access": {
+		"title": "",
+		"url": "https://isdbinstitute.org/isdbi-adbi-sukuk-mechanism-sme-access",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/ies-journal": {
+		"title": "",
+		"url": "https://isdbinstitute.org/ies-journal",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/isdbi-2025-annual-report": {
+		"title": "",
+		"url": "https://isdbinstitute.org/isdbi-2025-annual-report",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/isdbi-leads-joint-initiative-with-undp-on-islamic-finance-impact-investing": {
+		"title": "",
+		"url": "https://isdbinstitute.org/isdbi-leads-joint-initiative-with-undp-on-islamic-finance-impact-investing",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/knowledge-leaders": {
+		"title": "",
+		"url": "https://isdbinstitute.org/knowledge-leaders",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/islamic-microfinance-toolkits-isdb": {
+		"title": "",
+		"url": "https://isdbinstitute.org/islamic-microfinance-toolkits-isdb",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/knowledge-solutions": {
+		"title": "",
+		"url": "https://isdbinstitute.org/knowledge-solutions",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/login": {
+		"title": "",
+		"url": "https://isdbinstitute.org/login",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/lost-password": {
+		"title": "",
+		"url": "https://isdbinstitute.org/lost-password",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/media-center": {
+		"title": "",
+		"url": "https://isdbinstitute.org/media-center",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/our-patents": {
+		"title": "",
+		"url": "https://isdbinstitute.org/our-patents",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/news": {
+		"title": "",
+		"url": "https://isdbinstitute.org/news",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/privacypolicy": {
+		"title": "",
+		"url": "https://isdbinstitute.org/privacypolicy",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/books-proceedings": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/books-proceedings",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/knowledge-review": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/knowledge-review",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/lectures": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/lectures",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/annual-reports": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/annual-reports",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/reports": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/reports",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/reports/?add-to-cart=27000&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/reports/?add-to-cart=27000&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/reports/?add-to-cart=27083&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/reports/?add-to-cart=27083&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/reports/?add-to-cart=27557&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/reports/?add-to-cart=27557&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/reports/?add-to-cart=28767&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/reports/?add-to-cart=28767&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/reports/?add-to-cart=29151&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/reports/?add-to-cart=29151&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/reports/?add-to-cart=58857&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/reports/?add-to-cart=58857&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/reports/?add-to-cart=58882&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/reports/?add-to-cart=58882&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/reports/page/2": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/reports/page/2",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/reports/?add-to-cart=58875&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/reports/?add-to-cart=58875&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/reports/page/3": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/reports/page/3",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/reports/page/9": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/reports/page/9",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product-category/working-papers": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product-category/working-papers",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/ar-isdbi-annual-report-2024": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/ar-isdbi-annual-report-2024",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/future-of-islamic-finance-in-central-asia": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/future-of-islamic-finance-in-central-asia",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/management": {
+		"title": "",
+		"url": "https://isdbinstitute.org/management",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/i-for-impact-blending-islamic-finance-and-impact-investing-for-the-global-goals": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/i-for-impact-blending-islamic-finance-and-impact-investing-for-the-global-goals",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/intra-trade-in-oic": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/intra-trade-in-oic",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/irti-knowledge-review-vol-4-no-1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/irti-knowledge-review-vol-4-no-1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/development-traps-role-islamic-finance": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/development-traps-role-islamic-finance",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/irti-knowledge-review-vol-4-no-2": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/irti-knowledge-review-vol-4-no-2",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/irti-knowledge-review-vol-5-no-1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/irti-knowledge-review-vol-5-no-1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-commercial-law-report-2018-an-annual-publication-assessing-the-key-issues-and-global-trends-in-islamic-social-finance": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-commercial-law-report-2018-an-annual-publication-assessing-the-key-issues-and-global-trends-in-islamic-social-finance",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-finance-azerbaijan": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-finance-azerbaijan",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-finance-azerbaijan/?add-to-cart=1316&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-finance-azerbaijan/?add-to-cart=1316&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-finance-azerbaijan/?add-to-cart=1763&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-finance-azerbaijan/?add-to-cart=1763&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-finance-azerbaijan/?add-to-cart=58875&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-finance-azerbaijan/?add-to-cart=58875&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-finance-azerbaijan/?add-to-cart=7042&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-finance-azerbaijan/?add-to-cart=7042&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-finance-country-reports-ifcrs-tunisia-islamic-finance-country-report-2013-prudemment-optimiste": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-finance-country-reports-ifcrs-tunisia-islamic-finance-country-report-2013-prudemment-optimiste",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-finance-azerbaijan/?add-to-cart=1517&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-finance-azerbaijan/?add-to-cart=1517&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-finance-middle-income-trap/?add-to-cart=1190&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-finance-middle-income-trap/?add-to-cart=1190&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-finance-middle-income-trap/?add-to-cart=1542&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-finance-middle-income-trap/?add-to-cart=1542&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-finance-middle-income-trap": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-finance-middle-income-trap",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-finance-middle-income-trap/?add-to-cart=1543&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-finance-middle-income-trap/?add-to-cart=1543&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-finance-middle-income-trap/?add-to-cart=1691&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-finance-middle-income-trap/?add-to-cart=1691&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-fintech-solutions-report/?add-to-cart=1272&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-fintech-solutions-report/?add-to-cart=1272&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-fintech-solutions-report": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-fintech-solutions-report",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-fintech-solutions-report/?add-to-cart=1481&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-fintech-solutions-report/?add-to-cart=1481&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-fintech-solutions-report/?add-to-cart=1452&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-fintech-solutions-report/?add-to-cart=1452&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-fintech-solutions-report/?add-to-cart=1691&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-fintech-solutions-report/?add-to-cart=1691&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-fintech-solutions-report/?add-to-cart=27557&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-fintech-solutions-report/?add-to-cart=27557&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-toolkit-book-1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-toolkit-book-1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-toolkit-book-2": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-toolkit-book-2",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-toolkit-book-4": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-toolkit-book-4",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-toolkit-book-3": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-toolkit-book-3",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-toolkit/?add-to-cart=27717&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-toolkit/?add-to-cart=27717&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-toolkit-book-5": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-toolkit-book-5",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-toolkit/?add-to-cart=27718&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-toolkit/?add-to-cart=27718&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-toolkit/?add-to-cart=27710&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-toolkit/?add-to-cart=27710&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-toolkit/?add-to-cart=27719&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-toolkit/?add-to-cart=27719&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-toolkit/?add-to-cart=27720&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-toolkit/?add-to-cart=27720&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-social-finance-report-1436h-2015": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-social-finance-report-1436h-2015",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-social-finance-report-2014": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-social-finance-report-2014",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/morocco-islamic-finance-2014-unlocking-the-kingdoms-potentia": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/morocco-islamic-finance-2014-unlocking-the-kingdoms-potentia",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/rapport-annuel-2024": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/rapport-annuel-2024",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/rapport-sur-la-finance-islamique-au-djibouti-liberer-le-potentiel-pour-lavenir": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/rapport-sur-la-finance-islamique-au-djibouti-liberer-le-potentiel-pour-lavenir",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/sudan-islamic-finance-country-report-2016-next-phase-of-development": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/sudan-islamic-finance-country-report-2016-next-phase-of-development",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/sukuk-enhancement-fund": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/sukuk-enhancement-fund",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-finance-middle-income-trap/?add-to-cart=58882&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-finance-middle-income-trap/?add-to-cart=58882&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/sukuk-enhancement-fund/?add-to-cart=1268&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/sukuk-enhancement-fund/?add-to-cart=1268&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/sukuk-enhancement-fund/?add-to-cart=1316&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/sukuk-enhancement-fund/?add-to-cart=1316&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/sukuk-enhancement-fund/?add-to-cart=1452&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/sukuk-enhancement-fund/?add-to-cart=1452&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/sukuk-enhancement-fund/?add-to-cart=1272&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/sukuk-enhancement-fund/?add-to-cart=1272&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/publication": {
+		"title": "",
+		"url": "https://isdbinstitute.org/publication",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/islamic-microfinance-toolkit": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/islamic-microfinance-toolkit",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/product/sukuk-enhancement-fund/?add-to-cart=58857&quantity=1": {
+		"title": "",
+		"url": "https://isdbinstitute.org/product/sukuk-enhancement-fund/?add-to-cart=58857&quantity=1",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/publication/?pa_language[": {
+		"title": "",
+		"url": "https://isdbinstitute.org/publication/?pa_language[",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/themes/irti_new/img/user-icon.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/themes/irti_new/img/User-icon.png",
+		"host": "isdbinstitute.org",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/publication/?pa_subjects[": {
+		"title": "",
+		"url": "https://isdbinstitute.org/publication/?pa_subjects[",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/themes/irti_new/img/soc-1.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/themes/irti_new/img/soc-1.png",
+		"host": "isdbinstitute.org",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/themes/irti_new/img/soc-2.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/themes/irti_new/img/soc-2.png",
+		"host": "isdbinstitute.org",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/registration": {
+		"title": "",
+		"url": "https://isdbinstitute.org/registration",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/themes/irti_new/img/right.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/themes/irti_new/img/right.png",
+		"host": "isdbinstitute.org",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/themes/irti_new/img/soc-4.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/themes/irti_new/img/soc-4.png",
+		"host": "isdbinstitute.org",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/staff-directory": {
+		"title": "",
+		"url": "https://isdbinstitute.org/staff-directory",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/themes/irti_new/img/soc-3.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/themes/irti_new/img/soc-3.png",
+		"host": "isdbinstitute.org",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2019/06/413.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2019/06/413.jpg",
+		"host": "isdbinstitute.org",
+		"status": 200,
+		"error": "image/jpeg",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/success-stories": {
+		"title": "",
+		"url": "https://isdbinstitute.org/success-stories",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/statute-of-isdbi": {
+		"title": "",
+		"url": "https://isdbinstitute.org/statute-of-isdbi",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/what-we-do": {
+		"title": "",
+		"url": "https://isdbinstitute.org/what-we-do",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/terms-and-conditions": {
+		"title": "",
+		"url": "https://isdbinstitute.org/terms-and-conditions",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/who-we-are": {
+		"title": "",
+		"url": "https://isdbinstitute.org/who-we-are",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2019/06/418.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2019/06/418.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2019/06/437.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2019/06/437.png",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2019/06/425.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2019/06/425.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2019/06/471.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2019/06/471.png",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2019/06/411.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2019/06/411.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2022/05/isdbi-logo.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2022/05/IsDBI-Logo.png",
+		"host": "isdbinstitute.org",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2019/06/458.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2019/06/458.png",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2022/05/isdbi_logo_footer.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2022/05/IsDBI_Logo_Footer.png",
+		"host": "isdbinstitute.org",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2022/11/isdbi-logo.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2022/11/isdbi-logo.png",
+		"host": "isdbinstitute.org",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2019/06/504.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2019/06/504.png",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2019/06/knv4n1.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2019/06/KNV4N1.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2019/07/358.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2019/07/358.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2019/07/364.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2019/07/364.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2019/10/360.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2019/10/360.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2025/08/islamic-microfinance-toolkit-book-1-1.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2025/08/Islamic-Microfinance-Toolkit-Book-1-1.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2025/08/islamic-microfinance-toolkit-book-2.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2025/08/Islamic-Microfinance-Toolkit-Book-2.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2025/08/islamic-microfinance-toolkit-book-3.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2025/08/Islamic-Microfinance-Toolkit-Book-3.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2026/04/chat-bot.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2026/04/chat-bot.png",
+		"host": "isdbinstitute.org",
+		"status": 200,
+		"error": "image/png",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2025/07/islamic-microfinance-fintech-solutions-report-2025-1.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2025/07/Islamic-Microfinance-Fintech-Solutions-Report-2025-1.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2025/08/islamic-microfinance-toolkit-book-5-1.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2025/08/Islamic-Microfinance-Toolkit-Book-5-1.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2025/05/cover-future-of-islamic-finance-in-central-asia.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2025/05/Cover-Future-of-Islamic-Finance-in-Central-Asia.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2025/05/isdbi-annual-report-2024-fr-1.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2025/05/IsDBI-Annual-Report-2024-FR-1.png",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2026/06/traps-report-cover.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2026/06/Traps-report-cover.jpg",
+		"host": "isdbinstitute.org",
+		"status": 200,
+		"error": "image/jpeg",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2025/08/islamic-microfinance-toolkit-book-4-1.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2025/08/Islamic-Microfinance-Toolkit-Book-4-1.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"nl4worldbank.org/2024/06/06/ifc-to-help-financial-institutions-support-small-businesses-through-new-global-msme-financing-platform": {
+		"title": "IFC to Help Financial Institutions Support Small Businesses Through New Global MSME Financing Platform",
+		"url": "https://nl4worldbank.org/2024/06/06/ifc-to-help-financial-institutions-support-small-businesses-through-new-global-msme-financing-platform",
+		"host": "nl4worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"mema.ifsb.org/ifsb/main/index.php": {
+		"title": "",
+		"url": "https://mema.ifsb.org/ifsb/main/index.php",
+		"host": "mema.ifsb.org",
+		"status": 521,
+		"error": "http 521",
+		"fetchedAt": "2026-09-15"
+	},
+	"mema.ifsb.org/ifsb/member/index.php": {
+		"title": "",
+		"url": "https://mema.ifsb.org/ifsb/member/index.php",
+		"host": "mema.ifsb.org",
+		"status": 521,
+		"error": "http 521",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2025/09/isdbi-annual-report-24_arabic.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2025/09/IsDBI-Annual-Report-24_Arabic.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2025/10/development-traps-and-the-role-of-islamic-finance-1.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2025/10/Development-Traps-and-the-Role-of-Islamic-Finance-1.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2026/06/azerbaijan-cover.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2026/06/Azerbaijan-cover.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2026/06/isdbi-adbi-sukuk-mechanism-sme-access.jpg": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2026/06/isdbi-adbi-sukuk-mechanism-sme-access.jpg",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"isdbinstitute.org/wp-content/uploads/2026/06/sukuk-report-cover-scaled.png": {
+		"title": "",
+		"url": "https://isdbinstitute.org/wp-content/uploads/2026/06/Sukuk-report-cover-scaled.png",
+		"host": "isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/entities/publication/97c487e6-0e84-5a0f-a5a1-5c2aae6489e6": {
+		"title": "Open Knowledge Repository",
+		"url": "https://openknowledge.worldbank.org/entities/publication/97c487e6-0e84-5a0f-a5a1-5c2aae6489e6",
+		"host": "openknowledge.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/server/api/core/bitstreams/ab8450d9-6cfe-4639-8ca7-ad679d0fa7b3/content": {
+		"title": "",
+		"url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/ab8450d9-6cfe-4639-8ca7-ad679d0fa7b3/content",
+		"host": "openknowledge.worldbank.org",
+		"status": 200,
+		"error": "image/jpeg",
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/bitstreams/a3f8331e-47d8-5270-9515-0888bfed07ac/download": {
+		"title": "",
+		"url": "https://openknowledge.worldbank.org/bitstreams/a3f8331e-47d8-5270-9515-0888bfed07ac/download",
+		"host": "openknowledge.worldbank.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/server/api/statistics/trap": {
+		"title": "",
+		"url": "https://openknowledge.worldbank.org/server/api/statistics/trap",
+		"host": "openknowledge.worldbank.org",
+		"status": 200,
+		"error": "",
+		"fetchedAt": "2026-09-15"
+	},
+	"remittanceprices.worldbank.org": {
+		"title": "Homepage — Remittance",
+		"url": "https://remittanceprices.worldbank.org",
+		"host": "remittanceprices.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"prize.isdbinstitute.org": {
+		"title": "",
+		"url": "https://prize.isdbinstitute.org",
+		"host": "prize.isdbinstitute.org",
+		"status": 202,
+		"error": "http 202",
+		"fetchedAt": "2026-09-15"
+	},
+	"remittanceprices.worldbank.org/data-download": {
+		"title": "Data download — Remittance",
+		"url": "https://remittanceprices.worldbank.org/data-download",
+		"host": "remittanceprices.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"remittanceprices.worldbank.org/resources": {
+		"title": "RESOURCES — Remittance",
+		"url": "https://remittanceprices.worldbank.org/resources",
+		"host": "remittanceprices.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"thedocs.worldbank.org/en/doc/21c2fb7dfb189f10a0503004757b03f4-0340012022/original/case-study-malaysia-green-sukuk-market-development.pdf": {
+		"title": "",
+		"url": "https://thedocs.worldbank.org/en/doc/21c2fb7dfb189f10a0503004757b03f4-0340012022/original/Case-Study-Malaysia-Green-Sukuk-Market-Development.pdf",
+		"host": "thedocs.worldbank.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"remittanceprices.worldbank.org/sites/default/files/2026-04/rpw_main_report_and_annex_q325.pdf": {
+		"title": "",
+		"url": "https://remittanceprices.worldbank.org/sites/default/files/2026-04/RPW_main_report_and_annex_Q325.pdf",
+		"host": "remittanceprices.worldbank.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"adaptation-undp.org/projects/promoting-index-based-weather-insurance-small-holder-farmers-burkina-faso": {
+		"title": "Promoting Index-Based Weather Insurance for Small Holder Farmers in Burkina Faso — UNDP Climate Change Adaptation",
+		"url": "https://www.adaptation-undp.org/projects/promoting-index-based-weather-insurance-small-holder-farmers-burkina-faso",
+		"host": "www.adaptation-undp.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org": {
+		"title": "Bank for International Settlements",
+		"url": "https://www.bis.org",
+		"host": "www.bis.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/publications/aer-2025/next-generation-monetary-financial-system": {
+		"title": "III. The next-generation monetary and financial system — Bank for International Settlements",
+		"url": "https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system",
+		"host": "www.bis.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/publications/paper-170-impact-stablecoins-international-monetary-and-financial-system": {
+		"title": "The impact of stablecoins on the international monetary and financial system — Bank for International Settlements",
+		"url": "https://www.bis.org/publications/paper-170-impact-stablecoins-international-monetary-and-financial-system",
+		"host": "www.bis.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/entities/publication/fb5e614a-2a30-5f5c-a94e-91fbd5ae902c": {
+		"title": "Open Knowledge Repository",
+		"url": "https://openknowledge.worldbank.org/entities/publication/fb5e614a-2a30-5f5c-a94e-91fbd5ae902c",
+		"host": "openknowledge.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/review/r240527b.pdf": {
+		"title": "",
+		"url": "https://www.bis.org/review/r240527b.pdf",
+		"host": "www.bis.org",
+		"status": 503,
+		"error": "http 503",
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/speeches/20080717-challenges-islamic-finance.pdf": {
+		"title": "",
+		"url": "https://www.bis.org/speeches/20080717-challenges-islamic-finance.pdf",
+		"host": "www.bis.org",
+		"status": 503,
+		"error": "http 503",
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/speeches/20131129-islamic-finance-financial-stability-economic-growth-and-development": {
+		"title": "",
+		"url": "https://www.bis.org/speeches/20131129-islamic-finance-financial-stability-economic-growth-and-development",
+		"host": "www.bis.org",
+		"status": 503,
+		"error": "http 503",
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/speeches/20140422-sukuk-viable-fund-raising-and-investment-instrument": {
+		"title": "",
+		"url": "https://www.bis.org/speeches/20140422-sukuk-viable-fund-raising-and-investment-instrument",
+		"host": "www.bis.org",
+		"status": 503,
+		"error": "http 503",
+		"fetchedAt": "2026-09-15"
+	},
+	"aaoifi.com": {
+		"title": "Accounting and Auditing Organization for Islamic Financial Institutions",
+		"url": "https://www.aaoifi.com",
+		"host": "www.aaoifi.com",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/speeches/20140425-sukuk-viable-fund-raising-and-investment-instrument.pdf": {
+		"title": "",
+		"url": "https://www.bis.org/speeches/20140425-sukuk-viable-fund-raising-and-investment-instrument.pdf",
+		"host": "www.bis.org",
+		"status": 503,
+		"error": "http 503",
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/speeches/20141029-sukuk-development-and-financial-stability": {
+		"title": "",
+		"url": "https://www.bis.org/speeches/20141029-sukuk-development-and-financial-stability",
+		"host": "www.bis.org",
+		"status": 503,
+		"error": "http 503",
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/entities/publication/6951bef5-c4f7-5d94-b6e1-6f305dee52f9": {
+		"title": "Open Knowledge Repository",
+		"url": "https://openknowledge.worldbank.org/entities/publication/6951bef5-c4f7-5d94-b6e1-6f305dee52f9",
+		"host": "openknowledge.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/speeches/20251205-strengthening-financial-resilience-and-driving-sustainable-growth": {
+		"title": "",
+		"url": "https://www.bis.org/speeches/20251205-strengthening-financial-resilience-and-driving-sustainable-growth",
+		"host": "www.bis.org",
+		"status": 503,
+		"error": "http 503",
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/speeches/20251205-strengthening-financial-resilience-and-driving-sustainable-growth.pdf": {
+		"title": "",
+		"url": "https://www.bis.org/speeches/20251205-strengthening-financial-resilience-and-driving-sustainable-growth.pdf",
+		"host": "www.bis.org",
+		"status": 200,
+		"error": "application/pdf",
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/speeches/20260218-bridging-divide-islamic-finance-catalyst-global-climate-resilience": {
+		"title": "",
+		"url": "https://www.bis.org/speeches/20260218-bridging-divide-islamic-finance-catalyst-global-climate-resilience",
+		"host": "www.bis.org",
+		"status": 503,
+		"error": "http 503",
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/speeches/20260218-bridging-divide-islamic-finance-catalyst-global-climate-resilience.pdf": {
+		"title": "",
+		"url": "https://www.bis.org/speeches/20260218-bridging-divide-islamic-finance-catalyst-global-climate-resilience.pdf",
+		"host": "www.bis.org",
+		"status": 503,
+		"error": "http 503",
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/speeches/20260914-keynote-address-global-islamic-financial-institutions-forum-2026": {
+		"title": "Keynote address — Global Islamic Financial Institutions Forum 2026 — Bank for International Settlements",
+		"url": "https://www.bis.org/speeches/20260914-keynote-address-global-islamic-financial-institutions-forum-2026",
+		"host": "www.bis.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/themes/custom/bis/src/assets/images/meta-default.jpg": {
+		"title": "",
+		"url": "https://www.bis.org/themes/custom/bis/src/assets/images/meta-default.jpg",
+		"host": "www.bis.org",
+		"status": 200,
+		"error": "image/jpeg",
+		"fetchedAt": "2026-09-15"
+	},
+	"cibafi.org/publications/digital-momentum-report-2025": {
+		"title": "",
+		"url": "https://www.cibafi.org/publications/digital-momentum-report-2025",
+		"host": "www.cibafi.org",
+		"status": 401,
+		"error": "http 401",
+		"fetchedAt": "2026-09-15"
+	},
+	"elibrary.imf.org/downloadpdf/display/book/9798400287350/ch003.pdf": {
+		"title": "",
+		"url": "https://www.elibrary.imf.org/downloadpdf/display/book/9798400287350/CH003.pdf",
+		"host": "www.elibrary.imf.org",
+		"status": 405,
+		"error": "http 405",
+		"fetchedAt": "2026-09-15"
+	},
+	"elibrary.imf.org/view/journals/087/2025/009/article-a001-en.xml": {
+		"title": "",
+		"url": "https://www.elibrary.imf.org/view/journals/087/2025/009/article-A001-en.xml",
+		"host": "www.elibrary.imf.org",
+		"status": 405,
+		"error": "http 405",
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/entities/publication/960919a7-abda-5396-bcbe-e3f154f9015f": {
+		"title": "Open Knowledge Repository",
+		"url": "https://openknowledge.worldbank.org/entities/publication/960919a7-abda-5396-bcbe-e3f154f9015f",
+		"host": "openknowledge.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/entities/publication/21b3012a-1332-5f08-899c-c5b9f8118e00": {
+		"title": "Open Knowledge Repository",
+		"url": "https://openknowledge.worldbank.org/entities/publication/21b3012a-1332-5f08-899c-c5b9f8118e00",
+		"host": "openknowledge.worldbank.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org": {
+		"title": "Islamic Financial Services Board",
+		"url": "https://www.ifsb.org",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/entities/publication/7a4b4f63-9821-566f-9bda-609c8fcd5ddb": {
+		"title": "",
+		"url": "https://openknowledge.worldbank.org/entities/publication/7a4b4f63-9821-566f-9bda-609c8fcd5ddb",
+		"host": "openknowledge.worldbank.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/entities/publication/8aeaa9ea-436e-5036-ba89-2f0aff06c3e3": {
+		"title": "",
+		"url": "https://openknowledge.worldbank.org/entities/publication/8aeaa9ea-436e-5036-ba89-2f0aff06c3e3",
+		"host": "openknowledge.worldbank.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/entities/publication/a6e99c26-ff4e-54cb-b3ca-77e33afc41f2": {
+		"title": "",
+		"url": "https://openknowledge.worldbank.org/entities/publication/a6e99c26-ff4e-54cb-b3ca-77e33afc41f2",
+		"host": "openknowledge.worldbank.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"openknowledge.worldbank.org/entities/publication/dad871ae-d8b4-5076-b3a7-21cee1d3f1de": {
+		"title": "",
+		"url": "https://openknowledge.worldbank.org/entities/publication/dad871ae-d8b4-5076-b3a7-21cee1d3f1de",
+		"host": "openknowledge.worldbank.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/committee": {
+		"title": "COMMITTEES — Islamic Financial Services Board",
+		"url": "https://www.ifsb.org/committee",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/council": {
+		"title": "COUNCIL — Islamic Financial Services Board",
+		"url": "https://www.ifsb.org/council",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/review/r110419k.pdf": {
+		"title": "",
+		"url": "https://www.bis.org/review/r110419k.pdf",
+		"host": "www.bis.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/capacity-building": {
+		"title": "CAPACITY BUILDING — Islamic Financial Services Board",
+		"url": "https://www.ifsb.org/capacity-building",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/ar": {
+		"title": "Islamic Financial Services Board",
+		"url": "https://www.ifsb.org/ar",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/digitalisation-platform": {
+		"title": "",
+		"url": "https://www.ifsb.org/digitalisation-platform",
+		"host": "www.ifsb.org",
+		"status": 404,
+		"error": "http 404",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/core-principles": {
+		"title": "CORE PRINCIPLES — Islamic Financial Services Board",
+		"url": "https://www.ifsb.org/core-principles",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/speeches/20140425-sukuk-viable-fund-raising-and-investment-instrument": {
+		"title": "",
+		"url": "https://www.bis.org/speeches/20140425-sukuk-viable-fund-raising-and-investment-instrument",
+		"host": "www.bis.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"bis.org/speeches/20221115-challenge-convene-collaborate-and-create": {
+		"title": "",
+		"url": "https://www.bis.org/speeches/20221115-challenge-convene-collaborate-and-create",
+		"host": "www.bis.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/consultation": {
+		"title": "CONSULTATION — Islamic Financial Services Board",
+		"url": "https://www.ifsb.org/consultation",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/events/category/annual-events": {
+		"title": "Events from November 3, 2002 — May 18, 2004 › Annual Events › — Islamic Financial Services Board",
+		"url": "https://www.ifsb.org/events/category/annual-events",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/due-process": {
+		"title": "DUE PROCESS — Islamic Financial Services Board",
+		"url": "https://www.ifsb.org/due-process",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/establishment": {
+		"title": "ESTABLISHMENT — Islamic Financial Services Board",
+		"url": "https://www.ifsb.org/establishment",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/implementation-guidelines": {
+		"title": "IMPLEMENTATION GUIDELINES — Islamic Financial Services Board",
+		"url": "https://www.ifsb.org/implementation-guidelines",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/e-learning": {
+		"title": "",
+		"url": "https://www.ifsb.org/e-learning",
+		"host": "www.ifsb.org",
+		"status": 404,
+		"error": "http 404",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/events/category/meetings": {
+		"title": "Events from November 3, 2002 — May 18, 2004 › Meetings › — Islamic Financial Services Board",
+		"url": "https://www.ifsb.org/events/category/meetings",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/events/category/awareness-programme": {
+		"title": "",
+		"url": "https://www.ifsb.org/events/category/awareness-programme",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/gallery": {
+		"title": "",
+		"url": "https://www.ifsb.org/gallery",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/guidance-notes": {
+		"title": "",
+		"url": "https://www.ifsb.org/guidance-notes",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/impact-and-consistency-assessment-programme-icap": {
+		"title": "",
+		"url": "https://www.ifsb.org/impact-and-consistency-assessment-programme-icap",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/implementation-survey": {
+		"title": "",
+		"url": "https://www.ifsb.org/implementation-survey",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/press-releases/the-ifsb-issues-the-islamic-financial-services-industry-stability-report-2024": {
+		"title": "Islamic Financial Services Board",
+		"url": "https://www.ifsb.org/press-releases/the-ifsb-issues-the-islamic-financial-services-industry-stability-report-2024",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/membership": {
+		"title": "",
+		"url": "https://www.ifsb.org/membership",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/organisational-structure": {
+		"title": "",
+		"url": "https://www.ifsb.org/organisational-structure",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/our-partners": {
+		"title": "",
+		"url": "https://www.ifsb.org/our-partners",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/press-release": {
+		"title": "",
+		"url": "https://www.ifsb.org/press-release",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/press-releases/islamic-financial-services-industry-stability-report-2025-need-for-coordinated-action-to-deepen-markets-and-sustain-growth-momentum": {
+		"title": "",
+		"url": "https://www.ifsb.org/press-releases/islamic-financial-services-industry-stability-report-2025-need-for-coordinated-action-to-deepen-markets-and-sustain-growth-momentum",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/press-releases/the-ifsb-council-adopts-three-3-new-standards": {
+		"title": "",
+		"url": "https://www.ifsb.org/press-releases/the-ifsb-council-adopts-three-3-new-standards",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/privacy-policy": {
+		"title": "PRIVACY POLICY — Islamic Financial Services Board",
+		"url": "https://www.ifsb.org/privacy-policy",
+		"host": "www.ifsb.org",
+		"status": 200,
+		"fetchedAt": "2026-09-15"
+	},
+	"ifsb.org/publication": {
+		"title": "",
+		"url": "https://www.ifsb.org/publication",
+		"host": "www.ifsb.org",
+		"status": 0,
+		"error": "timeout",
+		"fetchedAt": "2026-09-15"
+	}
+}
