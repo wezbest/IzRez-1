@@ -28,14 +28,14 @@ import stats from '../../data/site-stats.json';
 
 <div class="ga-btn-row">
   <a class="ga-btn" href="/01-master-report/">Read the master report</a>
-  <a class="ga-btn ghost" href="/13-references/">Jump to the 1,764-source registry</a>
+  <a class="ga-btn ghost" href="/13-references/">Jump to the {stats.totalSources.toLocaleString('en-US')}-source ledger</a>
   <a class="ga-btn ghost" href="/reading-guide/">How to read this doksite</a>
 </div>
 
 <div class="ga-stats">
   <div class="ga-stat"><b>14</b><span>numbered sections</span></div>
   <div class="ga-stat"><b>10</b><span>gap blueprints</span></div>
-  <div class="ga-stat"><b>{stats.registryEntries.toLocaleString('en-US')}</b><span>authoritative sources</span></div>
+  <div class="ga-stat"><b>{stats.totalSources.toLocaleString('en-US')}</b><span>unique sources, listed once each</span></div>
   <div class="ga-stat"><b>{stats.uniqueCitations.toLocaleString('en-US')}</b><span>unique cited sources</span></div>
   <div class="ga-stat"><b>~{(stats.totalWords / 1000).toFixed(1)}k</b><span>words of research</span></div>
   <div class="ga-stat"><b>4.65M</b><span>research tokens burned</span></div>
@@ -110,8 +110,8 @@ Every section is numbered, and so is every heading inside it: the master report 
 ## How this doksite is put together
 
 1. **Read sections 1–12** in order for the argument; each numbered heading has a glowing section marker in the centre pane and mirrors into the numbered contents list on the right.
-2. **Check any claim** through the inline year-tagged citation, which links to the primary source, or through the [`index ↗`](/13-references/reference-index/) back-link that appears under every reference bullet.
-3. **Audit the sources** in [section 13](/13-references/) — the collected index plus the full 1,764-entry authoritative source registry, cross-linked in both directions.
+2. **Check any claim** through the inline year-tagged citation, which links to the primary source, or through the [`index ↗`](/13-references/) back-link that appears under every reference bullet and jumps to that source's single row in the ledger.
+3. **Audit the sources** in [section 13](/13-references/) — one ledger of {stats.totalSources.toLocaleString('en-US')} unique sources, split into the {stats.registryUnique.toLocaleString('en-US')}-source authoritative registry and the {stats.citedOnlySources} citations the registry never picked up, cross-linked in both directions.
 4. **Audit the build** in [section 14](/14-site-build-report/) — token telemetry, BenchLM rate cards for the top 10 US and top 10 China models, and sorted what-if build cost scenarios.
 
 :::tip[Install this doksite as an app]
@@ -120,4 +120,4 @@ This site is a PWA: use your browser's **Install** / **Add to Home Screen** acti
 
 ---
 
-**GapAtlas 2026** — Islamic Fintech Gap Analysis & Startup Blueprint Intelligence. Ten gaps, ten blueprints, 1,764 sources, one build report.
+**GapAtlas 2026** — Islamic Fintech Gap Analysis & Startup Blueprint Intelligence. Ten gaps, ten blueprints, {stats.totalSources.toLocaleString('en-US')} sources, one build report.

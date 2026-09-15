@@ -4,58 +4,77 @@
 	"researchSections": 12,
 	"uniqueCitations": 226,
 	"registryEntries": 1764,
-	"registryDomains": 260,
-	"registryCrosslinked": 124,
-	"totalWords": 63248,
+	"registryUnique": 1548,
+	"registryRepeats": 216,
+	"registryCited": 124,
+	"registryMultiCategory": 0,
+	"registryDomains": 258,
+	"citedOnlySources": 102,
+	"totalSources": 1650,
 	"registryCategories": [
 		{
 			"ref": "13.2.1",
 			"title": "Academic Journals & Economic Research",
 			"short": "Academic Journals & Economic Research",
-			"slug": "13-references/source-registry/academic-journals-economic-research",
-			"count": 341
+			"slug": "13-references/source-registry",
+			"anchor": "s13-2-1",
+			"count": 301,
+			"cited": 7
 		},
 		{
 			"ref": "13.2.2",
 			"title": "Multilateral Institutions & Standard-Setters (AAOIFI, IFSB, IsDB, WB, BIS, IMF)",
 			"short": "Multilateral Institutions & Standard-Setters",
-			"slug": "13-references/source-registry/multilateral-institutions-standard-setters",
-			"count": 407
+			"slug": "13-references/source-registry",
+			"anchor": "s13-2-2",
+			"count": 369,
+			"cited": 19
 		},
 		{
 			"ref": "13.2.3",
 			"title": "Regulators & Central Banks (BNM, SC, SAMA, CMA, CBUAE, DFSA, ADGM, CBB, OJK, SBP, SECP)",
 			"short": "Regulators & Central Banks",
-			"slug": "13-references/source-registry/regulators-central-banks",
-			"count": 319
+			"slug": "13-references/source-registry",
+			"anchor": "s13-2-3",
+			"count": 265,
+			"cited": 39
 		},
 		{
 			"ref": "13.2.4",
 			"title": "Credit Rating Agencies & Global Benchmarks (Fitch, S&P, Moody's, DinarStandard, LSEG)",
 			"short": "Credit Rating Agencies & Global Benchmarks",
-			"slug": "13-references/source-registry/credit-rating-agencies-global-benchmarks",
-			"count": 126
+			"slug": "13-references/source-registry",
+			"anchor": "s13-2-4",
+			"count": 102,
+			"cited": 11
 		},
 		{
 			"ref": "13.2.5",
 			"title": "Islamic Financial Institutions & Fintech Primaries (Banks, Sukuk, SCF, P2P, Brokerage)",
 			"short": "Islamic Financial Institutions & Fintech Primaries",
-			"slug": "13-references/source-registry/islamic-financial-institutions-fintech-primaries",
-			"count": 246
+			"slug": "13-references/source-registry",
+			"anchor": "s13-2-5",
+			"count": 218,
+			"cited": 25
 		},
 		{
 			"ref": "13.2.6",
 			"title": "Ecosystem Hubs, Accelerators & Venture Capital (Hub71, DIFC Hive, BFB, SVC, Jada, HASAN)",
 			"short": "Ecosystem Hubs, Accelerators & Venture Capital",
-			"slug": "13-references/source-registry/ecosystem-hubs-accelerators-venture-capital",
-			"count": 248
+			"slug": "13-references/source-registry",
+			"anchor": "s13-2-6",
+			"count": 229,
+			"cited": 13
 		},
 		{
 			"ref": "13.2.7",
 			"title": "Frontier AI & Technology Infrastructure (OpenAI, Anthropic, Google, DeepSeek, Alibaba, etc.)",
 			"short": "Frontier AI & Technology Infrastructure",
-			"slug": "13-references/source-registry/frontier-ai-technology-infrastructure",
-			"count": 77
+			"slug": "13-references/source-registry",
+			"anchor": "s13-2-7",
+			"count": 64,
+			"cited": 10
 		}
-	]
+	],
+	"totalWords": 63248
 }

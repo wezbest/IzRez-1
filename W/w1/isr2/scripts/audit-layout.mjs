@@ -413,8 +413,18 @@ check(
 const shipped = (pattern) => pattern.test(cssFiles.replace(/\s+/g, ' '));
 check('overflow', 'shipped CSS keeps tables in a scroll container', shipped(/table[^{]*\{[^}]*overflow[^}]*auto/));
 check('overflow', 'shipped CSS keeps diagrams at natural size', shipped(/\.mermaid svg[^{]*\{[^}]*max-width: ?none/));
-check('layout', 'shipped CSS keeps the 58rem reading measure', shipped(/--sl-content-width: ?58rem/));
+check('layout', 'shipped CSS keeps the wide reading measure', shipped(/--sl-content-width: ?68rem/));
 check('layout', 'shipped CSS keeps the squeeze-zone pane override', shipped(/--sl-sidebar-width: ?14rem/));
+check(
+	'layout',
+	'shipped CSS keeps the contents pane at its own width',
+	shipped(/\.right-sidebar-container\{width:var\(--sl-sidebar-width\)\}/)
+);
+check(
+	'layout',
+	'shipped CSS hands the remainder to the centre pane',
+	shipped(/\.main-pane\{[^}]*width:calc\(100% - var\(--sl-sidebar-width\)\)/)
+);
 check(
 	'layout',
 	'shipped CSS keeps the squeeze zone bounded',
@@ -552,9 +562,11 @@ const model = (viewport) => {
 		};
 	}
 
-	const extra = (W2 - contentWidth - sidebar) / 2;
-	const right = Math.max(sidebar, sidebar + extra);
-	const centre = Math.min(W2 - sidebar, contentWidth + extra);
+	// the contents pane keeps its own width — Starlight would otherwise grow it
+	// into whatever the narrower centre pane left over — and the centre pane
+	// takes the whole remainder, centring the reading measure inside it
+	const right = sidebar;
+	const centre = W2 - sidebar;
 	return {
 		viewport,
 		mode: 'left + centre + contents',
@@ -598,6 +610,18 @@ check(
 	'wide viewports use the full reading measure',
 	model(1920).measure === contentWidth,
 	`${model(1920).measure}px of ${contentWidth}px`
+);
+check(
+	'layout',
+	'the contents pane never grows past its list',
+	layoutRows.filter((row) => row.right > 0).every((row) => row.right === sidebarWidth || row.right === squeeze?.sidebar),
+	`right pane ${model(1920).right}px wide at 1920px (was ~496px of half-empty pane)`
+);
+check(
+	'layout',
+	'the leftover desktop space goes to the centre, not the right pane',
+	model(1920).centre > model(1920).right * 4,
+	`${model(1920).centre}px centre vs ${model(1920).right}px contents`
 );
 
 /* ------------------------------------------------------------- 5. PWA checks */

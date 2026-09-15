@@ -93,7 +93,7 @@
 	--sl-font-display: 'Orbitron', 'Space Grotesk Variable', system-ui, sans-serif;
 
 	/* centre pane widest, side panes narrow but never cramped */
-	--sl-content-width: 58rem;
+	--sl-content-width: 68rem;
 	--sl-sidebar-width: 16rem;
 	--sl-content-pad-x: 1.5rem;
 	--sl-sidebar-pad-x: 0.85rem;
@@ -779,6 +779,28 @@ a.xref:hover {
 	:root {
 		--sl-sidebar-width: 14rem;
 		--sl-sidebar-pad-x: 0.75rem;
+	}
+}
+
+/* ---------------------------------------------------- wide-screen geometry
+   Starlight grows both side panes to soak up the space a narrow centre pane
+   leaves over, which on a 1920px screen puts ~200px of nothing between the end
+   of the contents list and the edge of the display. Two overrides fix that:
+
+     1. the contents pane keeps its own width and never grows past its list;
+     2. the centre pane takes the remainder, with the reading measure centred
+        inside it, so the leftover reads as margin rather than as a gap.
+
+   Specificity is deliberate: `:root[data-has-sidebar][data-has-toc]` outranks
+   Starlight's own `.main-pane` rule in the same media query. */
+@media (min-width: 72rem) {
+	.right-sidebar-container {
+		width: var(--sl-sidebar-width);
+	}
+
+	:root[data-has-sidebar][data-has-toc] .main-pane {
+		--sl-content-margin-inline: auto;
+		width: calc(100% - var(--sl-sidebar-width));
 	}
 }
 

@@ -27,8 +27,13 @@ const REPORTS = path.resolve(SITE, '..', 'reports');
 const DOCS = path.join(SITE, 'src', 'content', 'docs');
 const DATA = path.join(SITE, 'src', 'data');
 
-const REF_INDEX_URL = '/13-references/reference-index/';
+/* Section 13 is one section with three subsections: 13.1 how the system works,
+   13.2 the source registry by institutional category, and 13.3 the citations
+   that fall outside the registry. Every source is listed exactly once across the
+   three. */
+const REFERENCES_URL = '/13-references/';
 const REGISTRY_URL = '/13-references/source-registry/';
+const CITED_URL = '/13-references/cited-sources/';
 
 /* ------------------------------------------------------------------ utils */
 
@@ -103,8 +108,14 @@ function clean(text, max = 220) {
 const attr = (text) =>
 	String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-/** Link that is immune to parentheses / pipes / pipes inside URLs. */
-const link = (text, href) => `<a href="${attr(href)}">${attr(text)}</a>`;
+/**
+ * Link that is immune to parentheses / pipes inside URLs. Off-site links are
+ * marked up to open in a new window — the site is a PWA, and a reader tapping a
+ * primary source should not lose the page they were reading. `rel="noopener
+ * noreferrer"` keeps the new window from reaching back into this document.
+ */
+const link = (text, href) =>
+	`<a href="${attr(href)}"${/^https?:\/\//i.test(href) ? ' target="_blank" rel="noopener noreferrer"' : ''}>${attr(text)}</a>`;
 
 /** Section anchor label, e.g. s1-16 -> 1.16 */
 const anchorLabel = (anchor) => anchor.replace(/^s(\d+)-(\d+)$/, '$1.$2');
@@ -286,7 +297,6 @@ function processDoc({ raw, section }) {
 /* ------------------------------------------------------------- citations */
 
 const citations = new Map(); // normUrl -> entry
-const registryByUrl = new Map(); // normUrl -> { category, entry, cited[] }
 
 /** Field labels / rubric headings in this corpus that make useless titles. */
 const BOILERPLATE =
@@ -367,6 +377,92 @@ function collectCitations(body, doc) {
 	}
 }
 
+/* ------------------------------------------------- the source ledger (§13)
+   One row per unique source. The corpus registry repeats a URL 214 times —
+   sometimes as a second entry, sometimes filed under a second institutional
+   category — and 124 of its URLs are also cited by the research. Reading it once
+   into a ledger keyed by normalised URL, and keeping every number, category and
+   citing section on that single row, is what lets §13 list each source exactly
+   once instead of three times. */
+
+const CATEGORIES = [];
+{
+	const lines = read(
+		path.join(REPORTS, 'master', '800-authoritative-sources-registry.md')
+	).split('\n');
+	let current = null;
+	for (const line of lines) {
+		const h = line.match(/^##\s+(.*)$/);
+		if (h) {
+			if (/^Table of Contents/i.test(h[1])) continue;
+			const title = clean(h[1]);
+			current = {
+				title,
+				short: title.replace(/\s*\(.*?\)\s*/g, ' ').replace(/\s+/g, ' ').trim(),
+				entries: [],
+			};
+			CATEGORIES.push(current);
+			continue;
+		}
+		if (!current) continue;
+		const m = line.match(/^(\d+)\.\s+\[([^\]]+)\]\s+(\S+)\s*$/);
+		if (!m) continue;
+		current.entries.push({
+			n: Number(m[1]),
+			domain: m[2].trim(),
+			url: m[3].replace(/\\+$/, ''),
+		});
+	}
+}
+
+const rows = []; // unique sources, in first-appearance order
+const rowByKey = new Map(); // normUrl -> row
+
+for (const cat of CATEGORIES) {
+	for (const entry of cat.entries) {
+		const key = normUrl(entry.url);
+		if (!key) continue;
+		let row = rowByKey.get(key);
+		if (!row) {
+			row = {
+				key,
+				url: entry.url,
+				domain: entry.domain,
+				n: entry.n, // the number this source is linked to forever
+				cats: [],
+				aliases: [], // other registry numbers for the same URL
+				cited: [],
+				title: '',
+				years: new Set(),
+			};
+			rowByKey.set(key, row);
+			rows.push(row);
+		} else if (!row.aliases.includes(entry.n)) {
+			row.aliases.push(entry.n);
+		}
+		if (!row.cats.includes(cat)) row.cats.push(cat);
+	}
+}
+
+const registryNumbers = CATEGORIES.reduce((sum, cat) => sum + cat.entries.length, 0);
+
+/** Every row is listed under the first category it was filed under. */
+const entriesOf = (cat) => rows.filter((row) => row.cats[0] === cat);
+
+/** …and merely cross-referenced from the other categories it also belongs to. */
+const crossRefsOf = (cat) =>
+	rows.filter((row) => row.cats.includes(cat) && row.cats[0] !== cat);
+
+/**
+ * Where a source is listed, for the `index ↗` link under every reference
+ * bullet: a registry row, or §13.3 when the corpus cites something the registry
+ * never picked up.
+ */
+const sourceHref = (url) => {
+	const row = rowByKey.get(normUrl(url));
+	return row ? `${REGISTRY_URL}#r${row.n}` : `${CITED_URL}#${refAnchor(url)}`;
+};
+
 /* ------------------------------------------------------------------- build */
 
 console.log('▸ building numbered docs from the research corpus');
@@ -390,7 +486,7 @@ for (const section of SECTIONS) {
 			if (!line.trim().startsWith('-')) return line;
 			const first = linksInLine(line)[0];
 			if (!first) return line;
-			return `${line} <a class="xref" href="${REF_INDEX_URL}#${refAnchor(first.url)}" title="Open this source in the collected reference index">index&nbsp;↗</a>`;
+			return `${line} <a class="xref" href="${sourceHref(first.url)}" title="Open this source's row in the reference ledger">index&nbsp;↗</a>`;
 		})
 		.join('\n');
 
@@ -433,106 +529,75 @@ function clampText(text, max = 175) {
 	return `${text.slice(0, max).replace(/\s+\S*$/, '')}…`;
 }
 
-/* ------------------------------------------------------- registry parsing */
+/* ------------------------------------------- 13 · attach citations to rows */
 
-const CATEGORIES = [];
-{
-	const lines = read(
-		path.join(REPORTS, 'master', '800-authoritative-sources-registry.md')
-	).split('\n');
-	let current = null;
-	for (const line of lines) {
-		const h = line.match(/^##\s+(.*)$/);
-		if (h) {
-			if (/^Table of Contents/i.test(h[1])) continue;
-			const title = clean(h[1]);
-			current = {
-				title,
-				short: title.replace(/\s*\(.*?\)\s*/g, ' ').replace(/\s+/g, ' ').trim(),
-				entries: [],
-				slug: title
-					.toLowerCase()
-					.replace(/\(.*?\)/g, '')
-					.replace(/[^a-z0-9]+/g, '-')
-					.replace(/^-|-$/g, '')
-					.slice(0, 64),
-			};
-			CATEGORIES.push(current);
-			continue;
-		}
-		if (!current) continue;
-		const m = line.match(/^(\d+)\.\s+\[([^\]]+)\]\s+(\S+)\s*$/);
-		if (!m) continue;
-		current.entries.push({
-			n: Number(m[1]),
-			domain: m[2].trim(),
-			url: m[3].replace(/\\+$/, ''),
-		});
-	}
+for (const row of rows) {
+	const cite = citations.get(row.key);
+	if (!cite) continue;
+	row.cited = cite.citedIn;
+	row.title = cite.title;
+	row.years = cite.years;
 }
 
-for (const cat of CATEGORIES) {
-	for (const entry of cat.entries) {
-		const key = normUrl(entry.url);
-		if (!key || registryByUrl.has(key)) continue;
-		registryByUrl.set(key, { category: cat, entry, cited: [] });
-	}
-}
-for (const [key, value] of registryByUrl) {
-	const cite = citations.get(key);
-	if (cite) value.cited = cite.citedIn;
-}
+const registryUnique = rows.length;
+const registryCited = rows.filter((row) => row.cited.length).length;
+const registryDomains = new Set(rows.map((row) => row.domain)).size;
+const registryRepeats = registryNumbers - registryUnique;
+const multiCategory = rows.filter((row) => row.cats.length > 1).length;
 
-const totalRegistry = CATEGORIES.reduce((s, c) => s + c.entries.length, 0);
-const totalDomains = new Set(
-	CATEGORIES.flatMap((c) => c.entries.map((e) => e.domain))
-).size;
-const crosslinked = [...registryByUrl.values()].filter((v) => v.cited.length).length;
+/* Copy that stays true whatever the corpus registry happens to contain. */
+const repeatNote = `${registryRepeats.toLocaleString('en-US')} of its ${registryNumbers.toLocaleString('en-US')} registry rows repeated a URL that was already listed`;
+const multiNote = multiCategory
+	? `, and filed ${multiCategory} sources under more than one category`
+	: '';
+
+/** Cited by the research but absent from the registry — §13.3's whole content. */
+const citedOnly = [...citations.values()]
+	.filter((cite) => !rowByKey.has(cite.key))
+	.sort((a, b) => a.host.localeCompare(b.host) || a.order - b.order);
+
+const totalSources = registryUnique + citedOnly.length;
 
 const citedInLabel = (list) =>
 	list
 		.map((c) => link(`§${anchorLabel(c.anchor)}`, `/${c.slug}/#${c.anchor}`))
 		.join(' ');
 
-/* ------------------------------------------- 13 · references landing page */
+/* ----------------------------------- 13.1 · how the reference system works */
 
 console.log('▸ building the references section');
-
-const catRows = CATEGORIES.map(
-	(c, i) =>
-		`| **13.2.${i + 1}** | ${link(c.title, `/13-references/source-registry/${c.slug}/`)} | ${c.entries.length} | ${new Set(c.entries.map((e) => e.domain)).size} | ${c.entries.filter((e) => registryByUrl.get(normUrl(e.url))?.cited.length).length} |`
-).join('\n');
 
 writeFile(
 	path.join(DOCS, '13-references', 'index.md'),
 	`---
 title: "13 · References"
-description: "Every source cited in this research, collected into one cross-linked index and mapped onto the 850+ entry Authoritative Source Registry."
+description: "Every source behind this research — ${totalSources.toLocaleString('en-US')} unique primary sources, listed once each in one cross-linked ledger of registry sources and the citations the registry never picked up."
 ---
 
 <div class="sec-head">
 <span class="chip chip-kind">References</span>
 <span class="chip">Section 13 of 14</span>
-<span class="chip">${citations.size.toLocaleString('en-US')} unique cited sources</span>
-<span class="chip">${totalRegistry.toLocaleString('en-US')} registry entries</span>
+<span class="chip">${totalSources.toLocaleString('en-US')} unique sources</span>
+<span class="chip">${citations.size.toLocaleString('en-US')} cited by the research</span>
 </div>
 
 ## <span class="sn">13.1</span> How this reference system works
 
-Every empirical claim in this doksite is traceable to a live-retrieved primary source. To keep that traceability usable rather than decorative, all citations were lifted out of the twelve research documents and re-assembled here as three linked layers:
+Every empirical claim in this doksite resolves to a live-retrieved primary source. Section 13 is a single ledger of ${totalSources.toLocaleString('en-US')} unique sources, each listed **exactly once**, split into three subsections:
 
-1. **The collected reference index (§13.1)** — every unique source cited anywhere in the corpus, de-duplicated by normalised URL, with the years and the section that cites it.
-2. **The authoritative source registry (§13.2)** — the ${totalRegistry} primary sources discovered during the source-expansion phase, preserved in their original numbering and grouped into seven institutional categories.
-3. **Bidirectional cross-links** — ${crosslinked} of the registry entries resolve to a section that actually cites them, and every reference bullet inside sections 1–12 links back into the index.
+1. **§13.2 The authoritative source registry** — the ${registryUnique.toLocaleString('en-US')} sources retrieved during the source-expansion pass, grouped into ${CATEGORIES.length} institutional categories. In the corpus registry ${repeatNote}${multiNote}; each URL is one row here, keeping its first registry number and naming every other number and every section that cites it.
+2. **§13.3 Sources cited outside the registry** — the ${citedOnly.length.toLocaleString('en-US')} sources the research cites that the registry pass never reached, grouped by the section that cites them first. Registry sources are not repeated here.
+3. **Cross-links in both directions** — ${registryCited.toLocaleString('en-US')} registry sources carry a \`cited in §…\` link back to the section that uses them, and every reference bullet in sections 1–12 carries an \`index ↗\` link that jumps to that source's one row.
 
 \`\`\`mermaid
 graph LR
-    A["Research sections<br/>1 to 12"] -->|cites| B["Citations deduplicated<br/>by normalised URL"]
-    B --> C["13.1 Collected<br/>Reference Index"]
-    A -->|"index backlink on<br/>every reference bullet"| C
-    C -->|"registry match"| D["13.2 Authoritative<br/>Source Registry"]
-    D -->|"cited in section"| A
-    C -->|external link| E["Primary source<br/>on the open web"]
+    A["Research sections<br/>1 to 12"] -->|cites| B["One ledger of unique<br/>sources, keyed by URL"]
+    A -->|"index ↗ under every<br/>reference bullet"| B
+    B --> C["13.2 Authoritative<br/>Source Registry"]
+    B --> D["13.3 Sources cited<br/>outside the registry"]
+    C -->|"cited in §N.M"| A
+    C --> E["Primary source<br/>on the open web"]
+    D --> E
 \`\`\`
 
 ### <span class="sn">13.1.1</span> Citation vocabulary used across the site
@@ -540,11 +605,21 @@ graph LR
 | Marker | Meaning |
 |---|---|
 | ${'`[2025]`'} / ${'`[2026]`'} | Inline citation carrying the publication year, linked to the primary source |
-| ${'`index ↗`'} | Sits under every reference bullet and jumps to that source in §13.1 |
-| ${'`cited in §1.16`'} | Sits on an index entry and jumps back to the citing section |
-| ${'`registry ↗`'} | Shown when a cited URL also exists as an entry in §13.2 |
+| ${'`index ↗`'} | Under every reference bullet in sections 1–12; jumps to that source's single row in §13.2 or §13.3 |
+| ${'`cited in §1.16`'} | On a source row; jumps back to the section that cites it |
+| ${'`r118`'} | A registry number: stable, and directly linkable as \`#r118\` |
 
-### <span class="sn">13.1.2</span> Section coverage
+### <span class="sn">13.1.2</span> What is in this section
+
+| Subsection | Contents | Sources |
+|---|---|---|
+| ${link('13.2 Authoritative Source Registry', REGISTRY_URL)} | Every source retrieved during the source-expansion pass, by institutional category | **${registryUnique.toLocaleString('en-US')}** |
+| ${link('13.3 Sources cited outside the registry', CITED_URL)} | Citations the registry pass never picked up, by the section that cites them first | **${citedOnly.length.toLocaleString('en-US')}** |
+| | **Total unique sources** | **${totalSources.toLocaleString('en-US')}** |
+
+Registry numbers preserved from the corpus: **${registryNumbers.toLocaleString('en-US')}**, covering **${registryUnique.toLocaleString('en-US')}** URLs. Every external link in this section opens in a new window, so the page you are reading stays where it is.
+
+### <span class="sn">13.1.3</span> Section coverage
 
 | Section | Document | Unique cited sources |
 |---|---|---|
@@ -554,157 +629,167 @@ ${manifest
 			`| ${d.n} | ${link(`${d.title}${d.name ? '' : ` — ${d.headline}`}`, `/${d.slug}/`)} | ${d.citeCount} |`
 	)
 	.join('\n')}
+| | **Sections 1–12** | **${citations.size.toLocaleString('en-US')}** |
 
-## <span class="sn">13.2</span> Reference collections
-
-| Ref | Collection | Entries | Domains | Cross-linked |
-|---|---|---|---|---|
-${catRows}
-| | **All collections** | **${totalRegistry}** | **${totalDomains}** | **${crosslinked}** |
-
-:::tip[Cross-linking works in both directions]
-Every reference bullet in sections 1–12 carries an \`index ↗\` link into §13.1. Every entry in §13.1 links back to the section that cites it (\`cited in §…\`) and, where the same URL exists in the registry, straight into the matching §13.2 category page.
+:::tip[Why one ledger instead of two lists]
+The collected citation index and the registry used to overlap: ${registryCited.toLocaleString('en-US')} sources appeared in both, and the registry repeated ${registryRepeats.toLocaleString('en-US')} further URLs. Each source is now a single row carrying its registry number, its institutional category and every section that cites it.
 :::
 `
 );
 
-/* ------------------------------------- 13.1 collected reference index page */
+/* ----------------------------- 13.3 · sources cited outside the registry */
 
 {
 	const perDoc = new Map(manifest.map((d) => [d.slug, []]));
-	for (const cite of citations.values()) {
+	for (const cite of citedOnly) {
 		const primary = cite.citedIn[0];
 		if (primary) perDoc.get(primary.slug)?.push(cite);
 	}
 
-	const blocks = manifest.map((doc) => {
-		const list = (perDoc.get(doc.slug) || []).sort(
-			(a, b) => a.host.localeCompare(b.host) || a.order - b.order
-		);
-		if (!list.length) return '';
-		const items = list
-			.map((cite) => {
-				const reg = registryByUrl.get(cite.key);
-				const years = [...cite.years].sort().join(', ');
-				const bits = [
-					`<a id="${refAnchor(cite.url)}" aria-hidden="true"></a>${link(cite.title || cite.host, cite.url)}`,
-					years ? `\`${years}\`` : '',
-					`\`${cite.host}\``,
-					reg
-						? link('registry ↗', `${REGISTRY_URL}${reg.category.slug}/#r${reg.entry.n}`)
-						: '',
-					cite.citedIn.length ? `cited in ${citedInLabel(cite.citedIn)}` : '',
-				].filter(Boolean);
-				return `- ${bits.join(' · ')}`;
-			})
-			.join('\n');
-		return `### <span class="sn">13.1.${doc.n}</span> ${link(`${doc.n} · ${doc.title}`, `/${doc.slug}/`)}${doc.name ? ` — ${doc.name}` : ` — ${doc.headline}`}\n\n${items}`;
-	});
+	let blockCount = 0;
+	const blocks = manifest
+		.map((doc) => {
+			const list = (perDoc.get(doc.slug) || []).sort(
+				(a, b) => a.host.localeCompare(b.host) || a.order - b.order
+			);
+			if (!list.length) return '';
+			blockCount += 1;
+			const items = list
+				.map((cite) => {
+					const years = [...cite.years].sort().join(', ');
+					const bits = [
+						`<a id="${refAnchor(cite.url)}" aria-hidden="true"></a>${link(cite.title || cite.host, cite.url)}`,
+						years ? `\`${years}\`` : '',
+						`\`${cite.host}\``,
+						cite.citedIn.length ? `cited in ${citedInLabel(cite.citedIn)}` : '',
+					].filter(Boolean);
+					return `- ${bits.join(' · ')}`;
+				})
+				.join('\n');
+			return `### <span class="sn">13.3.${blockCount}</span> ${link(`${doc.n} · ${doc.title}`, `/${doc.slug}/`)}${doc.name ? ` — ${doc.name}` : ` — ${doc.headline}`}\n\n${items}`;
+		})
+		.filter(Boolean)
+		.join('\n\n');
 
 	writeFile(
-		path.join(DOCS, '13-references', 'reference-index.md'),
+		path.join(DOCS, '13-references', 'cited-sources.md'),
 		`---
-title: "13.1 · Collected Reference Index"
-description: "${citations.size} unique sources cited across the Islamic fintech research corpus, de-duplicated and cross-linked back to the citing section and to the authoritative source registry."
+title: "13.3 · Sources Cited Outside the Registry"
+description: "The ${citedOnly.length} sources cited by the Islamic fintech research that the source-expansion pass never picked up, grouped by the section that cites them first."
 ---
 
 <div class="sec-head">
-<span class="chip chip-kind">Reference Index</span>
-<span class="chip">${citations.size.toLocaleString('en-US')} unique sources</span>
-<span class="chip">${totalRegistry.toLocaleString('en-US')} registry entries</span>
+<span class="chip chip-kind">Additional Citations</span>
+<span class="chip">Section 13.3</span>
+<span class="chip">${citedOnly.length.toLocaleString('en-US')} unique sources</span>
 </div>
 
-## <span class="sn">13.1.0</span> What this index contains
+## <span class="sn">13.3</span> Sources cited outside the registry
 
-This index collects **every** external source cited by sections 1–12 — inline citations, benchmark anchors and the per-document \`Master References\` lists — into a single de-duplicated ledger. Entries are grouped by the section that cites them first and sorted by domain inside each group.
+The source-expansion pass behind ${link('§13.2', REGISTRY_URL)} swept ${registryUnique.toLocaleString('en-US')} primary sources. The research also cites another ${citedOnly.length} that the sweep never reached — a datapoint in a footnote, a benchmark table, a vendor page — and every one of them is listed here once, grouped by the section that cites them first and sorted by domain, so no citation in sections 1–12 is a dead end. A source that *is* in the registry is not repeated here: its row, with its registry number and category, is in §13.2.
 
-| | |
-|---|---|
-| Unique sources | **${citations.size.toLocaleString('en-US')}** |
-| Registry entries in §13.2 | **${totalRegistry.toLocaleString('en-US')}** |
-| Registry entries with a citing section | **${crosslinked.toLocaleString('en-US')}** |
-| Sections indexed | **${manifest.length}** |
-
-Each entry reads \`title · year · domain · registry ↗ · cited in §N.M\`. The \`§N.M\` link jumps straight to the citing section in the centre reading pane.
-
-${blocks.filter(Boolean).join('\n\n')}
+${blocks}
 `
 	);
 }
 
-/* -------------------------------------- 13.2 registry hub + category pages */
+/* ------------------------------------------- 13.2 · the registry, one page */
 
 {
-	const rows = CATEGORIES.map((c, i) => {
-		const cited = c.entries.filter(
-			(e) => registryByUrl.get(normUrl(e.url))?.cited.length
-		).length;
-		return `| **13.2.${i + 1}** | ${link(c.title, `/13-references/source-registry/${c.slug}/`)} | ${c.entries.length} | ${new Set(c.entries.map((e) => e.domain)).size} | ${cited} |`;
-	}).join('\n');
+	const catStats = CATEGORIES.map((cat, i) => {
+		const mine = entriesOf(cat);
+		return {
+			cat,
+			i,
+			ref: `13.2.${i + 1}`,
+			mine,
+			cross: crossRefsOf(cat),
+			cited: mine.filter((row) => row.cited.length).length,
+		};
+	});
+
+	const indexRows = catStats
+		.map(
+			({ cat, i, ref, mine, cited }) =>
+				`| **${ref}** | ${link(cat.title, `#s13-2-${i + 1}`)} | ${mine.length} | ${new Set(mine.map((row) => row.domain)).size} | ${cited} |`
+		)
+		.join('\n');
+
+	const sections = catStats
+		.map(({ cat, i, ref, mine, cross, cited }) => {
+			const items = mine
+				.map((row) => {
+					const bits = [
+						`<a id="r${row.n}" aria-hidden="true"></a><span class="reg-num">r${row.n}</span> ${link(`[${row.domain}]`, row.url)}`,
+						row.title ? `<em>${attr(clampText(clean(row.title), 150))}</em>` : '',
+						row.years.size ? `\`${[...row.years].sort().join(', ')}\`` : '',
+						row.cited.length ? `cited in ${citedInLabel(row.cited)}` : '',
+						row.cats.length > 1
+							? `also filed under ${row.cats
+									.slice(1)
+									.map((c) => link(c.short, `#s13-2-${CATEGORIES.indexOf(c) + 1}`))
+									.join(', ')}`
+							: '',
+						row.aliases.length
+							? `also numbered ${row.aliases.map((n) => `r${n}`).join(', ')}`
+							: '',
+					].filter(Boolean);
+					return `- ${bits.join(' · ')}`;
+				})
+				.join('\n');
+
+			const block = [
+				`### <span class="sn">${ref}</span> ${cat.title}`,
+				'',
+				`${mine.length.toLocaleString('en-US')} unique sources across ${new Set(mine.map((row) => row.domain)).size} domains${cited ? `, ${cited} of them cited by the research` : ''}. Registry numbers are stable and directly linkable — e.g. \`#r${mine[0]?.n ?? 1}\`.`,
+				'',
+				items || '_No sources are filed under this category._',
+			];
+
+			if (cross.length)
+				block.push(
+					'',
+					`Also filed under this category but listed once, under the category it appeared in first: ${cross
+						.map((row) => link(`r${row.n}`, `#r${row.n}`))
+						.join(' · ')}.`
+				);
+
+			return block.join('\n');
+		})
+		.join('\n\n');
 
 	writeFile(
-		path.join(DOCS, '13-references', 'source-registry', 'index.md'),
+		path.join(DOCS, '13-references', 'source-registry.md'),
 		`---
 title: "13.2 · Authoritative Source Registry"
-description: "The ${totalRegistry} primary sources discovered during the research source-expansion phase, grouped into seven institutional categories and cross-linked to the sections that cite them."
+description: "The ${registryUnique.toLocaleString('en-US')} unique sources retrieved during the research source-expansion pass, grouped into ${CATEGORIES.length} institutional categories and cross-linked to every section that cites them."
 ---
 
 <div class="sec-head">
 <span class="chip chip-kind">Source Registry</span>
-<span class="chip">${totalRegistry.toLocaleString('en-US')} entries</span>
-<span class="chip">7 categories</span>
+<span class="chip">Section 13.2</span>
+<span class="chip">${registryUnique.toLocaleString('en-US')} unique sources</span>
+<span class="chip">${registryNumbers.toLocaleString('en-US')} registry numbers</span>
 </div>
 
-## <span class="sn">13.2.0</span> Registry overview
+## <span class="sn">13.2</span> The authoritative source registry
 
-The registry is the raw discovery ledger behind the research: every central-bank page, peer-reviewed article, rating-agency note, fintech filing and vendor rate card retrieved live during the 2025–2026 source-expansion pass. It is preserved here in full but split by institutional category, so that no single page has to carry the entire ledger.
+This is the discovery ledger behind the research: every central-bank page, peer-reviewed article, rating-agency note, fintech filing and vendor rate card retrieved live during the 2025–2026 source-expansion pass. ${registryUnique.toLocaleString('en-US')} unique sources, grouped into ${CATEGORIES.length} institutional categories.
 
-| Ref | Category | Entries | Domains | Cited by a section |
+In the corpus registry ${repeatNote}${multiNote}. Each URL is one row here — it keeps its first registry number and names every other number and every section that cites it. Rows stay in their original registry order.
+
+| Ref | Category | Sources | Domains | Cited |
 |---|---|---|---|---|
-${rows}
-| | **All categories** | **${totalRegistry}** | **${totalDomains}** | **${crosslinked}** |
+${indexRows}
+| | **All categories** | **${registryUnique.toLocaleString('en-US')}** | **${registryDomains.toLocaleString('en-US')}** | **${registryCited.toLocaleString('en-US')}** |
 
 :::note[Reading the registry]
-Entries keep their original registry number (\`#r1234\`) so they can be linked from anywhere on the site. Where an entry resolves to a URL that a research section cites, the entry shows a \`cited in §…\` link straight into that section.
+Registry numbers are stable and linkable from anywhere on the site — \`#r1234\` resolves as long as that URL still has a row. \`cited in §1.16\` jumps from a source back into the section that uses it, and every external link opens in a new window.
 :::
 
-${link('→ Jump to the collected reference index (§13.1)', REF_INDEX_URL)}
+${sections}
 `
 	);
-
-	CATEGORIES.forEach((cat, i) => {
-		const items = cat.entries
-			.map((e) => {
-				const value = registryByUrl.get(normUrl(e.url));
-				const cited = value?.cited || [];
-				const back = cited.length ? ` · cited in ${citedInLabel(cited)}` : '';
-				return `- <a id="r${e.n}" aria-hidden="true"></a><span class="reg-num">r${e.n}</span> ${link(`[${e.domain}]`, e.url)}${back}`;
-			})
-			.join('\n');
-
-		writeFile(
-			path.join(DOCS, '13-references', 'source-registry', `${cat.slug}.md`),
-			`---
-title: "13.2.${i + 1} · ${cat.title}"
-description: "Authoritative source registry, category ${i + 1} of 7 — ${cat.entries.length} entries across ${new Set(cat.entries.map((e) => e.domain)).size} domains."
----
-
-<div class="sec-head">
-<span class="chip chip-kind">Registry 13.2.${i + 1}</span>
-<span class="chip">${cat.entries.length} entries</span>
-<span class="chip">${new Set(cat.entries.map((e) => e.domain)).size} domains</span>
-</div>
-
-${link('← Back to the registry overview', REGISTRY_URL)}
-
-## <span class="sn">13.2.${i + 1}.0</span> ${cat.title}
-
-Entries are preserved in their original registry order and numbering. Registry numbers are stable and directly linkable, e.g. \`#r${cat.entries[0]?.n ?? 1}\`.
-
-${items}
-`
-		);
-	});
 }
 
 /* --------------------------------------------------------------- metadata */
@@ -714,17 +799,24 @@ const stats = {
 	sections: SECTIONS.length,
 	researchSections: manifest.length,
 	uniqueCitations: citations.size,
-	registryEntries: totalRegistry,
-	registryDomains: totalDomains,
-	registryCrosslinked: crosslinked,
-	totalWords: manifest.reduce((s, d) => s + d.words, 0),
-	registryCategories: CATEGORIES.map((c, i) => ({
+	registryEntries: registryNumbers,
+	registryUnique: registryUnique,
+	registryRepeats: registryRepeats,
+	registryCited: registryCited,
+	registryMultiCategory: multiCategory,
+	registryDomains: registryDomains,
+	citedOnlySources: citedOnly.length,
+	totalSources: totalSources,
+	registryCategories: CATEGORIES.map((cat, i) => ({
 		ref: `13.2.${i + 1}`,
-		title: c.title,
-		short: c.short,
-		slug: `13-references/source-registry/${c.slug}`,
-		count: c.entries.length,
+		title: cat.title,
+		short: cat.short,
+		slug: '13-references/source-registry',
+		anchor: `s13-2-${i + 1}`,
+		count: entriesOf(cat).length,
+		cited: entriesOf(cat).filter((row) => row.cited.length).length,
 	})),
+	totalWords: manifest.reduce((s, d) => s + d.words, 0),
 };
 writeFile(path.join(DATA, 'site-stats.json'), `${JSON.stringify(stats, null, '\t')}\n`);
 
@@ -747,5 +839,5 @@ writeFile(
 );
 
 console.log(
-	`▸ done — ${manifest.length} research pages · ${citations.size} unique citations · ${totalRegistry} registry entries (${crosslinked} cross-linked)`
+	`▸ done — ${manifest.length} research pages · ${totalSources} unique sources (${registryUnique} registry + ${citedOnly.length} cited-only) · ${registryNumbers} registry numbers → ${registryUnique} rows`
 );

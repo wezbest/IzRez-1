@@ -5,6 +5,10 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import mermaid from 'astro-mermaid';
 import { pwa } from './src/integrations/pwa.mjs';
+import { rehypeExternalLinks } from './src/plugins/rehype-external-links.mjs';
+
+/** Canonical site URL — used for canonical/OG tags and to tell our own links apart. */
+const SITE_URL = 'https://gap-atlas-2026.pages.dev';
 
 /* Sidebar data is generated from the research corpus by scripts/build-docs.mjs.
    Fall back to empty arrays so the config still loads on a cold clone. */
@@ -70,8 +74,12 @@ const mermaidPalette = {
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://gap-atlas-2026.pages.dev',
+	site: SITE_URL,
 	trailingSlash: 'always',
+	markdown: {
+		// every external reference opens in a new window
+		rehypePlugins: [[rehypeExternalLinks, { site: SITE_URL }]],
+	},
 	integrations: [
 		// must be registered before Starlight so it hooks the markdown pipeline
 		mermaid({
@@ -151,26 +159,29 @@ export default defineConfig({
 					label: '12 · Cost Intelligence',
 					items: [{ slug: '12-llm-usage-and-cost-analysis' }],
 				},
-				{
-					label: '13 · References',
-					badge: { text: `${stats.registryEntries} sources`, variant: 'note' },
-					items: [
-						{ label: '13 · References overview', slug: '13-references' },
-						{
-							label: '13.1 · Collected Reference Index',
-							slug: '13-references/reference-index',
-						},
-						{
-							label: '13.2 · Authoritative Source Registry',
-							slug: '13-references/source-registry',
-						},
-						...stats.registryCategories.map((c) => ({
-							label: `${c.ref} · ${c.short ?? c.title}`,
-							slug: c.slug,
-							badge: { text: String(c.count), variant: 'default' },
-						})),
-					],
+			{
+				label: '13 · References',
+				badge: {
+					text: `${stats.totalSources?.toLocaleString('en-US') ?? stats.registryEntries} sources`,
+					variant: 'note',
 				},
+				items: [
+					{ label: '13.1 · How the reference system works', slug: '13-references' },
+					{
+						label: '13.2 · Authoritative Source Registry',
+						slug: '13-references/source-registry',
+						badge: {
+							text: `${stats.registryUnique ?? stats.registryEntries} unique`,
+							variant: 'default',
+						},
+					},
+					{
+						label: '13.3 · Sources cited outside the registry',
+						slug: '13-references/cited-sources',
+						badge: { text: `${stats.citedOnlySources ?? 0}`, variant: 'default' },
+					},
+				],
+			},
 				{
 					label: '14 · Site Build Report',
 					badge: { text: 'new', variant: 'tip' },

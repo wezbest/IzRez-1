@@ -210,15 +210,15 @@ If an Islamic investment bank or VC syndicate deploys this research pipeline con
 
 ## `12.8` References
 
-- OpenAI Developer Pricing Schedule [2026](https://developers.openai.com/api/docs/pricing) <a class="xref" href="/13-references/reference-index/#ref-num1qx" title="Open this source in the collected reference index">index&nbsp;↗</a>
-- Anthropic Claude API Rate Card [2026](https://platform.claude.com/docs/en/about-claude/pricing) <a class="xref" href="/13-references/reference-index/#ref-ftoler" title="Open this source in the collected reference index">index&nbsp;↗</a>
-- Google Cloud Vertex AI & AI Studio Pricing [2026](https://ai.google.dev/gemini-api/docs/pricing) <a class="xref" href="/13-references/reference-index/#ref-hifcor" title="Open this source in the collected reference index">index&nbsp;↗</a>
-- xAI Grok Developer Documentation [2026](https://docs.x.ai/docs/models) <a class="xref" href="/13-references/reference-index/#ref-y1baax" title="Open this source in the collected reference index">index&nbsp;↗</a>
-- DeepSeek Open Platform Pricing & Billing [2026](https://api-docs.deepseek.com/quick_start/pricing/) <a class="xref" href="/13-references/reference-index/#ref-0wqy6s" title="Open this source in the collected reference index">index&nbsp;↗</a>
-- Alibaba Cloud Model Studio International Pricing [2026](https://www.alibabacloud.com/help/en/model-studio/model-pricing) <a class="xref" href="/13-references/reference-index/#ref-u9bcm5" title="Open this source in the collected reference index">index&nbsp;↗</a>
-- Z.AI GLM Developer Pricing [2026](https://docs.z.ai/guides/overview/pricing) <a class="xref" href="/13-references/reference-index/#ref-de1syp" title="Open this source in the collected reference index">index&nbsp;↗</a>
-- Moonshot AI Kimi Open Platform [2026](https://platform.kimi.ai/) <a class="xref" href="/13-references/reference-index/#ref-3l3qms" title="Open this source in the collected reference index">index&nbsp;↗</a>
-- MiniMax Developer Platform Pay-As-You-Go Rates [2026](https://platform.minimax.io/docs/guides/pricing-paygo) <a class="xref" href="/13-references/reference-index/#ref-vp5z2r" title="Open this source in the collected reference index">index&nbsp;↗</a>
-- Mistral AI Inference Pricing [2026](https://docs.mistral.ai/inference/pricing) <a class="xref" href="/13-references/reference-index/#ref-h3h1tl" title="Open this source in the collected reference index">index&nbsp;↗</a>
-- Meta Llama-4 Benchmarking & Token Cost Analysis [2026](https://tokencost.app/blog/llama-4-scout-vs-maverick-api-pricing) <a class="xref" href="/13-references/reference-index/#ref-nm2iea" title="Open this source in the collected reference index">index&nbsp;↗</a>
+- OpenAI Developer Pricing Schedule [2026](https://developers.openai.com/api/docs/pricing) <a class="xref" href="/13-references/source-registry/#r1708" title="Open this source's row in the reference ledger">index&nbsp;↗</a>
+- Anthropic Claude API Rate Card [2026](https://platform.claude.com/docs/en/about-claude/pricing) <a class="xref" href="/13-references/source-registry/#r1734" title="Open this source's row in the reference ledger">index&nbsp;↗</a>
+- Google Cloud Vertex AI & AI Studio Pricing [2026](https://ai.google.dev/gemini-api/docs/pricing) <a class="xref" href="/13-references/source-registry/#r1689" title="Open this source's row in the reference ledger">index&nbsp;↗</a>
+- xAI Grok Developer Documentation [2026](https://docs.x.ai/docs/models) <a class="xref" href="/13-references/source-registry/#r1717" title="Open this source's row in the reference ledger">index&nbsp;↗</a>
+- DeepSeek Open Platform Pricing & Billing [2026](https://api-docs.deepseek.com/quick_start/pricing/) <a class="xref" href="/13-references/source-registry/#r1695" title="Open this source's row in the reference ledger">index&nbsp;↗</a>
+- Alibaba Cloud Model Studio International Pricing [2026](https://www.alibabacloud.com/help/en/model-studio/model-pricing) <a class="xref" href="/13-references/source-registry/#r1758" title="Open this source's row in the reference ledger">index&nbsp;↗</a>
+- Z.AI GLM Developer Pricing [2026](https://docs.z.ai/guides/overview/pricing) <a class="xref" href="/13-references/source-registry/#r1719" title="Open this source's row in the reference ledger">index&nbsp;↗</a>
+- Moonshot AI Kimi Open Platform [2026](https://platform.kimi.ai/) <a class="xref" href="/13-references/source-registry/#r1749" title="Open this source's row in the reference ledger">index&nbsp;↗</a>
+- MiniMax Developer Platform Pay-As-You-Go Rates [2026](https://platform.minimax.io/docs/guides/pricing-paygo) <a class="xref" href="/13-references/source-registry/#r1750" title="Open this source's row in the reference ledger">index&nbsp;↗</a>
+- Mistral AI Inference Pricing [2026](https://docs.mistral.ai/inference/pricing) <a class="xref" href="/13-references/source-registry/#r1713" title="Open this source's row in the reference ledger">index&nbsp;↗</a>
+- Meta Llama-4 Benchmarking & Token Cost Analysis [2026](https://tokencost.app/blog/llama-4-scout-vs-maverick-api-pricing) <a class="xref" href="/13-references/cited-sources/#ref-nm2iea" title="Open this source's row in the reference ledger">index&nbsp;↗</a>
 

@@ -64,7 +64,7 @@ Headings are numbered with a `0.` prefix on this page because it is orientation 
 | **10** | [Gap 09 — QistHalal](/10-gap-09-qisthalal/) | Halal BNPL and diaspora auto *ijara* leasing |
 | **11** | [Gap 10 — TayyibLedger](/11-gap-10-tayyibledger/) | Green halal sukuk and an ESG MRV ledger for manufacturing SMEs |
 | **12** | [LLM Usage & Cost Intelligence](/12-llm-usage-and-cost-analysis/) | What the research pipeline consumed, and what frontier models cost |
-| **13** | [References](/13-references/) | Every cited source, plus the 1,764-entry authoritative source registry |
+| **13** | [References](/13-references/) | One ledger of every source: the authoritative registry, plus the citations it never picked up |
 | **14** | [Site Build Report](/14-site-build-report/) | What it cost to build this site, on every candidate model |
 
 <a id="s0-3" aria-hidden="true"></a>
@@ -82,9 +82,11 @@ Headings are numbered with a `0.` prefix on this page because it is orientation 
 
 Every empirical claim carries an inline, year-tagged citation that links to the primary source — for example a sukuk market figure appears as a `[2025]` link into S&P Global Ratings. Three navigation aids sit on top of those links:
 
-- **`index ↗`** under each reference bullet in sections 1–12 jumps to that source in the [collected reference index](/13-references/reference-index/).
-- **`cited in §1.16`** on an index entry jumps back to the section that cites it.
-- **`registry ↗`** appears when the same URL also exists as an entry in the [authoritative source registry](/13-references/source-registry/).
+- **`index ↗`** under each reference bullet in sections 1–12 jumps to that source's single row in the ledger — its registry entry in [§13.2](/13-references/source-registry/) or its citation in [§13.3](/13-references/cited-sources/).
+- **`cited in §1.16`** on a source row jumps back to the section that cites it.
+- **`r118`** is a registry number: stable, and linkable from anywhere as `#r118`.
+
+Every external source link opens in a new window, so the section you are reading stays where it is.
 
 Section-level section anchors are stable and human-readable: `/01-master-report/#s1-13` is §1.13.
 
