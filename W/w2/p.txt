@@ -1,0 +1,1 @@
+Enumerate all the mcp servers and their services , max loop timeout 1minute
